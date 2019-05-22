@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.720 --> 00:04.140
+So we've exported our textures out of substance painter.
+
+00:04.380 --> 00:11.830
+Let's go into unity now and let's bring in our lamp and take a look at our textures.
+
+00:11.970 --> 00:14.220
+Now I've already brought in the end table here.
+
+00:14.220 --> 00:19.260
+I'll go ahead and click on that and drag it into the hierarchy and there it is.
+
+00:19.290 --> 00:25.130
+So I'll just place this maybe right over here and we'll put the lamp on top of that.
+
+00:25.260 --> 00:32.540
+So I'll open up a Finder window here grab this table lamp and drag it into the assets folder.
+
+00:32.640 --> 00:38.310
+If we drag this into the hierarchy there is our lamp.
+
+00:38.440 --> 00:40.500
+Put it over on the table there.
+
+00:40.710 --> 00:47.080
+I'll zoom in with the key and let's go about assigning our textures to the materials.
+
+00:47.080 --> 00:54.490
+If we open up the table lamp F.P. X-File here we can see we've got one object for the base one object
+
+00:54.520 --> 00:57.250
+for the lamp shade.
+
+00:57.280 --> 01:07.740
+So the base here I can take to pure white and if we go down into our textures folder and into our table
+
+01:07.740 --> 01:14.930
+lamp folder that we created earlier you can see here are the textures we generated out of substance
+
+01:14.940 --> 01:16.200
+painter.
+
+01:16.200 --> 01:24.790
+So here is our albedo or our color our metal smoothness and our normal maps.
+
+01:25.040 --> 01:35.560
+So with this base selected I will drag in the Al-Bayda here to that slot drag in the metal smoothness
+
+01:35.560 --> 01:41.680
+into the metal slot and drag the normal map into the normal map slot.
+
+01:41.680 --> 01:48.490
+Now once we do that we're going to have to click fix now to mark this as a normal map but then there
+
+01:48.490 --> 01:49.770
+we go.
+
+01:49.840 --> 01:52.630
+Now for the lamp shade Let's take a look at this.
+
+01:52.630 --> 01:58.810
+I want to select this and we've got our standard shader here that was created when we brought it in
+
+01:59.400 --> 02:01.120
+to change the color just a bit.
+
+02:01.120 --> 02:08.450
+I think I wanted to be more of kind of a off white kind of a color here something like that.
+
+02:09.470 --> 02:18.130
+I can reduce the metallic and the smoothness here and I'm going to change the emission color so that
+
+02:18.130 --> 02:25.420
+it's a little bit brighter so that it actually appears like light is coming out of it but that is just
+
+02:25.420 --> 02:33.370
+yet another example of how we can organize our objects and materials based on what we want to do with
+
+02:33.370 --> 02:41.470
+them in unity or in an external program like substance painter or pixel studio.
+
+02:41.470 --> 02:47.680
+So as I think about these walls now there's yet another scenario that we can talk about.
+
+02:47.680 --> 02:53.300
+What I'd like to do here is I want two different textures on these walls.
+
+02:53.440 --> 02:59.500
+So for say this wall here the one behind the couch.
+
+02:59.650 --> 03:06.370
+I want to have kind of an old stained or torn wallpaper texture on that.
+
+03:06.460 --> 03:09.630
+And I also want that over here on this wall.
+
+03:09.940 --> 03:12.190
+And I'd like that on this wall here.
+
+03:12.190 --> 03:21.720
+So in three of the walls now on the other walls I want some sort of painted texture like an old plaster
+
+03:21.730 --> 03:26.960
+wall that's maybe lost its paint or is peeling or something.
+
+03:27.070 --> 03:32.770
+And I want that texture on this wall here in the center here.
+
+03:33.100 --> 03:34.690
+This wall in the kitchen.
+
+03:34.720 --> 03:39.910
+And I want that painted texture on this wall as well.
+
+03:39.910 --> 03:44.080
+So I've got two different textures for each of those textures.
+
+03:44.080 --> 03:45.770
+I've got three different walls.
+
+03:45.850 --> 03:52.870
+Now if we go back to Blender Let's go back to blender and take a look at our U-V maps for these walls.
+
+03:53.140 --> 03:54.420
+Here's one here.
+
+03:54.540 --> 04:03.350
+Well go to my U-V editing screen lay out and let's take a look at the U.V. map for this all hit tab.
+
+04:03.580 --> 04:08.080
+Select all of the faces with the A key and there is.
+
+04:08.080 --> 04:09.840
+Are you the map now.
+
+04:10.210 --> 04:11.950
+It's not real optimized.
+
+04:11.950 --> 04:15.650
+There's a lot of empty space around here.
+
+04:16.030 --> 04:24.730
+What we could do is try and use up more of the space for our texture map here by including the U.V.
+
+04:24.760 --> 04:26.100
+maps of other objects.
+
+04:26.100 --> 04:33.910
+So let's say I also included this U.V. map and I also included
+
+04:36.460 --> 04:44.200
+this UAV map here what if I could get them all in one texture space so when the game is running it doesn't
+
+04:44.200 --> 04:50.850
+have to pull from multiple texture maps to apply the textures to these three objects.
+
+04:50.860 --> 04:55.380
+What we can do is build a single texture map for multiple objects.
+
+04:55.480 --> 04:57.940
+So let's think about how we might do that.
+
+04:58.000 --> 05:02.950
+First of all I think here I'll work with this map while we have it up.
+
+05:03.070 --> 05:08.980
+I'll go and hit the Beaky and I'm going to border select this piece right here I'm going to control
+
+05:09.010 --> 05:15.610
+up arrow to enlarge the screen here and I'm gonna hit G and just move it to the side for now.
+
+05:16.030 --> 05:25.090
+I'll take this U.V. map and this U-V map which is the baseboard up here and I'll move this up say up
+
+05:25.090 --> 05:26.050
+here.
+
+05:26.050 --> 05:32.060
+I'll put that right up here and this UVM map for the baseboard I'll put right down here.
+
+05:33.290 --> 05:38.750
+All right what I'll do is I will combine at least temporarily.
+
+05:38.760 --> 05:42.230
+Now this wall and this wall into one object.
+
+05:42.380 --> 05:45.000
+I don't necessarily want it to be on one object forever.
+
+05:45.020 --> 05:49.910
+I want to be able to have a little bit of control of what I do with it in unity so I can select one
+
+05:49.910 --> 05:52.800
+wall and move it back or move forward if I need to.
+
+05:53.090 --> 05:58.260
+But I can like this wall shift select that one in press control J.
+
+05:58.370 --> 06:04.040
+And now if I tab into that mode I can see both of the U-V maps.
+
+06:04.040 --> 06:06.520
+I'll take this piece and move it aside like that.
+
+06:06.530 --> 06:09.020
+These are the backs of the walls.
+
+06:09.110 --> 06:12.630
+I'll take this piece and move it up with this guy right appear.
+
+06:14.120 --> 06:20.890
+Move these baseboard U-V islands down to go along with this U-V island down here.
+
+06:22.030 --> 06:30.440
+All right now I'll select this one shift select the walls here and hit Control J again.
+
+06:30.640 --> 06:37.490
+NF I tab into edit mode here we have that U.V. map as well I'll take the back of the wall and move it
+
+06:37.490 --> 06:39.340
+aside for just a minute.
+
+06:40.590 --> 06:44.550
+I'll grab that baseboard U-V island and move it down.
+
+06:46.050 --> 06:51.840
+And I'll grab this wall right here and move it down just a bit as well.
+
+06:53.260 --> 06:59.230
+So now that we have all of the islands into one U-V map we can begin thinking about exporting this out
+
+06:59.230 --> 07:00.660
+to Photoshop.
+
+07:00.660 --> 07:06.550
+However there are a couple of issues we need to think about before we do that and we'll talk about that
+
+07:06.850 --> 07:07.640
+in the next video.

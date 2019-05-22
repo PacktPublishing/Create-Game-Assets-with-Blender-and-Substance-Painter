@@ -1,0 +1,583 @@
+WEBVTT
+
+00:00.690 --> 00:07.550
+We'll now that we've modeled and U-V mapped our object let's test it and take it into unity.
+
+00:07.620 --> 00:14.320
+Now as we saw before we can import this as an FBI X-File directly into unity.
+
+00:14.580 --> 00:17.210
+So what am I to do with the Lehre selected here.
+
+00:17.220 --> 00:20.100
+I'm going to go ahead and just hit the A key and select everything.
+
+00:20.100 --> 00:22.260
+Now remember we've got two objects.
+
+00:22.260 --> 00:25.320
+We've got the legs and the couch.
+
+00:25.380 --> 00:25.890
+Right.
+
+00:26.130 --> 00:34.410
+But if we select everything with the key and come over here to file and export what we can do is export
+
+00:34.740 --> 00:39.350
+the selected objects only now so we know there were other objects in the scene.
+
+00:39.570 --> 00:45.090
+But the thing I like about this particular process is you can select exactly which objects you want
+
+00:45.090 --> 00:46.300
+to transfer over.
+
+00:46.320 --> 00:53.970
+So if you've created the entire scene the entire environment in blender and you only want to take one
+
+00:53.970 --> 01:00.540
+particular updated model back into unity this is the way to do it and this is really the way I prefer
+
+01:00.540 --> 01:01.180
+to do it.
+
+01:01.290 --> 01:04.510
+Kind of one object at a time and then place them in unity.
+
+01:04.650 --> 01:13.080
+So I'm going to choose selected objects and I will come up here to my exports folder and I'll just go
+
+01:13.080 --> 01:16.980
+ahead and call this couch.
+
+01:16.980 --> 01:21.750
+So now I'm putting it in an export folder outside of unity.
+
+01:21.810 --> 01:30.810
+Currently I could go ahead and browse directly to the Unity project in the assets folder here and put
+
+01:30.810 --> 01:34.040
+it right into the models folder of unity.
+
+01:34.190 --> 01:36.090
+Well let's go ahead and do that as well.
+
+01:36.090 --> 01:41.370
+I'm going to go ahead and leave it as couch and just click export SBX.
+
+01:41.370 --> 01:44.150
+So it's really up to you how you want to do it.
+
+01:44.160 --> 01:53.880
+And every studio or company has their own ways of organizing their files managing their updates things
+
+01:53.880 --> 01:54.870
+like that.
+
+01:54.870 --> 02:01.710
+So if you're just working alone it may be tempting just to get all kind of unorganized and throw things
+
+02:01.710 --> 02:05.270
+wherever you want and and not name things well.
+
+02:05.280 --> 02:13.020
+But I really strongly suggest even if you're just working on your own to really establish an organizing
+
+02:13.020 --> 02:16.670
+scheme right up front it's going to help you.
+
+02:16.680 --> 02:19.890
+All right let's go over to unity and see what we have here.
+
+02:19.890 --> 02:27.200
+I'm going to open up unity and in the assets folder under models Here's my couch.
+
+02:27.210 --> 02:31.080
+Now one thing about it is our scale factor.
+
+02:31.110 --> 02:34.940
+How did we do with it scale back and blender.
+
+02:35.070 --> 02:36.060
+Well let's see.
+
+02:36.120 --> 02:43.020
+I'm going to take the couch and drag it over into the scene here and it pops into the center of the
+
+02:43.020 --> 02:47.310
+scene at 0 0 0 because I've dragged it over into the hierarchy.
+
+02:47.400 --> 02:55.890
+But let's take a look at it now it appears to be a little big but how do we know how do we know how
+
+02:55.890 --> 02:58.350
+big this should be here in Unity.
+
+02:58.350 --> 03:01.430
+Let's go back to Blendr and take a look at our scale.
+
+03:01.680 --> 03:05.850
+So remember we created that six feet scale here.
+
+03:05.850 --> 03:11.600
+If I select it I can see it's right down here on this layer here.
+
+03:11.700 --> 03:15.290
+If I press shift and click that layer we can turn it on.
+
+03:15.300 --> 03:19.020
+And now we can see here it is here's our six foot scale.
+
+03:19.020 --> 03:23.760
+So we need to do a little work in terms of getting that couch the proper scale.
+
+03:23.790 --> 03:33.360
+So I'm going to select both the couch and the feet and I'm going to move this pivot point to the center
+
+03:33.360 --> 03:39.480
+of the grid to that cursor so I can come over here to the Tools tab and press set origin and origin
+
+03:39.480 --> 03:41.120
+to 3D cursor.
+
+03:41.130 --> 03:46.700
+Now the origins of both of these objects are here in the center of the grid.
+
+03:46.740 --> 03:55.200
+So if I select them now the feet and the couch and press S and scale it down a bit we can begin to get
+
+03:55.200 --> 03:59.610
+a sense of how big this should be if this is the size of a person.
+
+03:59.900 --> 04:05.520
+I'm going to hit the three key and the five key maybe the one key to go to the side view.
+
+04:05.520 --> 04:06.270
+Here we go.
+
+04:07.370 --> 04:11.720
+And if I scale this down how big do you think that's going to be about like that.
+
+04:13.080 --> 04:14.310
+It's really up to you of course.
+
+04:14.310 --> 04:24.180
+And you can go and measure exactly how many centimeters a particular object is and make sure your units
+
+04:24.180 --> 04:26.800
+of measure are set over here.
+
+04:26.800 --> 04:33.720
+And the key to open up the properties panel and you can come in here and actually type in the exact
+
+04:33.720 --> 04:35.670
+dimensions in here.
+
+04:35.850 --> 04:41.580
+But I'm going to go with just kind of a gut feeling here I'm going to select these and let's say let's
+
+04:41.580 --> 04:47.720
+say if he's 6 feet tall that's about it right there.
+
+04:47.970 --> 04:55.710
+Let's try that and hit the five key to come out of orthographic view and I'll press shift and click
+
+04:55.710 --> 04:58.380
+this letter again to hide that.
+
+04:58.380 --> 05:00.640
+Now let's hit a and do this again.
+
+05:00.720 --> 05:08.010
+So if I had only export it out to that external exports folder I would have to delete what I had in
+
+05:08.010 --> 05:09.810
+unity and then bring it in again.
+
+05:09.810 --> 05:16.090
+But what I'm going to do is just over write it directly in unity so I can come up here and just go to
+
+05:16.090 --> 05:22.220
+a file export SBX choose selected objects.
+
+05:22.220 --> 05:28.490
+I'm in the unity project here and I'll just select couch again and export.
+
+05:28.680 --> 05:32.990
+And now it's going to overwrite what I had in unity.
+
+05:33.070 --> 05:35.200
+So let's come back to unity.
+
+05:35.410 --> 05:37.120
+And there's our couch.
+
+05:37.120 --> 05:40.810
+So now we can see that this is the actual size.
+
+05:40.870 --> 05:47.580
+It needs to be and of course we can move this around to wherever we want it to go.
+
+05:47.580 --> 05:52.200
+Notice here that the pivot point is in the center of the object.
+
+05:52.200 --> 05:57.060
+I've got the center pivot point or the center turned on.
+
+05:57.060 --> 05:58.710
+If I turn to pivot.
+
+05:58.720 --> 06:06.240
+Notice that the pivot point drops down to where I had it on the grid floor and also noticed over here
+
+06:06.240 --> 06:12.720
+that even though there is one file here if we scroll that little triangle down we have the two different
+
+06:12.780 --> 06:22.190
+objects here in Unity each with their own material that we created and named over in Blender.
+
+06:22.230 --> 06:29.840
+Also if we go into the materials folder here you can see we've got couch fabric couch wood here in the
+
+06:29.840 --> 06:31.040
+materials.
+
+06:31.130 --> 06:37.910
+So what of course I like to do is make sure that everything is all nice and tidy so I'm going to take
+
+06:37.910 --> 06:44.390
+these materials and move them over to my materials folder that I created and just get rid of this one
+
+06:44.390 --> 06:47.770
+here.
+
+06:47.870 --> 06:53.810
+So now I have the models in the models folder and the materials in the materials folder.
+
+06:53.810 --> 06:54.190
+All right.
+
+06:54.200 --> 07:01.880
+So now that we know how to get our model from Blender into unity we now need to deal with texturing
+
+07:01.880 --> 07:02.360
+it.
+
+07:02.570 --> 07:06.320
+And once again there's a couple of different ways that we can do this.
+
+07:06.320 --> 07:08.830
+So let's talk about those couple of ways here.
+
+07:08.840 --> 07:15.680
+I'm going to go back to blender and let's go back to our U-V editing screen lay out here and I'm going
+
+07:15.680 --> 07:23.870
+to center it up with the period key hit tab to go into edit mode and hit a to select all of my polygons
+
+07:24.260 --> 07:31.160
+and if I hit a Over here you can see all the U-V islands for my U-V map of the couch.
+
+07:31.160 --> 07:37.010
+Now what I want to do is find a material that looks kind of cheesy.
+
+07:37.010 --> 07:43.130
+I want to find a fabric texture that looks kind of old and nasty.
+
+07:43.400 --> 07:47.370
+And I found one on textures dot com.
+
+07:47.540 --> 07:51.070
+I've been using textures dot com for quite some time now.
+
+07:51.080 --> 07:53.810
+This is not an ad or a plug.
+
+07:53.810 --> 07:59.210
+I'm in no way connected with them whatsoever but I've used them for quite some time.
+
+07:59.210 --> 08:02.780
+It's a subscription service and I like it quite a bit.
+
+08:02.780 --> 08:09.350
+They do a good job of providing kind of a wide range of textures and giving them some good seamless
+
+08:09.410 --> 08:10.360
+textures.
+
+08:10.370 --> 08:15.360
+So what I've got is some downloaded textures here.
+
+08:15.500 --> 08:17.960
+I've got a fabric that I like.
+
+08:17.960 --> 08:20.110
+This one here.
+
+08:20.290 --> 08:22.850
+Now you have to admit that's kind of ugly.
+
+08:22.930 --> 08:25.340
+And that's exactly what I'm going for.
+
+08:25.480 --> 08:28.150
+And this is a seamless texture.
+
+08:28.150 --> 08:35.080
+Now if you tile this one right after the other one right next to the other you won't be able to see
+
+08:35.110 --> 08:38.190
+a seam very easily between the tiles.
+
+08:38.320 --> 08:41.380
+It flows into itself from one side to the other.
+
+08:41.560 --> 08:46.370
+And we'll talk about creating our own seamless textures here in a bit.
+
+08:46.630 --> 08:52.330
+But I just wanted to go through a couple of different ways of texturing your objects using this seamless
+
+08:52.330 --> 08:53.500
+texture.
+
+08:53.500 --> 08:59.920
+All right so let's go back to blender and I'm going to open up a note Ed. by clicking on this little
+
+08:59.920 --> 09:04.960
+tab right here and dragging down in the U-V editing screen layout.
+
+09:04.980 --> 09:11.380
+And I'm going to change this window from a movie image editor to a note editor and there we go.
+
+09:11.380 --> 09:16.320
+So we've created this couch fabric material on this couch.
+
+09:16.480 --> 09:18.650
+And here are the materials nodes.
+
+09:18.790 --> 09:25.150
+Now remember that I've got the cycle's render engine chosen here I think as I've said it's a really
+
+09:25.150 --> 09:26.900
+good render engine.
+
+09:26.920 --> 09:29.380
+I just have it on by default.
+
+09:29.380 --> 09:37.540
+Now when I open a new blender project if you have blender or anything else selected here your notes
+
+09:37.540 --> 09:39.490
+editor is going to look a little different.
+
+09:39.670 --> 09:44.130
+And keep in mind we're going to be using the materials and the rendering in unity.
+
+09:44.140 --> 09:51.130
+So what you choose here is not that important but what I want to do is bring in that fabric texture
+
+09:51.220 --> 09:53.420
+right into the note editor here.
+
+09:53.530 --> 09:59.920
+So when it come down here to add and choose texture and image texture.
+
+09:59.920 --> 10:02.440
+And here is a texture node.
+
+10:02.470 --> 10:10.270
+Now you can also press shift a and get the same menu here and click open and I'm going to browse to
+
+10:10.270 --> 10:17.630
+that textures folder I had with all my textures in it and here's the fabric pattern here.
+
+10:17.770 --> 10:21.210
+I can click on this icon and see all the images.
+
+10:21.220 --> 10:22.370
+So here it is.
+
+10:22.580 --> 10:29.280
+And I click open image and I'll go ahead and connect it up to the diffuse node right here.
+
+10:29.290 --> 10:35.500
+Now I can't see it yet in my viewport because I need to switch from solid to texture.
+
+10:35.500 --> 10:43.360
+And now if I tab back into object mode you can see the fabric on the object and it doesn't look too
+
+10:43.360 --> 10:43.680
+good.
+
+10:43.680 --> 10:52.540
+So what we need to do is actually duplicate or multiply the number of times this texture is on our object.
+
+10:52.720 --> 10:56.230
+So to do that I've got the properties window open over here.
+
+10:56.410 --> 11:02.020
+If you don't have this you can always click on the little tab right here that corner tab and drag a
+
+11:02.020 --> 11:06.900
+new one out and then change this to Properties window here.
+
+11:07.240 --> 11:08.800
+But I'm going to go ahead and.
+
+11:08.890 --> 11:13.030
+Right click on this click join area and put that back like that.
+
+11:13.030 --> 11:20.440
+So here I have a properties panel and I'll go to the material panel here and we can see we've got couch
+
+11:20.650 --> 11:21.490
+fabric.
+
+11:21.760 --> 11:25.890
+We've got an image texture hooked up right here.
+
+11:26.230 --> 11:33.500
+And if I click on the plus for the color you can see I've got that fabric pattern plugged in right there.
+
+11:33.550 --> 11:41.710
+Now if I go one panel over to the textures and switch if you're on brush switch to image texture.
+
+11:41.740 --> 11:48.040
+Now we can see the mapping settings for our image texture and right over here under scale I'm going
+
+11:48.040 --> 11:51.520
+to click and drag all three of these and maybe plug in like 5.
+
+11:51.520 --> 11:52.840
+Let's try that.
+
+11:52.880 --> 11:59.260
+Now you can see how it's been multiplied five times over the object and we're beginning to get a little
+
+11:59.260 --> 12:01.520
+bit more reasonable pattern on this.
+
+12:01.540 --> 12:03.090
+I think it's still a little too big.
+
+12:03.100 --> 12:07.170
+I'm going to drag select all three of these and type in 10.
+
+12:07.560 --> 12:15.270
+Yeah that's beginning to look OK I think that's about the right size we'd want for that right.
+
+12:15.310 --> 12:22.760
+Let's try a little bit smaller and try 12 what do you think too small.
+
+12:22.950 --> 12:23.830
+I'll go with it.
+
+12:24.090 --> 12:31.290
+So let's go with that for now and let's see if we can duplicate this pattern this way of texturing our
+
+12:31.290 --> 12:33.590
+object in unity.
+
+12:33.600 --> 12:40.950
+So in other words what we've done here is we've mapped the texture to the color channel of our material
+
+12:41.550 --> 12:46.350
+and then we've multiplied the scale to shrink that pattern down.
+
+12:46.350 --> 12:48.640
+Let's go try it over in unity.
+
+12:48.750 --> 12:50.800
+So I'll open up unity here.
+
+12:51.210 --> 12:52.610
+And here's our object.
+
+12:52.620 --> 12:59.190
+I'm going to go ahead and click on the couch and come over here and click on the couch fabric right
+
+12:59.190 --> 13:02.460
+here and now we can see that material here.
+
+13:02.610 --> 13:07.490
+And we've got an Al bedo slot here and that is the color channel.
+
+13:07.500 --> 13:09.780
+So what I gonna do is in.
+
+13:09.780 --> 13:16.890
+I'll just go to the assets folder here and I will open up my Finder window and here is that seamless
+
+13:16.950 --> 13:21.510
+fabric right here and I'm just going to click and drag that drag it right into the assets folder here
+
+13:22.110 --> 13:26.760
+and it will copy that file into the assets folder of unity.
+
+13:26.820 --> 13:31.790
+And there it is now going to take this and click and drag it right into the Alberto slot.
+
+13:31.800 --> 13:32.610
+And there we are.
+
+13:32.610 --> 13:35.880
+So basically same kind of a process.
+
+13:36.000 --> 13:40.650
+And I'm going to take the color swatch here and it's a little bit of a gray.
+
+13:40.650 --> 13:47.070
+I'm just going to move that right up to solid white when a material comes in from Blender it's going
+
+13:47.070 --> 13:49.690
+to have that slight gray to it.
+
+13:49.800 --> 13:54.240
+If you create a material directly in unity it'll be pure white.
+
+13:54.240 --> 13:59.820
+So if it's coming from Blender you're going to need to just move that up to white.
+
+13:59.820 --> 14:01.910
+So there is texture.
+
+14:01.920 --> 14:03.900
+Once again it's a little too big.
+
+14:04.020 --> 14:08.900
+So right down here under tiling This is where we're going to do our scale again.
+
+14:09.060 --> 14:16.400
+So what did we have at 12 in blender so I'll type in 12 tab 12 and hit enter.
+
+14:16.590 --> 14:20.710
+And now there is our fabric in unity.
+
+14:20.880 --> 14:22.140
+Now that works pretty well.
+
+14:22.140 --> 14:27.390
+If we just have an object that needs a repeating texture.
+
+14:27.630 --> 14:29.590
+This works pretty well.
+
+14:29.600 --> 14:37.740
+However what if I want dirt on this what if this couch needs to be really old and nasty and have stains
+
+14:37.740 --> 14:45.340
+on it and all in dirt How am I going to layer dirt on this over the fabric texture.
+
+14:45.570 --> 14:53.190
+Well in that instance we're going to need to use a paint program like Photoshop or GIMP or Corel Paint
+
+14:53.220 --> 15:01.710
+or Krita some sort of paint program where we can export the U.V. map out of Blendr build up the layers
+
+15:01.710 --> 15:08.940
+of textures in say Photoshop and then export them out of Photoshop and bring them into unity.
+
+15:09.000 --> 15:11.560
+So in the next video we'll take a look at doing that.

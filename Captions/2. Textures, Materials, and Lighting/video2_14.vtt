@@ -1,0 +1,601 @@
+WEBVTT
+
+00:00.630 --> 00:05.220
+So let's start working on these putting a little more detail on these I think first of all I've got
+
+00:05.220 --> 00:11.390
+them all selected I think I just want to move them to a new layer I'll press em and three.
+
+00:11.550 --> 00:20.640
+I miss that when they're three and move those all over here just so we can see them a little better.
+
+00:20.640 --> 00:26.190
+So first of all I think let's go ahead and establish where the counters are I'd like.
+
+00:26.190 --> 00:28.200
+Or the countertop scuse me.
+
+00:28.440 --> 00:31.420
+I'd like them to be as tall as this.
+
+00:31.440 --> 00:32.730
+No taller than this.
+
+00:32.720 --> 00:36.390
+So what I'm going to do for this is duplicated.
+
+00:37.260 --> 00:45.240
+And hit enter and then I'm going to tap into it mode and hit the Z key and I'm going to grab this.
+
+00:45.240 --> 00:46.410
+Bring it up.
+
+00:47.810 --> 00:51.770
+And then I'm going to grab this and bring it a little forward.
+
+00:51.980 --> 00:57.620
+So we kind of get a sense that we've got a countertop there I'll hit the Z key.
+
+00:57.620 --> 00:57.850
+All right.
+
+00:57.850 --> 01:00.040
+So there's our first countertop.
+
+01:00.080 --> 01:08.630
+Let me go ahead and tap into here and bring this one down just below that like say like Pat.
+
+01:08.870 --> 01:10.830
+And we go.
+
+01:10.830 --> 01:11.160
+All right.
+
+01:11.160 --> 01:12.980
+So that is our first countertop.
+
+01:12.980 --> 01:16.180
+We can now use this for the other ones.
+
+01:16.320 --> 01:18.230
+We'll go ahead and duplicate it.
+
+01:18.570 --> 01:25.630
+And let's go ahead and put the origin in the center of the geometry and move it over here.
+
+01:25.680 --> 01:28.470
+I'll scale it in the X and get it.
+
+01:28.680 --> 01:30.790
+So it fits in here.
+
+01:30.960 --> 01:38.490
+I'll hit the period key and let's also take this one and grab that face and move it down a bit.
+
+01:41.300 --> 01:46.010
+And we go maybe fit this one in here a little bit better.
+
+01:46.090 --> 01:49.930
+S and X OK.
+
+01:50.380 --> 01:53.390
+Now we can use these countertops for over here as well.
+
+01:53.410 --> 01:58.810
+Grab this center the origin into the geometry.
+
+01:58.810 --> 02:01.180
+Duplicate it and move it over here.
+
+02:02.740 --> 02:04.510
+And let's put this in place
+
+02:07.590 --> 02:13.340
+and we go let's pull this down this face down below it.
+
+02:15.490 --> 02:25.530
+That and of course with this one we can always grab that face over here and just drag that over.
+
+02:25.530 --> 02:27.260
+And there we go.
+
+02:27.330 --> 02:27.590
+All right.
+
+02:27.590 --> 02:31.320
+Now of course we're going to need to drop a sink into here.
+
+02:31.560 --> 02:35.580
+So we'll be cutting out a whole for that but that's OK for right now.
+
+02:35.580 --> 02:43.190
+We've got that countertop in place now as I said this is the kind of thing I want is kind of very plain
+
+02:43.250 --> 02:46.800
+and simple door here on the counters here.
+
+02:46.800 --> 02:54.990
+So for this I think what I'm going to do is we've got I needed to decide how many doors we're going
+
+02:54.990 --> 02:56.390
+to have here.
+
+02:56.490 --> 02:59.170
+I would say probably two pairs.
+
+02:59.190 --> 03:04.760
+So for the doors I think I'll grab this once again and duplicate it and pull it out.
+
+03:05.070 --> 03:15.270
+And now I will scale this in the y close that up like that little bit thinner and I'll put the origin
+
+03:15.270 --> 03:23.990
+in the center of the geometry scale it in the next let's scale it in the Z or at least what we can do
+
+03:23.990 --> 03:27.400
+is take this face and bring it down some.
+
+03:27.530 --> 03:36.020
+So let's go to that side and hit the control key and one spin it around to the front there hit Z and
+
+03:36.020 --> 03:36.710
+hit five.
+
+03:36.710 --> 03:38.490
+So I can kind of see it.
+
+03:38.750 --> 03:42.110
+Now we're going to a drawer here so I'll pull that down.
+
+03:43.580 --> 03:50.020
+And this will be our first cabinet door right here.
+
+03:50.040 --> 03:52.990
+Leave a little room for the hinges there.
+
+03:53.050 --> 03:57.830
+Duplicate this and move it over and we go now.
+
+03:57.940 --> 03:59.940
+Is this going to be wide enough.
+
+04:03.550 --> 04:06.160
+And now we need a drawer there don't we.
+
+04:06.160 --> 04:10.840
+So I'll just take one of these and duplicate it.
+
+04:10.840 --> 04:15.420
+Move it up scale it into the
+
+04:18.580 --> 04:30.390
+and then scale it in the X so there's a drawer for us I'll duplicate this shifty X and move it over
+
+04:30.390 --> 04:30.950
+here.
+
+04:32.170 --> 04:37.180
+Now it looks to me like way over here if we look at this we've got some drawers here we've got a thin
+
+04:37.180 --> 04:42.510
+one on top and they kind of get bigger as they go down so I'll just grab this.
+
+04:42.730 --> 04:44.010
+Duplicate it.
+
+04:44.230 --> 04:49.560
+Bring it over here and let's scale it in the X like so
+
+04:52.610 --> 04:54.750
+and then what we can do is duplicate it.
+
+04:54.760 --> 04:59.210
+Chef de Z bring it down and scale it in the z.
+
+04:59.210 --> 05:07.640
+Just a little bit and then shift the Z scale then the Z a little bit more again.
+
+05:08.880 --> 05:12.030
+And let's see if this one fits in here.
+
+05:14.350 --> 05:16.770
+And scale that up just a bit more
+
+05:22.240 --> 05:23.070
+and we go.
+
+05:23.290 --> 05:27.650
+So we've got a series of drawers.
+
+05:27.650 --> 05:29.900
+They're increasing in size.
+
+05:29.930 --> 05:30.620
+All right.
+
+05:31.660 --> 05:33.080
+Now looks good.
+
+05:33.240 --> 05:39.040
+Now for all of these we don't need the faces behind them do we.
+
+05:39.390 --> 05:49.620
+So what I'm gonna do is press shift h and then swing around here and get rid of all of these faces.
+
+05:50.040 --> 05:59.220
+Now while I'm here maybe I could actually combine all these together with control J and then tab into
+
+05:59.850 --> 06:08.550
+edit mode and just select all of these faces and hit X and delete faces and then you go.
+
+06:08.760 --> 06:18.160
+Now if we hit alt H and bring everything back we take these drawers and cabinets and bring them on back
+
+06:18.160 --> 06:25.600
+like this and for over on this side we're going to want the cabinet doors and the drawers but here under
+
+06:25.600 --> 06:28.130
+the sink it looks like it's just all cabinet.
+
+06:28.130 --> 06:30.270
+So let's see if we can do that.
+
+06:30.280 --> 06:39.550
+I'm going to grab these and just select these cabinets in one drawer and I'll press control plus key
+
+06:39.550 --> 06:47.880
+on the numpad to expand the selections so we select all of that and then duplicate and pull those out.
+
+06:47.890 --> 06:56.140
+Now I'm going to spin it around with our z 180 and then move these over here.
+
+06:56.140 --> 07:02.410
+Now I think I want to split this out from that side of the room or that side of the kitchen so I'll
+
+07:02.410 --> 07:04.030
+hit the P key.
+
+07:04.030 --> 07:06.190
+Choose separate by selection.
+
+07:06.190 --> 07:07.110
+And there we go.
+
+07:07.360 --> 07:14.700
+I think I might be able to give us another set of doors and drawer right here.
+
+07:14.950 --> 07:19.750
+So let's move that pivot point into the center of this object.
+
+07:19.750 --> 07:23.680
+So there's that object move the origin to the geometry.
+
+07:23.680 --> 07:24.950
+There it is.
+
+07:25.030 --> 07:30.960
+I'll hit shift D and X and move these over just a smidge and look at that.
+
+07:31.180 --> 07:34.100
+That's going to fit in there pretty well that's good.
+
+07:34.210 --> 07:40.700
+And then I probably want just smaller doors and drawer over here.
+
+07:40.890 --> 07:48.850
+So let's just duplicate that and move it over and I might be able just to scale and the X like that
+
+07:50.090 --> 07:52.260
+kind of squeeze that in there.
+
+07:52.270 --> 07:53.650
+And we go.
+
+07:54.020 --> 08:01.910
+Now I can take maybe these Once again I'll hover over here and hit the L key just like those duplicate
+
+08:01.910 --> 08:02.390
+those.
+
+08:02.390 --> 08:12.540
+Move them over peaky separate by selection and now I can scale these out in the next and up in the Zeb.
+
+08:12.590 --> 08:19.970
+First I need to move that pivot point or tap into object mode and move the pivot point to the geometry
+
+08:21.080 --> 08:27.940
+and then let's scale on the X like so.
+
+08:29.120 --> 08:34.220
+And scale and the Z and we go.
+
+08:34.260 --> 08:38.280
+So we're going to have some cabinets a little bigger there.
+
+08:38.670 --> 08:39.000
+Good.
+
+08:39.030 --> 08:40.070
+OK.
+
+08:40.530 --> 08:41.550
+So we have those.
+
+08:41.550 --> 08:49.080
+The next thing I think we want to do is the cabinets on top it looks like of course we're not going
+
+08:49.080 --> 08:50.870
+to need drawers up here.
+
+08:51.150 --> 08:52.760
+That won't be an issue.
+
+08:53.130 --> 08:59.360
+So once again I'll tab into edit mode and these I'll just hit the L key to select duplicate.
+
+08:59.440 --> 09:09.900
+Move them up get that control one key C and 5 and now I'll bring these up.
+
+09:09.940 --> 09:12.460
+Separate them by selection.
+
+09:12.460 --> 09:14.120
+Just select this one.
+
+09:14.150 --> 09:15.680
+There we go.
+
+09:16.120 --> 09:18.900
+And we can set that Orjan that's good OK.
+
+09:19.090 --> 09:23.550
+So let's scale it up and duplicate it.
+
+09:26.120 --> 09:29.660
+And Raquel same thing over here.
+
+09:29.680 --> 09:31.780
+Continue on over here.
+
+09:31.780 --> 09:32.650
+Duplicate it.
+
+09:33.580 --> 09:44.020
+Scale it to fit and for this over here I think we only need one door here so let me just grab this.
+
+09:44.250 --> 09:48.600
+Go into Edit Mode hover over one hit the key.
+
+09:48.780 --> 09:50.000
+Duplicate it.
+
+09:50.100 --> 09:51.690
+Move it over here.
+
+09:51.810 --> 09:55.470
+Hit that P key and separate it out.
+
+09:55.470 --> 10:00.600
+Now I'm going to select that in Object mode move the origin to the geometry.
+
+10:00.790 --> 10:04.400
+And now I can scale it out a bit like this.
+
+10:04.440 --> 10:11.400
+So I just needed one door there I think all we're gonna need some doors up here above the refrigerator
+
+10:11.400 --> 10:16.500
+so all duplicate those and move those over here.
+
+10:16.530 --> 10:17.820
+All right.
+
+10:17.820 --> 10:23.280
+So we're getting close to having at least the cabinets in the proper place.
+
+10:24.980 --> 10:26.790
+There we go.
+
+10:27.250 --> 10:36.380
+I'll select all of these moved them back and we could probably grab these and bring these over to the
+
+10:36.430 --> 10:36.880
+other side.
+
+10:36.880 --> 10:38.160
+I bet they'd fit.
+
+10:38.410 --> 10:40.740
+In fact all of these might fit her.
+
+10:41.140 --> 10:43.260
+Let's just go ahead and try it.
+
+10:43.300 --> 10:46.660
+I'll duplicate and move them all this way.
+
+10:46.660 --> 10:49.840
+So now I need to spin each one of these around individually.
+
+10:49.840 --> 10:57.190
+Let me grab this and hit our z 180 we can move that.
+
+10:57.420 --> 11:04.170
+And each one of these then are the 180.
+
+11:04.220 --> 11:09.860
+All right now it looks like it's hard to see over here but it looks like we've got doors for a little
+
+11:09.860 --> 11:13.330
+pantry and then maybe doors up here on top.
+
+11:13.510 --> 11:18.800
+I'm just going to have to guess on this shouldn't be too much of a problem.
+
+11:18.800 --> 11:22.470
+I don't think we're going to be over there a whole lot.
+
+11:22.500 --> 11:30.090
+But let's just take this and duplicate it and let's move it over and try and put it in place here.
+
+11:30.100 --> 11:35.370
+Let's now think about these handles and the hinges because we're going to need to make one each of these
+
+11:35.370 --> 11:39.680
+just one handle one hinge and then duplicate them all around.
+
+11:39.690 --> 11:46.900
+So I think to create the handle here I'm going to go to a whole new layer and I'm going to hit shift
+
+11:46.900 --> 11:51.440
+C to move that cursor to the center of the grid and I'll create a cube.
+
+11:51.700 --> 11:55.440
+And we're just going to use a cube to make one of these handles.
+
+11:55.640 --> 12:03.700
+Well scale it down a bit and I think what I'll do is split it down the middle so I'll press control
+
+12:03.760 --> 12:08.440
+r and hover over here and while that edge is right in the center.
+
+12:08.440 --> 12:13.810
+I'm just going to hit enter and then enter again and that will ensure that that split it right down
+
+12:13.810 --> 12:21.850
+the middle and then if I select these faces here I'll hit the B key and border select all of those and
+
+12:22.120 --> 12:30.490
+X and delete and then I can add a mirror modifier to this over here and the modifiers panel go to add
+
+12:30.490 --> 12:32.790
+a modifier and a mirror.
+
+12:32.830 --> 12:40.060
+And now if I mirror it in the y axis like that instead of the X will turn that one off.
+
+12:40.090 --> 12:46.520
+Now I can begin extruding this out to get the shape of this handle.
+
+12:46.560 --> 12:51.690
+Now it's a bit I think it's a bit thinner than this something like that.
+
+12:52.210 --> 13:01.510
+And if I begin say from this side with the three key I will hit the five key as well.
+
+13:01.510 --> 13:07.300
+Now I can begin thinking about getting this kind of shape here so I'll hit it to extrude and pull out
+
+13:08.060 --> 13:12.560
+and because I have the mirror modifier on it the other side comes along for the ride.
+
+13:12.940 --> 13:24.510
+So I kind of go like this and then like this and begin turning this a bit and extrude this down like
+
+13:24.510 --> 13:29.700
+that and maybe turn into a little bit more.
+
+13:30.040 --> 13:40.550
+Now I go ahead and hit me and extrude and I'll turn this like this scale in the Y and also scale the
+
+13:40.550 --> 13:49.560
+bit in the X like so now it doesn't look like it scales out in that axis so I'll undo that.
+
+13:49.580 --> 13:52.790
+It just looks like it scales out like that.
+
+13:52.820 --> 13:55.920
+So something like that.
+
+13:58.000 --> 14:04.880
+I'm going to select an edge or two and kind of move these around just a little bit and there we go.
+
+14:05.250 --> 14:07.650
+So we've got the basic shape here.
+
+14:07.650 --> 14:17.730
+Now I'll go ahead and delete these faces down here we don't need these X and faces and then let's see.
+
+14:17.730 --> 14:20.690
+I think that's going to be pretty good.
+
+14:20.760 --> 14:22.430
+Maybe I'll scale a bit in the Z.
+
+14:22.440 --> 14:26.140
+Make it a little bit flatter like that.
+
+14:26.250 --> 14:30.080
+I think perhaps I'll select these faces here.
+
+14:30.150 --> 14:36.810
+Allt click an edge between the faces and maybe smooth that let me try and go to that shading Uvas tab
+
+14:36.810 --> 14:39.400
+and smooth and see how that works.
+
+14:40.020 --> 14:43.500
+Yeah that helps a little bit on that top part.
+
+14:43.500 --> 14:47.430
+And now I want to just apply that mirror modifier to make it all one piece.
+
+14:47.430 --> 14:54.870
+Currently it's just half so if I took that mere modifier away or at least turned it off for a minute
+
+14:55.200 --> 14:57.870
+he'd see it's only half the object.
+
+14:57.870 --> 15:06.190
+So just hit apply Alt-Tab into object mode hit apply and now it's all one piece and we go.
+
+15:06.510 --> 15:12.840
+Now I'll bring back the other part of the scene and let's put our pivot point where it will be most
+
+15:12.840 --> 15:18.140
+useful I think it'll probably be most useful right in between here.
+
+15:18.390 --> 15:25.650
+So going to press shift s and move the cursor to the selected objects which are those two edges and
+
+15:25.650 --> 15:33.960
+then I'm going to move the pivot point the origin to the 3D cursor and there we go.
+
+15:33.960 --> 15:41.010
+So now as I scale it down it'll scale at that point and I can begin moving this over and trying to put
+
+15:41.010 --> 15:42.460
+it into place.
+
+15:42.600 --> 15:53.440
+So I'm going to rotate around the Z Z 90 and I want to rotate around the X as well so are x 9 0.
+
+15:53.760 --> 15:59.460
+So I'm going to try and get it on this drawer here and see how it looks.
+
+15:59.520 --> 16:00.900
+That may work out pretty well.
+
+16:00.900 --> 16:04.500
+Now let's bring back that floor.
+
+16:04.500 --> 16:06.810
+I'm going to shift click this layer here.
+
+16:06.930 --> 16:10.710
+I'll press shift F and the tab key and drop down to the ground.
+
+16:10.710 --> 16:15.480
+Now I can hit w a SD and come around in here.
+
+16:15.660 --> 16:16.200
+All right.
+
+16:16.200 --> 16:18.270
+So now we have our cabinets in.
+
+16:18.270 --> 16:24.180
+I'm going to duplicate these handles and fill in for the rest of the cabinets.
+
+16:24.510 --> 16:31.110
+And then in the next video we'll work on dealing with the stove and the refrigerator.

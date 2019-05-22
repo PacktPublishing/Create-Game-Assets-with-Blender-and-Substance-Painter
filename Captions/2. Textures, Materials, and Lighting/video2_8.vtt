@@ -1,0 +1,472 @@
+WEBVTT
+
+00:00.720 --> 00:05.990
+Well now that we have are seen fairly well arranged here I mean we hit the Zeek here to go to wireframe
+
+00:06.000 --> 00:10.680
+we've got the basic lay out down we've got some textures on it.
+
+00:10.680 --> 00:16.560
+We've imported it into unity to kind of get a sense of how it feels and whether or not it's going to
+
+00:16.560 --> 00:17.410
+work.
+
+00:17.430 --> 00:24.660
+I think now we can begin cranking out the assets filling up the space and kind of giving it a sense
+
+00:24.660 --> 00:26.080
+that it's lived in.
+
+00:26.160 --> 00:31.560
+So what we need to do is just begin working on creating more the objects in the room.
+
+00:31.560 --> 00:35.310
+I think the next one I want to create is an old TV love.
+
+00:35.330 --> 00:41.260
+I love these old TVs here let me go to my finder here and bring this up.
+
+00:41.370 --> 00:43.880
+I think I want to add one of these.
+
+00:43.950 --> 00:48.480
+So something like this one of these old TVs that you know doesn't work anymore.
+
+00:48.510 --> 00:49.950
+Right.
+
+00:50.190 --> 00:56.070
+I get the sense that these are guys who live in this apartment just moved in.
+
+00:56.190 --> 01:02.150
+And it was already furnished with old junky furniture that had been there for decades.
+
+01:02.280 --> 01:09.960
+So my sense is this TV is in there is in the apartment but it doesn't work it's just a piece of junk
+
+01:09.960 --> 01:11.830
+that they haven't thrown out.
+
+01:12.000 --> 01:15.380
+You know that they just live with because they have other concerns.
+
+01:15.390 --> 01:20.310
+So I want to model this as I think about it.
+
+01:20.370 --> 01:26.880
+I think it's going to be several different materials so as you begin modeling Now think back to the
+
+01:26.880 --> 01:34.590
+way we set up our objects and materials the different ways we did that and begin planning ahead for
+
+01:34.590 --> 01:37.200
+what you want to do as you create new objects.
+
+01:37.200 --> 01:46.200
+So for this I think what I want to do is create the main wood piece as one object and one material.
+
+01:46.350 --> 01:49.610
+I want to create this frame here as another material.
+
+01:49.620 --> 01:53.520
+It can be the same object joined together.
+
+01:53.520 --> 01:59.320
+But I think it needs to be another material from the wood grain because the woods are going to be different
+
+01:59.690 --> 02:05.040
+shiny ness a different roughness than this part here.
+
+02:05.040 --> 02:11.940
+And I think the TV screen the the actual tube screen here needs to be pretty reflective So I think I
+
+02:11.940 --> 02:17.280
+want this to be yet another material perhaps even another object.
+
+02:17.550 --> 02:24.740
+And then these here these knobs and plate need to be its own material.
+
+02:25.170 --> 02:34.170
+And then this down here and the screen here needs to be there room materials so they can accept the
+
+02:34.170 --> 02:34.710
+texture.
+
+02:34.710 --> 02:40.740
+Now I've got some textures here that I've found that I want to use.
+
+02:40.880 --> 02:44.150
+So here's that speaker fabric.
+
+02:44.150 --> 02:45.230
+I like this.
+
+02:45.230 --> 02:47.740
+I'm going to use that on the TV here.
+
+02:47.790 --> 02:51.110
+Now let me just open this and open this.
+
+02:51.110 --> 02:54.370
+There we go so we can see them at the same time.
+
+02:54.470 --> 02:57.460
+So I want to use this fabric here.
+
+02:57.500 --> 02:59.100
+I think that will work pretty well.
+
+02:59.360 --> 03:03.620
+And I want to use this name plate.
+
+03:03.620 --> 03:07.840
+You can just kind of see that it's pretty small but I think I can use it.
+
+03:07.850 --> 03:12.950
+I want to use this name plate right down here.
+
+03:12.950 --> 03:16.400
+I know I'm going to need several different materials.
+
+03:16.400 --> 03:21.520
+The question is is do I need or want several different objects.
+
+03:22.220 --> 03:28.940
+Will See I kind of get the sense that maybe this whole frame this whole box of the television will be
+
+03:28.940 --> 03:32.370
+one object and this screen will be another object.
+
+03:32.450 --> 03:33.360
+We'll see.
+
+03:33.740 --> 03:42.860
+And of course we should probably make the U-V map all one U-V texture all one texture map so everything
+
+03:42.860 --> 03:44.330
+that needs to go on here.
+
+03:44.330 --> 03:49.970
+Everything that needs to be U-V map should be all on one texture map.
+
+03:50.030 --> 03:56.350
+Even though we have multiple materials and maybe even multiple objects.
+
+03:56.450 --> 04:04.310
+So let's start with a clean layer or maybe take the objects in these layers here and just hit the A.E.
+
+04:04.310 --> 04:10.910
+to select them all and just move them over to Lehre to all hit em and 2 and that will move them over
+
+04:10.910 --> 04:12.040
+to here.
+
+04:12.230 --> 04:19.790
+Now I have them all on these layers so now I can you say this layer here I'll bring in an image of that
+
+04:19.790 --> 04:25.640
+television I'll come over here and click on this little tab right here drag down create a new window
+
+04:25.670 --> 04:33.710
+and let's switch it to a U.V. image editor right here click open and I'll go find that reference image
+
+04:33.710 --> 04:37.780
+I have here it is right in here.
+
+04:39.190 --> 04:39.720
+There we go.
+
+04:39.720 --> 04:42.840
+So this is what we're going to be working on.
+
+04:42.840 --> 04:46.120
+So to begin with It looks like we need a cube right.
+
+04:46.140 --> 04:54.060
+Let's go ahead and create a cube over here and see if we can scale this to an approximate size.
+
+04:54.090 --> 05:01.390
+I'll swing around here and let's s x and scale out in the X just a bit.
+
+05:02.680 --> 05:03.980
+Something like that.
+
+05:06.200 --> 05:11.500
+Maybe we don't need it quite as tall a press S and Z and scale it down just a bit.
+
+05:12.540 --> 05:13.750
+Something like that.
+
+05:15.730 --> 05:18.310
+And does it need to be quite that deep.
+
+05:18.310 --> 05:19.300
+They are pretty deep.
+
+05:19.300 --> 05:22.500
+Let's go ahead scaling just a bit.
+
+05:22.750 --> 05:27.020
+So there's kind of the general shape of the object.
+
+05:27.040 --> 05:33.580
+Now if we look here we've got some areas that we need to block out with Edge loops so we need some edge
+
+05:33.580 --> 05:35.310
+loops along in here.
+
+05:36.060 --> 05:39.990
+We need some edge loops up and down right through here.
+
+05:40.560 --> 05:47.190
+And it looks like there's a little bit of a ridge around the front here as well so we're probably going
+
+05:47.190 --> 05:49.280
+to need edge loops there.
+
+05:49.290 --> 05:58.050
+Let's begin with those front ridges Alt-Tab and edit mode press control are and all scroll the mouse
+
+05:58.050 --> 05:59.820
+wheel and create two edges.
+
+05:59.820 --> 06:04.350
+There two edge loops all hit s and Z and scale those up.
+
+06:04.350 --> 06:12.540
+So they come close to the edges there and I'll do the same thing for the vertical edges and S and X
+
+06:12.540 --> 06:16.440
+and scale out to here let's say.
+
+06:16.690 --> 06:19.670
+Now let's get to these edges here.
+
+06:19.840 --> 06:24.650
+We probably need one write in here
+
+06:27.130 --> 06:32.610
+something like this perhaps another write in here.
+
+06:33.340 --> 06:37.770
+Let's get a couple more edges for this part here.
+
+06:38.230 --> 06:46.360
+Let's go with control are and maybe two more edge loops in scale those in the Z till we get to about
+
+06:48.070 --> 06:50.190
+here let's say.
+
+06:50.260 --> 06:56.350
+So I think what I'll do is grab these faces in the center here I'll press the C key for the circle select
+
+06:56.350 --> 06:58.400
+tool and just click and drag and slide.
+
+06:58.420 --> 07:00.450
+These faces here.
+
+07:00.600 --> 07:09.160
+I just want to extrude and I'll hit me and drag in just a bit to get those edges on the front that will
+
+07:09.160 --> 07:09.810
+work there.
+
+07:09.820 --> 07:14.830
+Now it looks like this piece pushes in a little bit.
+
+07:14.830 --> 07:21.610
+So maybe these three now can push in just a hair more.
+
+07:21.610 --> 07:23.620
+No maybe just this one here.
+
+07:23.650 --> 07:28.310
+Yeah I think just that one there I'll hit and push in just a little more.
+
+07:28.350 --> 07:29.830
+There we go.
+
+07:29.950 --> 07:36.290
+Now for that frame around the tube what we can do is just use this piece right here.
+
+07:36.340 --> 07:42.370
+I'm going to split this out into its own object for now so that if I need to insert edge loops or do
+
+07:42.370 --> 07:48.010
+anything to it I won't extend those edge loops out to the other part of the object.
+
+07:48.070 --> 07:52.150
+I want to just isolate what I'm doing to this particular piece.
+
+07:52.150 --> 07:58.950
+So with this face selected I'll hit the P key and I will separate it out by selection.
+
+07:59.320 --> 08:05.400
+Now if I tab back into object mode and just select that one piece I can tab into edit mode.
+
+08:05.410 --> 08:07.960
+And here is that face.
+
+08:07.990 --> 08:18.520
+So now I can hit E and extrude in all scale in a bit like so now I've got duplicate faces in here I'm
+
+08:18.520 --> 08:27.460
+going to go ahead and delete these I want to hit X and faces and again x and faces.
+
+08:27.460 --> 08:31.390
+Now I can grab these edges here with Allt click.
+
+08:31.450 --> 08:34.950
+Now I have that edge and here's that edge right here.
+
+08:34.960 --> 08:36.680
+Now I can extrude that in a bit.
+
+08:36.700 --> 08:43.420
+I'll hit the and click and then I'll drag in some like that and it looks like it's scales in just a
+
+08:43.420 --> 08:48.950
+hair like this.
+
+08:48.950 --> 08:49.740
+There we go.
+
+08:49.850 --> 09:01.800
+And then I'll extrude and again hit the and I'll hit s and scale in and now we've got this kind of curved
+
+09:01.830 --> 09:05.610
+area here and this is what I meant about those edges.
+
+09:05.610 --> 09:11.640
+I want to be able to insert edge loops to get this kind of curve without extending them all the way
+
+09:11.670 --> 09:13.100
+around the object.
+
+09:13.140 --> 09:17.910
+So I'm just going to do say three edge loops here.
+
+09:18.690 --> 09:22.330
+And I'll do the same thing over here like that.
+
+09:22.740 --> 09:24.840
+And now I can begin to bring these things in.
+
+09:24.840 --> 09:31.790
+So let's say I grab this edge in this hedge and I'll scale it in the X and here we go.
+
+09:32.960 --> 09:40.430
+And let's say Now I do this point and this point this vertex and this vertex and scale those in just
+
+09:40.430 --> 09:41.930
+a bit and we go.
+
+09:41.930 --> 09:46.380
+Now we're just kind of getting that rounded featured there.
+
+09:47.280 --> 09:52.660
+And maybe I can even select these edges and pull them back just a bit like this.
+
+09:52.980 --> 09:54.120
+Something like that.
+
+09:55.780 --> 09:56.190
+All right.
+
+09:56.200 --> 09:58.180
+Let's give that a try for now.
+
+09:58.450 --> 09:59.830
+We can smooth this.
+
+09:59.840 --> 10:03.940
+I'll come over here to tools and smooth and see how that looks.
+
+10:03.940 --> 10:05.270
+That looks OK.
+
+10:05.290 --> 10:08.190
+I can flatten the edges all the way around this.
+
+10:08.200 --> 10:16.040
+If I go back to face mode and click between two of the faces to select that whole face loop.
+
+10:16.300 --> 10:24.190
+Now here in edit mode I can go to shading Uvas and just hit flat for the faces there and now it will
+
+10:24.280 --> 10:27.930
+differentiate that a little bit from the smooth part.
+
+10:27.940 --> 10:37.780
+There I think I do want to bring this out a bit like this and then grab that edge and extrude it back
+
+10:37.780 --> 10:46.210
+just to separate it from the wood part of the television I'll hit E and then pull that back a bit and
+
+10:46.210 --> 10:51.070
+we go just so we can see a little bit of an edge there.
+
+10:52.870 --> 10:53.780
+All right.
+
+10:54.100 --> 10:58.870
+I think I'd also like to see more of a beveled edge along here.
+
+10:58.870 --> 11:07.540
+Now where we would be adding a fair amount of polygons to this but I'd like to try and see how it looks.
+
+11:07.570 --> 11:16.970
+So if I Allt click this edge shift or click this yes and this lets try and bevel this.
+
+11:16.970 --> 11:24.580
+Now using bevel you need to think about your transforms applying your transforms in the same way we
+
+11:24.580 --> 11:27.280
+did when we're U-V mapping.
+
+11:27.280 --> 11:36.970
+So if I hit the N key and come over here an object you can see that my scale is nonuniform that's going
+
+11:36.970 --> 11:39.370
+to be a problem once again with our bevelling.
+
+11:39.520 --> 11:42.740
+So I'll hit control a and choose scale.
+
+11:43.090 --> 11:46.820
+And now with these edges selected I'll press control B.
+
+11:46.900 --> 11:54.060
+Hold the shift key down to move the mouse very slowly you know kind of expand this out and I'll give
+
+11:54.060 --> 11:57.220
+it maybe one or two segments.
+
+11:57.310 --> 11:58.770
+There we go.
+
+11:58.770 --> 12:04.050
+All right so now we have that beveled edge there that looks kind of nice.
+
+12:04.050 --> 12:11.580
+I also want to take this edge on the inside and I want to pull those in just a bit just a little bit
+
+12:11.580 --> 12:14.980
+like this something like that.
+
+12:15.930 --> 12:16.340
+All right.
+
+12:16.350 --> 12:24.160
+Let's take this edge here and just extrude this in I'll hit the and then pull it in a bit like that
+
+12:25.950 --> 12:26.920
+and then we go.
+
+12:27.120 --> 12:36.630
+So now we need to add our television tube and our plates here with our knobs and in the next video we'll
+
+12:36.810 --> 12:38.290
+continue working on that.

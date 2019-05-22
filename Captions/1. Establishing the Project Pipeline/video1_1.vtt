@@ -1,0 +1,724 @@
+WEBVTT
+
+00:00.700 --> 00:07.690
+This is Darren Lyle and welcome to creating a game environment in Blendr and unity in this course.
+
+00:07.700 --> 00:16.200
+What I'd like to do is work on creating a project an interior apartment scene that uses blender and
+
+00:16.200 --> 00:20.330
+unity in kind of an integrated way from the very beginning.
+
+00:20.460 --> 00:30.360
+I've seen a lot of course that go over creating game objects in Blender modeling U.V. mapping maybe
+
+00:30.360 --> 00:31.860
+even texturing.
+
+00:31.860 --> 00:37.560
+And then at the end they say and then you take it into unity or I've seen a lot of courses where it's
+
+00:37.560 --> 00:43.740
+about unity and all the assets have already been made and you're bringing them in it into unity at the
+
+00:43.740 --> 00:46.670
+beginning and then going from there.
+
+00:46.830 --> 00:53.270
+What I'd like to do is show you how I kind of use Blender in unity from the very beginning of the project.
+
+00:53.370 --> 00:59.850
+I think it's important to be able to go back and forth easily and quickly between the two programs as
+
+00:59.850 --> 01:01.760
+you create your environment.
+
+01:01.770 --> 01:07.920
+It's the way I do it and hopefully what you can get out of it is maybe some ideas that you can apply
+
+01:07.920 --> 01:09.800
+to your process.
+
+01:09.810 --> 01:12.720
+So having said that here we are in Blender.
+
+01:12.840 --> 01:19.740
+I think the first thing we should do is take a look at our scale and what unit of measure we're going
+
+01:19.740 --> 01:21.880
+to be using throughout the project.
+
+01:21.900 --> 01:30.630
+So Blendr by default when you first open it up has these Blendr units that come over here to the scene
+
+01:30.750 --> 01:38.950
+button and you can see here under units we've got none which is the default Blendr unit.
+
+01:39.150 --> 01:44.700
+And then you've got metric and the imperial system of inches and feet.
+
+01:44.700 --> 01:50.900
+I'm here in America and so I am surrounded by the imperial system of inches and feet.
+
+01:51.030 --> 01:56.460
+If you're anywhere else in the world then you're probably using the metric system.
+
+01:56.760 --> 02:03.120
+Now Unity's basic unit of measure is the metric system is one meter.
+
+02:03.120 --> 02:10.290
+So if I switch here in Blendr from none to metric you can see that not much happens.
+
+02:10.290 --> 02:13.970
+You go back from none metric.
+
+02:14.010 --> 02:15.890
+There really isn't any difference.
+
+02:15.900 --> 02:22.590
+However if you switch over to the imperial system you can see that the grid switches two feet and the
+
+02:22.590 --> 02:24.140
+grid shrinks a bit.
+
+02:24.390 --> 02:28.220
+But ultimately it's still the same size.
+
+02:28.230 --> 02:30.870
+This cube is still the same size.
+
+02:30.870 --> 02:32.580
+So let's take a look at it.
+
+02:32.580 --> 02:39.900
+I'm going to press the End key to bring up the properties panel here and if I go up scroll up a bit
+
+02:39.960 --> 02:48.260
+you can see I've got location rotation and scale and then I've got dimensions here and Jered dimensions
+
+02:48.270 --> 02:51.540
+you can see that this cube is two meters by two meters.
+
+02:51.540 --> 03:00.570
+Now if I switch it if I switch from metric to Imperial you can see that it switches to 6.5 six two feet
+
+03:00.810 --> 03:03.370
+which is two meters.
+
+03:03.450 --> 03:10.700
+So the size of your objects don't change when you switch your units of measure.
+
+03:10.920 --> 03:14.460
+You're just measuring the size in a different way.
+
+03:14.460 --> 03:19.690
+But to make things easier we should probably use the metric system.
+
+03:19.830 --> 03:23.480
+Now if we open up unity I'm going to go ahead and open up unity here.
+
+03:26.080 --> 03:33.100
+And I'm going to go ahead and create a new project and I will call this I'll just call it unity.
+
+03:33.160 --> 03:38.920
+So I know it's a unity project folder and then I'll just call this apartment because I'm going to be
+
+03:38.920 --> 03:48.190
+creating an interior apartment scene here and I'll just make sure that using 3-D instead of 2D.
+
+03:48.190 --> 03:51.550
+Just click on 3D there and create project.
+
+03:52.060 --> 03:53.920
+So here we are in unity.
+
+03:53.920 --> 04:00.100
+Now if I come over here and right click in the hierarchy I can create a 3D object and I'll just create
+
+04:00.220 --> 04:05.520
+a cube and make sure that this is in the center of the grid.
+
+04:05.520 --> 04:13.190
+It is the position is 0 0 0 over here in the inspector to move around in Unity is a little bit different
+
+04:13.190 --> 04:24.270
+than Blendr you mainly use the alt key and then click and drag it to tumble Allt middle mouse button
+
+04:24.270 --> 04:32.670
+to Pan and Allt right mouse button to zoom and you can also scroll the mouse wheel to zoom as well so
+
+04:32.670 --> 04:35.080
+it's a little bit different navigation.
+
+04:35.090 --> 04:37.590
+But you kind of get used to it after a while.
+
+04:37.620 --> 04:44.820
+If you've ever used Autodesk Maya it's the exact same way of navigating within the 3D view.
+
+04:44.820 --> 04:53.160
+In addition if you want to move or rotate or scale it's a little different than Blendr you can always
+
+04:53.160 --> 05:02.580
+come up here and choose the move rotate and scale tools right up here or you can press w for move E-4
+
+05:02.610 --> 05:05.640
+rotate and are for scale.
+
+05:05.790 --> 05:11.450
+So that allows you to switch quickly with the W E and Archy's.
+
+05:11.460 --> 05:16.360
+All right so this cube is actually one meter by one meter.
+
+05:16.530 --> 05:18.070
+So let's do a little test here.
+
+05:18.150 --> 05:26.700
+Let's test taking a cube from Blender into unity and make sure our pipeline is working the way we want
+
+05:26.700 --> 05:27.870
+it to.
+
+05:27.870 --> 05:28.160
+All right.
+
+05:28.170 --> 05:31.170
+So we have one by one cube here.
+
+05:31.170 --> 05:31.680
+That's good.
+
+05:31.680 --> 05:37.110
+I'm going to switch back to Blender here and let's change the dimensions of this cube.
+
+05:37.110 --> 05:45.360
+I'm just going to come into the dimensions field here and type in one tab one tab one and enter.
+
+05:45.360 --> 05:49.970
+And so now we have a cube that is one meter by one meter.
+
+05:49.980 --> 05:50.430
+All right.
+
+05:50.430 --> 05:51.640
+I'm going to call this.
+
+05:51.660 --> 05:53.610
+I'm going to name this cube.
+
+05:53.850 --> 06:01.480
+I'm going to call this blender cube for the name of it.
+
+06:01.710 --> 06:07.230
+And in addition what I'm going to do is add a material to it I'm going to come over here to the materials
+
+06:07.230 --> 06:11.100
+panel and it already has a default material.
+
+06:11.100 --> 06:14.700
+Now I'm using the cycle's render engine.
+
+06:14.700 --> 06:19.580
+I just have that on by default whenever I create a new blender scene.
+
+06:19.620 --> 06:26.310
+But if you're using the blender render engine here that's fine too it doesn't really matter because
+
+06:26.400 --> 06:33.460
+our final materials and our final rendering are going to take place in unity in game.
+
+06:33.780 --> 06:35.910
+So I'm going to name this material.
+
+06:35.910 --> 06:42.390
+The same thing I've named my cube I'll copy this and I'll just come over and paste this right into here.
+
+06:42.390 --> 06:42.690
+All right.
+
+06:42.690 --> 06:50.550
+So now I have an object with a name and a material ready to go over to unity.
+
+06:50.610 --> 06:55.920
+There are a couple of different ways to do this but the way I like to transfer projects into unity is
+
+06:55.920 --> 07:02.410
+by using the FBI X file format and you can drag a blend file directly into unity.
+
+07:02.490 --> 07:06.390
+But all it does is open up Blendr in the background.
+
+07:06.390 --> 07:13.000
+Use Blender's FDX converter to convert the file to SBX and then enclose Blendr in the background.
+
+07:13.200 --> 07:18.820
+So if it's going to use Blender's FDX converter anyway why not go ahead and do it here.
+
+07:19.080 --> 07:26.210
+So I'm going to come up here to file and I'm going to go to export and I'm going to choose SBX.
+
+07:26.280 --> 07:29.360
+Now this particular scene has a few elements in it.
+
+07:29.360 --> 07:35.280
+It's got a camera it's got a point light it has my cube but I only want to export that cube so I'm going
+
+07:35.280 --> 07:41.310
+to choose select objects or selected objects right down here I have that cube selected.
+
+07:41.450 --> 07:45.300
+I'm going to browse to the folder that I want to export to.
+
+07:45.300 --> 07:51.870
+I think I'm to create a whole new folder here called exports and that will be kind of the transitionary
+
+07:51.870 --> 07:57.460
+place while going to put my FP x files before I take them into unity.
+
+07:57.720 --> 08:00.260
+So I'm going to go and create a new folder here.
+
+08:00.420 --> 08:04.700
+Call it exports and open that up.
+
+08:04.740 --> 08:12.030
+Now I'm going to give this a name what docs call this I called it Blendr cube denie So we've got Blendr
+
+08:12.030 --> 08:13.520
+cube SBX.
+
+08:13.680 --> 08:16.280
+I've chosen the selected objects.
+
+08:16.280 --> 08:21.250
+I'm using this FDX 7.4 binary version.
+
+08:21.630 --> 08:24.930
+And now I'll just click export FDX.
+
+08:24.940 --> 08:26.800
+All right so there it goes.
+
+08:26.800 --> 08:32.530
+Now here in unity we need to bring that object into the assets folder.
+
+08:32.580 --> 08:38.020
+When there's a couple of things I want to point out as we do now if you want to just bring one item
+
+08:38.020 --> 08:45.430
+into the assets folder here you can right click in the assets folder and go to import new asset and
+
+08:45.430 --> 08:55.030
+that will bring up a browser window that will allow you to go to your folder and find your file.
+
+08:55.030 --> 08:59.130
+Now if you look up here it says you can also import files by dragging them.
+
+08:59.140 --> 09:06.820
+So if you have multiple files multiple FBI exes or textures or whatever you should just open up your
+
+09:06.820 --> 09:09.740
+windows explorer or your Finder window whatever.
+
+09:09.880 --> 09:15.430
+Select the multiple files and drag them directly into the assets folder here.
+
+09:15.460 --> 09:22.390
+But since I only have one to bring in I'm going to just use this process select the blender cube and
+
+09:22.390 --> 09:24.230
+click Import.
+
+09:24.530 --> 09:29.750
+Now the reason why I gave that cube a material is because I wanted to show you this when ever you bring
+
+09:29.750 --> 09:31.840
+in a new object.
+
+09:32.150 --> 09:38.480
+It's going to bring in its materials and it's going to look for a folder called materials and if it
+
+09:38.480 --> 09:43.270
+can't find on it will create one and put that material in it.
+
+09:43.730 --> 09:50.690
+So what I always do is when I bring a model in when I bring in FBI X and I always bring it into the
+
+09:50.930 --> 09:58.880
+root assets folder and let it drop the material into the materials folder is just easier that way.
+
+09:59.390 --> 10:02.920
+But what I can do is make sure I keep everything neat and tidy.
+
+10:03.020 --> 10:10.430
+So I'm going to go ahead and right click choose create choose folder and I'm going to call this models
+
+10:10.880 --> 10:15.040
+and this is where I will put all the models I bring in.
+
+10:15.260 --> 10:20.930
+So once again I'm going to bring any new models into the assets folder here.
+
+10:20.930 --> 10:26.630
+It will automatically drop the material into the materials folder and then I'll just drag that object
+
+10:26.960 --> 10:29.270
+into the models folder.
+
+10:29.270 --> 10:29.500
+All right.
+
+10:29.510 --> 10:31.580
+Let's take a look at this and see how we did.
+
+10:31.580 --> 10:37.280
+I'm going to click this blender cube and drag it up here into the hierarchy and drop it.
+
+10:37.790 --> 10:38.800
+And here it is.
+
+10:38.810 --> 10:43.540
+But I don't see it because it's right inside that cube.
+
+10:43.820 --> 10:45.390
+And this is a good thing.
+
+10:46.210 --> 10:54.320
+Notice that hour one by one cube in unity is matching exactly are one by one cube and blender.
+
+10:54.670 --> 10:56.460
+That's exactly what we want.
+
+10:57.450 --> 11:04.860
+So the take away from this is to be sure and set up your unit of measure ahead of time.
+
+11:05.010 --> 11:09.540
+So you know exactly how big things should be.
+
+11:09.540 --> 11:16.230
+Now I know that one meter in Blender is going to equal one meter in unity and I'll have a good sense
+
+11:16.320 --> 11:21.780
+of how big things should be as I begin creating the objects.
+
+11:21.790 --> 11:26.800
+Now there's another thing I want to mention here in unity and that's the camera.
+
+11:26.810 --> 11:33.300
+Now what we're going to be doing is we're going to bring in our environment models here from Blender
+
+11:33.690 --> 11:39.360
+and then we're going to want to be able to run the game and move through the scene to check out how
+
+11:39.360 --> 11:40.820
+everything is looking.
+
+11:40.870 --> 11:45.860
+So what we need to do is have a camera that we can move around.
+
+11:45.930 --> 11:52.830
+Once we turn on the game if I run the game now and I click the play button right up here you can see
+
+11:52.880 --> 11:55.950
+here's our game but I can't move around.
+
+11:56.010 --> 11:57.120
+I can't look around.
+
+11:57.120 --> 12:00.320
+I can't move around with the WASC keys.
+
+12:00.330 --> 12:01.210
+I can't do anything.
+
+12:01.210 --> 12:07.420
+So let me hit the play button again to turn unity off turn the game off there.
+
+12:07.470 --> 12:14.130
+So what I want to do is create a ground plane here in unity that we can run around on as we bring in
+
+12:14.130 --> 12:19.650
+our objects so I'm going to go ahead and delete this cube and I'm going to go ahead and delete this
+
+12:19.650 --> 12:24.450
+cube as well just right click and choose delete.
+
+12:24.780 --> 12:31.920
+And I'm going to go to Blendr and use Blender to create a ground plane just for the floor.
+
+12:31.920 --> 12:38.130
+This may not be our final floor but I think it's a good thing to do once again to test our pipeline
+
+12:38.340 --> 12:44.340
+to test our process and to get used to going between these two programs so I'm going to select everything
+
+12:44.340 --> 12:48.220
+here with the key and just press X and delete.
+
+12:48.240 --> 12:50.650
+So now we just have a clean scene here.
+
+12:50.730 --> 12:56.420
+I'm going to go to the Create tab and create a polygon plane and I'm going to scale it up.
+
+12:56.550 --> 12:58.570
+So it's about as big as the grid here.
+
+12:58.860 --> 13:06.570
+And if I press the end key and go up to the top you can see that I've created a polygon plane that's
+
+13:06.570 --> 13:09.320
+about 16 meters by 16 meters.
+
+13:09.330 --> 13:12.630
+Now let's go ahead and say 20 by 20.
+
+13:12.630 --> 13:16.380
+Why not let's do that.
+
+13:16.380 --> 13:23.680
+I'm going to give this a name and come over here to the out liner and call it just call it floor.
+
+13:23.730 --> 13:31.590
+Once again this may not be the final floor but it's going to serve its purpose here here in the materials
+
+13:31.590 --> 13:36.240
+panel saw continue and with this new material I'll call this floor.
+
+13:36.480 --> 13:43.880
+I'd just like to try and keep the materials and the object names if not the same have some sort of a
+
+13:43.890 --> 13:45.360
+relationship.
+
+13:45.360 --> 13:50.340
+Also I think I'll press the tab key to go into that mode and I think I want to add some polygons to
+
+13:50.340 --> 13:51.150
+this floor.
+
+13:51.150 --> 13:57.960
+Currently it's just one big polygon so I'm going to press the W key and choose subdivide.
+
+13:58.230 --> 14:03.750
+And you can see that it's subdivided this into four polygons.
+
+14:03.750 --> 14:10.010
+I'll come over here and increase the number of cuts from one oh maybe.
+
+14:10.070 --> 14:18.350
+Let's go up to five here and with five cuts it looks like I've got 36 faces on this.
+
+14:18.470 --> 14:20.420
+That looks fine to me.
+
+14:20.420 --> 14:20.930
+Here it is.
+
+14:20.930 --> 14:22.780
+If I hit the A key.
+
+14:22.970 --> 14:23.300
+All right.
+
+14:23.300 --> 14:28.280
+So let's go ahead and take this into unity as well.
+
+14:28.610 --> 14:40.400
+So I'm going to go to a file export FBA X. I'll call this floor and notice here I've still got my selected
+
+14:40.460 --> 14:42.740
+object checked.
+
+14:42.740 --> 14:47.640
+I'm still in the exports folder here so I'll just click export SBX.
+
+14:47.660 --> 14:48.020
+All right.
+
+14:48.020 --> 14:52.610
+Let's go over to unity now here in Unity.
+
+14:52.610 --> 14:56.930
+I'll go ahead and open up a Finder window here.
+
+14:57.880 --> 15:06.980
+And in here I'll go into my exports and grabbed that floor and drag it in.
+
+15:07.000 --> 15:13.960
+Now I'm going to drag it over here into the assets folder so that when it comes in and wants to drop
+
+15:13.960 --> 15:20.660
+its material into a materials folder it'll see that materials folder there it is.
+
+15:21.100 --> 15:26.120
+And now I'll just take that model and drag it into the models folder.
+
+15:27.070 --> 15:27.710
+All right.
+
+15:27.840 --> 15:34.090
+So now I'm going to grab that floor drag it into the hierarchy it'll drop him to the scene it's at 0
+
+15:34.090 --> 15:38.020
+0 0 in the position fields here.
+
+15:38.130 --> 15:39.050
+That's good.
+
+15:39.300 --> 15:42.420
+So there is our first object now.
+
+15:42.780 --> 15:45.470
+It is currently selected to de-select it.
+
+15:45.480 --> 15:51.400
+You can click anywhere or you can just drag click and drag with the mouse as well.
+
+15:53.490 --> 15:59.940
+All right so what I want to be able to do is I want to be able to run around on this plane currently
+
+15:59.940 --> 16:05.610
+If I hit the play key you can see we can't move at all.
+
+16:05.640 --> 16:13.080
+So what I'm going to do is I'm going to import one of the pre-made packages that comes with unity that
+
+16:13.080 --> 16:19.470
+has a first person controller in it that I can use to run around and test my scene.
+
+16:19.710 --> 16:27.840
+So I come over here to the assets folder right click and go to import package and under here I'm going
+
+16:27.840 --> 16:32.850
+to bring in the characters package that comes with unity.
+
+16:32.870 --> 16:34.120
+Here it is the whole thing.
+
+16:34.130 --> 16:35.270
+I'm going to click Import
+
+16:38.240 --> 16:39.320
+and what it will do.
+
+16:39.320 --> 16:46.490
+It will create a standard assets folder and it will have the character package in that standard assets
+
+16:46.490 --> 16:47.080
+folder.
+
+16:48.250 --> 16:48.770
+All right.
+
+16:48.770 --> 16:51.260
+So here's that standard assets.
+
+16:51.260 --> 16:58.670
+Here's my characters and right in here in first person control or we've got a folder called prefabs.
+
+16:58.780 --> 17:03.030
+If I open that up you can see we've got two first person controllers.
+
+17:03.170 --> 17:08.660
+One is an FP controller and that has quite a bit of stuff on it.
+
+17:08.660 --> 17:13.070
+Components on it including an audio source here.
+
+17:13.100 --> 17:17.370
+So if we take a look at this one the rigid body.
+
+17:17.440 --> 17:24.050
+Yes this one doesn't have any audio on it and this is the one I usually use so I'm going to take this
+
+17:24.680 --> 17:27.680
+and drag it up into the hierarchy and there it is.
+
+17:27.680 --> 17:38.030
+So it's been dropped in here at 0 0 0 but it needs to be pulled up just a bit so it's just above the
+
+17:38.030 --> 17:39.770
+ground plane.
+
+17:39.770 --> 17:48.720
+Now if I hit play I can now move around but the problem is is I'm just falling now I've fallen down
+
+17:48.720 --> 17:57.810
+through the polygon planes so what I need to do is create a collider that will keep me from falling
+
+17:57.810 --> 17:59.160
+down through it.
+
+17:59.160 --> 18:05.740
+So what I can do is choose this floor object here and add a collider to it.
+
+18:05.850 --> 18:14.520
+So if I come over here to add component with the floor selected and go to physics and Bach's Collider
+
+18:15.000 --> 18:22.580
+that will add a box Collider to that object so that now when I hit play I don't fall through.
+
+18:22.590 --> 18:31.230
+So now I can move the mouse around and WASC D and move and run around this polygon plane.
+
+18:31.290 --> 18:31.930
+All right.
+
+18:32.070 --> 18:37.460
+So this is going to be our kind of our test area and hit escape.
+
+18:37.530 --> 18:41.340
+And then I can push the play button here.
+
+18:41.430 --> 18:48.360
+So that's just going to be our our test area that we can run around and take a look at our scene as
+
+18:48.360 --> 18:49.430
+we build it.
+
+18:49.440 --> 18:54.050
+Now I noticed down here it says there are two audio listeners in the scene.
+
+18:54.080 --> 18:54.680
+You.
+
+18:54.780 --> 18:56.430
+Exactly one.
+
+18:56.490 --> 19:06.450
+One thing we can do is delete this main camera because it has an audio listener on it and so does this
+
+19:06.450 --> 19:08.580
+camera as well so that's the problem.
+
+19:08.760 --> 19:16.260
+Let's go and take this main camera that came in the scene when we first opened it and delete that right
+
+19:16.260 --> 19:17.920
+click and delete.
+
+19:17.970 --> 19:22.030
+So now we only have one camera in the scene and that's that's good.
+
+19:22.030 --> 19:23.420
+And they change the name of this.
+
+19:23.430 --> 19:28.570
+I think I'll just call it player and we go.
+
+19:28.830 --> 19:34.920
+And now if we run the game again you can see that error goes away and we can run around
+
+19:38.840 --> 19:39.750
+on the floor.
+
+19:39.770 --> 19:42.920
+All right good.
+
+19:43.190 --> 19:49.850
+So now we've set up our scene in unity we can begin working in blender and bring in our assets piece
+
+19:49.850 --> 19:50.390
+by piece.

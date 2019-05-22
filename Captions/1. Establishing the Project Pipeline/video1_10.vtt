@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.670 --> 00:04.850
+Now when we took the couch into unity we took it in as two different objects.
+
+00:05.110 --> 00:12.520
+And I did that to be able to access the individual materials that we needed so we needed one material
+
+00:12.520 --> 00:20.770
+to be able to do the texture for the fabric and we needed another material to do the wood for the legs.
+
+00:20.770 --> 00:27.520
+Now just because we need multiple materials doesn't mean we necessarily need multiple objects.
+
+00:27.520 --> 00:30.960
+So that's kind of the reason I did the walls the way I did here.
+
+00:31.000 --> 00:38.890
+Let me press shift h to isolate that and then I'll press the period key again to frame that Slyke that
+
+00:38.890 --> 00:39.870
+object up.
+
+00:39.940 --> 00:47.750
+Now what I want here is I want one texture on the wall and a different texture on the baseboard.
+
+00:47.770 --> 00:53.400
+So let me actually just extrude this baseboard out just a tiny bit.
+
+00:53.410 --> 00:59.470
+I'm going to hit the e key to extrude and then I'm going to hold the shift key down and move the mouse
+
+00:59.470 --> 01:00.710
+out just a little bit.
+
+01:00.710 --> 01:05.550
+So it's about like that just a little bit of an edge on that baseboard.
+
+01:05.560 --> 01:12.610
+Now I could have made the wall its own object and the baseboard its own object just create a cube and
+
+01:12.700 --> 01:14.920
+scale it to make the baseboard.
+
+01:14.980 --> 01:22.060
+But I want to just talk about yet another way to export and import objects from Blender into unity.
+
+01:22.090 --> 01:31.990
+So let's take this wall for an example and I'm going to go ahead and create seams for the U.V. map so
+
+01:32.020 --> 01:34.620
+I'll select this edge here.
+
+01:35.170 --> 01:40.360
+And I'm just going to select the edge all the way around the baseboard.
+
+01:40.360 --> 01:44.920
+It looks like pressing Allt and shift got me all the way around.
+
+01:44.920 --> 01:49.470
+That's good so I'm in a press control me and Mark.
+
+01:49.810 --> 01:55.570
+I'm also going to split out this portion of the wall this is the part that's going to be seen so I want
+
+01:55.570 --> 02:00.220
+to just press control and Mark seem here as well.
+
+02:00.520 --> 02:04.600
+So the rest of the wall back here is really not going to be used.
+
+02:04.630 --> 02:12.250
+But what I'm doing is I'm giving the wall some thickness to prevent light leaking in unity.
+
+02:12.280 --> 02:17.350
+Sometimes if you bring in a single plane you can get light leak through the walls if you're dealing
+
+02:17.350 --> 02:18.820
+with an interior scene.
+
+02:18.820 --> 02:21.460
+Now there are ways to get around that as well.
+
+02:21.460 --> 02:23.990
+There's always other ways to do things though.
+
+02:24.310 --> 02:28.650
+But that's why I'm using thicknesse on the wall here.
+
+02:28.660 --> 02:32.110
+All right so we have our seams on our wall actually.
+
+02:32.110 --> 02:42.940
+I might even come in here and get really persnickety and put a couple of seems right here and way over
+
+02:42.940 --> 02:44.860
+here on the other side.
+
+02:44.860 --> 02:49.730
+Just a couple of seams right here as well.
+
+02:50.850 --> 02:51.560
+All right.
+
+02:51.870 --> 02:56.640
+So now let's go to our U-V editor right over here.
+
+02:57.250 --> 03:03.970
+And I'm just going to select all the objects or Scuse me all the polygons with the a key press you and
+
+03:04.000 --> 03:07.030
+unwrap and so there we have the map.
+
+03:07.030 --> 03:13.900
+Now if we switch from angle based to conformal look how big of a difference there is.
+
+03:13.900 --> 03:20.110
+And you can see up here it says object has nonuniform scale and that's a clue I think as you switch
+
+03:20.110 --> 03:27.520
+back from Angle base to conformal that you need to come in and apply your transforms to get uniform
+
+03:27.580 --> 03:28.440
+scale.
+
+03:28.480 --> 03:37.570
+If I hit the end key again we can take a look up here and see an object node that the scale is nonuniform.
+
+03:37.630 --> 03:44.210
+So in Object mode I'll just press control a and apply rotation in scale and there we go.
+
+03:44.320 --> 03:55.200
+So now when we come back into Edit Mode hit you and unwrap Here's conformal Here's angle based not a
+
+03:55.200 --> 03:57.120
+whole lot of difference.
+
+03:57.120 --> 04:00.300
+However I do like conformal a little better there.
+
+04:00.600 --> 04:07.890
+Now just while we're here I may need to know at some point in time when we go into Photoshop which U-V
+
+04:07.890 --> 04:12.890
+Island is the baseboard and which is the actual front of the wall.
+
+04:12.960 --> 04:16.690
+It may be a little confusing here as to which is which.
+
+04:16.710 --> 04:22.530
+So if I come down here and turn this little guy right down here keep U-V in edit mode mesh selection
+
+04:22.560 --> 04:23.220
+in sync.
+
+04:23.220 --> 04:32.730
+If I turn that on now if I go to face mode and select a face over here it highlights over here so you
+
+04:32.730 --> 04:40.710
+can see that that face is right here and if I select this wall there is the U-V island there so I've
+
+04:40.710 --> 04:44.490
+got the baseboard on top and the wall here beneath it.
+
+04:44.490 --> 04:51.660
+And down here is the back of the wall but the back of the wall does not need to be this large.
+
+04:51.660 --> 04:57.810
+In fact we could shrink that down quite a bit so we can get a little bit more just a little bit more
+
+04:58.230 --> 05:02.560
+resolution in our U-V map for our wall and our baseboard.
+
+05:02.580 --> 05:09.210
+So if I come back over here and turn this off select everything over here so I can see all of these.
+
+05:09.500 --> 05:15.630
+I'm now choosing to select my U-V islands here with this option.
+
+05:15.720 --> 05:22.290
+So if I select Now the back wall I can hit s and shrink it way down and maybe put it over here in a
+
+05:22.290 --> 05:24.110
+corner I don't need that.
+
+05:24.120 --> 05:31.770
+Now what I can do is press control up arrow and make this full screen and then I'll just select these
+
+05:31.770 --> 05:37.760
+two U-V islands and scale them up just a bit so I get a little bit more resolution out of it.
+
+05:37.800 --> 05:40.730
+Can't get a whole lot but that'll work.
+
+05:42.190 --> 05:46.700
+We could put more in this U-V island or this U-V map.
+
+05:47.020 --> 05:49.220
+But for now let's go with this.
+
+05:49.240 --> 05:49.510
+All right.
+
+05:49.510 --> 05:56.530
+So I'm going to get control up arrow to shrink that down again and now as I mentioned we need to split
+
+05:56.530 --> 06:03.340
+out the materials or create a material for the wall and the baseboard so that unity will see the different
+
+06:03.340 --> 06:09.600
+materials and to do that all we need to do is just select the individual faces and assign them.
+
+06:09.820 --> 06:11.800
+All right so we have this movie map.
+
+06:11.800 --> 06:19.450
+However if we go back here you know what I think if I hit the tab key to go to object mode and press
+
+06:19.600 --> 06:29.690
+alt h to bring everything back I think what we need to do is actually split this wall out from the wall
+
+06:29.690 --> 06:35.020
+that would be here because within the kitchen it's going to have I think a paint texture.
+
+06:35.030 --> 06:41.730
+And in the living room it's going to have a really ugly worn down torn bit of wallpaper.
+
+06:41.780 --> 06:47.690
+So I think I'm going to need to scale this and duplicate it.
+
+06:47.690 --> 06:48.960
+So let me do that.
+
+06:48.980 --> 06:53.670
+I'm going to scale this in the y axis with X and Y and bring this down a bit.
+
+06:53.900 --> 07:09.160
+Move it over some and then scale it back out just a hair and we go now to duplicate this hit the Y key
+
+07:09.160 --> 07:12.140
+to move it in the y axis and bring this over here.
+
+07:12.960 --> 07:17.830
+And then I'll scale this down here in the y axis with x and y.
+
+07:17.830 --> 07:18.950
+Let's try that.
+
+07:21.780 --> 07:22.980
+Here we go.
+
+07:22.980 --> 07:31.940
+All right so now we've got two different walls for the two different parts of the apartment.
+
+07:31.950 --> 07:35.840
+One for the kitchen one for the living room.
+
+07:35.850 --> 07:38.870
+All right so let me go back real quick and just reuse the map.
+
+07:38.880 --> 07:51.420
+This piece right here I'm going to press shift h period key tab into edit mode you and unwrap and there
+
+07:51.420 --> 07:52.560
+we go.
+
+07:52.560 --> 07:59.870
+Once again I've got nonuniform scale hit control a notation and scale and do that one more time.
+
+07:59.880 --> 08:00.330
+There we go.
+
+08:00.330 --> 08:02.500
+That looks a little better.
+
+08:02.580 --> 08:11.190
+I'll scale down that back of the wall again and I'll scale up the actual part of the wall that we will
+
+08:11.190 --> 08:11.940
+use.
+
+08:12.270 --> 08:13.950
+And we go all right.
+
+08:13.950 --> 08:17.400
+I think that'll make a little more sense.
+
+08:17.430 --> 08:24.060
+So now that we have our wall the right size and U-V map let's go ahead and assign our materials to it
+
+08:24.400 --> 08:31.110
+I'll go to the materials panel over here and recall this is one that I created by just clicking and
+
+08:31.110 --> 08:38.820
+dragging this little corner tab out this panel doesn't come automatically with the U-V editing screen
+
+08:38.850 --> 08:39.300
+layout.
+
+08:39.300 --> 08:43.430
+I just created this earlier but I'll hit the New button.
+
+08:43.440 --> 08:49.640
+I'll call this wall living room back.
+
+08:50.020 --> 08:57.820
+And then I will tab into edit mode select this one face here and press control plus key on the numpad
+
+08:57.820 --> 09:02.410
+to expand the selection out to encompass all of the baseboard.
+
+09:02.410 --> 09:07.120
+Then I'll create a new material slot for this object right here.
+
+09:08.690 --> 09:16.340
+And in that new material slot in the object I will create a new material and we'll call this baseboard
+
+09:16.790 --> 09:23.450
+living back wall and then I would click a sign and there we go.
+
+09:23.750 --> 09:30.380
+So now if we take a look at this I'll hit the Z key to go to wireframe if I choose that wall.
+
+09:30.380 --> 09:37.860
+Living back and click select everything highlights except the baseboard.
+
+09:37.930 --> 09:45.820
+I can hit de-select here and now if I select the baseboard and click select only the baseboard is selected.
+
+09:45.820 --> 09:54.550
+So now we have two materials assigned to our one object and unity will see this as we take this object
+
+09:54.550 --> 09:55.500
+in.
+
+09:55.510 --> 09:59.410
+Now I'm gonna need to go through and do this for all the other walls as well.
+
+09:59.530 --> 10:05.380
+But while we're here what I want to do is go ahead and work on the doorframes on a press alt h to bring
+
+10:05.380 --> 10:14.950
+everything back and let me grab this doorframe right here and press shift h to isolate it period key
+
+10:14.950 --> 10:16.740
+to focus it.
+
+10:16.960 --> 10:20.800
+And let's take a look at creating argufy map of this.
+
+10:20.800 --> 10:29.620
+Now one thing about doorways is that they usually have a little extrusion inside here where the door
+
+10:29.680 --> 10:30.430
+fits.
+
+10:30.430 --> 10:36.580
+So before I U-V map it I better insert those edge loops and extrude that I'll press control are.
+
+10:36.930 --> 10:39.560
+And let's do two.
+
+10:39.580 --> 10:48.190
+I just scroll the mouse wheel to get one more extra edge there and click and click again and I will
+
+10:48.190 --> 10:51.830
+press S and y to scale these in a bit.
+
+10:53.510 --> 10:54.250
+And click.
+
+10:54.260 --> 11:00.140
+And then I'll move them forward just a bit like that because the door is going to be here on this side
+
+11:00.140 --> 11:02.360
+of the door jamb.
+
+11:02.550 --> 11:11.520
+And then I can go to face mode all click and edge between two of the faces to select that whole face
+
+11:11.520 --> 11:12.750
+loop.
+
+11:12.750 --> 11:16.730
+And now I want to extrude all hit E and the Enter key.
+
+11:16.740 --> 11:22.980
+So now what I want to do is just scale these in I'll scale it first in the X all it s and X and scale
+
+11:22.980 --> 11:26.630
+that in just a smidge.
+
+11:27.300 --> 11:35.550
+I'll press the shift key to move a little slower here like that and then I'll de-selected these two
+
+11:38.190 --> 11:42.940
+and with this face still psyched it all pulled down just a hair right there.
+
+11:43.970 --> 11:44.940
+All right.
+
+11:45.180 --> 11:50.280
+Now we can delete the faces on the bottom we don't need those.
+
+11:50.480 --> 11:51.230
+And there we go.
+
+11:51.230 --> 11:53.600
+So there we have the door jamb for that.
+
+11:53.600 --> 11:58.620
+I'll just U-V map this and then duplicate it for the other two doors.
+
+11:58.790 --> 12:08.570
+Maybe we can create seams here all the way around maybe here.
+
+12:09.690 --> 12:14.060
+And maybe here as well so we can split these out.
+
+12:14.220 --> 12:16.190
+Let's get this corner as well.
+
+12:17.190 --> 12:20.130
+All right so let's see how this works I will press control.
+
+12:20.430 --> 12:26.350
+Mark seem and then select everything press you and unwrap.
+
+12:26.600 --> 12:27.380
+How do we do.
+
+12:27.380 --> 12:28.810
+Not too bad.
+
+12:29.060 --> 12:31.800
+Once again nonuniform scale.
+
+12:31.970 --> 12:36.530
+Go back to object mode control a rotation scale.
+
+12:36.530 --> 12:43.520
+Now let's say that you and unwrap and there we have it a little bit more in line with the proportion
+
+12:43.520 --> 12:46.490
+and scale of the actual object.
+
+12:46.580 --> 12:47.330
+That's not bad.
+
+12:47.330 --> 12:51.790
+Let's take a look at angle based and conformal.
+
+12:52.040 --> 12:59.690
+Not much difference at all and that's what I mean by when you see a large difference in your U-V map
+
+12:59.690 --> 13:01.940
+between conformal and angle based.
+
+13:01.940 --> 13:10.960
+You may want to go back and apply the transformations so you have a uniform scale before you unwrap.
+
+13:10.980 --> 13:12.850
+All right so I've got that done.
+
+13:12.870 --> 13:19.470
+I'm going to go back to the default view and let's just copy these back over alt h to bring everything
+
+13:19.470 --> 13:20.360
+back.
+
+13:20.880 --> 13:28.540
+And I think I'll just take this door frame and this one and go ahead and delete them.
+
+13:28.740 --> 13:38.100
+Select this one and duplicate shifty hit the x key and slide it over here chiff D.
+
+13:38.150 --> 13:42.970
+This time I'll press the Y key for y axis and move it over here.
+
+13:43.000 --> 13:49.750
+So what I will do before the next video is I'll go ahead and go through and U-V map the other walls
+
+13:50.470 --> 13:53.850
+and then we'll begin taking these into unity and see how they look.

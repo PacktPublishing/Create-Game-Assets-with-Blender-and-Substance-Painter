@@ -1,0 +1,700 @@
+WEBVTT
+
+00:00.570 --> 00:07.380
+With our TV U-V map let's go ahead and export out the map so we can take it into Photoshop and do a
+
+00:07.380 --> 00:13.740
+little texturing tab into edit mode and select everything and there's our map and I'll go ahead.
+
+00:13.740 --> 00:23.190
+Go to movies export U-V lay out or go to my textures folder and I'll create a new folder here and I'll
+
+00:23.190 --> 00:31.300
+call it TV and in here I'll just I'll just call this TV underscore Uvas.
+
+00:31.560 --> 00:33.750
+Now down here in the size.
+
+00:33.750 --> 00:35.370
+We've currently got 10:24.
+
+00:35.370 --> 00:41.370
+I'm going to go ahead and export it out as 2048 and if I need to I can always save it out of Photoshop
+
+00:41.370 --> 00:44.660
+at a smaller resolution like 10:24 or 5:12.
+
+00:44.670 --> 00:47.640
+But for now I'll go ahead and use 2048.
+
+00:47.640 --> 00:49.750
+So I have more resolution to work with.
+
+00:49.800 --> 00:51.310
+While I do the texturing.
+
+00:51.450 --> 00:53.350
+All right so I'll export these out.
+
+00:54.460 --> 00:55.600
+And there we go.
+
+00:55.990 --> 01:01.650
+Let's go take a look at them in Photoshop here in Photoshop I've got my U-V map pulled up.
+
+01:01.660 --> 01:10.750
+I will go ahead and change this top layer to you these call it Uvas and I need to find that woodgrain
+
+01:10.750 --> 01:16.910
+texture that kind of dark wood grain veneer that we saw in that reference image.
+
+01:16.960 --> 01:18.390
+In fact why don't we pull that up.
+
+01:18.390 --> 01:24.210
+I'm going to open this up and let's find the reference image of that TV.
+
+01:24.340 --> 01:29.830
+And while we're here we can go ahead and open up these textures too that we're going to use on the texture
+
+01:29.830 --> 01:31.780
+map as well.
+
+01:31.780 --> 01:32.940
+Open that.
+
+01:33.730 --> 01:40.160
+And here is that TV so I'm looking for this kind of fairly dark wood grain veneer.
+
+01:40.570 --> 01:48.040
+So here it textures dotcom I'm going to go ahead and use this and look for some sort of a dark wood
+
+01:48.680 --> 01:51.070
+look for only seamless.
+
+01:51.130 --> 01:55.310
+This is nice but the problem is it's it's a floor.
+
+01:55.470 --> 02:02.670
+It's got the breaks in it as if it's got wood floorboards so I don't want that.
+
+02:02.960 --> 02:04.820
+This is kind of nice here.
+
+02:04.910 --> 02:06.490
+Let me take a look at that.
+
+02:06.890 --> 02:07.150
+Yeah.
+
+02:07.160 --> 02:11.170
+I think maybe I'll go with this would find 11.
+
+02:11.270 --> 02:15.930
+So I'll download it and take it into Photoshop here in Photoshop.
+
+02:15.930 --> 02:17.610
+I'll go ahead and select it.
+
+02:17.690 --> 02:24.600
+I can go to select and all select all here and then I can go to Edit and copy right here.
+
+02:24.600 --> 02:26.930
+Controlled or command see.
+
+02:27.050 --> 02:34.660
+And I'll go back to my movies and I'll paste it here with control or command the.
+
+02:34.670 --> 02:35.330
+So here we go.
+
+02:35.330 --> 02:40.070
+I'll drag it down below the Uvas And let's start putting this in place.
+
+02:40.340 --> 02:43.610
+I'll hold the shift key and scale it down and I'll get it.
+
+02:43.610 --> 02:49.710
+So it's about the size of one of these side panels here something like that.
+
+02:49.760 --> 02:51.270
+I think that'd work pretty well.
+
+02:51.290 --> 02:53.570
+Hit the Z key and zoom in.
+
+02:54.050 --> 02:56.850
+Yeah I think this could work.
+
+02:56.870 --> 03:00.200
+Let's go ahead and give this a try.
+
+03:00.200 --> 03:07.510
+I'm going to press alt shift and drag this down and do that.
+
+03:07.710 --> 03:09.960
+Probably just one more time here.
+
+03:09.990 --> 03:15.900
+And let's also put this over this part right here I'll press alt to copy it and drag it and move it
+
+03:15.900 --> 03:21.930
+right over here and then I'll duplicate it again and put it right there.
+
+03:21.990 --> 03:22.500
+All right.
+
+03:24.390 --> 03:30.530
+So I'm going to need to clean this up a bit because it's going way over into the other U-V islands.
+
+03:30.770 --> 03:32.030
+I'll press em.
+
+03:32.900 --> 03:43.580
+And I will go ahead and drag out an area to delete and when we go we can also extend this woodgrain
+
+03:43.610 --> 03:45.560
+to these areas as well.
+
+03:45.560 --> 03:52.310
+So we've got we placed these U-V islands so they would go in line with the grain.
+
+03:52.310 --> 03:54.760
+So let's go ahead and do that.
+
+03:54.860 --> 03:59.600
+I'll just hit alt and click and drag this.
+
+03:59.760 --> 04:05.990
+And once again alt and shift and click and drag and we go.
+
+04:06.420 --> 04:09.920
+And then one more right down here like that.
+
+04:10.080 --> 04:13.020
+OK so now we need to clean this up.
+
+04:13.230 --> 04:20.310
+What we can do is go ahead and combine all these layers together with shift click all of these press
+
+04:20.310 --> 04:24.500
+control or command E and combine those all together.
+
+04:24.690 --> 04:34.470
+I'll now use that magic wand tool over here to select everything around all the movies can track them
+
+04:34.470 --> 04:42.290
+back just a bit contract maybe two frames and then I'll select the wood layer and delete all of that
+
+04:42.300 --> 04:45.140
+so that cleans that up now.
+
+04:45.720 --> 04:48.570
+It didn't clean everything up quite the way we want.
+
+04:48.570 --> 04:55.010
+Because this is still covered so well like that and delete those as well.
+
+04:55.010 --> 04:56.110
+All right.
+
+04:56.510 --> 05:04.310
+Now we want to include the little legs down here so I'll just with the wood lair select it out I'll
+
+05:04.310 --> 05:13.820
+just click and drag in here and press control C and control V and that will give me a new area that
+
+05:13.820 --> 05:22.080
+I can drag around and this time I need to turn the woodgrain down some like that just so we can cover
+
+05:22.080 --> 05:24.460
+this area right here.
+
+05:24.910 --> 05:25.840
+That will work.
+
+05:26.720 --> 05:30.440
+I'll go ahead and combine those back and I'll call that wood.
+
+05:30.700 --> 05:32.970
+And there we go.
+
+05:33.090 --> 05:37.600
+Now of course this area doesn't need wood on it and now does it.
+
+05:37.620 --> 05:42.080
+We need to clean that off because that's going to be our speaker fabric.
+
+05:42.090 --> 05:43.640
+We want that.
+
+05:43.710 --> 05:44.500
+All right.
+
+05:44.820 --> 05:48.000
+So let's go ahead and grab that speaker fabric where is that.
+
+05:48.000 --> 05:49.080
+Here it is.
+
+05:49.350 --> 05:55.040
+Let's grab this all select all and copy and let's paste this right in here.
+
+05:56.350 --> 05:59.830
+Now I'll move it up into here.
+
+06:00.110 --> 06:03.670
+Shrink it down a bit and then duplicate it as well.
+
+06:04.160 --> 06:07.640
+Let's see if we can place that Zenith logo on our plate.
+
+06:07.640 --> 06:11.580
+Here I'll come back over to the zenith nameplate.
+
+06:11.930 --> 06:14.650
+And this is pretty small.
+
+06:14.660 --> 06:15.710
+I think he'll work.
+
+06:15.710 --> 06:17.570
+Let's give it a try.
+
+06:17.570 --> 06:23.940
+I'm going to press the key and drag select around this try and get it pretty tight.
+
+06:25.300 --> 06:30.570
+It's a little bit off angle or a little bit turn so I want to have to adjust that.
+
+06:30.670 --> 06:32.290
+But let's go and give this a try.
+
+06:32.290 --> 06:40.540
+I'm going to press controller and see to copy and let's come back over here and I'll paste this here.
+
+06:40.630 --> 06:49.090
+Now I'll move that up in this area and let's see if we can use the warp or distort tools to get this
+
+06:49.150 --> 06:55.220
+the right size and so it isn't quite so angled so I need to turn it a bit.
+
+06:55.220 --> 07:01.140
+Let me just turn it just a hair to get it so it's parallel with the top there.
+
+07:01.160 --> 07:05.640
+Now I need to get these bottom corners in line so to stretch that down.
+
+07:05.720 --> 07:07.620
+But we're going to need to pull these a bit.
+
+07:07.880 --> 07:18.210
+So let's go up here to edit transform and let's try war plus see if this will help me grab this and
+
+07:18.210 --> 07:19.590
+drag it in.
+
+07:21.050 --> 07:25.220
+That edge right there and maybe grab this and yeah there we go.
+
+07:26.040 --> 07:28.030
+Let me grab this and move it in.
+
+07:30.210 --> 07:34.670
+Maybe move that this looks OK I think.
+
+07:35.710 --> 07:37.560
+Something like that.
+
+07:37.600 --> 07:44.770
+So let me clean up the edges here with the key and just drag a key out here to try and clean up these
+
+07:44.890 --> 07:47.730
+edges and delete those.
+
+07:48.040 --> 07:48.970
+And I'll do the same.
+
+07:48.970 --> 07:51.410
+All the way around.
+
+07:51.530 --> 07:57.200
+Now let's go ahead and take this color here and I'm going to maybe use this color to put around the
+
+07:57.200 --> 08:01.580
+edges I kind of like this worn gold material here.
+
+08:01.730 --> 08:09.740
+So I press the I key to grab that color and I'll press the key and then drag a mark key say right in
+
+08:09.740 --> 08:13.890
+here and go to the paint tool.
+
+08:13.940 --> 08:20.870
+We create a new lair and drag it underneath that and we go and I'll just
+
+08:23.590 --> 08:27.000
+add that color underneath it like that.
+
+08:27.320 --> 08:29.420
+And I can do the same thing over here.
+
+08:30.360 --> 08:38.380
+Him in drag and I'll add that color again with the G key or the paint bucket down there.
+
+08:38.550 --> 08:40.000
+Same thing over here.
+
+08:41.550 --> 08:44.080
+So now we've got that done.
+
+08:44.220 --> 08:47.280
+We've got our fabric in place.
+
+08:47.460 --> 08:51.430
+We need to think about the color of these knobs.
+
+08:51.660 --> 09:00.280
+The frame around the tube that panel I think those all can be about the same color what color should
+
+09:00.280 --> 09:01.380
+they be.
+
+09:01.780 --> 09:09.070
+Well maybe like a silver color because if we go over here to that TV image they're all about the same
+
+09:09.070 --> 09:10.550
+color.
+
+09:10.570 --> 09:14.960
+In fact we could even hit the Ickey and sample a color here.
+
+09:15.220 --> 09:16.320
+Give this a try.
+
+09:18.010 --> 09:25.060
+Let's try something like that and let's come back over here and now I'll just create a new layer for
+
+09:25.060 --> 09:25.860
+these.
+
+09:25.990 --> 09:30.280
+Hit the M key and I'll just Marki around these.
+
+09:30.340 --> 09:38.980
+Hit the G key and fill it seems a little too dark let's lighten that up just a bit and a little bit
+
+09:38.980 --> 09:39.980
+more gray.
+
+09:42.480 --> 09:43.080
+And we go.
+
+09:43.080 --> 09:44.920
+I think that should work.
+
+09:45.750 --> 09:47.620
+Let's do this one over here.
+
+09:49.360 --> 09:52.530
+And then this frame here as well.
+
+09:52.600 --> 09:59.300
+Drag a marquee like so and fill that.
+
+09:59.390 --> 10:03.470
+All right so now that to Blits see what we can.
+
+10:03.510 --> 10:05.400
+I like that greenish color here.
+
+10:05.410 --> 10:10.160
+Let's just grab that let's just yeah kind of like that.
+
+10:10.260 --> 10:11.230
+All right.
+
+10:11.230 --> 10:20.310
+And one last time let's grab let's create a new layer and go to our marquee tool and just drag and hit
+
+10:20.330 --> 10:23.220
+G and select that.
+
+10:23.380 --> 10:30.490
+All right before we clean it up and put a black background in it let's go ahead and export it out and
+
+10:30.490 --> 10:32.630
+test it to see how it looks.
+
+10:32.680 --> 10:42.670
+So I'll turn off the movies and I'll go to file an export Export as I go to export all and put that
+
+10:42.670 --> 10:45.850
+in my TV texture folder.
+
+10:46.000 --> 10:50.570
+I'll take out the movies and put an underscore see for color map.
+
+10:50.570 --> 10:54.500
+And now let's just take it into blender and take a look at it.
+
+10:54.580 --> 10:57.340
+So I'm going to need to create a new material here.
+
+10:57.400 --> 11:01.380
+I can do that over here in the Noad editor or over in the properties panel.
+
+11:01.580 --> 11:09.300
+Well just do it over here in the note editor this time and I'll just call it TV and list press shift
+
+11:09.390 --> 11:12.630
+a and go to texture and image texture.
+
+11:12.630 --> 11:16.360
+And now let's bring in that color map.
+
+11:17.700 --> 11:25.040
+Here we go and I'll switch from solid to text you viewport shading and there we go.
+
+11:26.300 --> 11:27.630
+Not too bad now.
+
+11:27.650 --> 11:34.700
+I think this panel here though should probably mirror the color pattern of this so maybe I'll want some
+
+11:34.700 --> 11:36.980
+of that and gold up in here.
+
+11:37.430 --> 11:39.660
+Let's come back to Photoshop.
+
+11:39.680 --> 11:44.550
+And for this panel this is it right here.
+
+11:45.690 --> 11:51.510
+We should probably try and take this color put it in here.
+
+11:54.640 --> 11:56.620
+And we need a little dirt here too.
+
+11:56.630 --> 12:00.680
+This has got a nice patina to it and I kind of want that over here.
+
+12:00.680 --> 12:04.730
+So we'll need a little grunge see what we have again.
+
+12:04.850 --> 12:12.580
+Yeah let me try this bring that in rabbit paste it
+
+12:19.040 --> 12:30.120
+and I'll change the blending mode to multiply let's say Yeah we go something like that and I'll reduce
+
+12:30.120 --> 12:32.310
+the size of it even more.
+
+12:32.310 --> 12:37.950
+So it's pretty small here.
+
+12:37.950 --> 12:38.890
+There we go.
+
+12:39.420 --> 12:41.750
+And maybe reduce the opacity just a bit.
+
+12:43.880 --> 12:49.520
+Here we go something like that so it kind of matches this a little bit.
+
+12:49.590 --> 12:59.880
+And what else did we say oh the knobs we want these little knobs to have black on them right here.
+
+13:00.060 --> 13:09.960
+And let's go ahead and take oh not a not a complete black but a pretty dark gray and lay that down right
+
+13:09.960 --> 13:12.440
+there.
+
+13:12.500 --> 13:17.210
+There are a couple of little housekeeping chores that we should do before we take this into unity.
+
+13:17.210 --> 13:22.040
+First of all I want to take this pivot point and move it down to the center of the grid here so I'll
+
+13:22.040 --> 13:27.680
+just come over here to the Tools panel set origin and origin the 3D cursor.
+
+13:27.700 --> 13:29.250
+There we go.
+
+13:29.390 --> 13:33.160
+The next thing I need to do is think about what kind of materials I want here.
+
+13:33.500 --> 13:39.650
+I'm going to set up the materials in unity but I need to break them out here in Blender before I export
+
+13:39.650 --> 13:40.840
+this.
+
+13:40.850 --> 13:41.990
+So let's think about this.
+
+13:41.990 --> 13:46.910
+First of all I guess we need a material for the wood veneer here.
+
+13:47.980 --> 13:55.410
+We need a material for this frame and the material for the frame may also be the material for the knobs
+
+13:55.420 --> 13:57.640
+here we may be able to use that.
+
+13:58.240 --> 14:00.780
+I think we need a material for the panels.
+
+14:00.880 --> 14:06.490
+They're going to be a little bit different shining us than probably anything else.
+
+14:06.490 --> 14:11.650
+And also the tube here I think we're going to want this to be fairly reflective in the scene so we'll
+
+14:11.650 --> 14:13.940
+probably need material for that.
+
+14:13.960 --> 14:17.970
+So we've got quite a few materials going on here in this one object.
+
+14:17.980 --> 14:24.010
+So what we'll do is we'll go ahead and set up the materials the way we did for the walls of the room.
+
+14:24.010 --> 14:26.900
+One object but multiple materials.
+
+14:26.920 --> 14:38.200
+So for the main one here let's call this TV slash wood because that's that wood veneer.
+
+14:38.770 --> 14:47.020
+Let's Tebb into edit mode and maybe I'll hover over the screen here and press the L key and for this
+
+14:47.020 --> 14:56.290
+let's create a new material slot let's call it let's call it TV screen.
+
+14:57.490 --> 14:59.970
+And let's assign that.
+
+15:00.030 --> 15:02.260
+There we go.
+
+15:02.270 --> 15:12.120
+Let's also do the frames so I'll hover over the frame and I'll also hover over these knobs here.
+
+15:12.140 --> 15:19.700
+Currently I'm selecting by seam or my selections are being delineated by scenes and I don't want that
+
+15:20.090 --> 15:27.110
+I want to just let's use material and that will allow me to select over the seams so I'll just press
+
+15:27.110 --> 15:29.670
+the L key and select these pieces.
+
+15:29.730 --> 15:35.150
+Let's with the new material slot in a new material Let's call this TV.
+
+15:35.300 --> 15:39.750
+I don't know frameless just call it TV frame and hit a sign.
+
+15:39.980 --> 15:46.940
+We're going to need materials for these panels so I'll de-select those and hover over this panel press
+
+15:46.940 --> 15:50.120
+the L key and this one and press the L key here.
+
+15:50.120 --> 15:53.400
+So we want the same material on these pieces.
+
+15:53.540 --> 15:57.320
+Create a new material slot and new material.
+
+15:57.320 --> 16:00.910
+TV What do you think we should call these.
+
+16:01.100 --> 16:04.040
+I don't know let's just call them panels.
+
+16:04.040 --> 16:08.260
+OK let's also do this piece here the fabric.
+
+16:08.270 --> 16:13.290
+That's just one face so I'm going to go to face mode and select that.
+
+16:13.590 --> 16:15.010
+I like that.
+
+16:15.020 --> 16:21.590
+This is going to be the fabric so I'll create a new material stot and a new material and call this TV
+
+16:22.070 --> 16:25.540
+fabric and assign that.
+
+16:25.850 --> 16:33.750
+Now look what I did I did not assign that material to these panels so I better go back and do that.
+
+16:33.750 --> 16:41.460
+Let me hover over and select those with the L key select the panel's material and click assign.
+
+16:41.470 --> 16:42.580
+All right.
+
+16:42.880 --> 16:48.480
+So now if I come up here to the TV would material and hit select.
+
+16:48.490 --> 16:49.620
+That's what I get.
+
+16:49.780 --> 16:50.570
+That's correct.
+
+16:50.620 --> 16:51.650
+OK.
+
+16:52.060 --> 16:57.730
+And I can de-select here and I can go through and just test each one of these.
+
+16:57.750 --> 17:03.610
+Now currently I have the TV frame including the TV screen and that isn't correct.
+
+17:03.610 --> 17:04.120
+Now is it.
+
+17:04.120 --> 17:07.920
+So if I choose the TV screen and I hit select I don't get anything.
+
+17:08.140 --> 17:09.140
+So that's a problem.
+
+17:09.280 --> 17:12.140
+What let's do is let's go back and select that screen.
+
+17:12.400 --> 17:16.210
+And with TV screen selected click a sign.
+
+17:16.210 --> 17:18.970
+Now let's test this again.
+
+17:18.970 --> 17:23.340
+I'll go to a TV frame hit select and that's what I should get.
+
+17:23.350 --> 17:31.390
+So you just sometimes need to go back and make sure that what you got is what you want.
+
+17:31.410 --> 17:32.040
+There we go.
+
+17:32.080 --> 17:32.860
+OK.
+
+17:32.860 --> 17:34.600
+So I think that works.
+
+17:34.600 --> 17:40.060
+We now have our materials in place we have our pivot point where we want it to be.
+
+17:40.270 --> 17:43.840
+I think we are ready to export this out to unity.

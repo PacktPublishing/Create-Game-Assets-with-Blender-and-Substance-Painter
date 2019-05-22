@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.750 --> 00:05.880
+You know I think now that I'm looking at this what would probably be a good idea is to go ahead and
+
+00:05.880 --> 00:13.830
+U-V map the cabinets here on this side of the kitchen on its own U-V map and then over here on this
+
+00:13.830 --> 00:23.010
+side of the kitchen have it be its own U-V map and then have individual U-V maps for the stove and the
+
+00:23.010 --> 00:29.110
+refrigerator and maybe even the sink as well that could be its own object with its own U-V map.
+
+00:29.580 --> 00:33.540
+So that seems like a fairly logical way to split this up.
+
+00:33.540 --> 00:39.180
+There are of course a lot of ways you could do it but I think for our purposes that's probably going
+
+00:39.180 --> 00:41.150
+to be a good way to do it.
+
+00:41.190 --> 00:47.520
+So if we're going to U-V map this side of the room lease the cabinets and the countertops for this side
+
+00:47.520 --> 00:52.650
+of the room is a couple of things we need to do to clean up before we begin.
+
+00:52.650 --> 00:59.130
+First of all I'd like to put a little backsplash right back here at the back of the counter so I'll
+
+00:59.130 --> 01:06.390
+just take this piece here and I think I'll just duplicate it and I'll move it up and I will scale this
+
+01:06.480 --> 01:09.870
+into shape for that backsplash.
+
+01:09.880 --> 01:19.370
+It's probably going to be about let's say that wide and S and Z and maybe about that tall.
+
+01:19.480 --> 01:27.560
+Let's see a frame up with the period key and let's see I think it could be a little bit taller.
+
+01:31.030 --> 01:32.120
+And there we go.
+
+01:32.300 --> 01:34.030
+Yeah I think that'll work.
+
+01:34.190 --> 01:39.380
+I'll go ahead and take this and move it over to the other side I'll duplicate it and hit Y and move
+
+01:39.380 --> 01:41.180
+it over here.
+
+01:41.300 --> 01:47.970
+It looks like we could go ahead and extend this one all the way across like this.
+
+01:47.970 --> 01:55.850
+I think that would be a backsplash behind the sink there and then let's go ahead and take this one that
+
+01:55.850 --> 02:02.480
+we created first and duplicate and hit X and let's move this one over here.
+
+02:05.230 --> 02:05.640
+All right.
+
+02:05.650 --> 02:10.430
+So we have our one wall of cabinets here ready to go.
+
+02:10.450 --> 02:18.670
+The next thing I'll do before I begin U-V mapping is try and take away everything I don't need like
+
+02:18.760 --> 02:24.800
+back here we don't need the faces back here like that.
+
+02:25.360 --> 02:32.050
+And this one as well so I'll go through and just remove all the faces in the back here and it's just
+
+02:32.050 --> 02:34.710
+going to make it easier to a map.
+
+02:34.780 --> 02:39.900
+In addition to removing unneeded polygons.
+
+02:39.920 --> 02:42.940
+All right so I have those removed.
+
+02:43.250 --> 02:49.850
+I see that I've forgotten to add that piece at the bottom this little indented piece here at the bottom.
+
+02:49.850 --> 02:59.390
+Let's go ahead and add that I can grab this part of the cabinet right here and duplicate that.
+
+02:59.390 --> 03:00.830
+Move it down.
+
+03:00.930 --> 03:11.430
+I'll scale it in just a bit and then scale it in the z and we could probably put it right back here
+
+03:11.430 --> 03:13.260
+like this.
+
+03:13.290 --> 03:20.040
+All right so I will go ahead and remove the top and bottom faces here we don't need those.
+
+03:20.160 --> 03:24.080
+That'll just make it more difficult to U-V map.
+
+03:24.390 --> 03:30.340
+I'll hit the three key and the five key and let's bring this up in the here.
+
+03:32.220 --> 03:33.840
+Saying like this
+
+03:37.300 --> 03:42.810
+and I'll grab that face and just looks like it needs to be right about there.
+
+03:42.980 --> 03:43.390
+OK.
+
+03:43.400 --> 03:46.230
+So that I think will work for that.
+
+03:46.310 --> 03:49.530
+We'll also want that over here on the other one.
+
+03:49.700 --> 03:56.930
+So I'll go to the top view and with wireframe in orthographic view go ahead and duplicate this and hit
+
+03:56.930 --> 04:07.860
+the x key and bring it over here and scale it down the X and we go all right.
+
+04:07.930 --> 04:11.420
+So now we have those pieces in place as well.
+
+04:11.560 --> 04:20.850
+I could probably go ahead and take this one duplicate it and move it over all swing it around the z
+
+04:20.850 --> 04:26.730
+axis by R Z 180 and let's put it in over here.
+
+04:28.000 --> 04:31.820
+So and move it all the way down.
+
+04:32.770 --> 04:36.480
+With this face here I'll just move this all the way down to here.
+
+04:37.910 --> 04:38.700
+OK.
+
+04:39.110 --> 04:40.830
+So now we have those.
+
+04:41.010 --> 04:46.770
+Now we can actually begin working on this side and U-V mapping.
+
+04:46.770 --> 04:53.300
+I will also go ahead and take away the backs of the backsplash.
+
+04:57.700 --> 05:07.650
+And the backs of the kitchen counter as well where the countertops we go.
+
+05:07.860 --> 05:10.860
+So we don't have to deal with U-V mapping those.
+
+05:10.860 --> 05:18.100
+Now it's possible that we could get rid of these faces down here.
+
+05:18.100 --> 05:22.420
+We could also get rid of these faces up top.
+
+05:22.420 --> 05:24.980
+I'm not sure though I'm going to go ahead and leave those.
+
+05:24.990 --> 05:28.640
+There's maybe a 2 percent chance that we might ever see those.
+
+05:28.960 --> 05:33.300
+But I'll go ahead and leave them as they are for now.
+
+05:33.340 --> 05:39.240
+One thing about things like these handles here I'm going to delete these two for now.
+
+05:40.100 --> 05:42.290
+And just use the map one of them.
+
+05:42.620 --> 05:47.790
+And once this is U-V mapped then I'll duplicate it for all the others.
+
+05:47.870 --> 05:55.450
+And each of the duplicate U-V islands in the U-V map will be underneath the original.
+
+05:55.640 --> 05:58.480
+So they'll all be in one place now.
+
+05:58.490 --> 06:03.620
+They'll all have the same texture on them because of that but I don't think that will be a problem since
+
+06:03.620 --> 06:05.870
+they're so small in the scene.
+
+06:05.930 --> 06:10.550
+I could also do that with these doors but I don't think I want to.
+
+06:10.550 --> 06:14.330
+I would like these to have some grunge on them.
+
+06:14.330 --> 06:16.550
+That is a little bit differentiated.
+
+06:16.550 --> 06:21.020
+I don't want them to all look the same so I don't think I'm going to use the map.
+
+06:21.030 --> 06:24.530
+One set of doors and then duplicate them all around.
+
+06:24.530 --> 06:27.350
+I think that would look a little too repetitive.
+
+06:27.350 --> 06:33.110
+So having said that let's go ahead and begin I think for ease of use.
+
+06:33.110 --> 06:40.400
+I'm going to go ahead and try and get all of these in a different layer simply so it'll be a little
+
+06:40.400 --> 06:41.840
+bit easier to work with.
+
+06:41.840 --> 06:53.340
+I'll hit him and four and get these things over to the fourth layer him for get that one over there.
+
+06:54.200 --> 06:57.890
+And then all of these as well I think so.
+
+06:59.460 --> 07:00.630
+Grab them all.
+
+07:02.540 --> 07:06.710
+And hit them and for one more there we go.
+
+07:06.710 --> 07:10.690
+All right let's go over here and work on this.
+
+07:10.710 --> 07:20.240
+I will go ahead and go to my U-V editing view my U.V. screen lay out and here I'll begin adding seams
+
+07:20.780 --> 07:22.310
+for the U-V map.
+
+07:22.310 --> 07:27.950
+Now for these here let's go ahead and tab into edit mode and take a look at these.
+
+07:28.100 --> 07:33.430
+Do you think I can just hit you and unwrap and that will just work.
+
+07:33.440 --> 07:36.850
+Let's see you and unwrap.
+
+07:36.860 --> 07:38.770
+No it doesn't look like it will.
+
+07:38.780 --> 07:48.620
+However I can apply my rotation control a scuse me my scale and then tab back into edit mode and hit
+
+07:48.620 --> 07:51.710
+you and unwrap and see how that works.
+
+07:51.740 --> 07:59.230
+That's not too bad although it's pulling quite a lot around the corners so to alleviate that.
+
+07:59.240 --> 08:03.860
+I think what we need to do is add some seams here on each of the corners.
+
+08:04.010 --> 08:10.720
+So I'll go through and do that and go ahead and mark the seams with control.
+
+08:10.740 --> 08:15.680
+He and Mark seem and I'll mark these as well.
+
+08:17.330 --> 08:23.600
+All right so now I'll choose these again you and wrap and that looks a little better.
+
+08:23.600 --> 08:27.560
+So let's go through and do that again.
+
+08:27.590 --> 08:35.250
+Now I could just duplicate this again but it's not too big of a hassle to just mark these seams.
+
+08:35.650 --> 08:40.660
+Go ahead and do that all select all of these and unwrap those.
+
+08:40.660 --> 08:49.000
+Now you can tell because these are square here like the cubit was when it was first created that the
+
+08:49.000 --> 08:57.250
+scale hasn't been applied so I'll go ahead and apply the scale you and unwrap and that looks a lot better.
+
+08:57.250 --> 08:57.560
+All right.
+
+08:57.580 --> 08:58.550
+Let's keep going.
+
+08:58.550 --> 09:01.850
+I'll go ahead and do these other doors in the same way.
+
+09:06.850 --> 09:09.970
+All right so now we have the cabinet doors you have the map.
+
+09:09.980 --> 09:13.700
+Let's go ahead and work on the cabinets.
+
+09:13.750 --> 09:16.170
+The cases here.
+
+09:16.180 --> 09:23.800
+Same process all go through and just mark the seams around the edges here and since we don't have a
+
+09:23.800 --> 09:27.300
+back to them it's going to be a lot easier to work with.
+
+09:27.760 --> 09:35.710
+And I will of course make sure that the scale is applied and unwrap that that looks good and I'll go
+
+09:35.710 --> 09:38.110
+through and do that to all the others as well.
+
+09:41.590 --> 09:44.080
+All right so I've got everything on the top.
+
+09:44.080 --> 09:50.320
+U.V. mapped all go down and do the bottom part of the cabinets down here.
+
+09:50.470 --> 09:57.910
+If we take a look at this particular piece the countertop I'm the press shift H and tab into edit mode
+
+09:58.480 --> 10:05.090
+and for this I'm going to go ahead and split out this bottom piece.
+
+10:05.130 --> 10:07.920
+Go ahead and Marcus seem right down here.
+
+10:09.450 --> 10:18.810
+So that'll split out on its own and then go through and just mark the seams here.
+
+10:19.040 --> 10:24.400
+And remember that there is no face back here so if I select everything.
+
+10:24.800 --> 10:32.360
+Oh well let's go and apply our scale select everything and you and unwraps So there are the components
+
+10:32.360 --> 10:33.330
+of that.
+
+10:33.830 --> 10:42.080
+And it's the U-V island that has the wings on it here that is the top so we know which one is the top
+
+10:42.080 --> 10:44.960
+and which one is the bottom.
+
+10:44.960 --> 10:50.590
+So now it's just a matter of going through and doing the same thing for all the rest of the pieces.
+
+10:50.990 --> 10:57.740
+And then once we're done with all that we'll take a look at getting all the islands into the zero to
+
+10:57.740 --> 11:01.280
+one space here like we did before.
+
+11:01.280 --> 11:05.720
+All right I've got each one of these pieces you've mapped now
+
+11:08.270 --> 11:14.000
+here and now when I want to do is go ahead and combine all of these into one object.
+
+11:14.000 --> 11:18.610
+I'm just going to select everything and then I'm going to press control J.
+
+11:19.100 --> 11:20.750
+And then I will
+
+11:24.270 --> 11:26.070
+tab into edit mode.
+
+11:26.190 --> 11:30.540
+I'm going to go ahead and select everything and press you and unwrap.

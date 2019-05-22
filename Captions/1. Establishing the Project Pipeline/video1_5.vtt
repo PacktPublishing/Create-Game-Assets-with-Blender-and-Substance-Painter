@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.610 --> 00:02.220
+So it's bringing everything back.
+
+00:02.330 --> 00:03.670
+H.
+
+00:03.910 --> 00:07.050
+Now what have we done this yet.
+
+00:07.180 --> 00:11.760
+Did we do this didn't look like we have OK.
+
+00:12.820 --> 00:19.450
+Let's go ahead and take the views down to one let's apply it and let's take a look at what we want to
+
+00:19.450 --> 00:20.290
+take away here.
+
+00:20.290 --> 00:23.110
+I think we could take away most of this
+
+00:25.910 --> 00:32.060
+right in here with the C key acts and faces.
+
+00:32.150 --> 00:36.630
+I think what we should also do is take away down here at the bottom this is going to be against a wall.
+
+00:36.640 --> 00:38.080
+I don't think we can.
+
+00:38.080 --> 00:42.760
+We're going to see anything down here we may not even see anything in the back but I'm going to leave
+
+00:42.760 --> 00:47.950
+that just in case we want to put it up against or pull it out from the wall at all.
+
+00:49.570 --> 00:52.390
+So delete those faces.
+
+00:55.460 --> 01:07.250
+Now for our seam we could probably create a seam or maybe just break this out here.
+
+01:07.660 --> 01:11.630
+Yeah let's do that let's break this out right here and here.
+
+01:14.140 --> 01:17.510
+And that will I think that will be fine.
+
+01:17.510 --> 01:22.300
+Let's control ie and mark a scene there and let's try it.
+
+01:22.310 --> 01:23.550
+I'll hit a.
+
+01:24.080 --> 01:27.580
+Did I apply the transformations.
+
+01:27.590 --> 01:29.410
+I don't think I did.
+
+01:29.510 --> 01:31.100
+I did not see there.
+
+01:31.100 --> 01:31.550
+All right.
+
+01:31.580 --> 01:47.960
+So control a rotation in scale hit you and unwrap Let's try angle based conformal doesn't really matter.
+
+01:47.960 --> 01:50.050
+OK I'll go with angle based.
+
+01:50.120 --> 01:55.760
+Now what I want to do ultimately I will do the little feet down here.
+
+01:55.760 --> 02:03.620
+But what I want to do first is delete these pieces right here because I haven't U-V mapped any of these
+
+02:03.620 --> 02:09.400
+write X and delete and I haven't be mapped this at all either so X and delete that.
+
+02:09.590 --> 02:13.070
+So now I just have the things that I've actually U-V mapped.
+
+02:13.130 --> 02:14.970
+These are the ones I want to keep.
+
+02:15.020 --> 02:21.170
+Now I want to duplicate these over and fill up the couch with them so I like this.
+
+02:21.170 --> 02:29.390
+And this may go to my top view and my orthographic view with the five key press shift D and Y and move
+
+02:29.390 --> 02:30.880
+these over a bit.
+
+02:31.190 --> 02:40.700
+If you'll just select this and move it over and even these out a bit like that and then I'll press shift
+
+02:40.820 --> 02:43.660
+D and Y and move these over.
+
+02:43.970 --> 02:44.900
+OK.
+
+02:44.900 --> 02:53.330
+Now this one this one if I just press shift D and Y and and move this over here you can see that the
+
+02:53.330 --> 02:57.320
+problem is is you've got that and that's ugly.
+
+02:57.350 --> 02:59.030
+So you don't want that.
+
+02:59.030 --> 03:04.660
+So what I can do is I can actually flip this I can actually mirror this in the y axis.
+
+03:04.790 --> 03:11.420
+I mean the five key to go back to perspective view to do then I can come down here to the object menu
+
+03:11.700 --> 03:20.310
+go to mirror and then choose Y global and then hit enter and then we go.
+
+03:20.330 --> 03:23.230
+Now it's been flipped over.
+
+03:23.250 --> 03:24.600
+All right.
+
+03:24.600 --> 03:31.500
+So there we've got our couch with all the pillows U-V mapped which is kind of nice.
+
+03:31.920 --> 03:40.800
+What we want to do now is join all these objects together and put them all in the same U-V map so that
+
+03:40.800 --> 03:45.820
+we can put all one material like this glorious floral pattern over here.
+
+03:45.840 --> 03:51.420
+So if I just select everything shifts like everything here
+
+03:54.160 --> 03:59.280
+now I can join them all together by pressing control J.
+
+03:59.380 --> 04:01.960
+And that'll bring them all together.
+
+04:01.960 --> 04:03.530
+And look what happened over here.
+
+04:03.700 --> 04:10.950
+Makow this one object because that happened kind of flipped it kind of changed colors.
+
+04:10.990 --> 04:16.210
+The reason why that happened is because it was mirrored in when it was mirrored and then we applied
+
+04:16.210 --> 04:17.940
+the transforms on it.
+
+04:18.070 --> 04:24.970
+The normal's or the faces are pointing in now instead of pointing out in other words we're seeing the
+
+04:24.970 --> 04:31.300
+back side of the polygons and we don't want that because when we take this into unity or any game engine
+
+04:31.390 --> 04:36.040
+you can't see the back of a poly on in other words you'll see right through it.
+
+04:36.050 --> 04:37.210
+It'll be transparent.
+
+04:37.360 --> 04:43.350
+So this arm of the couch will be transparent and we don't want that to happen.
+
+04:43.390 --> 04:47.180
+So what we can do is tab into edit mode.
+
+04:47.200 --> 04:55.990
+You can hover over this and press the key to select all linked faces and we can delimit that by seam
+
+04:56.020 --> 05:03.190
+or the normal's or biomaterials So if I press material then it'll like the whole thing because it's
+
+05:03.190 --> 05:08.410
+a continuous single material over that whole piece of the object.
+
+05:08.410 --> 05:16.140
+Now I can press control n and that will flip the normal's or the faces back out again.
+
+05:16.150 --> 05:19.720
+So now everything's facing out.
+
+05:19.770 --> 05:28.960
+OK so now let's go back to that U-V editing view and if we tab into edit mode and we hit the A key I'm
+
+05:28.960 --> 05:31.580
+going to hit this button right down here again.
+
+05:31.760 --> 05:35.530
+We hit the A key we can see that it is a total mess.
+
+05:35.740 --> 05:41.270
+All the movies are overlapping each other and it's just that's not going to work.
+
+05:41.410 --> 05:44.440
+I'm going to press the control up arrow here.
+
+05:44.440 --> 05:52.600
+So what we need to do is spread all these Uvas out and arrange them so they aren't overlapping like
+
+05:52.600 --> 05:57.000
+I could take this and G and move it over here.
+
+05:57.010 --> 06:00.850
+And then I could see and move this over here and that would take a while.
+
+06:00.850 --> 06:02.350
+So we don't want to do that.
+
+06:02.370 --> 06:04.950
+I can hit the A key to select everything.
+
+06:05.230 --> 06:08.520
+And what I'll do is use this Uvas menu.
+
+06:08.560 --> 06:15.850
+And over here we have average Island scale and we have pack islands average and scale we'll take every
+
+06:15.850 --> 06:23.050
+island in here that is selected I should say and make them the same scale in proportion as on the actual
+
+06:23.050 --> 06:24.130
+3D object.
+
+06:24.160 --> 06:25.710
+So I'll press control.
+
+06:26.370 --> 06:30.710
+So that made the big things big and the small things small.
+
+06:31.150 --> 06:38.710
+And now the trick is to take all these islands with their proportional size intact and fit them into
+
+06:38.710 --> 06:46.090
+this zero to one space here right into there into into that gray Square.
+
+06:46.090 --> 06:55.410
+To do that we can use the pack Islands which is control P and then we go Navman pest control up arrow.
+
+06:55.600 --> 07:02.090
+We can always rotate them here like this kind of like that actually.
+
+07:02.510 --> 07:04.450
+Yeah I kind of like that.
+
+07:04.450 --> 07:07.520
+So there we have our U-V mapped couch.
+
+07:07.900 --> 07:10.210
+Now for the legs.
+
+07:10.270 --> 07:16.710
+I'm going to have them be a separate object because they're going to need to be a separate material.
+
+07:16.720 --> 07:23.170
+This is going to be all one material but the legs here are going to be wood or metal or something other
+
+07:23.170 --> 07:24.600
+than fabric.
+
+07:24.610 --> 07:33.080
+So to do that I'm going to come in here and select all of them and join them together with control.
+
+07:33.120 --> 07:36.190
+Jay I'll tab into edit mode.
+
+07:36.220 --> 07:41.560
+Good edge mode and I'm just going to select an edge on each one of these kind of on the inside
+
+07:46.120 --> 07:48.940
+kind of like this and like this.
+
+07:48.940 --> 07:51.650
+I'm just pressing shift here.
+
+07:51.910 --> 07:55.770
+Control the mark seam.
+
+07:55.810 --> 08:04.660
+Now if I select everything with the key go back to my U-V editing view and press you and unwrap that
+
+08:04.750 --> 08:08.890
+unwraps all of them except it didn't work on two of them now did it.
+
+08:08.890 --> 08:15.910
+Which ones did it work on it looks like it worked on these but somehow I lost my seams over here.
+
+08:15.940 --> 08:28.690
+So I'll have to just add them back like that work seem now select everything you do and wrap.
+
+08:28.690 --> 08:29.400
+All right.
+
+08:29.530 --> 08:33.590
+So there is the feet.
+
+08:33.880 --> 08:42.910
+Now the last thing let's do real quick before we finish up is let's give these a name and the material
+
+08:42.920 --> 08:50.570
+we're going to need a name and a Tiriel on each of these so I'm going to select the couch part and I
+
+08:50.590 --> 08:55.830
+see a pier that is currently called cube 0 0 3 and it changed this to come.
+
+08:56.390 --> 09:06.730
+I'll call this couch fabric actually and see that here I'll also select the legs and I'll call this
+
+09:06.730 --> 09:12.280
+couch would have that be a wood material.
+
+09:12.310 --> 09:18.670
+Now over here in the materials panel click right here to bring up the materials panel and click new
+
+09:19.450 --> 09:28.150
+and for this for couch for the wood feet I'll just paste that name of the object into the name of the
+
+09:28.150 --> 09:29.200
+material.
+
+09:29.440 --> 09:30.560
+Same thing over here.
+
+09:30.580 --> 09:37.430
+I'll just paste the couch fabric name into the material field here.
+
+09:37.810 --> 09:46.000
+So we have our object names the same as our material names and that will help us keep things organized
+
+09:46.030 --> 09:48.480
+as we take things into unity.
+
+09:48.520 --> 09:53.740
+So when the next video let's go ahead and do that let's do a test run of taking it into unity and then
+
+09:53.740 --> 09:56.030
+we can begin working on texturing it.

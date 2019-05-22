@@ -1,0 +1,682 @@
+WEBVTT
+
+00:01.010 --> 00:03.920
+So for our next object let's go ahead and create a coffee table.
+
+00:03.920 --> 00:09.830
+I mean we've got the sofa let's create a coffee table here now in Blender we were able to run the game
+
+00:09.860 --> 00:12.060
+and then walk around the room.
+
+00:12.110 --> 00:18.520
+We can do that here in blender as well if you press shift F and then hit the tab key.
+
+00:18.710 --> 00:26.120
+You can drop down to the ground now and I can move around with the mouse here and then press WASC D
+
+00:26.150 --> 00:27.600
+and move around.
+
+00:27.740 --> 00:33.070
+So I going to I'll try and just go in here and see how things look.
+
+00:34.060 --> 00:36.440
+Doesn't look too bad.
+
+00:36.610 --> 00:41.980
+I can move around here and to get a sense of what the room is going to feel like.
+
+00:41.980 --> 00:45.910
+So it's kind of a nice thing to be able to do here in blender as well.
+
+00:46.920 --> 00:47.320
+Yeah.
+
+00:47.400 --> 00:51.460
+So why don't we put a coffee table right in here.
+
+00:51.510 --> 00:54.110
+I'm going to hit the escape key now.
+
+00:54.210 --> 00:57.380
+And now we're back to our original view.
+
+00:57.560 --> 01:01.770
+So I'm going to create this very simple kind of coffee table here.
+
+01:01.920 --> 01:08.690
+It's got woodgrain for the legs and frame and then it's got this formica finish.
+
+01:08.820 --> 01:16.770
+And I think what I want to do is use two different materials and two different U-V maps and yet keep
+
+01:16.770 --> 01:17.920
+it all one object.
+
+01:18.030 --> 01:19.290
+So let's give that a try.
+
+01:19.290 --> 01:26.400
+I'm going to go over to a brand new layer here and let's just begin creating this coffee table.
+
+01:26.550 --> 01:28.140
+It looks like it's pretty straightforward.
+
+01:28.140 --> 01:31.770
+It's just some cubes so let's go ahead and create a cube here.
+
+01:31.920 --> 01:32.670
+I'm going to.
+
+01:32.700 --> 01:33.630
+First off.
+
+01:33.630 --> 01:42.780
+Go to face mode and select the top face and the bottom face and go ahead and delete these with X and
+
+01:42.780 --> 01:44.450
+delete faces.
+
+01:44.880 --> 01:49.370
+And now I can begin working on the legs here.
+
+01:49.490 --> 01:57.480
+I'm going to scale that down a bit and maybe make it a little bit taller with s and Z and this can be
+
+01:57.480 --> 01:59.890
+one of our legs.
+
+02:00.110 --> 02:07.280
+I'll bring it up just above the grid here because it looks like it's got little feet underneath there
+
+02:07.280 --> 02:09.070
+that's holding it up off the ground.
+
+02:10.020 --> 02:12.560
+So that can be one of our legs.
+
+02:12.900 --> 02:17.010
+Maybe I'll move this over just to get a sense of the size of it.
+
+02:17.010 --> 02:24.180
+Let's say something like that and let's work on this piece right up here on top or create another cube
+
+02:24.190 --> 02:32.820
+you can do that with shift a and then select cube from the menu here and I'll press S Z to scale it
+
+02:32.820 --> 02:33.580
+down.
+
+02:35.070 --> 02:41.220
+And let's scale it out in the y s y maybe something like this.
+
+02:41.290 --> 02:48.960
+Let's see what we have here yeah maybe a little bit longer x y something like that maybe.
+
+02:49.570 --> 02:52.480
+And I'll bring this up to about where we want it.
+
+02:52.480 --> 02:53.760
+Something like that.
+
+02:55.020 --> 02:57.690
+And I'll go ahead and shrink this leg down a bit.
+
+02:57.690 --> 03:04.000
+I just like to try and get a sense of the scale and proportion of the objects as I'm going here.
+
+03:04.140 --> 03:09.960
+So I'm just going to select these edges here and bring them down a bit like that
+
+03:12.620 --> 03:16.460
+and let's see how this looks if I slide that in here.
+
+03:19.530 --> 03:20.060
+All right.
+
+03:20.070 --> 03:27.540
+I think that's beginning to look OK I think I want to bring the scale or the diameter of the leg down
+
+03:27.540 --> 03:27.980
+a bit.
+
+03:27.990 --> 03:34.260
+So to do that I'm going to hit the ESC key and then I do not want to scale it in the z axis or press
+
+03:34.470 --> 03:35.610
+shift Z.
+
+03:35.700 --> 03:38.600
+And now I'm only scaling in the x and y.
+
+03:38.700 --> 03:41.850
+Let's bring it down about like that.
+
+03:41.850 --> 03:48.930
+Now for this top piece it looks as if we've got an angled bit right here.
+
+03:48.930 --> 03:55.480
+Now I could insert an edge loop and scale the face down on the top.
+
+03:55.480 --> 03:58.180
+Of course there's always multiple ways to do things.
+
+03:58.180 --> 04:03.520
+But let's work with a new tool here for this course.
+
+04:03.520 --> 04:12.010
+Let's go ahead and press alt and click and shift and click these edges around here.
+
+04:12.010 --> 04:14.470
+And now we can bevel this.
+
+04:14.530 --> 04:23.200
+So if I press control B and drag with the mouse you can see I can bevel this but that bevels looking
+
+04:23.200 --> 04:24.260
+awfully flat.
+
+04:24.280 --> 04:25.210
+I'm not getting it.
+
+04:25.210 --> 04:28.480
+So it's angled in like this.
+
+04:28.480 --> 04:32.110
+See how it's just staying on top.
+
+04:32.410 --> 04:39.250
+So what the problem is once again is that we don't have uniform scale for our object.
+
+04:39.370 --> 04:45.850
+If we come over here to the properties panel by pressing the in key and bring up here we can see that
+
+04:45.850 --> 04:48.490
+we do not have uniform scale.
+
+04:48.490 --> 04:52.290
+So let's just come over here and press control a.
+
+04:52.300 --> 04:57.940
+When we're in Object mode and go ahead and apply the scale.
+
+04:57.940 --> 05:05.230
+Now if we tab back into edit mode with these edges still selected I'll press control B and pull out
+
+05:05.230 --> 05:11.740
+with the mouse and you can see now we're getting more of the effect that we want and I'm going to press
+
+05:11.740 --> 05:15.960
+the shift key as I drag just to make the move and a little bit slower.
+
+05:17.310 --> 05:18.910
+So something like that.
+
+05:19.320 --> 05:25.830
+So once again having uniform scale is an important thing for many of the tools that you're going to
+
+05:25.830 --> 05:28.520
+be using and Blendr.
+
+05:28.540 --> 05:33.050
+So we've got that now we need a little piece on the top.
+
+05:33.050 --> 05:39.260
+There's just this little extra piece right up here that's that for Mike a bit that we're going to have
+
+05:39.260 --> 05:41.270
+a new material for.
+
+05:41.300 --> 05:51.680
+So I'll just select this one face of duplicate it with shift d hit enter and Nauman to drag up just
+
+05:51.680 --> 06:00.570
+a little bit and where it is going to scale it in just a hair and we go.
+
+06:00.910 --> 06:10.270
+And then I can press e to extrude and extrude on down now look at what happened again here remember
+
+06:10.270 --> 06:15.850
+with the arm of the couch we had the problem with our normal's they were flipped.
+
+06:16.030 --> 06:19.020
+Well we're having the same issue here as well.
+
+06:19.180 --> 06:24.660
+I mean just scale this in a bit in the X. It looks like I could scaled in just a bit here.
+
+06:24.670 --> 06:26.020
+Yeah I like that.
+
+06:26.440 --> 06:30.780
+So we've got this problem with this part of the table.
+
+06:30.790 --> 06:38.350
+I'm going to hover over a face and press the L key to slide the whole thing the whole piece even though
+
+06:38.350 --> 06:44.800
+that's part of the rest of the object of the top of the table here pressing the L key only selects the
+
+06:44.800 --> 06:46.390
+linked components.
+
+06:46.390 --> 06:48.860
+So I can then press control in.
+
+06:49.000 --> 06:56.170
+And now all of the normals are facing the proper direction they're facing out.
+
+06:56.170 --> 07:03.840
+Now I don't need that face underneath here so I could probably press shift h to isolate it.
+
+07:04.060 --> 07:13.530
+Select that one face x and delete faces and now press alt h to bring everything else back.
+
+07:13.570 --> 07:13.840
+All right.
+
+07:13.840 --> 07:20.820
+So now we've got the table top with that little formica top thing there.
+
+07:20.900 --> 07:23.720
+We also need this piece right here.
+
+07:24.710 --> 07:26.850
+Let's take a look at creating that.
+
+07:27.110 --> 07:36.320
+Once again I'll just come over to the Create tab impress cube and let's scale it down with the key scale
+
+07:36.400 --> 07:42.150
+and the x with x and x and let's move it up into place.
+
+07:43.030 --> 07:49.720
+I think I'll hit the one key no let's go with the three key here and the five key just so I can come
+
+07:49.720 --> 07:58.670
+into orthographic view and take a look at this all kind of arrange these properly something like that
+
+08:00.370 --> 08:03.710
+this piece looks like maybe it could be a little bit smaller.
+
+08:05.920 --> 08:13.130
+And then I'll scale in the y s y scale that out there we go.
+
+08:14.660 --> 08:17.650
+I can take this piece now and duplicate it.
+
+08:17.870 --> 08:21.780
+Shift d the y key and drag it over here.
+
+08:23.310 --> 08:24.380
+Here we go.
+
+08:24.900 --> 08:32.590
+Now select this piece here and move it forward in line with the legs of the table.
+
+08:32.750 --> 08:38.110
+Hit the three key note the one key and move this over.
+
+08:38.120 --> 08:42.850
+Hit the Zeek here to go to wireframe and let's just put it right about there.
+
+08:43.850 --> 08:47.920
+All right so now we can select these three pieces.
+
+08:48.280 --> 08:58.990
+Go to our top view with the seven key and shift D and hit the x key and move these over something like
+
+08:58.990 --> 08:59.560
+that.
+
+09:01.590 --> 09:05.380
+And I'll just take this one and move it over just a little bit like that.
+
+09:05.380 --> 09:06.330
+There we go.
+
+09:07.280 --> 09:15.130
+Now we should create the pieces on the ends so I'll duplicate this and hit enter drag it into the center
+
+09:15.130 --> 09:27.660
+a bit and then I'll rotate it with our z 9:0 and move this up and scale it in and the x x x and then
+
+09:27.660 --> 09:33.720
+we just need to put it down here shifty and the Y key and move it down here.
+
+09:33.960 --> 09:41.030
+I think I'd like little feet on the bottom here so maybe I'll create a cylinder.
+
+09:41.190 --> 09:47.640
+We don't need 32 sides to it maybe I'll just take it down to oh I don't know eight and we don't need
+
+09:47.940 --> 09:53.210
+the Caps filled so I'll change that to nothing and now scale this down.
+
+09:54.600 --> 09:56.070
+Pretty small here.
+
+09:57.690 --> 10:00.630
+And let's take a look.
+
+10:01.520 --> 10:08.340
+You know we go hit the one key on the numpad to go to the front view.
+
+10:09.670 --> 10:13.890
+And I'll bring this up just a smidge to there.
+
+10:15.480 --> 10:19.860
+And I just want this underneath here just in case it's ever seen.
+
+10:19.860 --> 10:23.170
+It's probably not going to be seen really.
+
+10:23.230 --> 10:27.110
+I'll press shift D and X and drag it over to the other side.
+
+10:28.490 --> 10:36.160
+Go to the top view with the seven key and let's put these in place right down here.
+
+10:37.680 --> 10:41.300
+Shifty why and put these in place right over here.
+
+10:41.370 --> 10:42.970
+OK.
+
+10:43.010 --> 10:47.080
+All right so now that we have our coffee table let's go ahead and quickly U-V map it.
+
+10:47.480 --> 10:51.940
+So I'll come back over here to the U-V editing screen layout.
+
+10:52.130 --> 10:56.060
+I'll select everything and frame it up with the period key.
+
+10:56.060 --> 11:00.970
+So let's begin now that everything's selected Let's begin by just joining everything into one object
+
+11:00.980 --> 11:05.580
+because we want this piece to be all one object home and press control J.
+
+11:05.710 --> 11:08.510
+And now everything is on one object.
+
+11:08.510 --> 11:14.290
+I want the pivot point of this object to be in the center here right on the floor of the grid.
+
+11:14.360 --> 11:19.190
+And this is one of the reasons why I tend to model things right in the center of the grid.
+
+11:19.190 --> 11:27.290
+It's really easy to do things like mirroring to snap the pivot point to the 3D cursor in the center
+
+11:27.290 --> 11:32.550
+of the grid so everything is centered and the pivot point is where it needs to be going to hit the T
+
+11:32.570 --> 11:35.450
+key and open up the Tools panel here.
+
+11:35.470 --> 11:43.550
+And I just want to go up to the Tools tab and choose set origin to 3D cursor so that makes sure that
+
+11:43.790 --> 11:50.080
+the pivot point of this object is on the floor in the center so it's easy to move around a tab into
+
+11:50.100 --> 11:54.450
+edit mode and let's begin U-V mapping this object.
+
+11:54.710 --> 12:05.030
+We could probably just select the inside edges of these legs here and add seams to these here control
+
+12:05.030 --> 12:06.980
+the mark seam.
+
+12:07.280 --> 12:15.650
+We could probably do the same for our little tiny feet down here just select an interior edge of each
+
+12:15.650 --> 12:16.320
+of these.
+
+12:16.340 --> 12:25.700
+And Marcus seem like that and these pieces here these crossbars we don't really need the end pieces
+
+12:25.730 --> 12:27.320
+for these parts.
+
+12:27.320 --> 12:28.160
+Now do we.
+
+12:28.160 --> 12:34.850
+So if I hit the Z key to go to wireframe and then I'm going to control tab and hit the three key to
+
+12:34.850 --> 12:36.380
+go to face mode.
+
+12:36.410 --> 12:38.850
+These faces right in here.
+
+12:38.960 --> 12:45.830
+They're not going to be seen so I'm just going to select those and hit X and delete faces because frankly
+
+12:45.860 --> 12:49.080
+I don't want to be mad at them if they're not going to be seen.
+
+12:49.100 --> 12:49.930
+Get rid of those.
+
+12:49.930 --> 12:59.040
+That makes my life a lot easier because now I can just come in here and select these edges.
+
+13:00.350 --> 13:08.280
+On the inside bottom and just mark a seam and there we go and we're done with those.
+
+13:08.330 --> 13:17.660
+Now for this top piece we could probably try all clicking this edge say and each one of these alt shift
+
+13:17.660 --> 13:24.160
+click the is and probably Mark seems right along here.
+
+13:24.260 --> 13:26.930
+Let's try that.
+
+13:27.140 --> 13:35.870
+And I think maybe I'll mark ISim all the way around here as well just to split out that bottom piece
+
+13:37.460 --> 13:39.550
+I think I'll split out that top piece too.
+
+13:39.560 --> 13:40.390
+Why not.
+
+13:40.760 --> 13:47.320
+I'm going to go ahead and mark a scene here and then split these out as well.
+
+13:50.600 --> 13:55.790
+And we go that makes my life a little easier.
+
+13:56.100 --> 13:59.500
+And that top piece let me just see how that works.
+
+13:59.730 --> 14:05.520
+Since we don't have a bottom to it it may just open up just fine in the mapping.
+
+14:05.520 --> 14:06.780
+We'll see.
+
+14:06.780 --> 14:08.590
+So I'll hit the A key.
+
+14:09.290 --> 14:10.670
+To select everything.
+
+14:10.880 --> 14:12.380
+I'll press you.
+
+14:12.440 --> 14:13.410
+Now wait a minute.
+
+14:13.520 --> 14:16.550
+I didn't check the scale so let's do that.
+
+14:16.550 --> 14:18.290
+I'll hit escape.
+
+14:18.290 --> 14:26.240
+Hit the in key and tab back into object mode and sure enough let me apply the transforms for the scale
+
+14:26.240 --> 14:29.800
+here control a scale.
+
+14:29.800 --> 14:30.560
+All right.
+
+14:30.590 --> 14:36.880
+Now let's go back in to edit mode select everything hit the key and unwrap.
+
+14:36.970 --> 14:38.640
+All right that's not looking too bad.
+
+14:38.680 --> 14:42.810
+I'll switch from conformable to angle based and see what I get.
+
+14:43.130 --> 14:45.640
+Yeah I can let conformal a little better.
+
+14:45.920 --> 14:52.460
+Well that's not too bad but I'd kind of like all of these pieces going in the same direction because
+
+14:52.460 --> 14:58.490
+it's going to be easier for me to lay down woodgrain and have it all go in a certain direction.
+
+14:58.550 --> 15:01.790
+If all of these are aligned the same.
+
+15:01.790 --> 15:09.050
+So to maximize this screen here all hover over it and press control up arrow and then.
+
+15:09.050 --> 15:12.090
+Now I can work with just the U-V map here.
+
+15:12.990 --> 15:20.460
+So I think what I want to do is take everything and make it go in the same direction.
+
+15:20.460 --> 15:23.710
+So maybe I want it all to be up and down.
+
+15:23.790 --> 15:27.930
+So I'll take something like this and press our 9:0.
+
+15:28.410 --> 15:36.600
+And now we can begin arranging the is so something like this are 9:0 And that's kind of why I broke
+
+15:36.600 --> 15:46.950
+the top of the coffee table apart from the beveled sides so I could turn these in the same direction
+
+15:46.950 --> 15:48.200
+as everything else.
+
+15:50.000 --> 15:53.690
+And for this it looks like here is that top part.
+
+15:53.750 --> 15:59.900
+This I think is going to be its own U-V maps so I'm going to move this aside and these pieces here are
+
+15:59.900 --> 16:03.790
+the underside and the top of the coffee table.
+
+16:03.800 --> 16:06.650
+But they're really not going to be seen very much at all.
+
+16:06.670 --> 16:14.060
+So I'm going to shrink these down quite a bit and rotate them 90 degrees and I'll put them with all
+
+16:14.060 --> 16:15.610
+of these.
+
+16:15.800 --> 16:19.050
+Select the key and click and drag.
+
+16:20.260 --> 16:24.330
+To select all of these.
+
+16:24.530 --> 16:26.170
+And let's see how this works.
+
+16:26.180 --> 16:34.430
+I'm going to scale these up some and try and maximize the resolution within this zero to one the space.
+
+16:34.430 --> 16:37.640
+Let me try and put these in place in here.
+
+16:39.200 --> 16:40.300
+There we go.
+
+16:40.750 --> 16:41.160
+All right.
+
+16:41.190 --> 16:45.500
+Oh and I want to put these guys right in here.
+
+16:46.700 --> 16:50.040
+On this map as well I put them over here.
+
+16:50.060 --> 16:51.860
+Why not.
+
+16:51.920 --> 16:53.040
+Here we go.
+
+16:53.540 --> 16:58.430
+I'll press control up arrow to go back to my normal view.
+
+16:58.430 --> 17:02.490
+So there is the U-V map of the woodgrain part.
+
+17:02.600 --> 17:08.420
+So I will go ahead and create the material for the woodgrain or go to object mode.
+
+17:08.720 --> 17:22.400
+New material called this coffee table would and now tab into edit mode and just select this top piece
+
+17:22.410 --> 17:31.770
+this formica piece I'll hit the L key on one of the edges right there and I will create a new material
+
+17:31.770 --> 17:42.320
+slot A new material and I'll call this coffee table top mainly because I don't know how to spell formica
+
+17:43.680 --> 17:51.570
+so now I want to assign these faces to that coffee table top material.
+
+17:51.570 --> 17:55.920
+So with that slight it all just click a sign.
+
+17:55.950 --> 18:01.860
+And now if I click de-select it will de-select that I click select it will select that and then if I
+
+18:01.950 --> 18:05.730
+select the word in hit select it will select that.
+
+18:05.730 --> 18:15.570
+So notice when I select everything in the table would material we see only the U-V map for that part.
+
+18:15.840 --> 18:24.630
+And if I de-select that and like the coffee table and hit select We only see the U.V. map of this.
+
+18:24.750 --> 18:30.490
+Now I can take this and move it over and scale it up.
+
+18:31.110 --> 18:35.420
+So it fits in the whole U-V map there.
+
+18:35.460 --> 18:42.570
+Now when we take these in the unity it will see these as two separate materials with two separate U-V
+
+18:42.570 --> 18:43.320
+maps.
+
+18:43.320 --> 18:51.900
+So in the next video what let's do is go ahead and export the U.V. map out to photoshop texture it and
+
+18:51.900 --> 18:54.150
+then take it into unity and test this.

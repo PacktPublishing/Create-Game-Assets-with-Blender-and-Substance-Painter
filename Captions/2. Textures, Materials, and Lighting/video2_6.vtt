@@ -1,0 +1,361 @@
+WEBVTT
+
+00:00.780 --> 00:06.000
+All right we're going to start working on modeling our assets and bringing them here into unity.
+
+00:06.000 --> 00:13.020
+But you know what I was thinking as we create these and as we texture them and bring them in here it
+
+00:13.020 --> 00:19.410
+would be nice to have the lighting set up here in the room a little bit more like it's going to be for
+
+00:19.410 --> 00:26.910
+the final version because take a look at the lamp here let me zoom in here with the F key and you can
+
+00:26.910 --> 00:30.320
+see the reflection on this object right.
+
+00:30.390 --> 00:36.770
+You can see that and all it is is the reflection of this big environment.
+
+00:36.840 --> 00:44.620
+Just that horizon line and the sky and that's not very realistic to what's going to be in the room.
+
+00:44.640 --> 00:52.050
+In addition this directional light here is more like sunlight in that it's just parallel rays of light
+
+00:52.470 --> 00:59.160
+spread out infinitely across the scene and lights the scene in a way that we really wouldn't see inside
+
+00:59.160 --> 01:00.820
+an interior room.
+
+01:01.200 --> 01:08.550
+And as I'm thinking about it this particular room is going to be the home of two guys who are trying
+
+01:08.550 --> 01:09.620
+to keep a secret.
+
+01:09.660 --> 01:18.570
+The overall project working on here is for this to be an apartment of people who are trying to hide
+
+01:19.210 --> 01:22.490
+I don't want people to see them so the blinds are closed.
+
+01:22.500 --> 01:26.350
+The place is usually pretty dark even during the day.
+
+01:26.730 --> 01:33.750
+So thinking about the story and and what's going to happen in this environment makes me think we should
+
+01:33.750 --> 01:41.730
+go ahead and work on some of the lighting now so that as we bring our other assets in we can get a sense
+
+01:41.730 --> 01:47.340
+of how they're going to look and what tweaks they might need in terms of the texturing and even the
+
+01:47.340 --> 01:48.120
+modeling.
+
+01:48.450 --> 01:51.850
+So let's think about lighting here.
+
+01:52.020 --> 01:58.000
+First of all let's deal with that reflection as we saw on the lamp here.
+
+01:58.110 --> 02:03.440
+The reflection here is just not at all appropriate for an indoor scene.
+
+02:03.450 --> 02:13.020
+What we can do is use an HDR image to kind of fake the reflections here that are happening on relatively
+
+02:13.200 --> 02:14.340
+shiny objects.
+
+02:14.340 --> 02:23.370
+So what I've done is I've gone out to Google and I've searched for HDR II images and I've used the search
+
+02:23.370 --> 02:31.140
+tools and chosen large and I've found some HDR images here that look pretty good.
+
+02:31.140 --> 02:38.370
+Now keep in mind if you are actually producing a game to sell you need to acquire the rights to images
+
+02:38.370 --> 02:42.150
+to use them right or create them on your own.
+
+02:42.240 --> 02:52.850
+But for our purposes here I want to find an image that is kind of an indoor scene.
+
+02:52.920 --> 02:56.670
+And I found one here I think this is going to be kind of nice.
+
+02:56.970 --> 03:00.170
+This image can be found at Lugar texture here.
+
+03:00.180 --> 03:05.920
+I'm going to open this up right here.
+
+03:06.040 --> 03:08.670
+So please go check them out.
+
+03:08.680 --> 03:10.920
+They have some nice textures here.
+
+03:11.110 --> 03:13.520
+So many use this image.
+
+03:13.600 --> 03:19.630
+So the reason why I like this it it's an interior scene it has the ceiling and floor it has some wood
+
+03:19.630 --> 03:20.980
+color to it.
+
+03:20.980 --> 03:25.290
+I think it's going to work well here in our scene so let's bring it in.
+
+03:25.300 --> 03:31.670
+I'm going to click and drag it right into my assets folder right here.
+
+03:33.480 --> 03:34.890
+And there we are.
+
+03:34.950 --> 03:44.110
+I want to select it and I want to change it from a texture to a cube map and hit apply.
+
+03:44.300 --> 03:50.930
+Now you can see that the texture has been kind of wrapped around a sphere here and this will give us
+
+03:50.930 --> 03:55.420
+the ability to apply this to a cube map material.
+
+03:55.670 --> 03:57.770
+So let's create that material now.
+
+03:57.770 --> 04:06.170
+I'm going to right click go to create material and let's call this let's call this HDR II.
+
+04:06.650 --> 04:08.230
+So we know what it is.
+
+04:08.630 --> 04:17.870
+And for this let's change the type of material or Shater it is from standard to Sky box and cube map
+
+04:17.870 --> 04:19.280
+right here.
+
+04:19.280 --> 04:28.190
+So now that we've done that we can take our cube map here and drag it right into the cube map here and
+
+04:28.190 --> 04:29.330
+there we go.
+
+04:29.330 --> 04:33.520
+Now you can see we're inside that cube map right.
+
+04:33.780 --> 04:36.700
+And you can see all around here.
+
+04:36.740 --> 04:40.390
+Now we need to apply this to the lighting of the scene.
+
+04:40.400 --> 04:50.540
+So here in lighting we want to drag our new cube map our HDR cube map here right into the skybox slot.
+
+04:50.540 --> 04:57.560
+So grab this drag it up here drop it there and now look what happens.
+
+04:57.560 --> 05:05.540
+The quality of the light changes quite a bit now because we're getting a huge amount of diffuse light
+
+05:05.600 --> 05:07.460
+coming from that image.
+
+05:07.460 --> 05:16.160
+And if we zoom in here and kind of tumble around you can see that the reflection is more what we would
+
+05:16.160 --> 05:18.380
+expect for an interior scene.
+
+05:18.380 --> 05:25.400
+We've got wood we've got a floor we've got ceilings so you can really get a sense that we're in an interior
+
+05:25.400 --> 05:26.510
+space.
+
+05:26.510 --> 05:34.100
+Now this particular scene has a kitchen right here and it's reflecting that kitchen counter here.
+
+05:34.160 --> 05:40.930
+We can change what is reflecting from this angle by rotating the image around the scene.
+
+05:40.940 --> 05:48.800
+So if I come back over here to the material and go back to the inspector we can see in the materials
+
+05:48.980 --> 05:56.530
+settings that we have this rotation field and we can click and drag that and maybe move the reflection
+
+05:56.560 --> 05:57.640
+around like that.
+
+05:57.640 --> 06:01.260
+So now we're not seeing that kitchen in the reflection.
+
+06:01.480 --> 06:04.910
+We can keep going on around and see what we can get.
+
+06:07.240 --> 06:09.130
+Yeah that's not bad there.
+
+06:09.590 --> 06:13.570
+So now we've got a different quality of light in here.
+
+06:13.580 --> 06:19.280
+And you know what we can also go ahead and take away that directional light and see what happens.
+
+06:19.280 --> 06:22.540
+All right click that and choose delete.
+
+06:22.970 --> 06:30.730
+And now we've got just a general diffuse light coming in from our HDR image here.
+
+06:30.800 --> 06:38.840
+So here it is now we're going to want to put other kinds of lights in here of course because we're going
+
+06:38.840 --> 06:43.750
+to need shadow light and dark areas pools of light.
+
+06:43.760 --> 06:48.320
+We're going to really want to try and create a mood with the lighting.
+
+06:48.440 --> 06:54.800
+So I do know that I'm going to have probably a bare bulb hanging over here somewhere kind of in the
+
+06:54.800 --> 06:56.420
+middle of the room.
+
+06:56.480 --> 07:02.820
+The guys who live here aren't real into the design and you know decoration.
+
+07:02.840 --> 07:08.650
+So I'm going to go and create just a point light at least for now just to get a sense of the scene.
+
+07:08.690 --> 07:10.980
+All right click over here.
+
+07:11.120 --> 07:14.760
+Choose light and point light.
+
+07:14.960 --> 07:16.670
+And there we go.
+
+07:16.670 --> 07:18.200
+So there's our point light.
+
+07:18.200 --> 07:22.100
+I'm going to drag it over here say it's going to be hanging right around here.
+
+07:22.100 --> 07:28.610
+I'm not exactly sure yet but I think maybe just kind of hanging a bare bulb right around here.
+
+07:29.560 --> 07:33.180
+And I want to get a sense of the shadows here as well.
+
+07:33.280 --> 07:40.030
+So we can come over here and with the lights selected I can turn on say hard shadows and you can begin
+
+07:40.030 --> 07:41.920
+to see them there.
+
+07:41.920 --> 07:48.400
+Now one thing about it is when you turn on the shadows you may notice that the Shadows are kind of separating
+
+07:48.400 --> 07:54.310
+out from the objects and one of the main things you need to ground and object to the floor to make it
+
+07:54.310 --> 08:00.250
+seem realistic is to have those shadows connecting with the object.
+
+08:00.250 --> 08:03.870
+So what we can do is change the bias.
+
+08:03.870 --> 08:10.090
+If you click and drag this you can see that you can take the shadow away from the object and bring it
+
+08:10.090 --> 08:13.460
+closer to the object like that.
+
+08:13.480 --> 08:14.620
+So I want to get it.
+
+08:14.620 --> 08:19.260
+So it's maybe like point to 0 or 1 really close there.
+
+08:19.420 --> 08:27.520
+You can also change this shadow near plane and you can see how it can move away from that as well.
+
+08:27.780 --> 08:32.280
+Well I want this pretty low down like that as well.
+
+08:32.300 --> 08:41.540
+Now we can also adjust to say the range of our point light so maybe it doesn't illuminate the whole
+
+08:41.540 --> 08:48.170
+scene maybe it just illuminates kind of that center part of the room so we can play with that quite
+
+08:48.170 --> 08:49.110
+a bit.
+
+08:49.160 --> 08:54.520
+What I'd also like to do is get rid of this image in the background here.
+
+08:54.680 --> 09:01.280
+To do that we can come over to the main camera under the player and under the clear flags we can change
+
+09:01.310 --> 09:03.490
+that to solid color.
+
+09:04.770 --> 09:12.110
+Change that black and for the viewport if we want to turn this off back here we can just come up here
+
+09:12.110 --> 09:17.000
+to this pull down and turn off the skybox There we go.
+
+09:17.250 --> 09:20.620
+So now we've got the Sky box in there.
+
+09:20.640 --> 09:27.070
+It isn't visible but it is visible still in our reflections here.
+
+09:27.080 --> 09:28.420
+So that's what we want.
+
+09:31.060 --> 09:40.920
+And if we run the game we can see that our reflections are still visible here in the lamp.
+
+09:40.920 --> 09:50.390
+So that's helped with the reflections and as we go through the process of creating and texturing our
+
+09:50.390 --> 09:57.940
+assets here we might want to say reduce the amount of light here in the room.
+
+09:58.040 --> 10:04.060
+We could always come back to our HDR material and we can reduce the exposure a bit.
+
+10:04.130 --> 10:07.240
+Turn it down a bit so it isn't quite so hot.
+
+10:07.340 --> 10:12.950
+So this will just allow us to try and get that final look of the scene as we go so we can really tell
+
+10:12.950 --> 10:16.170
+how our objects are going to look in the scene.
+
+10:16.170 --> 10:22.580
+Now I think what I'll do is go ahead and create a cube and scale it and bring it in for the roof or
+
+10:22.580 --> 10:30.130
+the ceiling here and maybe I'll go ahead and textured these walls as well in the same way we did these.
+
+10:30.230 --> 10:34.360
+And then we can begin moving on and creating more of the objects.

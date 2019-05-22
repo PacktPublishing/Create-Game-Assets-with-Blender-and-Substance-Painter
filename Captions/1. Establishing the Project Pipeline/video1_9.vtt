@@ -1,0 +1,469 @@
+WEBVTT
+
+00:00.830 --> 00:06.440
+As we think about creating the baseboards for our walls here we're also going to need to think about
+
+00:06.440 --> 00:14.600
+creating the doors if we go back over to this reference image we can see the baseboard kind of flows
+
+00:14.630 --> 00:19.200
+into the frame around the doors and I think I want to go ahead and do that.
+
+00:19.580 --> 00:23.800
+So before we work on the baseboards let's work on the doors.
+
+00:24.140 --> 00:31.340
+If we look out on the Internet here out on Google I've searched standard door dimensions here in the
+
+00:31.340 --> 00:39.320
+United States we've got standard door size of 80 inches by 36 inches or about six feet eight by three
+
+00:39.320 --> 00:39.620
+feet.
+
+00:39.620 --> 00:42.440
+So I think I want to go for something about that.
+
+00:42.440 --> 00:46.650
+Now it also says that eight feet now is very common in newer homes.
+
+00:46.650 --> 00:52.000
+This I don't think this is going to be a newer build this is kind of an old run down apartment.
+
+00:52.010 --> 00:59.930
+So I think I'll go with the six foot eight maybe even seven feet for the doors and three feet wide for
+
+00:59.930 --> 01:00.680
+the width.
+
+01:00.680 --> 01:03.010
+So let's work on that.
+
+01:03.020 --> 01:08.920
+I think I'll go to a new lair here and just create a cube or go to the Create tab and click on cube
+
+01:10.370 --> 01:13.490
+and now it popped in here over where the cursor was.
+
+01:13.490 --> 01:17.450
+I don't want that I'm going to undo this with control or command Z.
+
+01:17.450 --> 01:18.970
+I'm going to press shift.
+
+01:19.030 --> 01:24.710
+See and that will pop the 3D cursor into the center of the grid.
+
+01:24.710 --> 01:30.530
+Now come back over here and create a cube and let's hit the N key and take a look at the dimensions
+
+01:30.590 --> 01:31.780
+of our cube.
+
+01:32.030 --> 01:38.630
+Now remember over here in the scene panel we've got our units of measure we're currently using metric
+
+01:38.660 --> 01:44.390
+but temporarily since I know this door is going to be seven feet by three feet wide I'm going to click
+
+01:44.480 --> 01:46.580
+Imperial and switch over to that.
+
+01:46.760 --> 01:50.700
+So now I can see that the Z-axis here is six feet.
+
+01:50.720 --> 01:56.930
+So I'll go ahead and just type 7 into here and that will make this seven feet tall.
+
+01:57.200 --> 02:04.610
+And then I think I'll use the x axis here the x axis lets make 3 feet wide.
+
+02:04.610 --> 02:05.940
+And there we go.
+
+02:05.960 --> 02:12.020
+Now I can press X and Y and scale in and the y axis just a little bit.
+
+02:12.470 --> 02:17.770
+But ultimately this is going to be the width and height of our door.
+
+02:17.780 --> 02:24.350
+Now if I go back to the metric system here you can see it's done the conversions for us in terms of
+
+02:24.410 --> 02:26.380
+meters and centimeters.
+
+02:26.390 --> 02:32.240
+So now I want to bring this up so it's sitting on the floor I'm gonna hit the one key and then the five
+
+02:32.240 --> 02:40.100
+key on the numpad and I'll just bring this up until it sits on the grid right about there.
+
+02:40.130 --> 02:48.050
+Now if I go back to my imperial units of measure I can see that I'm here at 3.5 feet which is half of
+
+02:48.110 --> 02:48.870
+seven.
+
+02:48.950 --> 02:54.830
+I'll go ahead and clean up that by just typing in 3.5 and now I know that that's sitting squarely or
+
+02:54.830 --> 02:58.100
+flat on the grid on the floor there.
+
+02:58.130 --> 03:04.250
+All right so now that we know that this is our door size I'm going to hit the five key to go back to
+
+03:04.310 --> 03:05.740
+perspective.
+
+03:05.900 --> 03:14.440
+We can bring back everything else in our room and take a look at where we're going to put our doors.
+
+03:14.440 --> 03:18.070
+So I think maybe beginning is going to be right over here.
+
+03:18.070 --> 03:23.330
+We're going to have that front door come in right about here.
+
+03:23.330 --> 03:30.430
+Let's say now that we know how big and wide that's going to be I can select the wall tab into edit mode
+
+03:30.490 --> 03:37.540
+and I will go ahead and press control r and begin putting some edge loops right where the door is going
+
+03:37.540 --> 03:41.180
+to be control are.
+
+03:41.610 --> 03:43.250
+Here's the top of the door.
+
+03:43.710 --> 03:51.940
+Control our in here this side of the door so I can begin to put these edges right where the door is
+
+03:51.950 --> 03:52.610
+going to be.
+
+03:52.690 --> 03:53.910
+Yeah that looks good.
+
+03:54.940 --> 03:55.830
+That looks good.
+
+03:55.840 --> 03:56.750
+OK.
+
+03:57.070 --> 04:02.830
+So now we know that that's going to be the size of the door on a tab back into object mode so I can
+
+04:02.830 --> 04:04.800
+select just this.
+
+04:04.810 --> 04:09.250
+This is on the third letter of someone to press shift and click to hide that.
+
+04:09.250 --> 04:18.440
+Now if we tab back into edit mode here I can go to face mode and select these faces and get rid of these.
+
+04:18.610 --> 04:21.060
+So I'll hit X and faces.
+
+04:21.070 --> 04:28.450
+I also want to get rid of this one here and there is our door now to create the door jamb.
+
+04:28.460 --> 04:30.580
+Let's do something a little tricky here.
+
+04:30.580 --> 04:36.730
+I want to go to edge mode so I press control tab and the two key to go to edge mode and I want to select
+
+04:37.030 --> 04:40.030
+this edge all the way around.
+
+04:40.360 --> 04:45.090
+Except I don't want these down here all de-selected these down here.
+
+04:45.090 --> 04:51.640
+Now I'm going to bridge these two edge loops so to do that I can press control e to go to the edges
+
+04:51.700 --> 04:58.240
+menu and then come down here and go to bridge edge loops and that will just create a face between each
+
+04:58.240 --> 04:59.730
+of the edges.
+
+04:59.740 --> 05:03.400
+All right so now we have that that's the inside of the door jamb.
+
+05:03.400 --> 05:10.300
+Let's split this out and then we can extrude it out to make the door jam extend out over the wall here.
+
+05:10.690 --> 05:17.350
+So to do that I'll press the P key and then choose to separate this out by the selection.
+
+05:17.500 --> 05:18.850
+Click that.
+
+05:18.850 --> 05:24.100
+Now if I tab back into object mode this right here is its own object now.
+
+05:24.400 --> 05:29.740
+So I can scale this out a bit in the y axis to extend it beyond the wall just ahead.
+
+05:29.740 --> 05:36.080
+So I'll press S and Y and scale that out just a little like that.
+
+05:37.550 --> 05:40.800
+Now I it extrude these edges out.
+
+05:40.940 --> 05:47.780
+Now I don't really care too much about the outside but if you did we can go ahead and work on that too.
+
+05:47.780 --> 05:50.180
+So we'll just do that all at the same time.
+
+05:50.280 --> 05:57.170
+I'll tab back into edit mode and I'll select all of these edges once again by by pressing alt and click
+
+05:57.170 --> 06:04.070
+on an edge and then shift bolt and click on an edge and that selects these two edges on the inside and
+
+06:04.070 --> 06:05.680
+the outside of the room.
+
+06:05.760 --> 06:09.130
+I'll then hit e to extrude and then click.
+
+06:09.140 --> 06:16.890
+And now I'm going to scale just in the x axis x x and now that moves these out a bit.
+
+06:16.930 --> 06:27.470
+So and then are de-select these shift click these shift click these to de-select.
+
+06:27.500 --> 06:33.810
+Now theoretically these edges are still selected up here so I can just click and drag in the Z-axis
+
+06:33.890 --> 06:35.570
+and pull those up.
+
+06:35.600 --> 06:41.380
+So there we have the door jam around the front door.
+
+06:41.420 --> 06:52.010
+Now I can select these edges again alt click shift alt click so we select all of those and then we extrude
+
+06:52.010 --> 06:54.050
+again hit the e key and click.
+
+06:54.050 --> 07:01.830
+And now I want to scale in the y axis to bring that back to the wall so I'll press S and then Y.
+
+07:02.060 --> 07:06.050
+And now we scale it back in to the wall right there.
+
+07:06.050 --> 07:06.530
+All right.
+
+07:06.710 --> 07:09.460
+So there is the front door jam.
+
+07:09.980 --> 07:12.410
+Let's go do that to the other wall over here.
+
+07:12.560 --> 07:21.260
+So over here on this side of the room we need two doors one kind of at each corner here so I'll bring
+
+07:21.260 --> 07:23.990
+back that door template.
+
+07:24.380 --> 07:24.920
+Where is it.
+
+07:24.920 --> 07:31.810
+There it is and take that over here and maybe put it right in line with the front door perhaps maybe
+
+07:31.810 --> 07:39.790
+right there or center it up with the period key on the numpad select that wall tab into edit mode and
+
+07:39.790 --> 07:50.860
+then lets put a few edges here as well around the door and let's choose these faces and get rid of these.
+
+07:50.970 --> 07:58.320
+And now since I have this door jam created for this door size Why not just take this sense it's its
+
+07:58.320 --> 08:01.070
+own object and drag it right on over there.
+
+08:01.170 --> 08:07.320
+Now the pivot point or the center of the object is right over here I'm going to move it to the geometry
+
+08:07.330 --> 08:12.810
+so it's kind of centered up within that door to do that I'll come over here to the tools tab and we
+
+08:12.810 --> 08:20.190
+can use this set origin pull down and click that and choose origin to geometry and that moves that into
+
+08:20.190 --> 08:21.820
+the center there.
+
+08:21.900 --> 08:29.730
+Now I can just hit shift d click and then click on the y axis here and just drag it right over.
+
+08:29.940 --> 08:36.900
+I mean hit the period key and I'll put this right kind of right in here we go.
+
+08:36.990 --> 08:38.730
+All right let's do that one more time.
+
+08:38.940 --> 08:40.940
+Over on this side.
+
+08:41.250 --> 08:42.750
+Move it over here.
+
+08:42.750 --> 08:44.840
+Let's try it right about.
+
+08:44.850 --> 08:48.950
+I don't know right about there let's say and block it out.
+
+08:50.600 --> 08:56.620
+With some edges here I already have the edge for the top of the door Mallet's get rid of that.
+
+08:56.640 --> 09:01.180
+Turn off the lever for the door template and let's remove these again.
+
+09:02.680 --> 09:03.030
+All right.
+
+09:03.040 --> 09:06.010
+And let's just move the door jamb right over there.
+
+09:09.480 --> 09:12.230
+Let's go ahead and add the baseboards to the walls.
+
+09:12.230 --> 09:18.280
+Now that we have the doors in place let's begin with this one over here.
+
+09:18.280 --> 09:22.960
+I'm going to press control r and add an edge right about here.
+
+09:22.960 --> 09:32.440
+And once I do now I'm going to press the three key and five key and the Z key and let's take a look
+
+09:32.440 --> 09:34.500
+at this in wireframe.
+
+09:34.510 --> 09:38.850
+Most are going to press the end key to give myself a little bit more room now.
+
+09:38.950 --> 09:44.060
+It looks like I need the one key I'll press the one key to come over to this side.
+
+09:44.500 --> 09:49.060
+Now once again I'm going to click and drag with the Z-axis but then I'm gonna to hold that shift key
+
+09:49.060 --> 09:53.020
+down so I can move it a little slower and get it right where I want it.
+
+09:53.020 --> 09:58.790
+So maybe something like that at something like that.
+
+09:58.790 --> 10:01.020
+Now let me do that over here as well.
+
+10:02.550 --> 10:04.980
+Move that down to about where I want it.
+
+10:05.800 --> 10:07.630
+Write about there.
+
+10:07.640 --> 10:14.360
+All right so now we have the size or location of the baseboard in place here.
+
+10:14.530 --> 10:19.120
+We just need to use this edge to create them on the other walls as well.
+
+10:19.120 --> 10:26.230
+So if we tap back into object mode and select this wall and then put a 1 and 5 key in the z key for
+
+10:26.230 --> 10:31.080
+wireframe we can see that we can't see that baseboard.
+
+10:31.150 --> 10:31.780
+Why is that.
+
+10:31.780 --> 10:38.830
+Well it's because our display settings isn't letting us see all of our edges in object mode.
+
+10:38.860 --> 10:44.980
+If I tab and edit mode for this while I still can't see the edges for that other wall because it's a
+
+10:44.980 --> 10:46.000
+whole other object.
+
+10:46.120 --> 10:48.930
+So do we need to combine those walls together.
+
+10:48.940 --> 10:55.480
+No we can just play with the display settings of our objects so we can see that edge.
+
+10:55.480 --> 11:02.230
+So if I tumble out of this and just select that wall again I can come over to the objects settings here
+
+11:03.070 --> 11:06.670
+and down here under wire and draw all edges.
+
+11:06.760 --> 11:09.650
+We can turn these on so we can see the edges.
+
+11:09.700 --> 11:15.360
+So now that we've turned on draw all edges I can come back and hit the one key.
+
+11:15.380 --> 11:21.990
+Now you can see we can see that edge even though that other object is an object mode.
+
+11:22.030 --> 11:22.290
+All right.
+
+11:22.300 --> 11:28.730
+So let me select this wall here hit that one key tab into edit mode.
+
+11:28.740 --> 11:33.390
+And now we've got a reference here of how big the baseboard should be.
+
+11:33.390 --> 11:41.530
+So I'll press control our and click and then bring this down right about there and same thing over here.
+
+11:41.530 --> 11:48.010
+Control our and let's do that again right over here.
+
+11:48.040 --> 11:49.060
+All right.
+
+11:49.330 --> 11:52.310
+So now we have our baseboards.
+
+11:52.330 --> 11:56.610
+There we just need to put them over here as well.
+
+11:56.620 --> 12:03.220
+Now I can go ahead and turn on the wire and draw edges over here and then I'll hit the three key the
+
+12:03.220 --> 12:11.050
+Z key tab into edit mode and we can see this the height of the baseboard and on each of the other walls
+
+12:11.050 --> 12:17.680
+here while press control our and just add an edge right there.
+
+12:18.020 --> 12:21.530
+Just need it one more time on this wall back here.
+
+12:22.790 --> 12:27.080
+Three key tab and one more time.
+
+12:30.200 --> 12:37.820
+So in the next video what we need to do is go ahead and U-V map the walls U-V map the door jambs and
+
+12:37.820 --> 12:42.040
+then begin thinking about our textures and taking it into unity.

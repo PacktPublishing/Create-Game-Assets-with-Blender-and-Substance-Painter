@@ -1,0 +1,448 @@
+WEBVTT
+
+00:00.550 --> 00:04.410
+Now there is another object as part of this couch.
+
+00:04.410 --> 00:09.810
+Remember that we have these legs at the bottom of the couch that need to be textured as well.
+
+00:09.840 --> 00:14.670
+We're not going to see a whole lot of them we can probably use a pretty small texture but we do need
+
+00:14.670 --> 00:16.410
+to get something on there.
+
+00:16.470 --> 00:20.760
+I'm thinking just a basic woodgrain texture would be fine.
+
+00:20.820 --> 00:24.600
+So I'm just going to go out to Google and just see what I can find.
+
+00:25.020 --> 00:34.890
+So I think I'll just type in wood grain texture and see what I come up with many good images and I'm
+
+00:34.890 --> 00:42.260
+going to go to search tools and size and large just so I get a fairly good size texture.
+
+00:42.270 --> 00:48.030
+Now most of these are not going to be seamless and that's fine I don't really need a seamless texture
+
+00:48.030 --> 00:49.280
+for this.
+
+00:49.280 --> 00:50.820
+This looks kind of nice.
+
+00:50.820 --> 00:52.040
+Let me grab this one.
+
+00:53.280 --> 00:54.720
+Yeah that looks good.
+
+00:54.720 --> 01:00.910
+I'll go to view image right click save images and I'll put this in my textures.
+
+01:01.290 --> 01:01.680
+All right.
+
+01:01.680 --> 01:03.360
+So that's the one we're going to use.
+
+01:03.390 --> 01:09.450
+I'll go back to blender now and let's select the legs of the couch shall tab into edit mode.
+
+01:09.450 --> 01:13.330
+Hit a to select everything and there is our U-V map.
+
+01:13.350 --> 01:21.010
+Let's go ahead and export this U.V. map out and take it into Photoshop so I'll go to Uvas export U-V
+
+01:21.010 --> 01:22.510
+lay out.
+
+01:22.590 --> 01:29.010
+I don't need the size to be very big here so I'll just choose five 12 and I'll go ahead and take it
+
+01:29.030 --> 01:37.470
+into the proper folders so here's my project folder Here's my textures I've got my couch folder here
+
+01:38.100 --> 01:46.160
+and in here I'll put couch legs underscore Uvas just so I know what it is.
+
+01:46.380 --> 01:52.760
+And now I'll go to photoshop and open it up there here in Photoshop all press control or command.
+
+01:52.800 --> 01:57.090
+Oh and browse to that folder.
+
+01:57.200 --> 01:57.800
+Here it is.
+
+01:57.800 --> 02:01.190
+Couch legs Uvas open.
+
+02:01.240 --> 02:02.070
+And here we go.
+
+02:02.080 --> 02:06.980
+I'll press control or command plus to zoom into it a bit.
+
+02:07.420 --> 02:13.350
+I will rename this Larry Uvas and I'll go ahead and press control or command.
+
+02:13.540 --> 02:23.840
+To open that other file so back in my textures folder over here I've got that woodgrain over here.
+
+02:23.840 --> 02:27.190
+Here it is Yep that's it.
+
+02:27.190 --> 02:34.900
+I'll open that up and then I'll press control or command a controller command C to copy it and come
+
+02:34.900 --> 02:38.590
+back over here and press control or command VI.
+
+02:38.890 --> 02:45.730
+And now that paste that in I'll zoom out with command minus or control minus as well.
+
+02:46.060 --> 02:52.330
+I'll take this layer and move it down below the U.V. so we can see the U.V. map and then I'll shrink
+
+02:52.330 --> 02:55.630
+this down by pressing shift and click and drag.
+
+02:55.870 --> 03:02.780
+So I think probably I will zoom in with the Z key here.
+
+03:03.640 --> 03:08.510
+I think I can get away with this particular size for the texture.
+
+03:08.560 --> 03:09.560
+That's not bad.
+
+03:09.730 --> 03:14.240
+Actually I think I'll just stretch it down just a bit so it covers these two.
+
+03:14.350 --> 03:21.170
+And then our press alt shift and I'll drag this down a bit and just put it right there.
+
+03:21.340 --> 03:21.670
+All right.
+
+03:21.670 --> 03:28.930
+So there we have our Uvas or our textures laid over our Uvas to clean it up a little.
+
+03:28.930 --> 03:38.140
+Again I can select that Uvas layer come over here to the magic wand tool or the W key click anywhere
+
+03:38.140 --> 03:46.460
+outside the movies shift click anywhere that didn't get covered looks like here and up here.
+
+03:47.410 --> 03:49.360
+And we go maybe down here as well.
+
+03:50.350 --> 03:57.910
+Now that we've got all of that area selected I'm going to contract it by going up to select and modify
+
+03:57.910 --> 04:05.660
+and contract and I'll contract by two pixels and that will spread it out just a little bit beyond the
+
+04:05.660 --> 04:08.320
+U.V. so we don't cut anything off in there.
+
+04:08.320 --> 04:14.580
+And then I can select this one and hit delete and slick this one and hit delete.
+
+04:15.370 --> 04:23.150
+And now I can come in here and add a new layer I'll click the new layers button down here drag it to
+
+04:23.150 --> 04:32.700
+the bottom and I'll just choose a black color and that paint bucket and put a black color behind it.
+
+04:33.080 --> 04:38.430
+Turn off the movies and there is my color map for the couch legs.
+
+04:38.930 --> 04:43.700
+Let's save it out with shift old controller command W
+
+04:47.230 --> 04:55.840
+and I'll just export as a P and G export and I'll call this couch legs underscore.
+
+04:55.860 --> 04:56.810
+See.
+
+04:57.040 --> 05:00.180
+And there we go for a color map.
+
+05:00.180 --> 05:02.700
+Now I'll go ahead and save this file here.
+
+05:02.700 --> 05:10.260
+Controller command s and I'll save this just as a P.S. d file catalogs.
+
+05:10.300 --> 05:11.080
+There we go.
+
+05:12.390 --> 05:18.280
+So now once again we have everything in that folder are S-D files are UVM map.
+
+05:18.450 --> 05:20.480
+And our final textures.
+
+05:20.670 --> 05:22.580
+So let's take this into unity now.
+
+05:23.410 --> 05:30.010
+And I'll bring up a Finder window here and here is my color map right here.
+
+05:30.010 --> 05:34.560
+I'll hit spacebar to open that up just so we can see that that's what that is.
+
+05:34.900 --> 05:35.820
+Good.
+
+05:35.830 --> 05:44.320
+I'll drag it down into unity into the assets folder I'll select that couch would object that is the
+
+05:44.440 --> 05:46.150
+couch legs right here.
+
+05:47.400 --> 05:51.630
+And I'll drag that couch legs color map into the Al bedo slot right here.
+
+05:51.630 --> 05:57.330
+And once again when the material comes in from Blendr it's going to be kind of gray so I'm going to
+
+05:57.330 --> 05:59.670
+move that up to pure white.
+
+05:59.670 --> 06:00.500
+And there we go.
+
+06:00.660 --> 06:03.800
+So if we take a look at that there they are.
+
+06:04.100 --> 06:04.890
+All right.
+
+06:05.010 --> 06:10.590
+And as I said I don't think I need to worry too much about dirtying these up or doing any more to that.
+
+06:10.590 --> 06:14.080
+That's these are going to be in shadow very small on the scene.
+
+06:14.100 --> 06:18.420
+I'm not too concerned about it but we needed something there.
+
+06:18.420 --> 06:22.950
+All right so now that we have all these textures in here I'm going to go ahead and clean that just a
+
+06:22.950 --> 06:23.930
+little bit.
+
+06:23.940 --> 06:29.990
+I'm going to create a new folder by right clicking the assets window and choosing create folder and
+
+06:30.000 --> 06:38.350
+let's just call this textures and I'll move these things down into that folder.
+
+06:38.790 --> 06:42.730
+And we go now we've got our models here.
+
+06:43.900 --> 06:47.890
+Our materials here and our textures here.
+
+06:48.000 --> 06:48.480
+All right.
+
+06:48.480 --> 06:52.390
+So let's go back to Blendr And let's take a look at creating the walls of the room.
+
+06:53.680 --> 07:00.220
+Now that we have our couch let's take a look at creating this room a little bit more or at least blocking
+
+07:00.220 --> 07:01.840
+out the walls.
+
+07:01.840 --> 07:10.960
+So I'm going to step back into object mode here and bring back these walls the floor and our scale.
+
+07:10.960 --> 07:18.130
+Now let's go take a look at that reference image that we initially looked at to get the general layout
+
+07:18.130 --> 07:19.480
+of the room.
+
+07:19.480 --> 07:25.480
+I'm thinking that the front door is going to be over here on the right side of the photo.
+
+07:25.750 --> 07:28.620
+And the windows are going to be over here on the left.
+
+07:28.720 --> 07:34.210
+So let's see if we can block these walls in and kind of get a sense of what the space is going to take
+
+07:34.210 --> 07:35.140
+this couch.
+
+07:35.140 --> 07:41.260
+Let me go back to the layer that it's on and I'm going to select everything and I want to make it into
+
+07:41.260 --> 07:46.990
+a group so that I can just select that group easily and move the couch around without having to select
+
+07:47.020 --> 07:50.350
+each of the objects the fabric and the wood.
+
+07:50.490 --> 07:57.370
+So I they come over here to object and come up to group and create new group and you can also use control
+
+07:57.370 --> 07:58.160
+G.
+
+07:58.300 --> 07:59.880
+So I'm going to click that.
+
+08:00.160 --> 08:05.620
+And now we have a new group and I'll come over here to the left and I'll name this I'll just call it
+
+08:05.620 --> 08:08.840
+couch and we go.
+
+08:09.030 --> 08:15.760
+And now if you look this new group does not appear over here in the outliner.
+
+08:15.760 --> 08:19.330
+This is everything we have in our scene but it isn't here.
+
+08:19.330 --> 08:21.870
+That group isn't here to be selected.
+
+08:22.030 --> 08:28.420
+And that's an odd thing about blender you have to come up here to the all seems menu item and choose
+
+08:28.420 --> 08:31.150
+groups to see your groups.
+
+08:31.150 --> 08:36.670
+So now I can select this couch and I can move it around as I need.
+
+08:36.730 --> 08:44.770
+So let me just move it around to one of the walls here and I'm also going to bring back that scale item
+
+08:45.200 --> 08:51.130
+so to slide it around on the floor what I can do is I can press the G key and then I can press shift
+
+08:51.220 --> 08:56.110
+Z and that will ensure that I cannot move it in the Z-axis up or down.
+
+08:56.110 --> 09:00.100
+So now I can slide it around on the floor wherever I want.
+
+09:00.100 --> 09:05.440
+So I want to move it over here a bit kind of put it up against this wall to get a sense of how big this
+
+09:05.500 --> 09:07.140
+area is going to be.
+
+09:07.210 --> 09:10.120
+Let's go back to the reference image and take a look.
+
+09:10.120 --> 09:13.330
+So I'm thinking the couch is going to be right over here against this wall.
+
+09:13.330 --> 09:14.850
+But there's that door.
+
+09:14.950 --> 09:16.850
+I don't need to have that door open out.
+
+09:16.870 --> 09:19.960
+I could have that open in if I wanted.
+
+09:19.960 --> 09:26.210
+But let me just put that here against this wall like that just to get a sense of that.
+
+09:26.210 --> 09:33.370
+Now it feels to me like this wall is about the size of that wall sticking out for the kitchen.
+
+09:33.370 --> 09:39.400
+I'm just going to temporarily put that here now I'm going to take this wall and maybe extend it.
+
+09:39.400 --> 09:49.270
+Let me hit the tab key to go to Edit mode control tab and choose face and then I'll hit the Z key so
+
+09:49.270 --> 09:51.490
+I can see the wire frame.
+
+09:51.550 --> 09:53.280
+I just want to pull this out.
+
+09:54.360 --> 09:55.930
+Pull that out of that to here.
+
+09:55.960 --> 09:58.040
+Maybe this will be the kitchen.
+
+09:58.090 --> 09:59.280
+OK.
+
+09:59.800 --> 10:03.100
+And hit the Z key again to go back to solid view.
+
+10:03.100 --> 10:09.340
+And I'll take this wall and I'll duplicate it with shift D and then hit the Y key to only move it in
+
+10:09.340 --> 10:10.870
+the y axis.
+
+10:10.960 --> 10:14.820
+Come out here so I'm kind of blocking out the kitchen here.
+
+10:15.190 --> 10:16.100
+All right.
+
+10:16.360 --> 10:21.730
+Now I'm going to take this wall shift did a duplicate hit the x key to make sure it's going to only
+
+10:21.730 --> 10:25.220
+move in the X-axis and I'll move this over here.
+
+10:25.510 --> 10:27.860
+Maybe something like that.
+
+10:27.960 --> 10:29.800
+So I'm kind of just getting a sense of.
+
+10:29.800 --> 10:32.470
+Is this how big I want the place to be.
+
+10:32.470 --> 10:37.930
+I feel like this is a little too much room like I don't want this much room so I'm going to move this
+
+10:37.930 --> 10:41.320
+this way and I'm going to move this this way.
+
+10:41.320 --> 10:47.680
+Now there's really no wrong answer here it's really up to you how you want your environment to be just
+
+10:47.680 --> 10:51.720
+trying to get a sense of how to fill the space.
+
+10:52.150 --> 10:54.390
+So let me clean this up a little bit.
+
+10:54.400 --> 11:05.520
+I'm just going to select this and move this face back into here and I'll select something like this
+
+11:05.550 --> 11:08.210
+and move this in just to kind of clean it up a little bit.
+
+11:09.500 --> 11:10.220
+All right.
+
+11:10.220 --> 11:17.060
+So in the next video what let's do is work on cleaning up the walls will create the baseboards for them
+
+11:17.060 --> 11:22.120
+will U-V map them and we'll bring them into unity and see how it looks there.

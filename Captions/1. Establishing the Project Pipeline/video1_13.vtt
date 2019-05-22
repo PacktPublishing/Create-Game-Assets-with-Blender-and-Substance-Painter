@@ -1,0 +1,574 @@
+WEBVTT
+
+00:00.690 --> 00:09.150
+Well now we have our two U-V maps ready to go for our coffee table if we come over here to the materials
+
+00:09.150 --> 00:13.260
+panel and we select the word and choose select in edit mode.
+
+00:13.260 --> 00:20.400
+We get our U-V map for the world and if we then select that and select the table top and select that
+
+00:20.430 --> 00:22.850
+we get the U.V. map for the top there.
+
+00:22.980 --> 00:28.130
+Let's take each of these out into Photoshop and texture them.
+
+00:28.410 --> 00:39.680
+So I'll come down here to Uvas go to export U-V lay out browse to my textures folder and here will call
+
+00:39.680 --> 00:50.260
+this will create a new folder and we'll call this coffee table and in here we'll put our coffee table
+
+00:50.410 --> 00:58.760
+top movies right there and notice that this is at 10:24 I'm going to go ahead and leave that at 10:24
+
+00:58.760 --> 01:05.710
+by 10:24 for now we can always save out of Photoshop at a smaller resolution if needed.
+
+01:05.780 --> 01:08.210
+But I'll go ahead and export that out.
+
+01:08.300 --> 01:09.920
+Now I can de-select this.
+
+01:09.920 --> 01:17.380
+Select the material of the wood select that and let's go ahead and export these out as well.
+
+01:17.390 --> 01:18.400
+Export U-V.
+
+01:18.400 --> 01:21.410
+Lay out 10:24.
+
+01:21.430 --> 01:30.220
+Let's put it in our textures coffee table and we'll put this we'll call this coffee table would underscore
+
+01:30.230 --> 01:32.350
+Uvas.
+
+01:32.610 --> 01:33.410
+All right.
+
+01:33.660 --> 01:40.380
+So now we have that exported out so we can open it in Photoshop here in Photoshop or just go to File
+
+01:40.890 --> 01:45.180
+Open and I'll browse to that textures folder.
+
+01:45.420 --> 01:46.800
+Here's my coffee table.
+
+01:46.810 --> 01:51.890
+I'll go ahead and open up both of these open.
+
+01:52.030 --> 01:52.630
+And there we go.
+
+01:52.630 --> 01:57.450
+So now let's work on the wood one here since we have that up.
+
+01:57.520 --> 02:04.450
+I'll just press Z and drag to zoom in I'll change this layer over here to call it Uvas So we know what
+
+02:04.450 --> 02:05.530
+that is.
+
+02:05.530 --> 02:15.150
+And now it's time for us to find a woodgrain texture so we can go to Google images and see if we can
+
+02:15.150 --> 02:24.860
+find wood grain texture seamless.
+
+02:24.880 --> 02:25.670
+Let's try that.
+
+02:26.900 --> 02:28.280
+Not too bad.
+
+02:28.370 --> 02:35.360
+I'm going to click on search tools go to size and large and I want something more like this.
+
+02:35.360 --> 02:37.160
+That's not bad.
+
+02:37.160 --> 02:38.650
+This isn't bad.
+
+02:39.080 --> 02:41.130
+Yeah let me try something like this.
+
+02:41.150 --> 02:48.200
+So now I'm going to press control or command a control or command C to copy and I'll come over here.
+
+02:49.380 --> 02:58.570
+To the would you use and paste it with control or command VI or drag that down beneath the movies.
+
+02:59.040 --> 03:06.330
+Hit the Wii key to my transform tool I'm going to click up here to show transform control so I can see
+
+03:06.330 --> 03:12.570
+the little handles here and press shift and click and drag and move this down like this so maybe if
+
+03:12.570 --> 03:20.990
+I do something like this that woodgrain might be small enough for this.
+
+03:21.000 --> 03:22.530
+Yeah let's try that.
+
+03:22.530 --> 03:24.930
+So I'll hit my transform tool.
+
+03:25.000 --> 03:35.620
+Allt shift and click and I'll begin going through the process of copying snapping moving over one pixel
+
+03:37.000 --> 03:46.410
+to try and build up the woodgrain for this U-V map and with all of these selected I'll do the same thing
+
+03:46.410 --> 03:53.090
+with alt shift bring down snap and move it up a pixel same down here.
+
+03:54.620 --> 03:58.250
+And just fill this whole thing with woodgrain
+
+04:03.640 --> 04:04.430
+right.
+
+04:04.880 --> 04:13.250
+So now you can see that I've got all the woodgrain going in the same direction which was easy and that's
+
+04:13.250 --> 04:18.080
+why I aligned all of the U-V islands up and down so I could do that.
+
+04:18.080 --> 04:22.360
+So before we collapse all these down or merge all the layers.
+
+04:22.490 --> 04:26.040
+Let's test it out and make sure it looks OK.
+
+04:26.330 --> 04:30.950
+So I can come up here to file export and export as.
+
+04:30.950 --> 04:34.890
+Or once again shift all control or command w.
+
+04:35.630 --> 04:37.060
+So I'll do that.
+
+04:37.480 --> 04:46.920
+And let's export this out and let's call this coffee table would underscore see for color map and let's
+
+04:46.920 --> 04:55.600
+test it out so I'll go over to Blendr here and for the material for the would appear in the note editor
+
+04:55.600 --> 05:01.300
+I'll press shift a I'll choose texture and image texture.
+
+05:02.500 --> 05:07.320
+And I'll click open and I'll browse to find that color map.
+
+05:07.320 --> 05:07.800
+There it is.
+
+05:07.800 --> 05:18.120
+Underscore see what's come down here and select the texture viewport shading and see how we did.
+
+05:18.280 --> 05:19.290
+It's not too bad.
+
+05:19.440 --> 05:25.770
+That looks sufficiently cheap and that's what I'm going for here.
+
+05:26.010 --> 05:27.930
+But it looks a little too clean.
+
+05:27.930 --> 05:35.560
+So yes I'm going to find one of my grunge maps and layered on top of that because that's just too plain.
+
+05:35.790 --> 05:42.090
+Let's go back to photoshop and let me open up one of my grungy maps.
+
+05:42.090 --> 05:43.840
+I've got a few here.
+
+05:43.840 --> 05:45.210
+So let's take a look.
+
+05:45.570 --> 05:47.320
+Yeah use that one earlier.
+
+05:48.240 --> 05:52.070
+That's not bad and it has kind of a wood grain quality to it.
+
+05:53.060 --> 05:54.670
+That's not bad.
+
+05:54.720 --> 06:01.500
+Let me go with this one here that for some reason speaks to me control or command a control and command
+
+06:01.500 --> 06:02.630
+see.
+
+06:02.670 --> 06:08.030
+Let's go back to the word and I'll paste it.
+
+06:08.130 --> 06:15.140
+I'll turn on the U-V islands here and let's maybe bring this down a bit it's kind of big you can see
+
+06:15.720 --> 06:21.750
+I'm going to bring this down to something maybe I'll just try and once again put it over the whole thing.
+
+06:21.750 --> 06:24.420
+Let's try this sometimes this just works.
+
+06:24.420 --> 06:36.030
+I'll change the blending mode to multiply and I'll reduce the opacity Let's try that OK let's try that.
+
+06:36.030 --> 06:44.730
+I'm going to save and for this I'm going to save it as a PSEG once again and I'm going to just remove
+
+06:44.730 --> 06:53.710
+these here so I'll save it as a coffee table would Steve and we go and now I'll go and export it out
+
+06:53.950 --> 06:54.460
+right here.
+
+06:54.460 --> 07:07.670
+Export as save it again overnight it and let's come back to blender and re reopen it now when we do
+
+07:07.670 --> 07:14.840
+this using unity it's going to be easier because Unity actually auto updates when you bring in or when
+
+07:14.840 --> 07:17.880
+you replace a file.
+
+07:17.900 --> 07:19.170
+So here we go.
+
+07:19.440 --> 07:20.540
+That's not too bad.
+
+07:20.540 --> 07:25.850
+It's looking a little grungy or yeah I think for now I'll go with that.
+
+07:25.850 --> 07:31.600
+All right so now we need the top to be kind of a formica finish.
+
+07:31.610 --> 07:36.380
+Let's go back to photoshop and take a look at that other U-V map.
+
+07:36.380 --> 07:38.880
+All right over here let's take a look at this one.
+
+07:38.880 --> 07:40.730
+Now this is the table top.
+
+07:40.730 --> 07:43.860
+Let's go through the same process call this Uvas.
+
+07:44.300 --> 07:50.590
+And for this let's see if we can find another material that looks kind of like what I'm after.
+
+07:51.510 --> 07:57.460
+So here I've searched for for Micah's seamless textures just to see what I come up with.
+
+07:57.720 --> 08:00.980
+I'm not seeing much that I like.
+
+08:01.050 --> 08:09.410
+Here we go this is something that I'm kind of looking for this kind of very faint texture to it.
+
+08:09.420 --> 08:11.980
+Yeah I think I want to go with this.
+
+08:12.060 --> 08:14.700
+Here it is opened up in Photoshop.
+
+08:14.790 --> 08:18.990
+Copy it just like we did before and pasted in here.
+
+08:19.060 --> 08:28.400
+All dragged down beneath the movies and let's scale it down so it fits on here.
+
+08:31.110 --> 08:40.430
+And we go so alt shift click and drag snap and do it one more time here.
+
+08:41.870 --> 08:42.190
+All right.
+
+08:42.200 --> 08:44.140
+So let's test this out.
+
+08:44.850 --> 08:49.980
+I think I'm going to want a little bit more dirt on it and maybe some stains.
+
+08:49.990 --> 08:52.210
+But let's test this out and see how it looks.
+
+08:52.230 --> 09:00.130
+There's a repeatable pattern right here or a visible repetition that I'm not fond of right here.
+
+09:00.270 --> 09:03.410
+We might need to take care of that.
+
+09:03.420 --> 09:13.830
+I think what I'll do is I will hit the I key to sample and then come over to the brush tool and let's
+
+09:13.830 --> 09:21.210
+go ahead and combine these layers over here with control or command E and now with my brush tool I'll
+
+09:21.210 --> 09:25.530
+change it to something that has a soft edge to it.
+
+09:26.560 --> 09:36.820
+And when you increase the size a bit it's that opacity 100 let's take this down to 50 percent to do
+
+09:36.820 --> 09:37.120
+that.
+
+09:37.120 --> 09:46.450
+You can just hit the five key on the keyboard for opacity and shift 5 for flow and then I'll just come
+
+09:46.450 --> 09:55.270
+in here and begin kind of breaking up the pattern just a little bit so it doesn't look quite so continuous
+
+09:55.270 --> 09:57.630
+or or repetitive.
+
+09:57.640 --> 09:58.920
+All right there we go.
+
+10:00.590 --> 10:02.540
+So let's test this out.
+
+10:03.550 --> 10:10.570
+Let's go to export and we'll export this one out as well so these are just tests right now.
+
+10:10.580 --> 10:13.070
+We'll clean these up here in a minute.
+
+10:13.070 --> 10:23.400
+Let me go back to Blendr and let's select this material the table top and let us in the note editor
+
+10:23.410 --> 10:29.710
+bring our texture in here with shift a texture image texture open.
+
+10:30.130 --> 10:32.660
+And here is the coffee table top.
+
+10:32.910 --> 10:34.150
+And there we go.
+
+10:34.150 --> 10:38.200
+So yeah I think that's going to work pretty well.
+
+10:38.940 --> 10:43.830
+What I want to do though is to create a few stains on the top here.
+
+10:43.830 --> 10:50.880
+All right so I've opened these up in Photoshop just go ahead and copy them and take them over to that
+
+10:50.880 --> 10:52.710
+table top.
+
+10:52.830 --> 10:55.350
+And they're kind of big which is fine.
+
+10:55.850 --> 10:57.620
+I'll shrink this down a bit.
+
+10:58.760 --> 11:03.590
+Let's see if we can put this in place and kind of blended in.
+
+11:04.930 --> 11:13.420
+So maybe a coffee cup would be about this big let's say and now what I can do is come in and reduce
+
+11:14.020 --> 11:15.640
+the opacity a bit.
+
+11:15.760 --> 11:22.290
+I can try and change it to multiply but I don't think that's going to really help a linear burn.
+
+11:22.290 --> 11:22.850
+Let's see.
+
+11:22.850 --> 11:27.490
+No that's a little too much so I'll just take the opacity down.
+
+11:28.400 --> 11:29.660
+Something like that.
+
+11:30.520 --> 11:35.440
+And then let's come in with the erase tool.
+
+11:35.620 --> 11:41.980
+And once again I've got the opacity at 50 and the flow at 50 and I'm just going to kind of erase the
+
+11:41.980 --> 11:44.610
+edges around here a bit.
+
+11:45.460 --> 11:52.210
+And I'm also going to come in and take this stained one that one that I thought maybe might work well
+
+11:52.210 --> 11:53.710
+just over the whole thing.
+
+11:53.710 --> 11:55.680
+Put that underneath here.
+
+11:57.120 --> 11:59.950
+And let's see if we can put that over the whole thing.
+
+12:00.000 --> 12:05.370
+I'll turn the UVA's back on.
+
+12:05.690 --> 12:12.710
+Drag that over the whole thing just to get a general state of nastiness over that.
+
+12:13.170 --> 12:15.790
+And let's reduce the opacity a bit.
+
+12:20.020 --> 12:21.500
+Something like that.
+
+12:22.700 --> 12:30.150
+And then we can come back and work with this I'll increase the opacity just a little bit here.
+
+12:30.320 --> 12:37.900
+So it looks kind of gross and then maybe come back with the Eraste tool and try and get rid of some
+
+12:37.900 --> 12:40.200
+of those edges there.
+
+12:40.290 --> 12:41.060
+Right.
+
+12:41.340 --> 12:46.370
+Let's bring in that other coffee mug stain here.
+
+12:47.020 --> 12:50.620
+And for this one maybe I'll put it over on the other side.
+
+12:55.970 --> 13:01.220
+All right so now that we have our texture map done here in Photoshop Let's go ahead and clean up these
+
+13:01.220 --> 13:02.230
+U-V maps.
+
+13:02.510 --> 13:11.240
+Well let's do is go to the magic wand tool over here or the W key and I'm going to select the Uvas layer
+
+13:11.630 --> 13:19.100
+click to select everything around the U-V island go to select modify contract and maybe bring it back
+
+13:19.190 --> 13:25.190
+to pixels or so I can take all of these and merge them down into one layer.
+
+13:25.190 --> 13:31.430
+And I think actually what I'm going to do is just to be safe I'm going to select all of these and press
+
+13:31.520 --> 13:39.920
+alt and click and copy these and then press control or command e to then collapse them all so that I
+
+13:39.920 --> 13:46.760
+can hide these these are my original layers and if I ever want to come back here and modify it I can
+
+13:46.760 --> 13:47.980
+do that here.
+
+13:48.030 --> 13:57.420
+Now I can select these and put them in a group or a folder and I can just call these originals.
+
+13:58.130 --> 14:04.270
+And you go so just so I don't lose what I've done now that I have this.
+
+14:04.310 --> 14:12.600
+And the movies or the outside of the movie islands selected I'll just delete that controlled or commanded
+
+14:12.670 --> 14:23.350
+to de-select create a new layer make sure it's black hat g for the bucket tool and put that back there.
+
+14:23.360 --> 14:27.290
+So now we have a texture map for the top.
+
+14:27.300 --> 14:30.990
+Export it out and then we go
+
+14:34.210 --> 14:36.640
+and let's come over here to this one.
+
+14:36.640 --> 14:43.970
+Let's go ahead and select the UVA's hit the W key and select outside the U-V islands.
+
+14:44.500 --> 14:50.880
+I will contract these with select modify contract to pixel's.
+
+14:50.880 --> 14:55.620
+Now I'm going to go and take all of these and collapse them down.
+
+14:55.620 --> 15:03.200
+I don't think I need all of those so control were command E and we'll call this word we'll call this
+
+15:03.200 --> 15:05.470
+Solaire grunge.
+
+15:05.470 --> 15:14.770
+And now I can select the grunge layer and hit delete the wood layer delete and then create a new layer
+
+15:14.770 --> 15:24.330
+behind all of this hit G for the paint bucket tool control command d to de-select everything and paint
+
+15:24.370 --> 15:27.070
+right back there on that back layer.
+
+15:27.070 --> 15:30.660
+So now there are our texture maps.
+
+15:30.820 --> 15:35.990
+So let's export this one out to and this is the wood right.
+
+15:35.990 --> 15:37.190
+The wood color.
+
+15:37.220 --> 15:37.580
+All right.
+
+15:37.580 --> 15:38.650
+Let's do that.
+
+15:39.700 --> 15:41.130
+And replace.
+
+15:41.140 --> 15:41.880
+There we go.
+
+15:42.040 --> 15:44.530
+Let's go back to blender and see how it looks.
+
+15:44.530 --> 15:45.190
+Here we are.
+
+15:45.190 --> 15:50.880
+I will go ahead and replace this one with the coffee table top.
+
+15:51.130 --> 15:53.800
+Ooh that looks disgusting I like it.
+
+15:53.800 --> 15:57.580
+And I'll go ahead and replace the bottom one.
+
+15:57.580 --> 16:03.960
+The wood here with our cleaned up texture right here.
+
+16:04.750 --> 16:05.810
+And there we go.
+
+16:06.220 --> 16:10.030
+So there we have our textured coffee table.
+
+16:10.240 --> 16:16.210
+What we'll do next is take it into unity and see if the materials look any different than we had before
+
+16:16.600 --> 16:17.290
+with the couch.

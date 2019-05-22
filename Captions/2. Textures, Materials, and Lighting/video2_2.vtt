@@ -1,0 +1,379 @@
+WEBVTT
+
+00:00.530 --> 00:05.910
+To test out our Virtex colors Let's go ahead and export this lamp out.
+
+00:05.910 --> 00:12.200
+I'm going to select both objects of the lamp and go to file and export and FBI x.
+
+00:12.480 --> 00:15.210
+I want to make sure and choose selected object.
+
+00:15.210 --> 00:19.930
+I don't want to export everything in the scene at this point in time at all.
+
+00:20.220 --> 00:25.880
+I'll just go ahead to my export folder here and I'll call this table lamp.
+
+00:25.890 --> 00:26.570
+All right.
+
+00:26.700 --> 00:28.070
+And let's export that out.
+
+00:29.510 --> 00:37.100
+Now let's go over to substance painter and take a look at how we can use those Virtex colors to delineate
+
+00:37.100 --> 00:38.630
+different materials.
+
+00:38.630 --> 00:43.230
+So over here in substance painter we can bring in that SBX.
+
+00:43.240 --> 00:53.990
+Now I'll go up to file new and for this I'm going to use this PBR metal rough template and let me show
+
+00:53.990 --> 00:55.300
+you in unity.
+
+00:55.310 --> 01:01.690
+If we go back to unity and take a look at this and just look at one of our materials.
+
+01:01.700 --> 01:04.520
+Let's open up this coffee table top material.
+
+01:04.520 --> 01:07.910
+We've got an el bedo which is the color channel.
+
+01:07.910 --> 01:11.300
+We've got a metallic and a smoothness.
+
+01:11.300 --> 01:16.240
+Now the metallic and the smoothness is the same thing as we go back to substance.
+
+01:16.240 --> 01:24.190
+Painter the metal and the rough so roughness is just the opposite of smoothness right.
+
+01:24.230 --> 01:28.570
+So are metal rough template here is going to work just fine in unity.
+
+01:28.820 --> 01:32.210
+I'll go ahead and click select to bring in my table lamp.
+
+01:32.210 --> 01:39.170
+Here it is and open and then OK.
+
+01:39.350 --> 01:40.400
+And there it is.
+
+01:40.700 --> 01:48.020
+So now you can see in much the same way that unity was able to take a look at the different objects
+
+01:48.020 --> 01:55.190
+in different materials of the model and split it out based on material that same thing is happening
+
+01:55.190 --> 01:56.400
+over here.
+
+01:56.480 --> 02:04.090
+So our texture set we have a texture set for the lamp base and a texture set for the lamp shade.
+
+02:04.100 --> 02:11.770
+Now the lamp base remember we use the Virtex paint tool to add different colors to the base.
+
+02:11.930 --> 02:19.970
+So to use those if we select the base over here and go to our texture set settings and click on bake
+
+02:20.210 --> 02:27.620
+textures we're going to bake texture maps out that are going to allow substance painter to apply its
+
+02:27.620 --> 02:30.520
+materials onto the different parts of the object.
+
+02:30.620 --> 02:38.060
+But in here we need to do one more thing we need to come in here to the ID section and instead of having
+
+02:38.060 --> 02:43.830
+its source be the material color we want it to be the vertex color.
+
+02:44.390 --> 02:51.260
+So now if we come down here and choose bake lamp base textures it will begin to generate the textures
+
+02:51.290 --> 02:54.530
+that substance painter needs.
+
+02:54.530 --> 03:00.530
+All right so here they are it's generated a normal map world space ambient occlusion all this.
+
+03:00.530 --> 03:08.150
+But you can see here it's generated in an ID or a color ID map that we can use to split out the different
+
+03:08.150 --> 03:09.990
+parts of the model.
+
+03:10.070 --> 03:12.670
+So let's see what we can do with this.
+
+03:12.700 --> 03:15.530
+I'm going to create groups or folders here.
+
+03:15.710 --> 03:23.300
+And each one of these folders or groups is going to allow me to pick a particular vertex color and everything
+
+03:23.300 --> 03:27.470
+within that group will only show through for that vertex color.
+
+03:27.470 --> 03:37.300
+So let's say this is the the lamp base bottom and we'll create another group for the main part I guess
+
+03:38.390 --> 03:43.430
+and we'll create another group for the top part and we go.
+
+03:43.730 --> 03:52.010
+So for the bottom let's right click on this choose add mask with color selection.
+
+03:52.070 --> 03:52.910
+Let's come over here.
+
+03:52.910 --> 03:54.590
+Choose pick color.
+
+03:55.040 --> 03:59.290
+And now we can see those vertex colors that we created in Blender.
+
+03:59.360 --> 04:05.370
+So I'll come over here and just click on the red part for the bottom can click on it here or over here
+
+04:07.420 --> 04:14.970
+and now whatever we put in this group is going to be constrained by this particular vertex color.
+
+04:15.220 --> 04:20.500
+So here I'm going to go ahead and create a couple of fill layers right here.
+
+04:20.550 --> 04:27.600
+One and Two and I need to drag these in to the group so I'll take them into here.
+
+04:28.460 --> 04:30.390
+And there they are.
+
+04:30.440 --> 04:38.120
+So let's say we want that bottom part to be kind of a brass color.
+
+04:38.480 --> 04:44.680
+Here's a brass I can use that so I've selected that fill layer and click on the brass and there it is.
+
+04:44.990 --> 04:47.910
+And notice that it's only showing through.
+
+04:47.960 --> 04:56.150
+Based on that red Virtex color that we selected I think I want some sort of dirt or something underneath
+
+04:56.150 --> 05:00.210
+that so maybe so maybe I'll choose this steel rough.
+
+05:00.210 --> 05:02.930
+Here let me choose this fill layer.
+
+05:03.110 --> 05:10.430
+Click on the steel ruff and now we need to allow that to show through so I'm going to right click on
+
+05:10.550 --> 05:17.750
+the first Lehre choose a black mask and for that black mask you can see it showing through there.
+
+05:17.750 --> 05:24.790
+I'm going to choose a generator and for that generator I'll choose a dirt mask here.
+
+05:25.880 --> 05:26.840
+So now you can see.
+
+05:26.840 --> 05:28.250
+Let me zoom in here.
+
+05:29.020 --> 05:35.980
+You've got that brass material with that steel rough material showing through.
+
+05:35.980 --> 05:40.810
+Now we can invert this over here and you can turn the invert on.
+
+05:40.810 --> 05:41.950
+See how that works.
+
+05:41.940 --> 05:48.760
+It doesn't look too bad and we can of course adjust all kinds of parameters over here the grunge amount
+
+05:48.790 --> 05:50.830
+the dirt level et cetera.
+
+05:50.890 --> 05:53.440
+But for now I think I'll just go with this.
+
+05:53.470 --> 06:01.060
+Let's do the next part let's say the next part we want to be that kind of whitish color that we saw
+
+06:01.060 --> 06:03.130
+in the reference image.
+
+06:03.130 --> 06:08.060
+So once again I'll come up here to that main group which is this part.
+
+06:08.090 --> 06:13.170
+All right click choose add mask with color and now pick a color.
+
+06:13.180 --> 06:16.250
+And this time I want to pick the blue right here.
+
+06:17.250 --> 06:22.110
+And in this group once again I want to add to fill layers.
+
+06:22.260 --> 06:25.570
+So I'll come up here add one and two.
+
+06:26.130 --> 06:33.730
+Drag them into the group right there they're and for this I want to choose maybe this plastic.
+
+06:33.730 --> 06:37.390
+That's a nice material for this war.
+
+06:37.390 --> 06:38.320
+That's shiny.
+
+06:38.320 --> 06:41.420
+Let's get that the proper color.
+
+06:41.500 --> 06:43.420
+Something like that maybe.
+
+06:43.780 --> 06:48.870
+And for this one here maybe I'll do a little bit of fine rust.
+
+06:48.880 --> 06:50.230
+Let's try that.
+
+06:51.320 --> 07:00.050
+OK so now I can take this one here and add a black mask so the bottom one shows through and then I'll
+
+07:00.050 --> 07:04.190
+add a generator to have it only show through.
+
+07:04.190 --> 07:11.310
+Based on this dirt mask here so I click that begins to show through let me click invert and see what
+
+07:11.310 --> 07:12.380
+happens.
+
+07:12.400 --> 07:13.870
+Yaseen I like that.
+
+07:14.070 --> 07:14.630
+OK.
+
+07:14.700 --> 07:16.040
+Good.
+
+07:16.050 --> 07:19.350
+The next one let's do one last one let's do the top.
+
+07:19.350 --> 07:22.980
+This one I think should be kind of a silver medal.
+
+07:22.980 --> 07:28.970
+So once again add to Phil Lares drag him in
+
+07:31.900 --> 07:33.270
+mask with color.
+
+07:34.380 --> 07:47.180
+Select that green and for this I want a steel rough and for this one that's going to show through maybe
+
+07:47.180 --> 07:54.450
+this rust course and then let's add our black mask.
+
+07:56.430 --> 08:06.970
+And our generator and select generator over here I think invert it and there we go.
+
+08:07.160 --> 08:12.660
+So now it's looking sufficiently dirty and kind of nasty.
+
+08:12.980 --> 08:14.750
+And there is the base of our lamp.
+
+08:14.750 --> 08:17.320
+Now of course there's more we can do here.
+
+08:17.540 --> 08:19.920
+There's lots of settings to adjust.
+
+08:20.000 --> 08:26.370
+But my point here was not to give a thorough tutorial on substance painter.
+
+08:26.450 --> 08:34.190
+My point is that once again there's yet another way to organize your objects and your materials for
+
+08:34.190 --> 08:37.570
+export out of Blendr in this way.
+
+08:37.610 --> 08:47.150
+We had one object one material and used our Virtex paint tool to break that one material up into individual
+
+08:47.150 --> 08:56.000
+areas that a program like substance painter or pixel studio will allow us to isolate and use almost
+
+08:56.000 --> 08:58.610
+as if it's its own material.
+
+08:58.610 --> 08:59.030
+All right.
+
+08:59.030 --> 09:07.850
+So let's go ahead and export out our texture maps for this texture set into unity and then in the next
+
+09:07.850 --> 09:13.290
+video we'll go ahead and import everything into unity and see how it looks.
+
+09:13.370 --> 09:13.670
+All right.
+
+09:13.670 --> 09:23.650
+So I'm going to go up here to file export textures and I want to choose a configuration.
+
+09:23.650 --> 09:29.460
+Here we've got a unity five standard metallic which is what we want.
+
+09:29.460 --> 09:38.220
+We're using that metal rough template and in here we've got a lamp shade and a lamp base we don't need
+
+09:38.220 --> 09:39.110
+the lamp shade.
+
+09:39.110 --> 09:45.780
+We didn't do anything with that and the lamp base we don't need 2048 we could probably take this down
+
+09:45.780 --> 09:48.770
+to say 5:12 Let's try that.
+
+09:48.960 --> 09:55.500
+And within here within this texture set you can see we've got the albedo which is the color channel
+
+09:55.500 --> 09:59.680
+we've got the combination metallic and smoothness here.
+
+10:00.060 --> 10:05.780
+And we've got the normal map and on a mission map that we're not going to be using.
+
+10:06.150 --> 10:08.940
+So I want to select where this is going to go.
+
+10:09.210 --> 10:15.870
+And for this I want to put it right in my Unity project right here.
+
+10:17.160 --> 10:23.130
+And I'll go into the assets folder go into textures and this time I'll create a brand new folder and
+
+10:23.130 --> 10:31.830
+just call this table lamp and in here I will drop all of these texture maps so I'll just click export
+
+10:33.690 --> 10:34.600
+and there they go.
+
+10:35.830 --> 10:40.780
+So coming up we'll go into unity and we'll plug them all in to the Unity material.

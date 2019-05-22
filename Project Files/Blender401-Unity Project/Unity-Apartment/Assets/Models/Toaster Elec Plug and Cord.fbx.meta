@@ -1,0 +1,98 @@
+fileFormatVersion: 2
+guid: c38a4c282f92849b4b719604009c077d
+timeCreated: 1476479659
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Toaster Black Wire
+    100002: Toaster Copper Wire
+    100004: Toaster Cord
+    100006: //RootNode
+    100008: Toaster Plug
+    100010: Toaster Red Wire
+    400000: Toaster Black Wire
+    400002: Toaster Copper Wire
+    400004: Toaster Cord
+    400006: //RootNode
+    400008: Toaster Plug
+    400010: Toaster Red Wire
+    2300000: Toaster Black Wire
+    2300002: Toaster Copper Wire
+    2300004: Toaster Cord
+    2300006: Toaster Plug
+    2300008: Toaster Red Wire
+    3300000: Toaster Black Wire
+    3300002: Toaster Copper Wire
+    3300004: Toaster Cord
+    3300006: Toaster Plug
+    3300008: Toaster Red Wire
+    4300000: Toaster Red Wire
+    4300002: Toaster Copper Wire
+    4300004: Toaster Black Wire
+    4300006: Toaster Cord
+    4300008: Toaster Plug
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

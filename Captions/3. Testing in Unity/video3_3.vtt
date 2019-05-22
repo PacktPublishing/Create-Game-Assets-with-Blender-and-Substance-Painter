@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.720 --> 00:06.970
+Well I think we're to the point where we can maybe build the game and run around and see how it looks.
+
+00:06.990 --> 00:08.950
+There is of course more that we can do.
+
+00:08.970 --> 00:15.460
+You know I've added the boxes and some pill bottles and cigarettes and other things in the scene.
+
+00:15.570 --> 00:22.640
+But I think we can go ahead and adjust our players settings and build the game just to see how it looks.
+
+00:22.650 --> 00:29.710
+So if you want to build the game what you can do is come over here to file build settings.
+
+00:30.050 --> 00:34.960
+Of course you're going to need the pro version of unity to build a couple of these kinds of games.
+
+00:34.970 --> 00:40.850
+But many of them can be built with the Personal Edition and the unity splash screen will just be what
+
+00:40.850 --> 00:47.720
+the user sees first using the pro edition will allow you to get rid of that unity splash screen and
+
+00:47.720 --> 00:50.940
+also will add some more advanced features as well.
+
+00:51.170 --> 00:55.300
+I'm going to go ahead and build a Mac version since I'm here on a Mac.
+
+00:55.300 --> 01:02.090
+It already knows what I'm using here so it's already brought up the Mac OS X choice for me what I need
+
+01:02.090 --> 01:06.470
+to do is put the scenes I want to build appear in this window.
+
+01:06.470 --> 01:15.530
+So if you have multiple scenes and youre in code switching from one scene or level in your game to another
+
+01:15.860 --> 01:17.910
+you need to bring them up into here.
+
+01:18.100 --> 01:23.480
+I'll just go into my scenes folder and I've got these test scenes I've been using as we've been going
+
+01:23.480 --> 01:24.500
+along.
+
+01:24.500 --> 01:29.840
+This is the current one I'll just take this scene test up into here and drop it.
+
+01:29.840 --> 01:37.230
+So let's say this was our splash screen scene or level that would go first.
+
+01:37.280 --> 01:40.770
+You can see here that it's got the number zero here.
+
+01:41.030 --> 01:44.930
+Let's say I had other scenes or levels I wanted to bring in.
+
+01:44.930 --> 01:49.560
+I could just drag them in one right after the other.
+
+01:49.800 --> 01:56.340
+And you can see here that they've got ID numbers 0 1 2 3 and they'll go on up and you can re arrange
+
+01:56.340 --> 01:58.500
+these just by clicking and dragging.
+
+01:58.770 --> 02:06.390
+And so in code you would reference these ID numbers when you want to load a scene going to go ahead
+
+02:06.390 --> 02:08.920
+and select this and hit the delete key.
+
+02:09.090 --> 02:12.260
+And for each of these I'll just delete them out of there.
+
+02:12.420 --> 02:16.410
+And now we're left with the one scene that we want to use.
+
+02:16.410 --> 02:22.470
+Another thing I can set up from this window are the player settings and what I want to do is adjust
+
+02:22.890 --> 02:30.840
+the resolution of the player settings or of the view and I can come down here and click on player settings.
+
+02:30.840 --> 02:37.740
+And over here you can see I've got my default screen with already set for 12 a and my screen height
+
+02:38.010 --> 02:43.220
+set for 720 so you'll probably see it when you come in here.
+
+02:43.260 --> 02:49.830
+The first time you'll probably see it with default is full screen already checked and I don't like that
+
+02:49.830 --> 02:56.550
+so I'm going to uncheck that and just plug in what I want the screen height and width to be all right.
+
+02:56.550 --> 02:59.310
+So I have that taken care of.
+
+02:59.310 --> 03:03.890
+Now I can come over here to this screen and just build my game.
+
+03:03.990 --> 03:10.590
+So I click on build and I've already created a build's folder here so I'm going to go ahead and just
+
+03:10.710 --> 03:12.520
+save this in that folder.
+
+03:12.710 --> 03:13.700
+I'll hit save.
+
+03:13.770 --> 03:17.290
+I've already done this once before so I'll hit replace.
+
+03:17.460 --> 03:19.220
+And there it goes.
+
+03:19.230 --> 03:21.050
+So now it is built the game.
+
+03:21.060 --> 03:25.050
+All browse to that folder.
+
+03:25.050 --> 03:26.640
+And now to play the game.
+
+03:26.640 --> 03:29.400
+All I need to do is double click the file.
+
+03:29.400 --> 03:37.710
+Now if this was a Windows machine you would have the build file or the C plus a folder and the folder
+
+03:37.710 --> 03:42.060
+would just have a few files in it that the Hexie needs to run.
+
+03:42.060 --> 03:47.970
+So just know that on a Windows machine you're going to need both that executable and that folder of
+
+03:47.970 --> 03:49.590
+extra files.
+
+03:49.590 --> 03:59.380
+So I will double click on this and I think I'll run it at beautiful as opposed to fantastic.
+
+03:59.380 --> 04:06.250
+I love the terms there just since I'm recording here it might bog it down a bit if I go too high.
+
+04:06.250 --> 04:13.190
+So I've got the windowed option checked and I'll click play.
+
+04:13.230 --> 04:17.460
+Here is the game loading up.
+
+04:17.630 --> 04:18.870
+And there we are.
+
+04:18.950 --> 04:25.870
+So I can run around with WASC and just take a look at my scene.
+
+04:25.940 --> 04:29.330
+So this is the actual build of the game.
+
+04:29.340 --> 04:32.540
+We can go in here and take a look at the kitchen.
+
+04:32.740 --> 04:35.930
+And here's the living room.
+
+04:36.110 --> 04:40.060
+The boxes and I put some blinds on the windows there.
+
+04:40.210 --> 04:41.410
+So there we go.
+
+04:41.650 --> 04:44.060
+We've got our finished level.
+
+04:44.260 --> 04:50.310
+I'll go ahead and exit out of this quit.
+
+04:50.530 --> 04:51.510
+And there we go.
+
+04:52.660 --> 04:55.090
+So I hope this course has been helpful to you.
+
+04:55.090 --> 05:02.410
+I've certainly enjoyed going through the process of using blender and unity together in a very integrated
+
+05:02.410 --> 05:04.940
+way to build a game level.
+
+05:05.380 --> 05:07.170
+Well thank you again and take care.

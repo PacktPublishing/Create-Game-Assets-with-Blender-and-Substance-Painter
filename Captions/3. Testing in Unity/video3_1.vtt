@@ -1,0 +1,580 @@
+WEBVTT
+
+00:00.700 --> 00:07.220
+To add a little bit of dirt and grunge to this I've opened up a couple of grunge maps here that one's
+
+00:07.230 --> 00:08.240
+not bad.
+
+00:09.320 --> 00:10.280
+This one's pretty good.
+
+00:10.280 --> 00:13.360
+So I think I'll use maybe a combination of these two.
+
+00:13.640 --> 00:19.090
+I've gone ahead and added a little bit of texture for that handle.
+
+00:19.490 --> 00:25.460
+And now we can go ahead and just grab one of these grunge Mamselle work with this one here.
+
+00:25.640 --> 00:26.520
+Copy it.
+
+00:27.420 --> 00:29.560
+I'll paste it.
+
+00:29.890 --> 00:36.280
+And let's just take this and I'm just going to stretch this kind of to have it be the size of the map
+
+00:36.280 --> 00:39.080
+right about here like that.
+
+00:39.280 --> 00:48.450
+And then I will take the opacity down a bit like this and I'll also change the blend mode from normal
+
+00:48.450 --> 00:51.330
+to multiply right here.
+
+00:51.330 --> 00:53.790
+See how that works and that's looking pretty gross.
+
+00:53.790 --> 00:54.930
+That's not bad.
+
+00:55.140 --> 00:56.120
+OK.
+
+00:56.160 --> 01:00.250
+I think that maybe it's a bit too much on the counter tops.
+
+01:00.330 --> 01:02.400
+We'll have to see about that.
+
+01:02.400 --> 01:06.980
+Maybe I can bring the opacity down just a little bit more like that you.
+
+01:06.990 --> 01:13.060
+Let's try that let's try something like 25 here and then let's grab this other grunge map.
+
+01:13.060 --> 01:20.040
+I'll hit the M key for Marcie's select and just kind of drag an area I don't think I want this big splotch
+
+01:20.070 --> 01:24.930
+but everything else looks pretty good to me I'll just drag that area.
+
+01:24.930 --> 01:29.040
+Copy that and then I'll paste it here as well.
+
+01:29.040 --> 01:33.680
+And this I'll begin by trying to just stretch it over the whole thing.
+
+01:33.680 --> 01:34.710
+We'll see how this works.
+
+01:34.710 --> 01:41.640
+I may have to try and tile it but maybe this will work I'll switch it's blending mode to multiply as
+
+01:41.640 --> 01:48.060
+well take the opacity down to maybe 25 as well.
+
+01:48.060 --> 01:49.470
+That's not bad.
+
+01:49.890 --> 01:52.350
+That's looking relatively Gross.
+
+01:52.650 --> 01:55.100
+Let's give this a try and see how it looks.
+
+01:55.200 --> 02:02.950
+So all export and I'll save it out and go ahead and overwrite that color map that we created earlier.
+
+02:03.990 --> 02:07.400
+Here in Blender I'll go ahead and bring that in again.
+
+02:07.440 --> 02:13.040
+Go to my kitchen folder grab that color map and open it up and there we go.
+
+02:13.410 --> 02:15.050
+That's looking pretty gross.
+
+02:15.120 --> 02:19.730
+I have to admit I would not want to eat dinner there.
+
+02:19.900 --> 02:23.540
+So I think that will work.
+
+02:23.730 --> 02:31.650
+The countertops I'm going to have junk on them I think like plates and trash things like that.
+
+02:31.740 --> 02:35.290
+Not a whole lot but just enough to cover up some of that.
+
+02:35.310 --> 02:36.870
+Yes so I think that'll work.
+
+02:36.870 --> 02:39.560
+Let's go back and clean that texture map up.
+
+02:39.570 --> 02:45.240
+Now I'll hide these layers and I'll go ahead and combine these two.
+
+02:45.300 --> 02:49.300
+The grunge layers and just call them grunge.
+
+02:49.500 --> 02:54.940
+I will need to change that back to multiply one I mean make sure that's going to look OK.
+
+02:54.960 --> 02:56.910
+Yeah that's right.
+
+02:56.910 --> 03:00.440
+Now that I've combined those two into one layer the grunge.
+
+03:00.440 --> 03:09.300
+I need to combine the UVM apps into one now so I select those two and control or command e to combine
+
+03:09.300 --> 03:10.290
+those.
+
+03:10.290 --> 03:20.220
+Now I can go back to my magic wand tool and begin selecting around here so that we can delete the grunge
+
+03:20.220 --> 03:26.400
+that we don't need that's extending out beyond the actual texture islands.
+
+03:26.490 --> 03:28.870
+So it looks like I got them all there.
+
+03:28.890 --> 03:33.490
+I'll go ahead and contract the selection by two pixels.
+
+03:34.600 --> 03:37.050
+Then I'll choose the grunge.
+
+03:37.050 --> 03:38.550
+There it is.
+
+03:38.560 --> 03:39.440
+Hit delete.
+
+03:40.310 --> 03:41.420
+There we go.
+
+03:41.950 --> 03:47.710
+Now I can take everything and export this U.V. map so I will export.
+
+03:47.710 --> 03:55.250
+Now over here in Blendr I'll bring it in one last time just to check it.
+
+03:55.310 --> 03:56.590
+And there we go.
+
+03:56.630 --> 03:59.930
+Now let's deal with this handle here.
+
+03:59.930 --> 04:07.880
+Remember I said that we only needed to do this one time because every handle we duplicate off of this
+
+04:07.880 --> 04:14.690
+is going to just sit right underneath this U.V. map so they'll all have the same texture and that's
+
+04:14.690 --> 04:17.650
+OK because it's such a small part in the scene.
+
+04:17.930 --> 04:28.310
+But let me go ahead and press the L key to select it and now maybe I can hit Control 1 and 5 and also
+
+04:28.310 --> 04:29.450
+hit the Z key.
+
+04:29.600 --> 04:37.670
+And let's just begin putting these in place so a press shift D and X and just begin moving these where
+
+04:37.670 --> 04:39.650
+they need to go.
+
+04:39.680 --> 04:47.360
+I've duplicated this one and I'm just going to move it over here and rotate it with our 9 0 and then
+
+04:47.360 --> 04:49.330
+move it into place here.
+
+04:50.070 --> 04:53.830
+Duplicate it and move it in the X and say get it right here.
+
+04:53.860 --> 05:00.850
+Now I can hit the L key and select this one as well and begin duplicating these and moving them into
+
+05:00.850 --> 05:03.420
+place on the cabinets here.
+
+05:03.430 --> 05:09.640
+So duplicate that and move this up maybe there are going to be like down here
+
+05:12.710 --> 05:14.710
+like this.
+
+05:14.940 --> 05:21.660
+And then maybe we only need one for this cabinet so I'll just hover over this one and hit the L key.
+
+05:21.660 --> 05:25.980
+Duplicate it and we'll maybe put it right here.
+
+05:26.010 --> 05:33.330
+So now you can see that even though we've duplicated those all over it's all still only being represented
+
+05:33.330 --> 05:36.870
+in the U-V map by one U-V Island.
+
+05:36.870 --> 05:42.620
+So I think now we're about ready to export these out of Blendr and take them into unity.
+
+05:42.620 --> 05:46.650
+However there's still all one material right.
+
+05:46.680 --> 05:48.730
+It's all one object and that's fine.
+
+05:48.780 --> 05:54.960
+But the problem is is we've got all one material and we're going to want to be able to differentiate
+
+05:55.020 --> 05:58.980
+the different areas by different materials in unity.
+
+05:58.980 --> 06:06.990
+So I think we need a material for the wood a material for the counters and a material for all the handles.
+
+06:06.990 --> 06:15.060
+So for the countertops Let's tap into that mode and I'll just hover over this and press the L key and
+
+06:15.060 --> 06:21.570
+I've got it delimited by the normals which means it will select everything even though there are seams
+
+06:21.570 --> 06:22.150
+there.
+
+06:22.530 --> 06:26.760
+And I'll do that with the backslashes and that countertop.
+
+06:26.820 --> 06:33.390
+So let's give this a materialist just call these countertops all click the plus button up here click
+
+06:33.390 --> 06:41.180
+new and we'll call this counter-top OK.
+
+06:41.900 --> 06:44.070
+And we need to click a sign right.
+
+06:44.480 --> 06:46.270
+OK so we already have the cabinet.
+
+06:46.280 --> 06:47.390
+That's fine.
+
+06:47.390 --> 06:50.880
+We just need these handles now so let's go ahead and grab these.
+
+06:50.900 --> 06:54.680
+Now I could go through and hit L and select each one of these.
+
+06:54.680 --> 06:58.870
+Another way to do it is I could maybe select it in here.
+
+07:00.040 --> 07:01.590
+That would catch all of those.
+
+07:01.590 --> 07:05.300
+So if I click this little button here.
+
+07:05.890 --> 07:13.630
+And then when I can do is hit the B key board or select and border select all of this right there and
+
+07:13.630 --> 07:17.280
+that selects all of them in the 3D view as well.
+
+07:17.320 --> 07:21.040
+So now I can hit the plus button over here.
+
+07:21.040 --> 07:31.400
+New material will call this cabinet handles and we go and assign.
+
+07:31.590 --> 07:40.830
+Now we should have if we hit cabinets here we can select them and there they are de-select countertops
+
+07:40.830 --> 07:44.390
+select de-select and handles.
+
+07:44.520 --> 07:45.280
+Good.
+
+07:45.300 --> 07:45.810
+All right.
+
+07:45.840 --> 07:47.980
+We have all our materials here.
+
+07:48.600 --> 07:55.080
+So now I think we are about ready to export these out of Blendr I'll hit the achy disliked everything
+
+07:55.400 --> 08:01.620
+and because it's in its own layer we can select everything and just get what we want here and then I'll
+
+08:01.620 --> 08:04.870
+go to file export FDX.
+
+08:05.040 --> 08:12.600
+I will choose selected objects and I'll go ahead and this time take it right into the unity assets folder.
+
+08:12.600 --> 08:24.680
+Here we go right into here and I'll call this kitchen cabinets underscore L for the left side of the
+
+08:24.680 --> 08:25.510
+kitchen.
+
+08:25.530 --> 08:26.430
+There we go.
+
+08:27.330 --> 08:33.120
+And export here in Unity You can see the object already brought in.
+
+08:33.120 --> 08:36.000
+Let's go ahead and bring the textures in as well.
+
+08:36.000 --> 08:37.520
+Here and my textures folder.
+
+08:37.530 --> 08:44.480
+I've got a kitchen folder and here is that color map I'll drag that in.
+
+08:45.460 --> 08:46.750
+There it is.
+
+08:46.750 --> 08:47.160
+All right.
+
+08:47.170 --> 08:48.390
+Let's start bringing these in.
+
+08:48.400 --> 08:53.730
+I'll drag the cabinets into the hierarchy and there they are.
+
+08:53.750 --> 08:59.680
+I'll come over here and open up these materials and I'll just take each one of these two pure white
+
+09:01.510 --> 09:09.240
+and now I'll drag this one texture map into the Al-Bayda slot of each of these materials.
+
+09:09.380 --> 09:13.980
+We're going to use the same texture map for each one.
+
+09:14.880 --> 09:16.100
+There we go.
+
+09:16.620 --> 09:24.240
+All right so there we go we've got our handles are really nasty countertops and our cabinets.
+
+09:24.240 --> 09:26.150
+Now we need to adjust the materials.
+
+09:26.160 --> 09:31.740
+But before we do we really ought to bring a light source in here it's looking kind of dull here so I
+
+09:31.740 --> 09:32.250
+will.
+
+09:32.350 --> 09:34.890
+Right click in the hierarchy.
+
+09:34.890 --> 09:39.890
+Go to light and I'll just go ahead and create a point light at least for now.
+
+09:40.700 --> 09:42.590
+And let's bring that out here.
+
+09:46.420 --> 09:48.600
+Bring it up near the ceiling like that.
+
+09:48.610 --> 09:55.120
+So we kind of have a light source similar to what we might have in the final setup.
+
+09:55.120 --> 09:58.110
+Now let's work on getting the materials a little better.
+
+09:58.110 --> 10:04.510
+I think even though this is dirty and kind of nasty these materials would have a little bit more of
+
+10:04.510 --> 10:05.770
+a shine to them.
+
+10:05.800 --> 10:12.580
+So if I choose my kitchen cabinets object and come over here this is the handles these are going to
+
+10:12.580 --> 10:23.470
+have a little bit more of a shine to them I think they are metallic If we zoom in here we can see the
+
+10:23.470 --> 10:30.140
+reflection in them that may be a little much something like that perhaps.
+
+10:30.140 --> 10:31.640
+All right.
+
+10:31.900 --> 10:36.710
+Counter-top it is not metallic so I'm going to keep this fairly low.
+
+10:37.810 --> 10:48.980
+But we may be able to see a little bit of reflection in here just ever so slightly like that something
+
+10:48.980 --> 10:55.820
+like that and then the word is well we should probably have a little bit of shine to that.
+
+10:55.820 --> 11:01.440
+It's not very metallic and it shouldn't be that shiny.
+
+11:01.440 --> 11:02.960
+Let me bring it back.
+
+11:05.870 --> 11:10.140
+Something kind of like that maybe yeah.
+
+11:11.330 --> 11:14.990
+Now we can also create a normal map for this texture map.
+
+11:14.990 --> 11:18.830
+Let's go do that in Photoshop and then bring it in.
+
+11:18.830 --> 11:26.310
+So back here in Photoshop I'm going to go ahead and select all of these and create a group or call this
+
+11:26.310 --> 11:34.520
+group originals and then I'll take all of these again and press alt and click and drag.
+
+11:34.530 --> 11:41.040
+Outside of that group to duplicate all of these I'll turn that off and now I'll collapse all these into
+
+11:41.040 --> 11:45.110
+one with control or command E and I'll call this normal.
+
+11:45.210 --> 11:47.610
+That's our normal map.
+
+11:47.610 --> 11:55.280
+Now come over here to filter 3D generate normal map.
+
+11:55.430 --> 11:57.250
+I'll change this to cube.
+
+11:57.920 --> 12:04.590
+And here we go we can kind of see some bump happening in here.
+
+12:06.140 --> 12:09.900
+On the textures that may be all we need.
+
+12:09.990 --> 12:11.300
+Let's give it a try.
+
+12:11.440 --> 12:14.800
+I'll hit OK then I'll export this out.
+
+12:17.350 --> 12:23.620
+And instead of underscores C Let's call this underscore in for normal.
+
+12:23.690 --> 12:25.750
+And now let's take it into unity.
+
+12:25.910 --> 12:28.580
+Here it is here in the kitchen folder.
+
+12:28.580 --> 12:29.760
+I'll bring that in.
+
+12:31.000 --> 12:37.390
+Let's select our kitchen cabinets and drag this into the normal map for each of these if we think we
+
+12:37.390 --> 12:38.490
+need it.
+
+12:38.500 --> 12:40.510
+Let me get fixed now here.
+
+12:40.690 --> 12:46.120
+So there's the cabinets and countertop I'll go and put it in the countertop.
+
+12:46.120 --> 12:49.950
+I don't think I'll put it in the cabinet handles material.
+
+12:50.080 --> 12:52.110
+I don't think we need it there.
+
+12:52.360 --> 12:57.790
+So you can kind of see I don't know if you can see it but there's a little bit of bump happening on
+
+12:57.790 --> 12:59.490
+these which is what we want.
+
+12:59.500 --> 13:00.410
+That's good.
+
+13:01.110 --> 13:03.060
+All right so I mean to hit the play button.
+
+13:04.660 --> 13:07.710
+And let's go into the kitchen and see how it looks.
+
+13:09.950 --> 13:10.610
+Oh yeah.
+
+13:10.700 --> 13:11.450
+Wow.
+
+13:12.660 --> 13:14.580
+Those are nasty.
+
+13:15.540 --> 13:17.280
+All right.
+
+13:17.850 --> 13:20.750
+So there we have our kitchen cabinets.
+
+13:20.910 --> 13:26.730
+Now before the next video I'm going to go ahead and finish up the cabinets here in the kitchen add a
+
+13:26.730 --> 13:29.550
+few other things like the sink and the stove.
+
+13:29.550 --> 13:33.840
+I'm also going to add a few other assets around the apartment.
+
+13:33.840 --> 13:39.570
+I've got a weight bench I need to put in here I'm going to put the bathroom in and maybe a couple of
+
+13:39.570 --> 13:41.620
+the doors and some other things.
+
+13:41.670 --> 13:48.750
+So in the next video I just want to talk again about Virtex paint and color I.D. and substance paint
+
+13:48.750 --> 13:54.730
+her as opposed to breaking up the parts of the model into different materials.
+
+13:54.870 --> 14:00.810
+So if you're bringing the model directly into unity you're going to need separate materials that you
+
+14:00.810 --> 14:02.620
+can work with.
+
+14:02.670 --> 14:09.360
+However if you use something like substance paint or you can give that one object all one material and
+
+14:09.360 --> 14:12.450
+break it up by Virtex paint.
+
+14:12.480 --> 14:13.980
+We've seen that before.
+
+14:13.980 --> 14:18.610
+I just want to show you as it's applied to a model that's a little bit more complex.
+
+14:18.630 --> 14:20.770
+So we'll do that coming up next.

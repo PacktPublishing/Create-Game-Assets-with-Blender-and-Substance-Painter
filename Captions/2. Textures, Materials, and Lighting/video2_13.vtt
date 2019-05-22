@@ -1,0 +1,391 @@
+WEBVTT
+
+00:00.810 --> 00:04.020
+Well we're doing pretty well here in this living room area.
+
+00:04.020 --> 00:08.860
+I mean we could probably go ahead and clean this up a bit as well.
+
+00:08.940 --> 00:13.460
+Grab these and just drag them into the furniture group there.
+
+00:13.620 --> 00:16.610
+So we clean the hierarchy up just a little bit.
+
+00:16.920 --> 00:23.250
+But I think maybe I'd like to go ahead and begin working over here in the kitchen and in this area I
+
+00:23.250 --> 00:30.320
+want to create some cabinets a stove a fridge maybe a sink over here.
+
+00:30.630 --> 00:34.170
+We had that reference image that we used at the beginning.
+
+00:34.170 --> 00:36.830
+Let's go back and take a look at that.
+
+00:36.840 --> 00:40.300
+Here it is right here.
+
+00:40.400 --> 00:49.070
+So I think I'd like to use this as the pattern for the kitchen stove and refrigerator on this side sink
+
+00:49.070 --> 00:53.920
+on this side and the cabinet configuration pretty much like this.
+
+00:53.930 --> 01:02.810
+However I would like to use this image here as a reference for the actual cabinets I really kind of
+
+01:02.810 --> 01:09.410
+want them to be pretty nasty like this and that kind of faded dirty formica.
+
+01:09.430 --> 01:15.440
+And this is just pretty gross and I don't know if I'm going to have this much junk up on the sink or
+
+01:15.440 --> 01:22.310
+up on the cabinets but I am going to have some stuff this is as I said this is a place where people
+
+01:22.310 --> 01:27.900
+live or they're not real worried about housekeeping per se.
+
+01:28.010 --> 01:34.520
+So I think I'm going to go with this for the cabinets for the floor here.
+
+01:34.640 --> 01:41.510
+I realize that I may also want some of that linoleum floor here in the kitchen but I'll worry about
+
+01:41.510 --> 01:45.140
+that after I get the cabinets in and see how it looks.
+
+01:45.140 --> 01:51.880
+But yeah I may want some of that really old peeling worn linoleum in here as well.
+
+01:52.310 --> 01:58.660
+But let's go back to blender and begin working on blocking out the kitchen cabinets.
+
+01:58.670 --> 02:05.330
+So I've gone ahead and brought in these images over here in my U-V image editors just so I can keep
+
+02:05.330 --> 02:11.540
+them in mind as I build it out the cabinets here are pretty much just cubes and I think what I'll do
+
+02:11.540 --> 02:14.160
+is block them in first.
+
+02:14.360 --> 02:20.870
+I'll go ahead and just use cubes to get a basic sense of how big these things should be on the ground
+
+02:20.900 --> 02:23.750
+end up attached to the walls here.
+
+02:23.870 --> 02:28.580
+And I just want to try and get the size in proportion right before I begin detailing it.
+
+02:28.610 --> 02:30.170
+So let's try that.
+
+02:30.260 --> 02:38.380
+I'm going to grab this ceiling and over here I can turn off the eye to take away the visibility of it.
+
+02:38.390 --> 02:41.090
+Now we can also just select it and hit H.
+
+02:41.120 --> 02:43.320
+And that would hide it as well.
+
+02:43.370 --> 02:46.370
+And when we went to bring it back we just press alt H.
+
+02:46.670 --> 02:50.200
+Or what we can do is come over and turn on the eye again.
+
+02:50.210 --> 02:55.220
+So with that out of the way I'll hit the Z key so we can see in here.
+
+02:55.650 --> 03:01.960
+And let's take a look at just kind of blocking in some of this space.
+
+03:01.970 --> 03:06.320
+So if I come over here to the Create tab and click cube here we have a cube.
+
+03:06.610 --> 03:11.300
+I will go ahead and hit the one key and the five key and the Z key.
+
+03:11.660 --> 03:15.420
+And let's see if we can put these in place.
+
+03:15.590 --> 03:18.480
+Maybe I'll hit the three key so you can see there we go.
+
+03:18.500 --> 03:21.010
+We can see the kitchen a little better.
+
+03:21.380 --> 03:23.180
+Let's bring this over here.
+
+03:23.180 --> 03:29.480
+Shrink it down and kind of get it in a position kind of like this.
+
+03:29.480 --> 03:37.840
+I'm kind of working off of this right here so maybe skillet in a bit get it right up against the wall
+
+03:37.840 --> 03:39.920
+there.
+
+03:40.210 --> 03:48.470
+Move it over a bit and just try and scale it and get it the proper size.
+
+03:48.470 --> 03:57.470
+We could also bring up our quad view by pressing control alt cue and that will bring up our view here
+
+03:58.160 --> 04:05.230
+where we can see everything all views the top the front and the right all at once.
+
+04:05.240 --> 04:12.520
+All right so over here I'll hit the five key to go back to perspective view over here.
+
+04:12.770 --> 04:17.890
+And let's see if we can just get this in place maybe something like this.
+
+04:19.130 --> 04:24.770
+And I'm letting it hover above the ground because there's that piece right down here that's kind of
+
+04:25.010 --> 04:26.140
+indented.
+
+04:26.180 --> 04:28.230
+I'm going to want to leave room for that.
+
+04:29.720 --> 04:35.330
+So maybe maybe that's about the same height as the baseboard right there.
+
+04:35.330 --> 04:41.570
+Feels like it may be a little bit small Let me tab into edit mode and just select that face on top and
+
+04:41.570 --> 04:43.470
+bring it up a little bit.
+
+04:43.490 --> 04:43.880
+All right.
+
+04:43.880 --> 04:48.800
+I'm going to then block in what would be the stove here.
+
+04:50.040 --> 04:56.950
+So let's duplicate this and move it in the X and let's scale it up just a bit.
+
+04:56.950 --> 04:59.230
+It looks like it's a little bit taller.
+
+05:00.330 --> 05:01.730
+And a little bit wider.
+
+05:04.270 --> 05:15.880
+We grab this and move it over to the other side shift d x move it over there and then let's try and
+
+05:15.880 --> 05:19.710
+place this here and now the refrigerator.
+
+05:19.900 --> 05:21.130
+We've got some room here.
+
+05:21.130 --> 05:23.140
+This wall is a little bit longer.
+
+05:23.140 --> 05:26.720
+It looks like than the one in the picture and that's fine.
+
+05:26.770 --> 05:32.710
+I'm going to grab the stove and move it over and use this for the refrigerator.
+
+05:32.710 --> 05:37.950
+So let's just say that that refrigerator is a little bit wider
+
+05:40.700 --> 05:42.060
+a little bit taller.
+
+05:42.220 --> 05:42.840
+Right.
+
+05:49.120 --> 05:50.430
+Maybe something like that.
+
+05:50.530 --> 05:54.320
+And also it looks like it comes out even farther than the stove.
+
+05:54.790 --> 05:57.830
+You could push this back against the wall over here.
+
+05:59.150 --> 06:08.100
+And then we'd have a little more room for a counter over here.
+
+06:08.120 --> 06:11.700
+Let's see how this works here.
+
+06:11.910 --> 06:16.940
+All right so we've got a little bit more counter space there that should work OK.
+
+06:17.830 --> 06:25.090
+Now over here on this side we're going to want it looks like we have a pantry and that counter space
+
+06:25.090 --> 06:35.240
+there and the pantry looks like it's at least as wide as the refrigerator let's grab this move it over
+
+06:38.990 --> 06:46.130
+and this looks like it could go up pretty much to the ceiling almost and for this counter over here
+
+06:46.160 --> 06:49.470
+I'll just grab this and move it straight over
+
+06:52.630 --> 07:01.590
+and grab that face over here and just move it all the way we go.
+
+07:01.870 --> 07:10.390
+So now how does that feel what I'm going to do is press control alt cue and I'm going to end here press
+
+07:10.690 --> 07:17.840
+shift F and tab and then I'm going to run around here and just see how this feels.
+
+07:19.420 --> 07:22.750
+So the refrigerator could be a little bit bigger
+
+07:25.760 --> 07:28.320
+the countertops don't feel too bad.
+
+07:32.800 --> 07:39.140
+Yeah so I think in terms of the scale of what's over here.
+
+07:40.060 --> 07:45.400
+And coming into here I think that feels right.
+
+07:45.410 --> 07:52.130
+I think the countertops are going to be at the very top of this so I'm not going to place the countertops
+
+07:52.190 --> 07:53.660
+on top of these cubes.
+
+07:53.660 --> 07:57.140
+I think the top of the cubes are going to be the top of the countertop.
+
+07:57.140 --> 08:00.070
+I think I have to make them that big.
+
+08:00.440 --> 08:02.940
+But other than that I think that's pretty good.
+
+08:03.760 --> 08:04.630
+Let me try.
+
+08:04.630 --> 08:12.670
+I'm going to hit escape and let me block in those upper cabinets as well here.
+
+08:12.800 --> 08:19.770
+So let me just grab this and duplicate it and let's move it up all the way to the ceiling.
+
+08:20.000 --> 08:21.100
+Where is the ceiling.
+
+08:21.230 --> 08:25.070
+Let's bring that back here.
+
+08:25.350 --> 08:26.440
+OK.
+
+08:26.650 --> 08:28.930
+So let me just bring this up
+
+08:32.520 --> 08:33.640
+like that.
+
+08:34.110 --> 08:34.550
+All right.
+
+08:34.560 --> 08:41.010
+So if that's our ceiling me go ahead and hide that again if that's our ceiling.
+
+08:41.010 --> 08:43.590
+Now let's go ahead and scale this the why.
+
+08:43.590 --> 08:47.580
+Because these are just quite a bit narrower than the bottom ones.
+
+08:48.910 --> 08:53.040
+That now we've got that part over the stove.
+
+08:53.600 --> 08:56.290
+Well I'll go ahead and move that over.
+
+08:57.880 --> 09:05.870
+And let's take a look at it from an orthographic view I want to press control one and that should spin
+
+09:05.870 --> 09:09.810
+me around to that side and then hit the 5 key.
+
+09:09.890 --> 09:14.840
+Now I can kind of get a sense of where I'm going with this.
+
+09:14.980 --> 09:20.670
+So if this is over the stove
+
+09:23.330 --> 09:33.980
+grab that face and move it up and it looks like if I duplicate it and move it over here over the refrigerator.
+
+09:36.600 --> 09:44.130
+Better center the origin here origin to geometry and then I'll just pull that out.
+
+09:45.600 --> 09:52.070
+Get it right above the refrigerator and maybe that needs to be a little bit higher like that.
+
+09:52.070 --> 10:00.820
+Now this let's center the geometry there again duplicated and let's move this over here and scale that
+
+10:00.820 --> 10:02.510
+down.
+
+10:02.510 --> 10:04.790
+All right let's see how that works now.
+
+10:04.940 --> 10:07.740
+Not sure if I got it all in the right place.
+
+10:08.680 --> 10:09.520
+Not too bad.
+
+10:09.520 --> 10:11.020
+So now we can take
+
+10:14.440 --> 10:17.280
+pretty much all of this here.
+
+10:18.680 --> 10:24.810
+And take it over to the other side like that.
+
+10:24.840 --> 10:30.600
+Now we've got our area for the sink right here right across from the stove.
+
+10:30.990 --> 10:31.410
+All right.
+
+10:31.410 --> 10:36.960
+So once again I can press shift F and the TAB key dropped down to the ground and let's run around in
+
+10:36.960 --> 10:38.780
+here and see see what we think.
+
+10:41.490 --> 10:49.340
+Fridge Rayder cabinets stove sink pantry.
+
+10:49.440 --> 10:50.530
+It's not too bad.
+
+10:52.190 --> 10:54.360
+I think the scale of it is pretty good.
+
+10:55.550 --> 10:56.370
+All right.
+
+10:56.600 --> 11:05.150
+So in the next video we'll begin detailing these getting the countertops on the drawers the cabinet
+
+11:05.150 --> 11:07.280
+doors the handles things like that.

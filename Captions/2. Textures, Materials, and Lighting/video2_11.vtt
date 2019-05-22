@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.760 --> 00:04.590
+Now the last thing we need to do is check our scale.
+
+00:05.050 --> 00:12.590
+Let's go back to the default view and let's bring back some of our scene here.
+
+00:12.590 --> 00:15.690
+Maybe this maybe the walls actually.
+
+00:15.710 --> 00:23.420
+All we really need is our furniture here and now we need to scale this down to work with our furniture.
+
+00:23.420 --> 00:30.320
+So I'll hit the three key and the five key the Z key to go to wireframe and now I need to figure out
+
+00:30.320 --> 00:31.970
+kind of how big this is going to be.
+
+00:31.970 --> 00:34.040
+Let's rotate this around the z axis.
+
+00:34.040 --> 00:43.120
+Let's press our z 9 0 just so we can see it a little better and I'll just scale it down with the key
+
+00:43.700 --> 00:50.110
+and with that pivot point at the center of the grid we can see it scaling it down from the floor or
+
+00:50.120 --> 00:52.850
+the grid here.
+
+00:53.120 --> 00:55.850
+What do you think something like that.
+
+00:55.860 --> 00:59.600
+It's kind of hard to know exactly how big that should be.
+
+01:00.000 --> 01:07.050
+I'll take the scale back or the rotation back to zero and let's move that over here and just see how
+
+01:07.050 --> 01:08.280
+it looks.
+
+01:09.590 --> 01:17.330
+I'm going to press g and Shift Z and now I can slide it around in the y and x axis and if we kind of
+
+01:17.330 --> 01:28.160
+put it up near the couch here to try and get a sense of what it's going to be I think that feels to
+
+01:28.160 --> 01:30.140
+me about right.
+
+01:30.440 --> 01:32.080
+I'm going to go with that.
+
+01:32.120 --> 01:38.690
+So I want to go ahead and press control a and hit the scale for the transforms and apply that.
+
+01:39.050 --> 01:42.520
+And now we can do a little bit of scaling in unity if need be.
+
+01:42.530 --> 01:46.340
+But I think this is going to work let's give this a try.
+
+01:46.340 --> 01:51.410
+All right so if I want to go ahead and leave it there for now I can export this out.
+
+01:51.410 --> 02:00.590
+I can go to a file export and FBA X and I can make sure that selected objects is checked and I'll go
+
+02:00.590 --> 02:07.250
+ahead and export it out into the assets folder of our unity project and I'll call it TV.
+
+02:07.340 --> 02:15.560
+So let's hit export and then we go here in unity we can see it here it's come into the assets folder.
+
+02:15.560 --> 02:23.750
+It's also brought all of our TV materials in into the materials folder which is good that's what we
+
+02:23.750 --> 02:24.590
+want.
+
+02:24.590 --> 02:30.170
+I'll take that TV and drag it into the hierarchy and there it is now in here.
+
+02:30.170 --> 02:32.650
+It's looking a little too big isn't it.
+
+02:32.660 --> 02:43.330
+So we could bring it down a little bit here in the scale it's let's try 95.
+
+02:43.390 --> 02:47.780
+Let's even try let's try 90 and see how that works.
+
+02:49.000 --> 02:50.570
+Yeah kind of like that.
+
+02:51.010 --> 02:55.300
+Let's now bring in our textures here in the textures folder.
+
+02:55.330 --> 03:04.310
+I'll go ahead and bring up a Finder window here and here I'll find the TV color map and drag that in.
+
+03:04.480 --> 03:06.280
+And there we go.
+
+03:06.340 --> 03:11.980
+Now if we come in here and select the television we have multiple different materials that we're going
+
+03:11.980 --> 03:12.960
+to be using.
+
+03:13.120 --> 03:20.200
+We're going to use this same texture map in all of them but we're going to alter the smoothness and
+
+03:20.560 --> 03:22.290
+the metallic for each of them.
+
+03:22.450 --> 03:25.040
+Will let's work on the screen here first.
+
+03:25.150 --> 03:32.240
+I'm going to bring this to pure white just to get that ready and I'll bring in that texture map into
+
+03:32.240 --> 03:33.670
+the Al-Bayda.
+
+03:33.950 --> 03:36.030
+And there we go so we can see it there.
+
+03:36.830 --> 03:45.730
+Now we have an HDR image here in our scene so we should be able to see some reflections in here.
+
+03:45.740 --> 03:50.300
+Let's see if we can work on that I'm going to take the metallic all the way up and the smoothness all
+
+03:50.300 --> 03:54.670
+the way up and you can see there is the reflection of our environment.
+
+03:54.680 --> 04:01.800
+Now we don't want it that reflective of course but if we bring the metallic down just a bit and we bring
+
+04:01.800 --> 04:06.610
+the smooth this down some we can kind of get a
+
+04:09.450 --> 04:10.980
+slightly reflective
+
+04:13.580 --> 04:14.870
+material there yeah.
+
+04:14.960 --> 04:23.340
+So as we move around that being kind of see the basic reflections of the room yeah that's kind of nice.
+
+04:23.360 --> 04:24.570
+I like that.
+
+04:24.610 --> 04:25.150
+All right.
+
+04:25.240 --> 04:29.200
+Let's do something similar with that frame.
+
+04:29.290 --> 04:35.250
+So with the frame here I'll take that to white.
+
+04:35.330 --> 04:38.730
+Let's take that texture map into here.
+
+04:39.020 --> 04:42.630
+And for that frame let's try that again let's take it all the way up.
+
+04:42.630 --> 04:44.310
+There's what we can see.
+
+04:45.990 --> 04:50.280
+In that frame that's once again quite a bit too much.
+
+04:50.400 --> 04:52.020
+So let's bring that back down.
+
+04:54.210 --> 05:04.570
+And see if we can find here something like I don't want it too shiny but maybe something like that.
+
+05:04.570 --> 05:17.100
+All right let's try again with that fabric Let's bring this into our fabric or into the albedo and Rigaud.
+
+05:17.190 --> 05:19.320
+And for this we don't really need any
+
+05:21.630 --> 05:24.360
+reflection at all since it is fabric.
+
+05:24.360 --> 05:28.000
+I'm just going to take the metallic and the smoothen this way down here.
+
+05:28.770 --> 05:30.150
+Let's work with the wood.
+
+05:30.150 --> 05:31.920
+Now where is the wood.
+
+05:31.920 --> 05:41.550
+Here we go TV Wood let's drag our texture into their And we go.
+
+05:41.970 --> 05:47.390
+And now for this I think we do want some reflection here because this is kind of a veneer.
+
+05:47.850 --> 05:54.520
+It's not really metallic but I think it does have reflection so maybe not quite that much.
+
+05:54.760 --> 06:00.350
+Putting it down just a little bit like that something like that.
+
+06:03.210 --> 06:07.450
+So as we move around we can tell it has a bit of a shine to it.
+
+06:09.790 --> 06:13.330
+Maybe I'll take it down a little bit lower now.
+
+06:13.500 --> 06:15.760
+OK.
+
+06:15.930 --> 06:20.320
+These panels here let's work on that you know we go
+
+06:23.950 --> 06:25.550
+drag that into the Al-Bayda
+
+06:28.480 --> 06:34.990
+And these of course are a little bit more Metallik Let's take a look at the reflectivity that's probably
+
+06:34.990 --> 06:36.430
+too much.
+
+06:36.520 --> 06:37.990
+Let's bring it down.
+
+06:38.380 --> 06:39.500
+Kind of like that.
+
+06:39.850 --> 06:40.960
+All right.
+
+06:40.960 --> 06:43.210
+So there we have our television set up.
+
+06:43.210 --> 06:50.050
+Let's take a look at it in game since we have some color correction on our camera recall that we put
+
+06:50.380 --> 06:54.100
+both anti-aliasing and color correction on our camera.
+
+06:54.100 --> 06:57.290
+Let's take a look at what that looks like.
+
+06:59.560 --> 07:03.350
+Yeah I like the reflection of the TV tube.
+
+07:03.350 --> 07:04.460
+I like that.
+
+07:05.470 --> 07:07.930
+Yeah I think that works pretty well.
+
+07:07.930 --> 07:10.330
+I think it may still be a little bit too big.
+
+07:10.330 --> 07:12.860
+I may want to take it down just a little bit.
+
+07:13.730 --> 07:15.200
+I think that's looking pretty good.
+
+07:16.040 --> 07:18.020
+So let's clean up a little in here.
+
+07:18.020 --> 07:27.120
+I'll take my TV into the models folder and in the materials yeah I'll go ahead and leave these out.
+
+07:27.140 --> 07:33.230
+We could begin creating folders for these to put all the materials for the walls for the TV for the
+
+07:33.230 --> 07:35.380
+lamp et cetera.
+
+07:35.450 --> 07:41.780
+But I think I'll go ahead and leave them out the naming conventions I think allow us to separate them
+
+07:41.780 --> 07:44.070
+out pretty well here.
+
+07:44.090 --> 07:48.530
+Now we really need to go through and think about the materials for all of the other objects that we've
+
+07:48.530 --> 07:49.870
+put in the room.
+
+07:49.970 --> 07:54.010
+We haven't really done that with any of the other objects so take this floor.
+
+07:54.140 --> 07:58.950
+We're still using the default settings of this material.
+
+07:59.030 --> 08:04.040
+What we can do is let's take a look at the material within the materials folder I'll just select floor
+
+08:04.040 --> 08:09.190
+here and you can see that material a sample of it here.
+
+08:09.280 --> 08:14.420
+This is a pretty good view to adjust your material I kind of like doing it here.
+
+08:14.470 --> 08:17.880
+We did it in the viewport and that worked just fine.
+
+08:18.190 --> 08:26.740
+But here you can really see the changes in the material here see how you can see the reflection here
+
+08:26.740 --> 08:27.810
+as well.
+
+08:27.820 --> 08:33.220
+So this is a good place to work on setting up your materials to kind of isolate it apart from the rest
+
+08:33.220 --> 08:34.400
+of the scene.
+
+08:34.420 --> 08:36.580
+So this is not a metallic object.
+
+08:36.580 --> 08:37.280
+It's true.
+
+08:38.220 --> 08:41.870
+Let's take that down and it shouldn't be that smooth.
+
+08:41.900 --> 08:47.580
+I don't think so maybe give it a little bit more smoothness like that.
+
+08:47.580 --> 08:55.510
+Now you can tell the way material is going to feel the the quality of the material by the highlight
+
+08:55.570 --> 08:56.340
+on it.
+
+08:56.350 --> 09:02.200
+So as we take the smoothness down you can see that that highlight begins to spread out.
+
+09:02.320 --> 09:10.360
+So as we increase it that highlight gets very sharp indicating to us that that's a very reflective smooth
+
+09:10.390 --> 09:11.300
+object.
+
+09:11.650 --> 09:18.480
+So it's this highlight that I tend to look at as I set up a material as I play with the settings here.
+
+09:18.490 --> 09:25.740
+So for me it's a little bit more of a worn material so it wouldn't be quite that sharp of a highlight.
+
+09:25.870 --> 09:32.740
+So if I kind of bring it back some that highlight begins to disperse a little bit kind of cueing us
+
+09:32.740 --> 09:37.610
+that it's an older worn and not as shining of a material.
+
+09:37.720 --> 09:40.780
+So let's go with that for now.
+
+09:40.780 --> 09:44.380
+Each one of these objects I think we need to go through and do that.
+
+09:44.380 --> 09:52.570
+So for say this table we've got two materials here the top and the wood.
+
+09:52.570 --> 09:56.890
+So I could come over here to the materials area and just deal with the top.
+
+09:57.070 --> 10:01.240
+See if I can find some settings that work pretty well here.
+
+10:01.240 --> 10:09.670
+Now this is not really metallic surface and it's probably not a real reflective surface.
+
+10:09.660 --> 10:15.350
+To me it seems old and kind of decayed or worn.
+
+10:15.370 --> 10:23.510
+So something like that maybe the wood on the table maybe a little bit shiny or it's not a metallic saw
+
+10:23.530 --> 10:30.430
+Keep it low for the metallic setting and for the smoothness or kind of bring that back and give it a
+
+10:30.430 --> 10:34.180
+little bit of a sheen but not a lot.
+
+10:34.300 --> 10:35.880
+Something like that.
+
+10:35.950 --> 10:42.970
+So what you can do is go through your materials individually like this and really concentrate on how
+
+10:42.970 --> 10:49.590
+that specular highlight looks and what that communicates about the material in the scene.

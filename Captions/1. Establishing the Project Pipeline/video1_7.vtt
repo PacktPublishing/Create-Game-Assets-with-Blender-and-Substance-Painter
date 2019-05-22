@@ -1,0 +1,568 @@
+WEBVTT
+
+00:00.690 --> 00:08.100
+Now let's take a look at the process for texturing an object by exploiting the U.V. map to paint program
+
+00:08.100 --> 00:16.170
+like Photoshop or Gamp or Krita and how we might use that to then lay down the texture and layer multiple
+
+00:16.170 --> 00:18.750
+textures over the U.V. map.
+
+00:18.780 --> 00:26.730
+So I'm going to tab into edit mode here for the couch and keep in mind that this is only for the fabric
+
+00:26.730 --> 00:28.800
+part of the couch not the wood part.
+
+00:28.800 --> 00:32.730
+I've separated that out into its own object.
+
+00:32.930 --> 00:38.750
+So I've tabbed into Edit Mode hit a to select everything and I get to come over here and hit a and so
+
+00:38.750 --> 00:46.000
+like everything in the U-V map is well and I'm going to go to use these and export lay out.
+
+00:46.050 --> 00:54.000
+Now when you're exporting the U.V. map out of Blendr you need to make a decision as to what size this
+
+00:54.000 --> 00:55.980
+U-V map is going to be.
+
+00:55.980 --> 01:03.330
+And for my particular purposes I'm going to make this map to K or 2048 by 2048.
+
+01:03.450 --> 01:10.890
+It's currently set to 1 K but I feel like there are times when this particular object may pretty much
+
+01:10.890 --> 01:16.830
+fill up the screen if the camera is very close to the object so I'm going to go ahead and call this
+
+01:16.850 --> 01:20.510
+to say 20 eight.
+
+01:20.520 --> 01:29.670
+Now if this happens to be too big and it's slowing down my scene slowing down my game then I can always
+
+01:29.670 --> 01:38.400
+go back into Photoshop and save out a smaller version and I'm going to come over to my textures folder
+
+01:38.400 --> 01:41.340
+here and I'm going to save it in my textures folder.
+
+01:41.340 --> 01:47.640
+But what I'm going to do is create a folder here and on the call it couch and within this folder I'm
+
+01:47.640 --> 01:53.780
+going to have all of my own files that I'm going to be using to texture this object.
+
+01:53.790 --> 02:01.000
+I'm going to have the U-V map I'm going to have the photoshop file color map maybe normal map.
+
+02:01.080 --> 02:04.470
+So all of that is going to be here in one folder.
+
+02:04.560 --> 02:11.420
+So I'll call this couch underscore Uvas an export.
+
+02:11.430 --> 02:21.450
+Now let's go to photoshop here in Photoshop I'm in a press control or command o to open and I will browse
+
+02:21.450 --> 02:32.650
+to that textures folder and my couch folder here and here are my couch UVA's so all like open.
+
+02:32.670 --> 02:33.750
+And there they are.
+
+02:34.080 --> 02:40.710
+So I don't know if it's hard to see here but if I zoom in really far you can see that there is the movies
+
+02:41.040 --> 02:48.230
+from Blender now all press control or command zero to go to full screen there.
+
+02:48.240 --> 02:51.650
+And I'm to change this flayer to call it Uvas.
+
+02:52.230 --> 02:59.820
+So I know what it is and I'll go ahead and open up that fabric seamless texture as well so control or
+
+02:59.880 --> 03:00.490
+command.
+
+03:00.510 --> 03:08.040
+Oh and let's go find our texture in our textures folder.
+
+03:08.040 --> 03:08.880
+Here it is.
+
+03:10.740 --> 03:11.160
+All right.
+
+03:11.160 --> 03:19.070
+So now that we have this I'm going to press control or command a and then Control C to copy.
+
+03:19.290 --> 03:27.930
+And now going to come over to my couch file and press control or command V to paste.
+
+03:27.940 --> 03:35.510
+Now take this layer now and drag it below the U.V. so I can see the U-V map over the texture.
+
+03:35.550 --> 03:44.710
+I pressed the key to go to the moved tool and I'll press shift and click and drag and reduce the size
+
+03:44.710 --> 03:46.480
+of this somewhat.
+
+03:46.510 --> 03:49.240
+So these are the pillows here.
+
+03:49.270 --> 03:52.820
+These are the back of the couch.
+
+03:52.840 --> 03:59.770
+So what I want to do is try and guess as best as I can how big this should be.
+
+03:59.860 --> 04:06.030
+Somebody zoom in here and just see if I can get it to be about the size that I want.
+
+04:06.040 --> 04:13.140
+So if this is the back cushion may be the size of the pattern should be about like that.
+
+04:13.510 --> 04:15.110
+Let's give that a try.
+
+04:15.400 --> 04:24.250
+So I'm going to move this up here and hit enter and now I'm going to press alt and shift and click and
+
+04:24.250 --> 04:30.030
+drag that out and put it right up next to the first one now.
+
+04:30.250 --> 04:38.350
+I need to turn on snapping so I'm going to go up to the view menu and turn on snap its shift control
+
+04:38.350 --> 04:40.160
+command semi-colon.
+
+04:40.330 --> 04:41.650
+So I'll turn that on.
+
+04:41.650 --> 04:48.820
+So now as I move this it will snap on to the first tile Now I'm going to press the arrow key one time
+
+04:48.820 --> 04:50.790
+and move it over just a little bit.
+
+04:50.790 --> 04:57.450
+So it ensures that it's sealed up or that there isn't a space between the two tiles.
+
+04:57.550 --> 05:04.750
+And I'm going to just press alt shift again and that will duplicate the tile and I'll snap it on and
+
+05:04.750 --> 05:13.510
+then move it over one with the left arrow key and I'll do that again kind of all the way over here and
+
+05:13.630 --> 05:21.910
+zoom out just a bit with control minus and I'll press the spacebar to use the hand tool to move over
+
+05:21.910 --> 05:23.250
+here.
+
+05:23.290 --> 05:25.910
+All right so shift Allt again.
+
+05:27.370 --> 05:35.820
+Snap move over one with the left arrow key and I'm just going to do this a bit and kind of tile this
+
+05:35.820 --> 05:38.040
+all the way over.
+
+05:38.340 --> 05:42.740
+Now I can do this the whole way over and that might be the way to go.
+
+05:42.780 --> 05:48.900
+Let me go ahead and do that when I can do is select a couple of these so I'll shift select a couple
+
+05:48.900 --> 05:57.780
+of the layers here like this and then press alt shift and click and drag and duplicate these over and
+
+05:57.780 --> 06:00.790
+move it over one to the left.
+
+06:00.950 --> 06:08.510
+And now maybe I'll select all these two here alt shift and duplicate these over.
+
+06:08.780 --> 06:10.120
+And there we go.
+
+06:10.130 --> 06:13.590
+Now I can select all of these layers here.
+
+06:15.760 --> 06:18.820
+And do the same thing going down.
+
+06:18.820 --> 06:26.650
+So I'll always shift this and move it down snap it move it up with the up arrow just so we seal it off
+
+06:26.650 --> 06:29.010
+a bit and keep on going
+
+06:32.110 --> 06:34.200
+and I'll do one more up here at the top.
+
+06:34.200 --> 06:41.560
+It looks like I need another one to appear so alt shift and I'll bring this all the way up snap it there
+
+06:41.570 --> 06:47.650
+move it down with it with the down key and I'll do one more like that.
+
+06:47.780 --> 06:52.670
+Now I'm going to come over here to the layers of window and I'm going to select all of these just like
+
+06:52.670 --> 07:00.170
+the top one scroll down shift select that bottom one and then press control or command E and that will
+
+07:00.440 --> 07:03.880
+merge everything down into one layer.
+
+07:03.890 --> 07:07.280
+All right so I'm going to call this fabric.
+
+07:07.670 --> 07:09.440
+So let's test this.
+
+07:09.440 --> 07:11.150
+How do we do on this.
+
+07:11.150 --> 07:19.100
+I'm going to turn off the U-V layer and I'm going to press shift alt control or command W and that will
+
+07:19.130 --> 07:22.750
+open up the export as window here.
+
+07:22.760 --> 07:28.170
+Now you can also go up to file export Export as right here.
+
+07:31.890 --> 07:37.120
+And now let's just export this out I've got it set as a P N G.
+
+07:37.260 --> 07:39.560
+It's 2048 by 2048.
+
+07:39.570 --> 07:40.550
+That's good.
+
+07:40.590 --> 07:48.480
+I'm just going to click export and I will take it over to that couch folder and I'll change it from
+
+07:48.480 --> 07:54.980
+couch to couch underscore see for color map I'll hit export.
+
+07:55.290 --> 07:56.410
+And there we go.
+
+07:56.880 --> 08:00.270
+So now if I go back to Blendr Let's take a look at it here.
+
+08:00.300 --> 08:07.560
+I'm going to switch this texture here with the one we just created so I'll hit the X to delete that
+
+08:07.620 --> 08:10.860
+or remove it out of the texture node.
+
+08:10.870 --> 08:18.060
+Now click open and I'll come over to my textures folder couch folder and there is my color channel or
+
+08:18.060 --> 08:22.890
+my color map click open and there we go.
+
+08:23.310 --> 08:30.870
+So now it looks like we've created our texture pattern way too small but we haven't in that over here
+
+08:30.900 --> 08:34.980
+under this scale fields in our texture panel.
+
+08:35.010 --> 08:40.520
+We still have 12 here so let's take this down to one and see how we did.
+
+08:40.810 --> 08:42.950
+Yeah that's pretty good.
+
+08:42.960 --> 08:49.080
+So that was a little more work than we did before but now we have more control over it.
+
+08:49.080 --> 08:52.250
+So let's say we wanted to put some dirt in stains on this.
+
+08:52.290 --> 08:57.410
+We go back to a photo shop here let me open up some grunge maps.
+
+08:57.420 --> 09:00.350
+I love grunge maps.
+
+09:00.930 --> 09:02.750
+It's just textures of dirt.
+
+09:02.760 --> 09:04.320
+So here's one.
+
+09:04.560 --> 09:08.430
+I have a grunge map from textures dot com.
+
+09:08.430 --> 09:11.060
+Here's another one here's another one.
+
+09:11.160 --> 09:15.630
+So it's just maps of dirt and just nastiness.
+
+09:15.630 --> 09:16.890
+I like it.
+
+09:16.890 --> 09:20.950
+It gives things a nice lived in feel.
+
+09:21.150 --> 09:28.530
+So I'm going to go I think with this grungy map so I'm going to select this one and open this in Photoshop
+
+09:29.000 --> 09:35.730
+and I'm going to press control or command a and then a controller command C to copy this then I'm going
+
+09:35.730 --> 09:38.870
+to come over here and paste it in here.
+
+09:39.390 --> 09:47.460
+So I'm going to press control or command V to paste that they're now going to turn on my you U-V map
+
+09:47.460 --> 09:51.640
+so we can see them overlaid over the textures.
+
+09:51.960 --> 09:59.580
+And now I'm just going to maybe take this I'm going to try and just take this over the whole thing like
+
+09:59.640 --> 10:00.500
+this.
+
+10:00.720 --> 10:02.420
+Let's see how this works.
+
+10:02.490 --> 10:11.900
+I'll change this from the normal blending mode to multiply and that gives it kind of a nasty feel to
+
+10:11.900 --> 10:12.580
+it.
+
+10:12.590 --> 10:14.570
+Let me turn off to the movies and see how it looks.
+
+10:14.600 --> 10:14.930
+Oh yeah.
+
+10:14.960 --> 10:16.470
+That looks just awful.
+
+10:16.520 --> 10:22.870
+So let's try this press shift alt command W again.
+
+10:24.220 --> 10:27.330
+To export and export all.
+
+10:27.380 --> 10:28.430
+And over.
+
+10:28.440 --> 10:28.890
+Right.
+
+10:28.890 --> 10:37.600
+That couch color map and replace and go back to Blendr and see how we did here.
+
+10:37.610 --> 10:39.410
+I'm going to remove that hit.
+
+10:39.440 --> 10:40.400
+Open.
+
+10:40.400 --> 10:44.820
+Go to that couch folder and let's choose that couch color map again.
+
+10:45.790 --> 10:46.960
+Oh my.
+
+10:47.240 --> 10:50.180
+And it's just nasty.
+
+10:50.470 --> 10:55.600
+So you can see now we have more control over our textures.
+
+10:55.810 --> 11:03.340
+I wasn't able to overlay that dirt layer by just importing the seamless map directly into a blender
+
+11:03.580 --> 11:13.060
+or unity but with this now I can make adjustments I can adjust the opacity of this let's say See I can
+
+11:13.060 --> 11:14.840
+take the opacity down a bit.
+
+11:14.860 --> 11:17.320
+Maybe that's a little too grungy.
+
+11:17.500 --> 11:18.230
+Right.
+
+11:18.370 --> 11:25.150
+And I can add more layers more grunge or dirt or textures on this however much I want.
+
+11:25.720 --> 11:33.670
+But let me just show you how I would clean this U-V map up clean this color map up before I took it
+
+11:33.670 --> 11:39.100
+into unity or before I submitted it to a production pipeline.
+
+11:39.100 --> 11:48.550
+If I were working for a studio or was working with a team of developers so what I do is I'd one make
+
+11:48.550 --> 11:52.870
+sure that all of these layers have been condensed down to one.
+
+11:52.870 --> 12:00.600
+So I'm going to select all of these and press control or command e this other layer or call this dirt.
+
+12:00.790 --> 12:08.320
+And now if I turn the movies back on what I can do is select the area outside of the movies and delete
+
+12:08.320 --> 12:09.050
+it.
+
+12:09.070 --> 12:12.020
+So let me zoom in just a bit here.
+
+12:12.100 --> 12:17.780
+I'm going to come over to the magic wand tool here in Photoshop.
+
+12:18.160 --> 12:25.780
+Select the U.V. is Lehre and then click anywhere outside the movies and that will select everything
+
+12:25.840 --> 12:28.530
+all around the U-V islands.
+
+12:28.540 --> 12:33.950
+Now it looks like it didn't get these over here so I'll press shift and click over here as well.
+
+12:33.960 --> 12:35.560
+That's like that all of those.
+
+12:35.680 --> 12:36.270
+Maybe.
+
+12:36.370 --> 12:40.260
+Shift click here and here and here over here.
+
+12:40.360 --> 12:45.790
+So I'm just trying to get all of these areas selected.
+
+12:45.800 --> 12:54.280
+There we go now I'm going to delete these areas for both of these layers but I want to make sure I don't
+
+12:54.280 --> 13:02.080
+infringe on the U-V islands themselves so here's one right here so I'm going to come up to select and
+
+13:02.170 --> 13:09.750
+I'm going to choose modify and I'm going to contract maybe by two pixels.
+
+13:09.840 --> 13:16.290
+There you go and that contracts the selection a little bit to get the selection away from the edges
+
+13:16.290 --> 13:18.080
+of the U-V islands.
+
+13:18.090 --> 13:28.710
+Now I'm going to select the dirt layer and press delete now and select the fabric layer and press delete.
+
+13:28.890 --> 13:34.030
+And now press control or command d to de-select everything.
+
+13:34.260 --> 13:41.280
+Then I'm going to create a new layer right down here at the bottom and I'll select this and make it
+
+13:41.580 --> 13:47.510
+black and then I'll use that paint bucket tool and click out here.
+
+13:47.520 --> 13:55.320
+So now if I turn off the U-V wires you can see I have a nice U-V map cleaned up a bit and ready for
+
+13:55.320 --> 13:56.230
+export.
+
+13:56.370 --> 14:07.710
+So I'll press shift alt commander control w and I'll export this out to my couch folder like that and
+
+14:07.980 --> 14:12.800
+over write that and replace it good.
+
+14:12.800 --> 14:15.950
+Now I want to save this photoshop file as well.
+
+14:15.950 --> 14:23.080
+Press control or command s and I'll save this as a SD a photoshop file.
+
+14:23.270 --> 14:27.480
+Take the Uvas off of the name and call it just couch PTSD.
+
+14:27.500 --> 14:34.890
+So now I have the photoshop file the U-V Islands and the color map all in one folder there.
+
+14:35.720 --> 14:37.790
+And click save.
+
+14:37.820 --> 14:39.110
+All right.
+
+14:39.110 --> 14:49.450
+So now if I come back over to unity and go to my couch fabric material here I can remove this texture
+
+14:49.480 --> 14:54.800
+out of the Al bedo I'll just click that little dot and then choose none.
+
+14:55.840 --> 14:57.960
+Now that's been removed.
+
+14:58.030 --> 14:59.850
+Now bring that new texture in.
+
+14:59.890 --> 15:02.470
+Bring at my Finder window.
+
+15:02.470 --> 15:03.600
+Here it is.
+
+15:03.600 --> 15:04.660
+Couch underscore.
+
+15:04.660 --> 15:05.110
+See.
+
+15:05.110 --> 15:06.760
+I'll drag that in.
+
+15:06.910 --> 15:11.450
+And now I can take that texture drag it into the Al-Bayda.
+
+15:11.920 --> 15:19.340
+And once again we still have 12 here in the tiling so I'll take that back down to one.
+
+15:19.870 --> 15:21.430
+And there we go.
+
+15:21.430 --> 15:26.080
+I can adjust that material a bit so it isn't quite so shiny.
+
+15:26.080 --> 15:33.040
+I can use the metallic and the smoothness here to reduce the shyness of it so it looks a little bit
+
+15:33.040 --> 15:34.830
+more like a fabric.
+
+15:35.320 --> 15:36.300
+And there we go.
+
+15:36.490 --> 15:39.430
+Our disgusting couch has been textured.

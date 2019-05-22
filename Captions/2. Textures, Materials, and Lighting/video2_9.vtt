@@ -1,0 +1,937 @@
+WEBVTT
+
+00:00.950 --> 00:03.530
+Well let's continue working on the television here.
+
+00:03.680 --> 00:11.360
+I think for the screen of the TV that old tube screen I think I'm going to use something like a sphere
+
+00:11.720 --> 00:13.730
+to get that rounded shape.
+
+00:13.740 --> 00:15.080
+Let's try it.
+
+00:15.080 --> 00:24.350
+I'm going to create a U-V sphere and take the segments down to maybe I don't know 16 I have a 12 and
+
+00:24.500 --> 00:31.910
+8 rings and I want to take away half of the sphere so I'm going to hit the three key the five key to
+
+00:31.910 --> 00:40.450
+go to orthographic alt tab into that mode and hit the Z key and also switch over to face mode.
+
+00:40.870 --> 00:48.470
+And now I'll hit the B key to turn on the border select tool and I'll just click and drag the faces
+
+00:48.470 --> 00:54.080
+back here at the back of the sphere and hit X and delete faces.
+
+00:54.080 --> 01:01.190
+Now I'm going to tab back into object mode and scale on the y axis with X and Y and kind of flatten
+
+01:01.190 --> 01:06.290
+this up a bit so it's more like the screen here and we go.
+
+01:06.710 --> 01:13.190
+And then if I hit the one key I'm going to tab into edit mode again and this time I'm going to border
+
+01:13.190 --> 01:21.470
+select the faces right up at the top and hit X and delete faces and border select the these down here
+
+01:21.470 --> 01:26.120
+at the bottom like this x and faces.
+
+01:26.540 --> 01:33.050
+And I may even want these other this other row of faces deleted as well but let me take a look at it
+
+01:33.080 --> 01:34.870
+and see what I think here.
+
+01:34.880 --> 01:44.780
+So let's move this into place and let's scale it down a bit so it kind of fits around here and yeah
+
+01:44.810 --> 01:53.420
+it almost looks like I don't need these top faces here so I'll go ahead and select this with the b key.
+
+01:53.430 --> 01:59.210
+Hit B again and select those and hit X and faces again.
+
+01:59.210 --> 02:01.630
+Now let's take a look at this.
+
+02:01.730 --> 02:09.610
+If I bring this object forward a bit here in the y axis I can kind of fit it right up against their.
+
+02:09.670 --> 02:10.570
+That looks pretty good.
+
+02:10.570 --> 02:16.000
+I'm gonna hit the five key again to go back to perspective view I just like to work in perspective view
+
+02:16.000 --> 02:18.130
+a little better I don't know why.
+
+02:18.340 --> 02:23.620
+And then I'm going to come up here to the Tools tab and click the smooth shading and there we go that
+
+02:23.620 --> 02:25.440
+kind of smooths it up.
+
+02:25.450 --> 02:32.530
+So now we have that kind of curved television tube there and you can of course scale it however you
+
+02:32.530 --> 02:35.030
+want to get more or less of a curve.
+
+02:35.050 --> 02:37.230
+But I think I'm going to go with that for now.
+
+02:38.560 --> 02:41.330
+Now let's work on the knobs over here.
+
+02:41.330 --> 02:48.170
+So these little guys right here I don't think they need to be that intricate but we can at least kind
+
+02:48.170 --> 02:49.500
+of hint at it.
+
+02:49.580 --> 02:53.190
+We're going to need a plate here this kind of just metal plate.
+
+02:53.210 --> 03:01.670
+I'll go ahead and add one here maybe I'll select this face press shift s and move the cursor to the
+
+03:01.670 --> 03:09.700
+selected face and then from that point I'll go ahead and create a cube right here.
+
+03:09.860 --> 03:18.170
+Little big and that's ok we'll scale it down a bit maybe take away that face at the back with X and
+
+03:18.260 --> 03:23.450
+faces and then we can kind of scale this in the y with X and Y and scale that.
+
+03:23.450 --> 03:26.850
+So it's a little flatter and maybe move that into place.
+
+03:26.850 --> 03:30.230
+Now let's see if that fits.
+
+03:30.410 --> 03:33.830
+And that's not too bad it could probably come down a bit more like that.
+
+03:35.790 --> 03:40.380
+And we go and let's put that up here in place.
+
+03:40.450 --> 03:40.860
+All right.
+
+03:40.870 --> 03:50.080
+So we have that there's also another plate right down here and I'm going to put that Zenith logo on
+
+03:50.080 --> 03:57.130
+this one down here I think and leave this one up here blank because I don't really have a texture for
+
+03:57.130 --> 03:57.820
+this.
+
+03:57.820 --> 04:03.900
+So I'm going to go ahead and just put it down here so I'll just duplicate this shift D.
+
+04:03.910 --> 04:13.180
+Hit the Z key and move this down here and maybe kind of collapse just a little bit like that.
+
+04:13.480 --> 04:16.610
+All right so we have those in place.
+
+04:16.660 --> 04:21.310
+What else do we need to do we need to do the legs let's do those for these.
+
+04:21.310 --> 04:27.900
+Now these are kind of square issue it looks like so maybe a cube.
+
+04:28.260 --> 04:30.090
+Let's try that.
+
+04:30.180 --> 04:36.960
+Put the cursor back into the center of the grid with shift C and I'll come over here the Create tab
+
+04:36.960 --> 04:44.420
+and click cube and let's scale this down quite a bit scale this up in the Z.
+
+04:45.090 --> 04:46.960
+Let's try and put it in place.
+
+04:47.010 --> 04:51.360
+I'll hit the three key five key z key.
+
+04:51.550 --> 04:53.250
+And now here we go.
+
+04:53.350 --> 04:57.110
+We need to try and figure out how tall this is going to be.
+
+04:57.220 --> 05:04.720
+So let's put this up here up front and that looks to me about the right size for the legs so let's bring
+
+05:04.720 --> 05:06.800
+the whole TV down a bit.
+
+05:07.150 --> 05:09.280
+Something like that.
+
+05:09.590 --> 05:17.300
+Maybe I can tab into edit mode select that face at the bottom and press S and scale that in a bit so
+
+05:17.300 --> 05:20.630
+it's a little bit narrower at the bottom.
+
+05:20.810 --> 05:26.870
+Come over to the front view and let's move it into place here.
+
+05:26.870 --> 05:32.900
+And then what we can do is with this face still selected I'll just drag it over a bit kind of give us
+
+05:32.900 --> 05:35.910
+that angled look there.
+
+05:36.010 --> 05:36.390
+All right.
+
+05:36.390 --> 05:37.090
+That looks pretty good.
+
+05:37.090 --> 05:40.380
+Now we don't need the top in the bottom faces here.
+
+05:40.400 --> 05:50.060
+Do we so I'll select those two and hit X and faces and then I'll hit the 7 key and press shift D and
+
+05:50.060 --> 05:59.520
+move that here in the y axis like that like these two shift D and X and move these over here.
+
+05:59.620 --> 06:04.850
+And now what I can do is I can spin this all the way around with these two selected.
+
+06:04.990 --> 06:09.680
+I could hit our 180 and that'll spin them all the way around.
+
+06:09.680 --> 06:12.530
+All right so now let's take a look at it.
+
+06:12.710 --> 06:15.700
+Hit that five key.
+
+06:15.730 --> 06:17.140
+There we go.
+
+06:17.140 --> 06:20.560
+So now let's work on these knobs here.
+
+06:20.590 --> 06:27.190
+I'll select this piece tab into Edit Mode shift s cursor to selected.
+
+06:27.190 --> 06:31.370
+And now I can create a cylinder here.
+
+06:31.600 --> 06:36.310
+Let's reduce the number of faces to maybe 12.
+
+06:36.310 --> 06:37.790
+Let's try that.
+
+06:37.840 --> 06:48.160
+Remove any cap fill here so choose nothing and I'll rotate around the x axis with our x 9 0 and we go
+
+06:49.040 --> 06:55.450
+and let's scale this down and put it in place X Y.
+
+06:55.620 --> 06:56.400
+And here we go.
+
+06:56.400 --> 07:08.750
+So this let's say is going to be this one right over here so maybe I can place it like this.
+
+07:08.950 --> 07:14.170
+Let me go to my front view and orthographic and wireframe and maybe I can place it a little better like
+
+07:14.170 --> 07:17.840
+this something like that.
+
+07:17.860 --> 07:26.300
+Let's say I'll zoom in with period key and now let's try and create something that looks like this.
+
+07:26.300 --> 07:31.280
+I don't think I need all of this geometry in here but we need something that kind of hints at it.
+
+07:31.530 --> 07:37.530
+So I'll tab into edit mode and maybe go to edge mode and select this edge and I'm going to move this
+
+07:37.530 --> 07:42.030
+down here like this for say this part right here.
+
+07:43.170 --> 07:52.880
+Hit the scale in a bit and move it out maybe scale that in a little more and let's go ahead and see
+
+07:52.910 --> 08:01.590
+and why and move that straight out it's hit extrude and scale straight out now.
+
+08:01.980 --> 08:05.790
+And what I'll do is go ahead and bring this forward with e y.
+
+08:07.700 --> 08:14.720
+And yeah let's go ahead and hit E and scale this all the way in and then I'll just kind of punch this
+
+08:14.720 --> 08:16.330
+out just a little bit.
+
+08:17.040 --> 08:20.610
+And scale this in like this.
+
+08:20.610 --> 08:25.840
+Now I'll go ahead and press alt M and choose merge to center.
+
+08:25.860 --> 08:26.990
+So there we go.
+
+08:27.000 --> 08:34.350
+So it's not quite what we see here but I think it kind of hints at it we can move this back and place
+
+08:34.350 --> 08:36.600
+it right in here.
+
+08:36.630 --> 08:37.500
+All right.
+
+08:37.680 --> 08:39.000
+So there's that.
+
+08:39.090 --> 08:47.950
+We'll go ahead and take that and duplicate it with shift D and move that right down here like that.
+
+08:47.990 --> 08:53.940
+I'll go and press shift C to move the cursor down to the center of the grid and Z to go back to shaded
+
+08:53.940 --> 08:57.560
+view and 5 for perspective.
+
+08:57.570 --> 09:03.740
+All right so now we have our TV and see is there anything else we need to put on here.
+
+09:03.780 --> 09:06.180
+I feel like there's kind of a hard edge around here.
+
+09:06.180 --> 09:08.700
+I wonder if there's anything I can do about that.
+
+09:09.180 --> 09:12.960
+Perhaps I could choose these faces here and flatten them.
+
+09:12.960 --> 09:13.760
+Let's try that.
+
+09:13.770 --> 09:19.550
+If I go to shading Uvas and hit flat see what happens there.
+
+09:20.010 --> 09:25.020
+Yes see that gives it a little more of an edge around there kind of like this.
+
+09:25.080 --> 09:26.450
+I think that'll work.
+
+09:26.910 --> 09:32.430
+Let's now work on U-V mapping it and getting it ready to be textured.
+
+09:32.430 --> 09:41.090
+Now I know that in this scene I am never going to see the back of this TV or the bottom of this TV.
+
+09:41.130 --> 09:46.440
+I know that because this is my project and I get to say how it's going to be.
+
+09:46.440 --> 09:53.550
+Now if you're working on a project in a team environment or a studio you may not have this kind of luxury
+
+09:53.550 --> 10:00.600
+and that's fine but I know I'm never going to see the back of this tv and I'm never gonna see the bottom
+
+10:00.600 --> 10:09.990
+of the TV so I'm going to hit the C key and select these faces back here and just get rid of them because
+
+10:10.080 --> 10:16.430
+I know I don't need them and I don't want them in my scene and I don't want to have to use them.
+
+10:16.510 --> 10:24.540
+Honestly so I'll grab all of these and get rid of them.
+
+10:24.590 --> 10:26.120
+So there we go.
+
+10:26.120 --> 10:29.540
+There is what we need to U-V map.
+
+10:29.540 --> 10:32.860
+I like that I like that it's a little simpler.
+
+10:32.870 --> 10:34.280
+All right so let's think about this.
+
+10:34.280 --> 10:40.820
+I'm going to go to my U-V editing screen lay out I'm going to hit the period key to zoom into this area
+
+10:40.820 --> 10:42.480
+here.
+
+10:42.740 --> 10:48.140
+I think I'm going to wait to combine all of these objects until after I view the map.
+
+10:48.140 --> 10:53.900
+Them are U-V mapped them one at a time as individual objects and I think that's sometimes a little bit
+
+10:53.900 --> 10:55.310
+easier.
+
+10:55.370 --> 11:01.630
+I don't want my U-V test view here so I'm going to click the X right here to get rid of that for now.
+
+11:03.640 --> 11:05.550
+So let's let's begin.
+
+11:05.560 --> 11:09.180
+I'm going to select that TV screen I'll press shift.
+
+11:09.220 --> 11:09.810
+H.
+
+11:09.850 --> 11:11.300
+And there it is.
+
+11:11.320 --> 11:17.190
+So that looks like it's going to be pretty easy to U-V map Alt-Tab into edit mode.
+
+11:17.200 --> 11:20.380
+Hit the A key you and unwrap.
+
+11:20.380 --> 11:23.830
+Now it's looking a little curved here.
+
+11:23.920 --> 11:32.150
+I think we can maybe apply our transforms and see how that looks saw press control a and hit scale.
+
+11:32.220 --> 11:35.760
+I'll tab into edit mode and hit you and unwrap and.
+
+11:35.800 --> 11:38.370
+Yeah that looks a little better now.
+
+11:38.860 --> 11:45.190
+Now I have this stretch feature turned on just so I can see the amount of stretching here and it looks
+
+11:45.550 --> 11:49.830
+totally blue which means no stretching so that's good.
+
+11:49.870 --> 11:56.810
+I'll go back to object mode press alt h to bring everything else back let's work on just the cabinet
+
+11:56.810 --> 11:58.940
+now I'll select that press shift.
+
+11:58.970 --> 11:59.900
+H.
+
+12:00.050 --> 12:07.400
+And here we are with just the cabinet tab into edit mode and let's see if we can split this out in a
+
+12:07.400 --> 12:09.340
+reasonable way here.
+
+12:09.920 --> 12:16.760
+I think maybe I'll press alt and click an edge here let me get into edge mode so I'll press alt and
+
+12:16.760 --> 12:24.140
+click this edge now that selects that entire edge all the way around I'll go ahead and add a seam there.
+
+12:24.440 --> 12:29.200
+Mark seen let's go ahead and add a seam here.
+
+12:29.980 --> 12:36.490
+And here as well control e Mark seam and that'll break those out.
+
+12:36.490 --> 12:43.330
+Now I'm going to want to use this area to U-V map that speaker's screen so I better split this out as
+
+12:43.330 --> 12:44.230
+well.
+
+12:44.370 --> 12:47.310
+I'll press alt and click and that doesn't much help.
+
+12:47.320 --> 12:57.200
+I'll just press shift and select these edges here and Marcuse seem well also split out this interior
+
+12:57.200 --> 12:58.160
+piece here too.
+
+12:58.170 --> 13:08.570
+I'll press alt and click and shift and allt see if I can get these selected all the way around here.
+
+13:10.820 --> 13:15.050
+Like this and this let's go and break this out.
+
+13:16.360 --> 13:25.380
+Larc seem all right let's see how we did Alt-Tab into object mode press control a and choose scale.
+
+13:25.810 --> 13:28.810
+And now let's go into edit mode.
+
+13:28.820 --> 13:33.710
+Hit you and unwrap and I don't like this whatever that is.
+
+13:33.730 --> 13:34.750
+What is that.
+
+13:34.750 --> 13:35.710
+That's kind of gross.
+
+13:35.710 --> 13:37.650
+Let's take a look at that.
+
+13:37.660 --> 13:45.160
+I want to turn this on so that I can select a face and hit the period key over here and zoom in and
+
+13:45.160 --> 13:47.510
+see what that is.
+
+13:47.680 --> 13:56.390
+Let's select face mode here and hit El hover over face and hit Al and that'll like that whole thing.
+
+13:56.410 --> 13:59.190
+That's this whole piece here.
+
+13:59.320 --> 14:06.680
+So we should probably split this up as well to break it apart into its individual edges here.
+
+14:06.730 --> 14:14.380
+So let me let's take this ledge here and here.
+
+14:15.110 --> 14:23.980
+And all the way around to here and let's mark a seam there and let's do that for all of the other parts
+
+14:24.310 --> 14:26.770
+or sides as well.
+
+14:26.780 --> 14:29.390
+I'll go ahead and slide this and these edges
+
+14:32.040 --> 14:33.860
+and let's do the same for down here.
+
+14:38.630 --> 14:40.780
+All right with those seams.
+
+14:40.780 --> 14:42.800
+Mark let's go and select everything again.
+
+14:42.800 --> 14:45.370
+Hit you and unwrap and see how we did.
+
+14:45.650 --> 14:49.330
+Yeah that's a little better see how it's laying these out flat.
+
+14:49.340 --> 14:52.450
+Now I think that'll work a little bit better.
+
+14:52.520 --> 14:56.930
+Not going to hit Control up arrow and take a look at this full screen.
+
+14:56.930 --> 14:59.650
+One thing I'm not too sure about.
+
+14:59.750 --> 15:02.460
+Let me turn this part off here.
+
+15:02.480 --> 15:06.980
+If I select this piece right here let's move that out and take a look at this.
+
+15:07.040 --> 15:10.340
+I'm not real wild about all of this.
+
+15:10.580 --> 15:17.930
+I think because I'm going to be laying down kind of a woodgrain veneer on this I'd like to have this
+
+15:17.930 --> 15:23.540
+piece split out so I can arrange it in line with the woodgrain as well.
+
+15:23.540 --> 15:30.320
+So let me go back to my object here and it's this one here isn't it.
+
+15:30.320 --> 15:34.320
+So I'll select this edge right here.
+
+15:35.400 --> 15:40.220
+And this edge and mark a seam and I'll do this down on the bottom as well.
+
+15:43.210 --> 15:44.990
+All right let's try one more time.
+
+15:45.240 --> 15:47.910
+Hey you to unwrap.
+
+15:48.060 --> 15:49.570
+And here we go.
+
+15:50.430 --> 15:51.720
+Let's see how we did here.
+
+15:51.720 --> 15:51.990
+Yeah.
+
+15:51.990 --> 15:53.850
+I think that works a little bit better.
+
+15:53.850 --> 16:00.120
+Let me hit Control up arrow here and yeah I think we're going to be able to align the woodgrain a little
+
+16:00.120 --> 16:01.550
+bit better with this.
+
+16:01.560 --> 16:02.240
+That's good.
+
+16:02.430 --> 16:07.810
+I'll work on aligning these once we get everything all combined together again.
+
+16:07.830 --> 16:14.190
+So let's go back and let's try the next part I'll press alt H.
+
+16:14.370 --> 16:16.460
+And what else do you want to do.
+
+16:16.780 --> 16:18.660
+Well how about this piece here.
+
+16:18.660 --> 16:19.840
+Let's try this.
+
+16:19.890 --> 16:21.680
+I'll press shift H.
+
+16:21.990 --> 16:24.690
+And let's just try it like this.
+
+16:24.690 --> 16:32.460
+Why not a press control a and hit the scale and then I'll tab into edit mode and hit the A key and let's
+
+16:32.460 --> 16:35.790
+just try you and unwrap.
+
+16:36.000 --> 16:37.910
+What do you think.
+
+16:37.930 --> 16:41.260
+Not great but not bad.
+
+16:41.290 --> 16:44.910
+Now this is going to be all one just solid material.
+
+16:44.920 --> 16:52.330
+We're not going to be putting any woodgrain or text or anything that we can really tell that it's stretched.
+
+16:52.330 --> 16:58.140
+So since it's just going to be all one material I think I'm going to leave it and give it a try.
+
+16:58.210 --> 17:06.160
+You can see all the stretching here but a lot of that is what's going on back here inside the TV.
+
+17:06.160 --> 17:09.180
+I mean this part here is going to be pretty well hidden.
+
+17:09.190 --> 17:12.490
+So let's let's not worry too much about this.
+
+17:12.490 --> 17:14.740
+I think we'll be OK.
+
+17:14.750 --> 17:17.500
+Now let's let's work on these pieces here.
+
+17:18.210 --> 17:22.870
+I'll just select it hit you and unwrap and that's really ugly.
+
+17:22.870 --> 17:27.990
+Let's try and apply our scale and try again you and unwrap.
+
+17:28.000 --> 17:28.950
+That's better.
+
+17:29.110 --> 17:30.280
+Yeah I don't mind.
+
+17:30.280 --> 17:34.940
+Once again the stretching around the edge because it's going to be all one material.
+
+17:36.040 --> 17:43.540
+Let's try this one control a scale tab into edit mode and you and unwrap.
+
+17:43.690 --> 17:48.460
+That's not too bad either although this one is going to have a texture on it.
+
+17:48.610 --> 17:55.330
+Maybe I can just go ahead and select these edges here just to see if it's going to help it a bit.
+
+17:56.430 --> 18:00.090
+Let me select these edges around the corners.
+
+18:00.300 --> 18:08.220
+Mark seems here and recall that there is no face on the back of this so it's just a one sided object
+
+18:08.220 --> 18:11.710
+here which is good when we're U-V mapping.
+
+18:11.710 --> 18:17.250
+I'll go ahead and select everything and you and unwrap and that allows that to break apart a little
+
+18:17.250 --> 18:18.110
+easier.
+
+18:18.150 --> 18:20.340
+That looks a little better.
+
+18:20.600 --> 18:20.850
+All right.
+
+18:20.850 --> 18:28.780
+Now this part right in here we need to think about here so where is this face right here.
+
+18:28.780 --> 18:29.790
+There it is.
+
+18:29.860 --> 18:35.320
+We're going to have to remember and know where that is because we're going to put a texture on that
+
+18:35.320 --> 18:37.010
+as well.
+
+18:37.030 --> 18:38.980
+Let's do one of these.
+
+18:39.010 --> 18:47.420
+I'm going to press shift h zoom in with the period key and for this we could probably just create seams
+
+18:47.470 --> 18:50.250
+along here.
+
+18:51.810 --> 18:57.440
+Here here and I'm going to put seams here and one there.
+
+18:57.480 --> 19:06.540
+So we've kind of got seams breaking out the cylindrical parts and keeping the flat parts.
+
+19:06.570 --> 19:07.590
+This part here.
+
+19:07.620 --> 19:11.480
+Go ahead and split that out too just to see how we do there.
+
+19:11.490 --> 19:11.970
+All right.
+
+19:12.210 --> 19:16.020
+Let's try it control a and scale.
+
+19:16.020 --> 19:18.470
+Select everything you and enwrap.
+
+19:18.930 --> 19:20.690
+Yeah that's not too bad.
+
+19:20.730 --> 19:28.500
+That breaks it out because we're going to put a black kind of color here on that top part right there.
+
+19:28.500 --> 19:28.920
+All right.
+
+19:28.920 --> 19:30.070
+That's not too bad.
+
+19:30.090 --> 19:32.990
+Now that is U-V mapped.
+
+19:33.000 --> 19:34.460
+I'm not going to do the other one.
+
+19:34.500 --> 19:36.370
+I'm just going to duplicate it.
+
+19:36.750 --> 19:38.560
+So I don't need this.
+
+19:38.880 --> 19:43.300
+Get rid of that take this one and just duplicate it.
+
+19:43.310 --> 19:45.720
+Now that it's been U-V mapped.
+
+19:45.780 --> 19:46.700
+There we go.
+
+19:49.120 --> 19:50.350
+All right.
+
+19:50.350 --> 19:53.420
+I think oh we need the legs right.
+
+19:53.710 --> 19:55.440
+Let's do those.
+
+19:55.440 --> 20:00.800
+I will go ahead and make those all one object with control.
+
+20:02.450 --> 20:08.260
+And now if I hit shift 8 you will isolate those Alt-Tab and edit mode.
+
+20:08.270 --> 20:15.630
+And once again since these do not have any tops or bottoms I can go into edge mode and just select the
+
+20:15.630 --> 20:29.450
+center edges this and Mark seem there I should probably apply to transference for the scale.
+
+20:29.510 --> 20:32.550
+A You and enwrap good.
+
+20:32.590 --> 20:34.010
+Yeah that looks good.
+
+20:34.000 --> 20:34.620
+OK.
+
+20:36.400 --> 20:38.180
+Now Allt H.
+
+20:38.200 --> 20:48.470
+Bring everything back select everything with the eight key control J to make it all one object tab into
+
+20:48.470 --> 20:50.290
+edit mode select everything.
+
+20:50.300 --> 20:59.380
+And now over here in the U-V map I'll hit the A key just like everything press control a press control
+
+20:59.410 --> 21:01.060
+p.
+
+21:01.200 --> 21:03.710
+And now we have everything in the map.
+
+21:03.730 --> 21:04.840
+Let's see how we did.
+
+21:04.840 --> 21:08.860
+I'll hit Control up arrow and let's see how we did.
+
+21:08.860 --> 21:13.740
+I'd kind of like to rotate this so I'm going to click this rotate.
+
+21:13.760 --> 21:15.890
+Here we go.
+
+21:16.020 --> 21:18.680
+Hit control up arrow again.
+
+21:18.700 --> 21:19.040
+All right.
+
+21:19.050 --> 21:24.370
+So now we've got things pretty well placed.
+
+21:24.430 --> 21:29.540
+I can see this is the top of the television.
+
+21:29.670 --> 21:36.150
+These are the sides I believe they should probably be in line with each other.
+
+21:36.450 --> 21:39.510
+Here's all the edges they're pretty well in line with each other.
+
+21:39.510 --> 21:45.340
+Let me just rotate this one I'll press are 9:0 and see how that works.
+
+21:45.450 --> 21:49.100
+Let me scale it down just a hair so it'll fit in there.
+
+21:49.200 --> 21:50.920
+And here we go.
+
+21:50.940 --> 21:52.380
+So I think that looks pretty good.
+
+21:52.380 --> 21:56.820
+I think all of the woodgrain now is going this way.
+
+21:57.720 --> 22:03.240
+We've got our TV screen and our frame around the screen here.
+
+22:03.660 --> 22:10.070
+This is the polygon we want to lay that Speaker texture down onto.
+
+22:10.290 --> 22:14.250
+And this is the plate that we want to put the zenith thing onto.
+
+22:14.250 --> 22:19.670
+Now I can scale that up just a little bit give it a little more breathing room.
+
+22:19.670 --> 22:22.580
+There it doesn't need to be quite that small.
+
+22:22.580 --> 22:23.950
+That could help there.
+
+22:24.930 --> 22:32.430
+Give that a little bit more detail there are these here these could turn the other way couldn't they.
+
+22:32.430 --> 22:33.130
+Let's try that.
+
+22:33.150 --> 22:39.620
+Our 9:0 here and let's see we'll need to fit that in somewhere.
+
+22:39.630 --> 22:42.320
+This could turn the other way.
+
+22:42.530 --> 22:46.110
+I'll need to fit that in here in just a minute.
+
+22:46.110 --> 22:55.740
+And all of this is all one piece or all one texture all of this needs to be together let's grab all
+
+22:55.740 --> 23:01.740
+of this and move this out so we can separate that out.
+
+23:02.370 --> 23:04.070
+Well go ahead and move these down here.
+
+23:04.070 --> 23:06.580
+These aren't really prominent in the television.
+
+23:06.580 --> 23:13.910
+I don't think and scale them back up a bit and then I'll take this guy and allow him to breathe a little
+
+23:13.910 --> 23:18.920
+bit more since we're going to have actual texture on that.
+
+23:18.930 --> 23:19.840
+There we go.
+
+23:20.690 --> 23:21.020
+All right.
+
+23:21.030 --> 23:28.980
+So now I've got it arranged I think to maximize this part and this part that are going to actually accept
+
+23:28.990 --> 23:35.790
+the texture and then all of these pieces here are going to have woodgrain on them and they're all going
+
+23:35.790 --> 23:38.270
+in generally the same direction.
+
+23:38.310 --> 23:42.900
+So let's see how this works in the next video we'll start working on the textures.

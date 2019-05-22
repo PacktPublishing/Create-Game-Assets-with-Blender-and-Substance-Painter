@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.750 --> 00:04.670
+As you can see I've added a few extra things to the scene.
+
+00:04.680 --> 00:07.260
+Let's go ahead and run the game and take a look around.
+
+00:07.260 --> 00:14.300
+Let me turn the ceiling back on over here under the inspector and then I'll hit play.
+
+00:14.390 --> 00:15.850
+And here we are in the room.
+
+00:15.950 --> 00:24.810
+Now you can see I've added this weight bench as well as a few boxes around the room here.
+
+00:24.860 --> 00:29.610
+I've also done a little bit of work over in the kitchen right here.
+
+00:29.920 --> 00:36.530
+And see I've added a stove a toaster a light fixture things like that.
+
+00:36.650 --> 00:38.020
+There's still more to do of course.
+
+00:38.030 --> 00:46.130
+I want this kitchen to be kind of cluttered and and messy but I wanted to talk a minute about the differences
+
+00:46.130 --> 00:54.440
+between this weight bench here and the sink that I've created for the bathroom in here.
+
+00:54.650 --> 01:02.190
+And the main difference is is that this object has only one material coming from Blender.
+
+01:02.510 --> 01:07.200
+And this object the sink has multiple materials.
+
+01:07.280 --> 01:09.840
+I just wanted to compare and contrast these two.
+
+01:10.040 --> 01:17.900
+Let's go back to Blender here and blender you can see when I've got Virtex paint mode on you can see
+
+01:18.260 --> 01:22.210
+the different colors I've assigned to the different parts of the weight bench.
+
+01:22.430 --> 01:28.220
+And if you look over here under the materials panel you can see it only has one material.
+
+01:28.220 --> 01:35.300
+And what that means is I only have to drag in the albedo the normal map and the metallic roughness map
+
+01:35.630 --> 01:38.150
+into just one material.
+
+01:38.150 --> 01:45.110
+If I have broken this up into multiple materials I'd have to drag the albedo and the normal map into
+
+01:45.110 --> 01:49.300
+each and every material and that can get tedious after a while.
+
+01:49.340 --> 01:54.960
+So if you have something like quick soul or substance painter it can really speed up the work flow.
+
+01:54.980 --> 02:00.580
+If you're just giving the object one material and then you're breaking it up by Virtex ID.
+
+02:00.890 --> 02:04.840
+So let's go over to substance painter and take a look at it there.
+
+02:05.090 --> 02:09.680
+Here in substance painter you can see that right over here under the texture set.
+
+02:09.680 --> 02:18.230
+I've only got one material the weight bench material from blender but because I gave it multiple Virtex
+
+02:18.230 --> 02:26.810
+paint colors I can for every group I have here I can choose a color here under pick color and choose
+
+02:26.810 --> 02:30.930
+which color I want to delineate which material.
+
+02:31.510 --> 02:38.710
+And here in substance painter I can give a different material type to each of the different objects.
+
+02:38.720 --> 02:46.580
+Now if we take a look at the sink let me open that up you can see over here that I used multiple materials
+
+02:46.850 --> 02:55.640
+for the sink basin the sink drain the faucet the legs and I'm not using the color picker here and this
+
+02:55.640 --> 02:56.660
+is fine.
+
+02:56.660 --> 03:00.730
+This is a completely valid way of doing things.
+
+03:00.800 --> 03:07.790
+And in fact if you're just using blender and a paint program like Photoshop or GIMP this is really the
+
+03:07.790 --> 03:14.270
+way you're going to need to do it because those materials are needed within unity to differentiate the
+
+03:14.270 --> 03:22.430
+different parts of the model so you can see here I've got the sink basin the sink drain the sink faucet
+
+03:23.270 --> 03:30.210
+and the legs all different materials with a U-V map assigned just to that material.
+
+03:30.710 --> 03:33.920
+So when we bring it into unity let's go back to unity.
+
+03:34.220 --> 03:40.070
+Let me turn off this ceiling for a minute and select just the sink.
+
+03:40.070 --> 03:44.280
+I've got the whole bathroom as one unit.
+
+03:44.660 --> 03:45.350
+Let me show you.
+
+03:45.350 --> 03:50.480
+I just I created the whole bathroom area as one unit.
+
+03:50.480 --> 03:57.950
+It's multiple objects but I brought it in from blender as a single FDX and therefore it comes in as
+
+03:57.950 --> 04:00.610
+one unit here in the hierarchy.
+
+04:00.650 --> 04:07.760
+I can scroll down and then select individual pieces so you can see the sink basin here.
+
+04:07.810 --> 04:09.420
+Here it is.
+
+04:09.810 --> 04:19.960
+And the sink faucet the drain etc are all individual not only individual materials I should point out
+
+04:19.960 --> 04:22.070
+but also individual objects.
+
+04:22.070 --> 04:25.990
+So like the legs here are their own object.
+
+04:25.990 --> 04:33.370
+So within each of these materials for the objects I've had to drag in the albedo the metallic and the
+
+04:33.370 --> 04:40.660
+normal into each one of these and it's not bad it's just that it takes a little longer.
+
+04:40.690 --> 04:47.980
+So something to think about as you set up your production pipeline and begin to think about the most
+
+04:48.070 --> 04:51.740
+efficient way to create and export your assets.

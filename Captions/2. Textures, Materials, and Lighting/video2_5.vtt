@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.930 --> 00:06.210
+Well have brought all the textures in for the walls just to see how they look here and they're looking
+
+00:06.210 --> 00:07.730
+pretty good.
+
+00:07.740 --> 00:13.010
+Let's test this now and take it into unity and just see how it looks.
+
+00:13.020 --> 00:17.440
+So now we already have the walls over here in Unity right.
+
+00:17.460 --> 00:23.040
+I just U-V mapped and applied the textures to these three walls here.
+
+00:23.190 --> 00:30.870
+Living room left windows and back here are the models that we've brought in the FBI X Files that we've
+
+00:30.870 --> 00:39.730
+brought in if we take a look at this and look at say one of the walls say living back right here.
+
+00:39.930 --> 00:45.240
+We can't just delete this out of here if I right click on this and hit delete.
+
+00:45.240 --> 00:46.380
+Nothing happens right.
+
+00:46.380 --> 00:50.490
+We can't get rid of this per se this is all one object.
+
+00:50.490 --> 00:56.970
+This is all one file we could if we wanted to come in here and select an individual wall up in the hierarchy
+
+00:57.420 --> 01:03.900
+and we could delete this if we wanted to and then bring it back in individually but it would be a different
+
+01:03.920 --> 01:05.600
+FDX file.
+
+01:05.670 --> 01:11.370
+I think what I'm going to do is just export it out and overwrite this with the new versions of the objects.
+
+01:11.670 --> 01:20.400
+So back in Blender I will select the layer that has just the walls on it so I can just hit a and select
+
+01:20.400 --> 01:21.340
+everything.
+
+01:21.690 --> 01:29.130
+I'll then come up here to file export FDX selected objects only.
+
+01:29.330 --> 01:37.850
+This time I will browse right into that model's folder and all exported out right over that existing
+
+01:37.850 --> 01:42.980
+walls FDX Let's see what happens I'll hit export.
+
+01:43.120 --> 01:44.230
+And there we go.
+
+01:44.590 --> 01:45.630
+Let's go take a look.
+
+01:45.850 --> 01:51.920
+So here in the unity project here is that was FDX that we just imported in.
+
+01:52.160 --> 01:56.080
+But here's the question is that the one that we imported or is it the old one.
+
+01:56.290 --> 02:01.300
+Only one way to find out is to bring in our textures and see if they fit.
+
+02:01.300 --> 02:07.470
+So let's go to our textures folder and I will right click and choose.
+
+02:07.470 --> 02:09.690
+Important new asset.
+
+02:09.770 --> 02:13.930
+And let's go to that textures folder in our project.
+
+02:14.840 --> 02:15.900
+Jews the walls.
+
+02:15.920 --> 02:16.910
+And here it is.
+
+02:16.910 --> 02:17.660
+Walls.
+
+02:17.660 --> 02:19.160
+Paper.
+
+02:19.370 --> 02:20.870
+See right here.
+
+02:21.590 --> 02:23.260
+Let's see how it works.
+
+02:23.270 --> 02:25.170
+Import.
+
+02:25.240 --> 02:32.620
+Now if we select one of our walls right here and this is the back I'll bring that white level all the
+
+02:32.620 --> 02:37.480
+way up to pure white and I'll take the color map and drag it into the Al-Bayda.
+
+02:37.810 --> 02:41.320
+And sure enough that's the one.
+
+02:41.340 --> 02:44.870
+So now we can go ahead and do these other walls as well.
+
+02:44.880 --> 02:48.100
+How about the living room left.
+
+02:53.260 --> 03:00.200
+Drop that in and how about over here the one with the windows
+
+03:03.610 --> 03:07.740
+increase that to white and drag that in.
+
+03:07.940 --> 03:10.120
+So there we go.
+
+03:10.430 --> 03:13.640
+So what have we done here what have we what have we learned.
+
+03:13.640 --> 03:23.030
+Well what I'm trying to do is go through several different processes for texturing and arranging your
+
+03:23.030 --> 03:25.720
+materials and your U-V maps.
+
+03:25.760 --> 03:29.420
+We've talked about several different methods of doing that.
+
+03:29.420 --> 03:36.870
+We've looked at using a repeatable texture directly in unity when we first began texturing the couch.
+
+03:36.950 --> 03:44.950
+We've looked at exporting out U.V. maps to photoshop and layering our textures over that with the couch
+
+03:44.960 --> 03:50.510
+we brought it in with two objects and material for each of the objects with the coffee table we brought
+
+03:50.510 --> 03:55.700
+in one object to materials applied to that one object.
+
+03:55.700 --> 04:03.550
+We did the same thing with the walls but we put the U-V islands of separate objects all on one U-V map
+
+04:04.400 --> 04:12.080
+so you can see there are a lot of ways to organize and export your objects with their materials and
+
+04:12.080 --> 04:13.260
+with the textures.
+
+04:13.580 --> 04:21.380
+And remember we also export it out of Blender using Virtex colors so that a program like substance painter
+
+04:21.590 --> 04:25.850
+can see those different areas as individual materials.
+
+04:26.090 --> 04:30.850
+So we've actually covered quite a lot here now that we know this is going to work.
+
+04:30.860 --> 04:40.820
+Let's go back to photoshop and clean up our U-V map here in Photoshop I can select that U-V layer go
+
+04:40.820 --> 04:49.340
+to my magic wand tool with the W key or clicking right over here selecting Schiff's select this area
+
+04:49.400 --> 04:56.380
+maybe and maybe shift select these areas in here with doors and the windows.
+
+04:56.660 --> 05:04.710
+And now if we take all of these layers here I'm going to Allt and click and drag these.
+
+05:04.850 --> 05:06.890
+So they duplicate.
+
+05:06.890 --> 05:09.140
+Now I'm going to press control or command e.
+
+05:09.170 --> 05:12.680
+So they all merge down into one.
+
+05:12.680 --> 05:13.440
+And these.
+
+05:13.440 --> 05:24.890
+Now I can put in a group call it say originals and hide that with those various selected.
+
+05:24.890 --> 05:31.610
+I'll go ahead and contract the selection a bit by going to select modify contract and are contracted
+
+05:31.610 --> 05:32.660
+by two frames.
+
+05:32.660 --> 05:39.110
+Let's say there we go just to give you the islands a little bit of breathing room and I'll go back to
+
+05:39.110 --> 05:47.150
+this merged layer and hit the delete key and we can go ahead and add a new layer and drag it down to
+
+05:47.150 --> 05:48.200
+the bottom.
+
+05:48.260 --> 05:50.210
+Make sure we've got black over here.
+
+05:50.210 --> 05:51.630
+Go to the paint bucket.
+
+05:51.650 --> 05:56.270
+I'm going to de-select everything I'm going to pest control or command d to de-select everything and
+
+05:56.270 --> 06:00.000
+then I'm going to paint in here so it paints the whole layer.
+
+06:00.260 --> 06:09.830
+And now I can turn off the movies and there is the map we can export this out by going to file export
+
+06:10.490 --> 06:12.500
+Export as.
+
+06:12.570 --> 06:21.280
+And let's go ahead and put it in the unity project in the assets folder and right in that textures folder
+
+06:21.290 --> 06:30.010
+Here's that walls color map so we'll just overwrite that completely export and replace.
+
+06:30.040 --> 06:37.470
+And now if we go back to unity there it is and it's applied to our objects.
+
+06:37.550 --> 06:44.600
+So in the next few videos I will be just cranking out more assets more objects to go in our scene here
+
+06:44.900 --> 06:48.790
+and using the same processes that we've already used.
+
+06:48.800 --> 06:55.070
+So hopefully if you have any questions or something wasn't particularly clear you'll see it done again
+
+06:55.100 --> 06:56.570
+and it'll begin to click.
+
+06:56.750 --> 06:58.220
+So let's keep on moving.

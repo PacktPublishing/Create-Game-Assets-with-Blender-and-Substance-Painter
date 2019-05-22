@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 0400c1a3f2893432faab2085035069cb
+timeCreated: 1476480849
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bathroom Baseboards
+    100004: Bathroom Floor
+    100006: Bathroom Light Glass
+    100008: Bathroom Light Glass.001
+    100010: Bathroom Toilet
+    100012: Bathroom Trash Can
+    100014: Bathroom Wall Back
+    100016: Bathroom Wall Tile
+    100018: Medicine Cab Mirror Frame
+    100020: Medicine Cabinet
+    100022: Plane.001
+    100024: Plane.002
+    100026: Sink Basin
+    100028: Sink Drain
+    100030: Sink Drain Pipe
+    100032: Sink Faucet
+    100034: Sink Legs
+    100036: Wall Bathroom-Right
+    400000: //RootNode
+    400002: Bathroom Baseboards
+    400004: Bathroom Floor
+    400006: Bathroom Light Glass
+    400008: Bathroom Light Glass.001
+    400010: Bathroom Toilet
+    400012: Bathroom Trash Can
+    400014: Bathroom Wall Back
+    400016: Bathroom Wall Tile
+    400018: Medicine Cab Mirror Frame
+    400020: Medicine Cabinet
+    400022: Plane.001
+    400024: Plane.002
+    400026: Sink Basin
+    400028: Sink Drain
+    400030: Sink Drain Pipe
+    400032: Sink Faucet
+    400034: Sink Legs
+    400036: Wall Bathroom-Right
+    2300000: Bathroom Baseboards
+    2300002: Bathroom Floor
+    2300004: Bathroom Light Glass
+    2300006: Bathroom Light Glass.001
+    2300008: Bathroom Toilet
+    2300010: Bathroom Trash Can
+    2300012: Bathroom Wall Back
+    2300014: Bathroom Wall Tile
+    2300016: Medicine Cab Mirror Frame
+    2300018: Medicine Cabinet
+    2300020: Plane.001
+    2300022: Plane.002
+    2300024: Sink Basin
+    2300026: Sink Drain
+    2300028: Sink Drain Pipe
+    2300030: Sink Faucet
+    2300032: Sink Legs
+    2300034: Wall Bathroom-Right
+    3300000: Bathroom Baseboards
+    3300002: Bathroom Floor
+    3300004: Bathroom Light Glass
+    3300006: Bathroom Light Glass.001
+    3300008: Bathroom Toilet
+    3300010: Bathroom Trash Can
+    3300012: Bathroom Wall Back
+    3300014: Bathroom Wall Tile
+    3300016: Medicine Cab Mirror Frame
+    3300018: Medicine Cabinet
+    3300020: Plane.001
+    3300022: Plane.002
+    3300024: Sink Basin
+    3300026: Sink Drain
+    3300028: Sink Drain Pipe
+    3300030: Sink Faucet
+    3300032: Sink Legs
+    3300034: Wall Bathroom-Right
+    4300000: Plane.001
+    4300002: Bathroom Light Glass.001
+    4300004: Bathroom Trash Can
+    4300006: Bathroom Light Glass
+    4300008: Plane.002
+    4300010: Medicine Cabinet
+    4300012: Medicine Cab Mirror Frame
+    4300014: Bathroom Floor
+    4300016: Bathroom Wall Tile
+    4300018: Sink Drain Pipe
+    4300020: Bathroom Toilet
+    4300022: Sink Legs
+    4300024: Sink Drain
+    4300026: Sink Faucet
+    4300028: Sink Basin
+    4300030: Bathroom Baseboards
+    4300032: Bathroom Wall Back
+    4300034: Wall Bathroom-Right
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

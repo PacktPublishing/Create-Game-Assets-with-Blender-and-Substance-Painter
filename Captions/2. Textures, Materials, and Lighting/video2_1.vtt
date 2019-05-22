@@ -1,0 +1,724 @@
+WEBVTT
+
+00:00.810 --> 00:06.600
+So let's work on another way of organizing and importing our objects and materials.
+
+00:06.870 --> 00:13.230
+This time we'll be thinking about using an external application like quick small studio or substance
+
+00:13.230 --> 00:14.220
+painter.
+
+00:14.220 --> 00:21.990
+And these are great applications that allow you to do PBR texturing or physical based rendering that
+
+00:21.990 --> 00:27.820
+allows you to create textures based on real world settings and lighting.
+
+00:27.990 --> 00:35.880
+So all of the processes that we've already looked at regarding grouping or creating materials exporting
+
+00:35.880 --> 00:44.070
+your object out to unity all of those things apply so we could export a single FDX with the multiple
+
+00:44.070 --> 00:50.590
+objects and a material for each object to say substance painter and work with it there.
+
+00:50.640 --> 00:58.050
+We could also export out a single object with multiple materials and substance painter would see those
+
+00:58.140 --> 01:01.100
+separate materials just the way unity does.
+
+01:01.320 --> 01:05.180
+And then you could work with those individual materials in texturing.
+
+01:05.340 --> 01:13.110
+But in addition you can also use something called Color ID or vertex colors so you can assign vertex
+
+01:13.110 --> 01:19.680
+colors to your object different colors for each material and then that external application like quick
+
+01:19.680 --> 01:27.600
+soul or substance painter is going to see that color ID those individual Virtex colors as individual
+
+01:27.600 --> 01:28.820
+materials.
+
+01:28.830 --> 01:35.560
+So in Blendr you give your object one material but then you apply different Virtex colors to it.
+
+01:35.820 --> 01:40.120
+And in substance painter it sees it as multiple materials.
+
+01:40.170 --> 01:41.890
+So let's give that a try.
+
+01:41.940 --> 01:49.680
+I've got substance painter here and this is what I'm going to use to bring that object that Blendr object
+
+01:49.680 --> 01:54.440
+with vertex colors in just to show you the difference.
+
+01:54.450 --> 02:01.140
+Now since the Blendr object is going to be all one material we're going to have all one U.V. map for
+
+02:01.140 --> 02:02.010
+it.
+
+02:02.010 --> 02:06.480
+What I'm going to do is create a lamp here this kind of teardrop lamp.
+
+02:06.480 --> 02:12.810
+And the object that we'll be bringing into substance painter is this base piece which I'm going to have
+
+02:12.810 --> 02:19.110
+the say porcelain here and maybe Brasstown down there and I'm going to use a substance painter to give
+
+02:19.110 --> 02:22.270
+it kind of worn rusted look.
+
+02:22.560 --> 02:28.770
+However this lampshade I'm going to have to use a different material at the very least it could be a
+
+02:28.770 --> 02:36.360
+wholly separate object so that when I take the whole thing as an FBI file into Blendr I can assign a
+
+02:36.360 --> 02:44.490
+specific material to the lampshade only and give it some emission so it looks like there's a light inside
+
+02:44.610 --> 02:46.140
+the lampshade.
+
+02:46.140 --> 02:46.380
+All right.
+
+02:46.380 --> 02:50.430
+So let's get to making this lamp here and see what we can do.
+
+02:50.640 --> 02:53.640
+So I'm going to go to a brand new layer.
+
+02:53.860 --> 03:01.640
+I'll go over to the Create tab and create a new cylinder and instead of 32 sizes take it down to 12.
+
+03:01.880 --> 03:06.020
+And I don't want to cap Phil on this so I'll just change that to nothing.
+
+03:06.320 --> 03:15.470
+Let's scale it in the z x and z scale that down a bit and I'll hit maybe three key and the five key
+
+03:15.470 --> 03:22.490
+and the period key to zoom in and go to an orthographic view and it looks to me like this bottom edge
+
+03:22.490 --> 03:24.530
+here flares out just a little bit.
+
+03:24.530 --> 03:28.120
+So scale that out some maybe like that.
+
+03:28.220 --> 03:35.480
+And now let's begin working on the lamp proper So this is the base here I'll hit E and then scale it
+
+03:35.480 --> 03:41.410
+in just a bit and then I'll begin extruding up so I'll hit E and Z and pull it up.
+
+03:42.110 --> 03:44.190
+And then I'll scale out of it.
+
+03:44.540 --> 03:51.680
+And let's begin working on that teardrop shape there I'll hit the end Z again and let's bring it up
+
+03:51.680 --> 03:52.880
+and scale it out.
+
+03:54.720 --> 03:59.510
+And maybe easy and we'll just keep working our way up here.
+
+04:00.800 --> 04:02.930
+Let's see doesn't need to go out some more.
+
+04:02.930 --> 04:04.090
+Can it begin to come in.
+
+04:04.090 --> 04:06.150
+How about something like that.
+
+04:06.340 --> 04:07.220
+Easy.
+
+04:07.240 --> 04:12.910
+And I can adjust these edge loops later as I need to.
+
+04:13.120 --> 04:23.720
+Once I get the basic shape in easy scale it in some easy and scale and then some.
+
+04:23.720 --> 04:27.260
+So we've got the basic shape there of the lamp.
+
+04:27.260 --> 04:35.840
+It looks like I could maybe take this guy with alt click and take him up some scale it in a bit.
+
+04:35.840 --> 04:39.700
+And I think I'll add just an edge right here and scale it out a bit there.
+
+04:39.740 --> 04:46.850
+So you get more of a flare out with that and go something like that.
+
+04:48.170 --> 04:56.850
+All right I'll go ahead and create a little cap so I'll just hit the and scale that out a smidge in
+
+04:56.860 --> 05:02.820
+easy and raise that up in the Z something like that and then close it off here
+
+05:09.710 --> 05:12.830
+doesn't need to be too elaborate up here.
+
+05:13.310 --> 05:21.290
+And to close that off I'll press Allt am to bring up the merge menu and I'll merge those selected vertices
+
+05:21.290 --> 05:24.370
+at the center and there we go.
+
+05:24.800 --> 05:25.090
+All right.
+
+05:25.100 --> 05:30.690
+So we've got that we can always come over here and smooth this.
+
+05:30.690 --> 05:33.230
+I'm going to go to the Tools tab and hit smooth.
+
+05:33.460 --> 05:35.380
+Well smooth that out a bit.
+
+05:35.380 --> 05:39.580
+So it isn't quite so blocky and down here.
+
+05:39.580 --> 05:43.390
+I could come in here and choose these faces right here.
+
+05:43.400 --> 05:51.820
+Allt click between two faces to choose that entire face loop and I could come to the shading Uvas tab
+
+05:52.330 --> 05:55.120
+and I'll flatten those out like that.
+
+05:55.120 --> 05:59.580
+Now that should give me a little bit more of an edge there at the bottom.
+
+05:59.590 --> 06:02.500
+Let's go ahead and create that lamp shade.
+
+06:02.500 --> 06:11.910
+Now all come back to perspective view for a minute with the five key and I'm going to create a new cylinder.
+
+06:11.910 --> 06:15.880
+Once again it's only got 12 signs that's good and no cap Phil..
+
+06:16.010 --> 06:23.290
+I'll go back to the orthographic view with three in the five key and let's bring this back up.
+
+06:24.590 --> 06:34.860
+And scale that a bit the zeem maybe it could be a little bit wider and then let's grab that edge up
+
+06:34.860 --> 06:41.100
+top here and scale that in a bit something like that.
+
+06:41.330 --> 06:41.940
+Yeah.
+
+06:43.030 --> 06:48.670
+Now when we take this into the game we're going to be able to see the inside of the lampshade and the
+
+06:48.670 --> 06:51.700
+back of any polygon we're going to be able to see through.
+
+06:51.700 --> 06:57.180
+So we're going to want to give this a little bit of fitness so we can't see through it.
+
+06:57.700 --> 07:04.000
+So to do that we can come over here to the modifiers panel and choose add modifier and we can use this
+
+07:04.060 --> 07:06.630
+solidify modifier.
+
+07:06.750 --> 07:12.180
+And if we choose that now I can grab this thicknesse field to click and drag on it and you can see I
+
+07:12.180 --> 07:17.340
+can make it thicker on the inside here or something like that.
+
+07:17.340 --> 07:19.590
+I think that will work.
+
+07:19.650 --> 07:22.530
+Now if I hit apply there we go.
+
+07:22.530 --> 07:26.700
+You can see that we've got a bit of thickness to that now.
+
+07:26.700 --> 07:31.410
+Now there's a little seam on the top and the bottom we could probably go ahead and just add a little
+
+07:31.410 --> 07:37.080
+bit of an edge up here and a little bit of an edge down here.
+
+07:37.110 --> 07:45.300
+I'm going to hit the and click and now I want to scale out but not in the z so I'll press S to scale
+
+07:45.480 --> 07:49.620
+shift Z to turn off the z axis and just scale out just a bit.
+
+07:50.160 --> 07:59.810
+I go same down here extrude and then S and shift Z and we go.
+
+08:00.250 --> 08:00.670
+All right.
+
+08:00.670 --> 08:06.430
+So now what I can do is go ahead and smooth this we go.
+
+08:06.760 --> 08:09.750
+So now we need to U-V map the whole thing.
+
+08:09.790 --> 08:15.550
+I think what I'll do is split it out by material or what's going to be a different material.
+
+08:15.700 --> 08:24.340
+So if we go back to the U-V editing screen layout frame it up with the period key and hit the tab key.
+
+08:24.700 --> 08:27.860
+Let's work on this part down here first.
+
+08:27.910 --> 08:31.330
+I think what I'll do is go ahead and put a seam right down here.
+
+08:31.780 --> 08:36.670
+Let's go to edge mode alt click and edge put a seam right down here.
+
+08:38.110 --> 08:39.860
+Let's put an image right back here.
+
+08:39.940 --> 08:42.550
+Let's just say that this will be the back of the lamp.
+
+08:42.550 --> 08:47.110
+So press control E and Mark see him again I'll hit the A key.
+
+08:47.110 --> 08:51.970
+Disliked everything you for the U-V mapping menu and click unwrap.
+
+08:52.330 --> 08:57.310
+Now notice that it's not looking quite the same as it does in a 3D view.
+
+08:57.310 --> 09:01.990
+And once again it's because we don't have the scale applied.
+
+09:01.990 --> 09:09.370
+So if I go back to the properties panel we can see that the scale is nonuniform.
+
+09:09.500 --> 09:18.660
+So I control a scale and then I'll go back to edit mode and hit you and unwrap.
+
+09:18.670 --> 09:23.860
+And now we see it's conforming to the shape and size of our object.
+
+09:23.890 --> 09:29.140
+A little bit better now it's pulling quite a bit up here which is pulling down here.
+
+09:29.140 --> 09:31.330
+I think what I'll do is go ahead and split it out.
+
+09:31.330 --> 09:37.930
+At this point up here I kind of put an extra edge up here so I'll split that out here just to give it
+
+09:38.080 --> 09:41.090
+a little bit of room to breathe.
+
+09:42.040 --> 09:43.840
+You and unwrap.
+
+09:43.840 --> 09:46.600
+There we go that's a little bit better we see there.
+
+09:46.690 --> 09:49.730
+Now if we wanted to check how are you.
+
+09:49.740 --> 09:56.440
+The map is going to look to see whether or not the textures are going to be stretched on this we can
+
+09:56.440 --> 10:03.550
+apply a U-V test pattern to it just to see if there's any stretching now over here under display.
+
+10:03.550 --> 10:12.280
+You can also turn on stretch display and anything that's blue is not stretched and anything that moves
+
+10:12.280 --> 10:16.350
+towards orange yellow or red is stretched.
+
+10:16.450 --> 10:18.710
+So it appears we're doing pretty well here.
+
+10:18.880 --> 10:25.660
+However if we wanted to really test it with a U-V test pattern we need to go ahead and apply our material
+
+10:25.660 --> 10:27.160
+here or create a material.
+
+10:27.220 --> 10:29.460
+I'll select new material panel.
+
+10:29.710 --> 10:39.430
+I'll call this lamp base and in our U-V image editor I'm going to come down here and click new and instead
+
+10:39.430 --> 10:45.040
+of a blank image that I'm creating here I'm going to choose U.V. grid and that will generate black and
+
+10:45.040 --> 10:46.960
+white texture pattern.
+
+10:47.110 --> 10:49.210
+I'll call this U-V test.
+
+10:50.240 --> 10:54.360
+And I'll click OK and there is our U-V test pattern.
+
+10:55.760 --> 11:01.370
+Now we can assign the test pattern texture to the lamp material.
+
+11:01.370 --> 11:08.570
+So I'll press shift a texture image texture and let's pull down this little menu right here and you
+
+11:08.570 --> 11:10.340
+can see it right in here.
+
+11:11.920 --> 11:17.170
+So now you can see here is our test pattern and it doesn't look great.
+
+11:17.170 --> 11:21.170
+Of course you can see that seem very clearly back there.
+
+11:21.250 --> 11:26.620
+But the good thing is as we can put that seam away from the camera away from the player so it won't
+
+11:26.620 --> 11:27.790
+be seen.
+
+11:28.330 --> 11:33.410
+Let's go back into our U-V map here.
+
+11:33.790 --> 11:40.930
+And I think what I'd like to do is just select this U-V Island and maybe rotate it a bit so it's more
+
+11:41.050 --> 11:42.940
+straight up and down here.
+
+11:43.150 --> 11:46.180
+And this one really doesn't matter much.
+
+11:46.200 --> 11:51.300
+That's going to be up inside the lamp and this one here.
+
+11:51.310 --> 11:53.460
+I think it looks OK.
+
+11:54.130 --> 12:00.250
+What we're going to be doing is we're going to be creating really procedurally generated materials that
+
+12:00.250 --> 12:02.500
+are then applied as textures.
+
+12:02.650 --> 12:10.780
+So we don't need it to be as clean and straight as we might if we were say applying text to an object
+
+12:11.630 --> 12:20.970
+to scale this up just a little bit to kind to maximize the screen space here or the resolution or something
+
+12:20.970 --> 12:21.720
+like that.
+
+12:23.180 --> 12:25.970
+All right let's U-V map the lampshade.
+
+12:25.970 --> 12:30.540
+Now if I select the lampshade let's just.
+
+12:31.580 --> 12:35.390
+Well it looks like we could split out the insides.
+
+12:35.390 --> 12:38.250
+I think let's do that.
+
+12:38.280 --> 12:41.800
+So a seam here and a seam down here.
+
+12:43.450 --> 12:49.690
+And then let's split it out in the same place that that other seam was right down here so alt click
+
+12:49.690 --> 12:53.240
+that seam and let's mark a seam there.
+
+12:53.290 --> 12:55.760
+Now take a look at how this looks.
+
+12:56.230 --> 12:57.530
+Yeah that's pretty good.
+
+12:57.550 --> 12:59.120
+I'll go with that.
+
+12:59.170 --> 13:02.470
+We can switch from conformal to angle based.
+
+13:02.530 --> 13:09.970
+That to me looks even a little better and we can apply a U.V. test pattern to this as well create the
+
+13:09.970 --> 13:11.300
+new material.
+
+13:11.380 --> 13:20.440
+Call it lamp shade and let's apply that U-V test pattern to this as well just to make sure we're doing
+
+13:20.440 --> 13:26.500
+all right not too bad I think it'll work just fine.
+
+13:26.500 --> 13:32.680
+Especially since these are just going to be kind of overall procedural type textures that don't have
+
+13:32.680 --> 13:36.410
+any text or specific patterns on them.
+
+13:36.490 --> 13:38.830
+So I think we'll be good with these.
+
+13:38.830 --> 13:42.150
+All right so now let's go back to our default view.
+
+13:42.400 --> 13:48.070
+And what I'd like to do now is a sign of Virtex colors to the parts of this object that are going to
+
+13:48.070 --> 13:49.950
+be separate materials.
+
+13:50.320 --> 13:52.420
+So we don't have a lot of different parts to this.
+
+13:52.420 --> 13:58.420
+Now this can be done for a much larger more complex piece but I just wanted to show you in terms of
+
+13:58.420 --> 14:00.040
+a very simple object.
+
+14:00.040 --> 14:07.170
+So let's go over to the object mode menu here and let's switch from object mode to vertex paint.
+
+14:07.540 --> 14:12.280
+And here we have the vertex paint tools over here on the left.
+
+14:12.310 --> 14:19.330
+If I come over and change to say a blue color and click and drag you can see I can create paint colors
+
+14:19.480 --> 14:21.780
+per vertex.
+
+14:21.790 --> 14:28.500
+Notice that it's painting just on individual vertices and that's that's what Virtex paint does.
+
+14:28.540 --> 14:33.810
+Now to make my life a little easier I could go through and paint this by hand like this.
+
+14:33.820 --> 14:36.170
+And we could get the job done.
+
+14:36.310 --> 14:39.380
+But that's a little tedious.
+
+14:39.400 --> 14:45.460
+So what I want to do is come down here to this little guy this face selection masking button and click
+
+14:45.460 --> 14:46.540
+that.
+
+14:46.540 --> 14:49.830
+Now we've got faces that we can select and de-select.
+
+14:49.840 --> 14:57.610
+Now I'm going to de-select that with the aiki and I can press the L key and select the object or the
+
+14:57.610 --> 15:04.170
+part of the object that has been delineated by the seam so I had a seam down here and I had a seam up
+
+15:04.190 --> 15:08.200
+here and so it selected everything between the seams.
+
+15:08.620 --> 15:15.100
+So now with all of these faces selected I can press shift K and that will fill that whole area with
+
+15:15.100 --> 15:20.980
+that particular color if I need to come back to that color I can create a new palette and come down
+
+15:20.980 --> 15:25.090
+here and click new and then add this blue to my palette.
+
+15:25.120 --> 15:25.830
+So there it is.
+
+15:25.830 --> 15:32.440
+I can always come back to it now the next one down here let's fill with a different color let's say
+
+15:34.210 --> 15:42.190
+red I'll hit a de-select I'll hover over this area and press the key and that will select all of those
+
+15:42.190 --> 15:47.440
+faces and our press shift K and that will fill that area up with that color.
+
+15:47.440 --> 15:51.350
+Let's go ahead and capture that color in case we need to use it again.
+
+15:51.370 --> 15:52.390
+And what about up here.
+
+15:52.390 --> 15:57.310
+Let's do this one too maybe this is a different kind of metal than the one on the base.
+
+15:57.310 --> 16:01.230
+Maybe this is a silver or a stainless steel thing.
+
+16:01.270 --> 16:02.770
+I don't know.
+
+16:03.200 --> 16:12.190
+I'm going to hit the L key and let's give this one a green color like here a press shift K and I'll
+
+16:12.190 --> 16:15.760
+also save that just in case I want to use it again.
+
+16:15.760 --> 16:21.060
+So there we have the vertex colors assigned to our object.
+
+16:21.100 --> 16:30.160
+So now these vertex colors can be seen by a program like substance painter and it will assume that your
+
+16:30.160 --> 16:34.290
+different colors are what you want to be different materials.
+
+16:34.600 --> 16:37.170
+So let's go back to object mode here.
+
+16:37.210 --> 16:42.010
+We're going to go ahead and make sure I've got everything named properly.
+
+16:42.010 --> 16:43.480
+Let me look at my materials.
+
+16:43.480 --> 16:47.160
+I've got lint base for that and lamp shade for that.
+
+16:47.160 --> 16:49.750
+Good do I have that in the object as well.
+
+16:49.750 --> 16:50.650
+No I don't.
+
+16:50.860 --> 16:55.310
+So let me copy the material and put it in the name of the object.
+
+16:55.860 --> 16:57.690
+And let's go to the lambastes.
+
+16:57.730 --> 17:02.050
+Same thing here let me copy the material name and put it in the name of the object.
+
+17:02.530 --> 17:03.940
+Excellent.
+
+17:03.940 --> 17:12.650
+Now we have our lamp and we make sure that we are here with uniform scale.
+
+17:12.650 --> 17:18.760
+We don't have that for the lampshade Let's go ahead and hit control a in scale.
+
+17:19.280 --> 17:28.470
+Let's put the center or the pivot point of the lampshade at the base of the lamp set origin the 3D cursor.
+
+17:28.490 --> 17:31.370
+Let's make sure that's done for this as well.
+
+17:31.370 --> 17:33.520
+Set origin to 3D cursor.
+
+17:33.560 --> 17:38.640
+That can just help us snap objects easier once we get it into unity.
+
+17:38.720 --> 17:43.400
+Because the pivot point from Blendr is going to be the pivot point in unity.
+
+17:43.400 --> 17:45.660
+All right let's bring everything else back.
+
+17:45.680 --> 17:46.580
+Holy smokes.
+
+17:46.580 --> 17:50.720
+Look at that and let's scale these down.
+
+17:50.800 --> 17:55.240
+Just select the lampshade and scale them down.
+
+17:55.250 --> 17:59.300
+So we're going to have to reapply our scale here aren't we.
+
+17:59.300 --> 18:00.670
+I forgot about that.
+
+18:00.980 --> 18:02.990
+Let's put this up on the table.
+
+18:04.480 --> 18:09.420
+Frame it up with the period key and let's see if we can get it.
+
+18:12.430 --> 18:14.290
+So it looks about right.
+
+18:14.290 --> 18:18.660
+So the scale of the object is OK.
+
+18:18.870 --> 18:20.420
+What do you think is that.
+
+18:20.430 --> 18:23.840
+Feels a little big maybe else bring it down just a little bit.
+
+18:24.840 --> 18:25.890
+Something like that.
+
+18:26.970 --> 18:33.080
+All right so now let's go ahead and apply a scale of both of these objects control a scale.
+
+18:33.090 --> 18:34.000
+Good.
+
+18:34.560 --> 18:39.190
+Let's now go ahead and import these objects now.
+
+18:39.190 --> 18:44.070
+I haven't imported yet the end table here.
+
+18:44.070 --> 18:49.440
+I just kind of created this table based on the coffee table.
+
+18:49.650 --> 18:51.960
+So I haven't imported that yet either.
+
+18:52.800 --> 18:56.780
+Let me make sure that the name is good in table.
+
+18:56.780 --> 19:03.640
+I'm using the same materials for the table and I'll use the same texture to at least for now.
+
+19:03.710 --> 19:10.380
+But let's take this object right here as an FBI acts into substance painter.
+
+19:10.550 --> 19:12.180
+And see what it makes of it.

@@ -1,0 +1,652 @@
+WEBVTT
+
+00:00.860 --> 00:09.230
+A U-V map that I'm really only going to U-V map a couple of the parts I'm going to U-V map this piece.
+
+00:09.450 --> 00:14.030
+One of the cushions one of the back cushions on ARM and the back.
+
+00:14.040 --> 00:16.890
+And then everything else all duplicated over again.
+
+00:16.890 --> 00:19.560
+So I don't have to reuse the map.
+
+00:19.560 --> 00:26.460
+Each of the cushions are U-V map once and then I duplicate the object you know I'm thinking I also want
+
+00:26.460 --> 00:35.550
+to smooth these guys down here but I also I think want to maybe take this edge right here and scale
+
+00:35.550 --> 00:42.450
+it in I'll just s press pass and scale that in just a smidge and then I'll click smooth over here and
+
+00:42.450 --> 00:44.370
+that'll smooth that up.
+
+00:44.400 --> 00:51.810
+So now I'm just going to take all of these and hit X and delete go back to the seven key and the five
+
+00:51.810 --> 01:03.690
+key and the Z key grab that little guy and just duplicate and hit X and then take these two and Shiff
+
+01:03.780 --> 01:07.680
+D and Y and move these back up here.
+
+01:08.690 --> 01:10.170
+Here we go.
+
+01:10.180 --> 01:14.940
+So let's start U-V mapping these all I'll begin with this one.
+
+01:14.990 --> 01:21.340
+Let's say I'll come up here to the default screen layout and I'll just click here.
+
+01:21.530 --> 01:28.120
+And instead of the default screen lay out the way I have it I'll go to U-V editing and there we go the
+
+01:28.130 --> 01:33.780
+period key to zoom in on that and to isolate this I'll press shift.
+
+01:33.800 --> 01:35.080
+H.
+
+01:35.120 --> 01:41.930
+Now one thing I need to deal with is I've still got the subdivision surface modifier on here.
+
+01:41.930 --> 01:48.830
+I need to apply that I need to bake or make permanent This geometry.
+
+01:48.890 --> 01:56.000
+You can see that the original geometry is still pretty blocky and out here I need to bake this in.
+
+01:56.240 --> 02:00.200
+So what I'm going to do I mean just while I'm in the U-V editing for you I'm just going to move this
+
+02:00.200 --> 02:07.160
+over a bit and I'm going to grab this little tab right up here and just bring that over and then I'll
+
+02:07.160 --> 02:10.040
+create a propertys panel from this.
+
+02:10.040 --> 02:11.060
+Here we go.
+
+02:11.060 --> 02:17.640
+So if I go over to my modifiers tab I can see I've got my subdivision service modifier.
+
+02:17.660 --> 02:21.410
+I've got to view it to let me see what happens at one.
+
+02:21.470 --> 02:24.180
+Not bad.
+
+02:24.220 --> 02:33.550
+I almost feel like I could move these in a bear like this and maybe even move these down a bit so it's
+
+02:33.550 --> 02:37.100
+not quite causing such a
+
+02:40.300 --> 02:41.670
+sharp edge there.
+
+02:42.620 --> 02:44.190
+Something like that.
+
+02:44.450 --> 02:47.960
+So I'll go with the one I'll hit apply.
+
+02:48.170 --> 02:55.190
+And now you can see if you hit tab that's what the cushion looks like now.
+
+02:55.730 --> 03:00.220
+Now I think I could get rid of a good deal of these polygons.
+
+03:00.220 --> 03:06.530
+I'm going to click this little guy right here to make it so I can't see through it.
+
+03:07.330 --> 03:13.570
+And I think I could probably get rid of the saw press the C key to go to the circle select tool and
+
+03:13.570 --> 03:23.900
+I'll just click and drag some of these polygons here and maybe these over here.
+
+03:23.980 --> 03:34.300
+I don't think I need most of those so I'm going to hit X and delete those faces and I don't know that
+
+03:34.300 --> 03:39.170
+I need all of these edges along here either.
+
+03:39.190 --> 03:49.370
+I'll just do this and this with alt and shift and click and then press X and choose dissolve edges.
+
+03:49.420 --> 03:52.510
+If we just deleted edges here's what would happen.
+
+03:53.360 --> 03:54.320
+That's not good.
+
+03:54.410 --> 04:01.940
+So I'll undo that with control or command Z what we need to do is dissolve the edges so I press X and
+
+04:01.940 --> 04:03.250
+dissolve edges.
+
+04:03.440 --> 04:10.260
+And that leaves the polygons there but removes the edges right.
+
+04:10.300 --> 04:19.330
+So I like doing this because I like not having to U-V map faces that aren't going to be seen so I'm
+
+04:19.330 --> 04:21.180
+just going to go with this here.
+
+04:21.490 --> 04:28.540
+I'm going to select this edge and then control click this edge and everything in between those two edges
+
+04:28.540 --> 04:30.040
+will be selected.
+
+04:30.040 --> 04:44.890
+Then I'll press control and Mark scene and same thing over here to this oh let's do this and this wraps
+
+04:45.140 --> 04:46.770
+I need to press control.
+
+04:46.770 --> 05:00.960
+There you go Mark seam and I'll do the same thing over here so this control your control easy mark scheme
+
+05:02.180 --> 05:05.150
+and then this and this.
+
+05:05.150 --> 05:08.890
+Right down here control click control.
+
+05:08.940 --> 05:16.500
+Mark seem so now that we've marked these seams we can go ahead and unwrap this but let me show you something
+
+05:16.500 --> 05:20.630
+that may happen when you try and unwrap an object like this.
+
+05:20.820 --> 05:24.360
+What can happen is you get a little error here.
+
+05:24.570 --> 05:33.020
+So I'm going to press you which brings up the U-V mapping menu and then I'm going to click unwrap.
+
+05:33.210 --> 05:36.740
+Now look up here it says object has nonuniform scale.
+
+05:36.750 --> 05:42.930
+Unwrap will operate in a scaled manner or whatever it says in other words what it's telling you is you
+
+05:42.930 --> 05:49.800
+may not be getting a good unwrap here because the transforms haven't been applied.
+
+05:49.800 --> 05:52.370
+You've got nonuniform scale.
+
+05:52.440 --> 05:53.970
+So let me show you what that means.
+
+05:54.000 --> 05:56.150
+I'm going to move this over just a bit.
+
+05:56.280 --> 06:02.500
+Press the end key and what that means is that if I tab into object mode look at the scale here.
+
+06:02.520 --> 06:04.090
+They're not all the same.
+
+06:04.260 --> 06:07.730
+When you create a new object These are all ones.
+
+06:07.770 --> 06:14.540
+So if I come over here and create a cube that cube you can see is all ones right.
+
+06:14.610 --> 06:15.960
+That's uniform scale.
+
+06:15.960 --> 06:18.430
+This is nonuniform scale.
+
+06:18.450 --> 06:24.540
+And when you have nonuniform scale you're U-V unwraps can be a little wonky.
+
+06:24.600 --> 06:26.740
+So it's something to look out for.
+
+06:27.030 --> 06:30.220
+To fix that what you can do is press control a.
+
+06:30.420 --> 06:35.220
+And now you can apply the transformations of say your rotation and scale.
+
+06:35.220 --> 06:37.800
+You can do it for the scale only and that's fine.
+
+06:37.800 --> 06:41.520
+I'm going to go ahead and hit the rotation and scale here and there we go.
+
+06:41.520 --> 06:45.430
+So now these are all ones.
+
+06:45.490 --> 06:51.080
+OK so now I'm going to hit the end key to go back and then tab into that mode.
+
+06:51.080 --> 06:55.500
+Now going to press you and unwrap that looks better.
+
+06:55.590 --> 06:58.890
+See the deal is when it has uniform scale.
+
+06:58.920 --> 07:05.930
+The U.V. map will more closely match the scale and proportion of Iran object.
+
+07:06.270 --> 07:07.320
+That looks pretty good.
+
+07:07.350 --> 07:09.090
+I'm going to go with that for now.
+
+07:09.090 --> 07:13.900
+So get a tab out of that press alt h to bring everything else back.
+
+07:14.370 --> 07:16.720
+And let's take a look at this.
+
+07:16.800 --> 07:19.690
+So I'll hit the period key to zoom into it.
+
+07:19.850 --> 07:23.120
+I'll press shift h to isolate it.
+
+07:23.550 --> 07:31.540
+And let's take a look and see if we can apply our subdivision surface modifier here.
+
+07:31.620 --> 07:33.310
+I'll take it down to one again.
+
+07:33.450 --> 07:36.020
+And that still looks pretty good.
+
+07:36.070 --> 07:37.950
+I'll go ahead and hit apply.
+
+07:38.070 --> 07:40.330
+And now let's take a look at it.
+
+07:40.710 --> 07:46.080
+Let's go ahead and see if we can take away some of these faces.
+
+07:46.230 --> 07:50.160
+So I'm going to take these away right down here.
+
+07:50.160 --> 07:52.180
+I don't think we need these.
+
+07:52.240 --> 07:57.580
+Now I'll just make my life a little easier as I try and unwrap this.
+
+07:58.090 --> 08:00.120
+Well I think we need these down here.
+
+08:00.130 --> 08:01.080
+Do we.
+
+08:01.170 --> 08:06.790
+Well you might see these Let me give those back.
+
+08:06.790 --> 08:07.140
+All right.
+
+08:07.150 --> 08:13.760
+Let's go and delete this and see what happens x and delete faces.
+
+08:13.780 --> 08:15.100
+All right.
+
+08:15.100 --> 08:21.020
+I'm going to press alt H again and make sure I've haven't taken away anything that I need.
+
+08:21.030 --> 08:25.020
+No I think that looks pretty good so I'll select that again.
+
+08:25.800 --> 08:27.360
+Shift H.
+
+08:27.480 --> 08:31.810
+I think I can even take one more row here right here.
+
+08:33.030 --> 08:34.280
+Yeah.
+
+08:34.530 --> 08:35.580
+And here we go.
+
+08:35.580 --> 08:41.200
+All right so now making my life easier when it comes to U-V mapping.
+
+08:41.210 --> 08:41.940
+I like it.
+
+08:42.180 --> 08:51.300
+I think what I'll do is I'll begin here and control click their control earmarks seem.
+
+08:51.850 --> 08:52.530
+Yeah.
+
+08:52.810 --> 08:53.920
+It was here was it.
+
+08:53.920 --> 08:58.870
+So control click control earmarks seem.
+
+08:58.930 --> 09:01.900
+And down here really we only need one.
+
+09:01.900 --> 09:08.310
+I think maybe here in here control and Mark seem so now we hit a disliked everything.
+
+09:08.440 --> 09:18.370
+Oh let's before we do this take a look at our scale tab and yep sure enough nonuniform scale so in Object
+
+09:18.370 --> 09:22.420
+mode all press control a rotation scale.
+
+09:22.420 --> 09:29.750
+Now I've got all ones and zeros tab back into edit mode and press you and unwrap.
+
+09:30.040 --> 09:32.170
+Oh yeah that's looking good.
+
+09:32.170 --> 09:34.200
+All right alt h.
+
+09:34.570 --> 09:36.610
+Let's take a look at something else here.
+
+09:36.630 --> 09:38.050
+How about this guy down here.
+
+09:38.170 --> 09:40.300
+Let's take a look at this shift.
+
+09:40.330 --> 09:41.390
+H.
+
+09:41.710 --> 09:42.210
+Period.
+
+09:42.220 --> 09:43.840
+To frame it up.
+
+09:44.200 --> 09:49.710
+And now we're not going to need the faces back here.
+
+09:49.930 --> 09:53.540
+But let's go ahead and take the view down to one see if we can.
+
+09:53.680 --> 09:55.060
+Yeah we can use that.
+
+09:55.060 --> 09:55.680
+All right.
+
+09:55.720 --> 10:05.050
+So apply that tab into object mode and let's start removing some of these faces we just don't need all
+
+10:05.050 --> 10:06.320
+of this back here.
+
+10:07.570 --> 10:09.700
+Something like this.
+
+10:09.720 --> 10:12.510
+Right x faces.
+
+10:13.350 --> 10:14.190
+How about down here.
+
+10:14.190 --> 10:15.920
+We don't need all of this do we.
+
+10:18.100 --> 10:23.290
+Nope faces delete those.
+
+10:24.110 --> 10:25.950
+What about the ones on the sides.
+
+10:25.980 --> 10:30.630
+All it takes to bring everything we don't need those on the sides either do we.
+
+10:31.410 --> 10:34.740
+Now so shift h.
+
+10:34.830 --> 10:36.270
+Let's take those away.
+
+10:36.270 --> 10:41.980
+Heck do we even need these up top let's take a look.
+
+10:42.070 --> 10:42.810
+H.
+
+10:43.680 --> 10:49.530
+Well you can kind of see through some in here but on back I don't think we do.
+
+10:50.610 --> 10:54.120
+All right well that makes our life a little easier.
+
+10:54.120 --> 11:05.480
+So if we just take away if we just took away this whole thing and then press alt shift and click on
+
+11:05.480 --> 11:09.650
+an edge right between two of the faces and that didn't do me any good.
+
+11:09.650 --> 11:11.390
+Now let's try that again.
+
+11:11.420 --> 11:13.470
+Allt click.
+
+11:13.670 --> 11:14.170
+Man.
+
+11:14.180 --> 11:14.560
+All right.
+
+11:14.570 --> 11:20.250
+So all to click an edge between two of the faces and get rid of those are right.
+
+11:20.390 --> 11:29.540
+So I'll hit X and faces and then I want to hit the Z key and border select all of this so I'll press
+
+11:29.720 --> 11:32.830
+B and click and drag here.
+
+11:33.640 --> 11:36.380
+X and faces.
+
+11:36.410 --> 11:37.850
+All right.
+
+11:37.850 --> 11:42.290
+So yeah that doesn't look too bad.
+
+11:43.320 --> 11:45.090
+Can we even get rid of this.
+
+11:45.090 --> 11:49.000
+Here to alt click that.
+
+11:49.170 --> 11:54.260
+Well let's try that be nice if I could get rid of all of that.
+
+11:54.340 --> 11:54.880
+H
+
+11:58.670 --> 11:59.590
+Yeah.
+
+11:59.780 --> 12:00.770
+Why not.
+
+12:01.160 --> 12:02.870
+Let's just get rid of all that.
+
+12:04.070 --> 12:05.620
+Nice.
+
+12:05.630 --> 12:06.240
+All right.
+
+12:06.410 --> 12:07.360
+Shift h.
+
+12:07.370 --> 12:09.110
+Let's take a look at it.
+
+12:09.160 --> 12:16.120
+You know since it's just one sided I think we could just unwrap it as is.
+
+12:16.120 --> 12:23.650
+We don't need to create any seems or anything so I'll tab back into object mode press control a click
+
+12:23.680 --> 12:30.890
+rotation and scale tab back into edit mode you and unwrap.
+
+12:30.910 --> 12:33.100
+Now let's take a look down here.
+
+12:33.160 --> 12:38.380
+When you unwrap something and before you click anything or anything you can come over here and try a
+
+12:38.380 --> 12:39.880
+different method out.
+
+12:39.880 --> 12:42.940
+I'm currently using angle base but let's try conformal
+
+12:46.150 --> 12:48.730
+doesn't really help us much.
+
+12:48.750 --> 12:50.020
+I'll go with that.
+
+12:50.310 --> 12:52.140
+That looks OK.
+
+12:52.170 --> 12:54.580
+All right old age to bring that back.
+
+12:55.770 --> 12:57.180
+What haven't we done yet.
+
+12:57.510 --> 12:59.210
+We haven't done this yet.
+
+12:59.220 --> 12:59.780
+Right.
+
+13:00.750 --> 13:03.570
+All right so let's try that all shift.
+
+13:03.640 --> 13:06.960
+H that and isolate it.
+
+13:07.290 --> 13:18.200
+Now let's think about this let's take the view in the subdivision service modifier down to one.
+
+13:18.200 --> 13:19.790
+See how that looks.
+
+13:20.510 --> 13:29.900
+I think that will work I'll hit apply tab into edit mode and for this we could get rid of some at the
+
+13:29.900 --> 13:34.450
+back and inside there make sure I know which way is which.
+
+13:34.460 --> 13:35.450
+OK.
+
+13:35.450 --> 13:41.390
+So this is the back and this is the inside right.
+
+13:41.410 --> 13:44.290
+We could even get rid of some on the bottom I think.
+
+13:44.290 --> 13:48.910
+I don't think I'm going to be turning this couch over any and the scene.
+
+13:48.940 --> 13:49.360
+All right.
+
+13:49.360 --> 13:57.640
+I'm going to isolate it edit mode and press the C key and I'll just start taking some of these out and
+
+13:57.640 --> 14:00.950
+seeing what we can get away with.
+
+14:01.890 --> 14:04.960
+And if I take too many we can always undo it.
+
+14:05.130 --> 14:07.780
+I'll hit X and faces.
+
+14:08.220 --> 14:09.230
+Yeah.
+
+14:09.410 --> 14:13.210
+OK let's try these here.
+
+14:13.230 --> 14:13.810
+All right.
+
+14:13.810 --> 14:14.330
+There's that.
+
+14:14.350 --> 14:17.230
+I'll go ahead and take those out.
+
+14:17.700 --> 14:29.230
+And then on the inside let's do this we go to get these little ones I'm going to press the Z key and
+
+14:29.230 --> 14:34.360
+then B to board or select these and delete these.
+
+14:34.360 --> 14:35.840
+All right.
+
+14:36.040 --> 14:37.900
+Let's take a look at what we got.
+
+14:37.930 --> 14:40.480
+Press alt H.
+
+14:40.660 --> 14:42.190
+Did we run it for anything.
+
+14:42.190 --> 14:46.580
+No I think we're pretty good yeah.
+
+14:46.850 --> 14:50.460
+OK so let's try and map this.
+
+14:50.570 --> 14:57.020
+Once again I'll press control a and rotation and scale to apply the transforms Alt-Tab tab into edit
+
+14:57.020 --> 15:05.050
+mode and let's go ahead and mark a few seems here I think maybe just right around here would be fine.
+
+15:05.090 --> 15:09.430
+Yeah let's try and control the marks seem.
+
+15:09.850 --> 15:14.870
+Hit the A key and then hit the key and unwrap.
+
+15:14.890 --> 15:25.950
+Not too bad about conformal angle based Keralite conformal a little bit better.
+
+15:26.060 --> 15:27.100
+Let's go with that.

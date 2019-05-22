@@ -1,0 +1,499 @@
+WEBVTT
+
+00:00.780 --> 00:07.310
+Now before I export this out export the U-V map out I'd like to try and get a sense of what is what.
+
+00:07.350 --> 00:14.170
+What parts of this U-V map coincide to which parts of the 3D model.
+
+00:14.250 --> 00:21.020
+So say if I choose this face right here I can see that there is that face on the U.V. map.
+
+00:21.090 --> 00:24.790
+So let me select everything over here in a 3D view.
+
+00:25.140 --> 00:29.940
+And then as I begin selecting things over here I can't really see it yet.
+
+00:29.970 --> 00:35.550
+In the 3-D view but if I come down here to this little guy right here this keep U.V. and it moët selection
+
+00:35.640 --> 00:36.990
+in the sink.
+
+00:37.050 --> 00:38.510
+I can turn that on.
+
+00:38.720 --> 00:44.090
+Now if I select say this face here we can see which one it is here.
+
+00:44.190 --> 00:50.760
+So I'm going to press the L key over this and instead of selecting by seam else liked by normal I guess
+
+00:51.150 --> 00:58.140
+so that'll select everything and I'll hover over these and press the L key as well just so we can get
+
+00:58.140 --> 01:00.810
+a sense of where they are.
+
+01:00.900 --> 01:07.900
+Now they're kind of mixed in there and it be nice if I can access them kind of as one unit.
+
+01:08.220 --> 01:09.750
+And there are a couple of ways to do this.
+
+01:09.750 --> 01:17.850
+Now I can spend some time here and rearrange the map manually to try and get these things together so
+
+01:17.850 --> 01:25.350
+that when I take them into Photoshop I can kind of deal with them all at once or when I could also do
+
+01:25.710 --> 01:34.440
+is export the U.V. map out in parts so I could export the U.V. map out with only these pieces and then
+
+01:34.440 --> 01:40.500
+I could export the U.V. map out with all the other pieces and then overlay them on top of each other
+
+01:40.620 --> 01:41.760
+in Photoshop.
+
+01:42.060 --> 01:46.830
+That way I could turn the layer off for one and on for the other.
+
+01:46.830 --> 01:48.490
+So let me show you what I mean here.
+
+01:48.510 --> 01:52.080
+If I come back down here and turn this back off.
+
+01:52.080 --> 01:54.980
+Now I've only got these here right.
+
+01:54.980 --> 02:03.450
+I've only got these U-V islands coinciding with just the kitchen counters so I can export this out on
+
+02:03.450 --> 02:03.900
+its own.
+
+02:03.900 --> 02:10.230
+So let's say I go to Uvas and export U-V lay out here.
+
+02:10.540 --> 02:16.320
+Got to my textures folder I go in and create a new folder here and we'll call this I'll just call it
+
+02:16.320 --> 02:17.580
+kitchen.
+
+02:17.750 --> 02:26.380
+I'll put everything in there all the textures for the kitchen in there I'll take this to 2048 because
+
+02:26.380 --> 02:36.250
+I want it to be a little bit bigger and I'll call this countertops UVA's like that.
+
+02:36.670 --> 02:38.620
+So I'll go ahead and export this out.
+
+02:39.980 --> 02:48.110
+Now what I can do is just invert the selection so I can come down here to select and inverse or control
+
+02:48.150 --> 02:49.000
+I.
+
+02:49.460 --> 02:52.870
+And now I've inverted the selection for everything else.
+
+02:52.880 --> 02:59.300
+One thing about it is this little guy that handle once we texture this just that one U-V we're going
+
+02:59.300 --> 03:02.250
+to duplicate it all the way around.
+
+03:02.330 --> 03:04.180
+But I think it could be a little bit bigger.
+
+03:04.180 --> 03:12.960
+Here let me zoom in and select this as an island I'm going to choose you the island selection and I'll
+
+03:12.960 --> 03:13.580
+click that.
+
+03:13.590 --> 03:18.920
+And I just think I'll move it down into here and scale it up just a little bit.
+
+03:19.020 --> 03:24.540
+So now that I've got all of this here I can export this out as well.
+
+03:24.750 --> 03:32.690
+Export U-V lay out put it in that kitchen folder and for this let's call this cabinets.
+
+03:32.730 --> 03:33.390
+There we go.
+
+03:33.570 --> 03:38.900
+Oh and I need to make sure these are the same size.
+
+03:39.150 --> 03:44.030
+2048 and export these out as well.
+
+03:44.030 --> 03:51.030
+All right so now let's go take a look at them in Photoshop here in Photoshop I'll open them up.
+
+03:51.050 --> 03:59.520
+I'll go to that kitchen folder select both of them and let's open those up so you can see I've got one
+
+03:59.520 --> 04:05.220
+U-V map for the countertops and one for the cabinets.
+
+04:05.220 --> 04:11.340
+What let's do is let's go ahead and select everything here with control or command a and we'll copy
+
+04:11.340 --> 04:13.760
+it and then we can come over here.
+
+04:13.770 --> 04:16.380
+And if I just paste it in it's going to be in the wrong place.
+
+04:16.380 --> 04:24.300
+What I need to do is come over here to edit paste special and use this paste in place or shift command
+
+04:24.300 --> 04:31.200
+the click that and that inserts the movies into the proper place on the map.
+
+04:31.200 --> 04:35.700
+So if I turn this off and on hopefully you can see that let me zoom in a little bit.
+
+04:35.700 --> 04:37.090
+It's kind of hard to see.
+
+04:37.250 --> 04:43.840
+So you can see here how they've been placed in the proper spot on the U-V map.
+
+04:43.860 --> 04:46.700
+So now I can work with each individual one.
+
+04:46.700 --> 04:53.330
+I can work with just the wood and the handle or I can work with just the countertops.
+
+04:53.400 --> 04:54.250
+So well let's do it.
+
+04:54.270 --> 04:56.940
+Let's go ahead and work with the wood for now.
+
+04:57.060 --> 05:03.990
+Most of these are going up and down I see the grain should be going up and down but up here you can
+
+05:03.990 --> 05:08.180
+see the grain is going horizontally these are the kitchen cabinets here.
+
+05:08.550 --> 05:09.720
+But let's see what we can do.
+
+05:09.720 --> 05:16.890
+I'm going to open up a new texture I'm going to go to my textures folder on my drive and I think I have
+
+05:16.890 --> 05:19.890
+a wood grain that I kind of like.
+
+05:19.890 --> 05:22.260
+Let me see it's this one here.
+
+05:23.200 --> 05:23.820
+Yeah.
+
+05:23.920 --> 05:29.160
+I think I'd like to use this one for the kitchen cabinets so I will open that up.
+
+05:30.770 --> 05:31.760
+Select it all.
+
+05:31.760 --> 05:32.660
+Copy it.
+
+05:33.540 --> 05:37.850
+And let's bring it into this document here.
+
+05:37.860 --> 05:42.610
+I will paste it drag it down beneath the movies.
+
+05:42.720 --> 05:48.080
+I better call these the cabinet movies so I know which one it is.
+
+05:49.150 --> 05:52.290
+And these are called these the counter movies.
+
+05:52.300 --> 05:54.040
+All right so this is a little bit big.
+
+05:54.040 --> 05:57.690
+Obviously we're going to need to shrink this down quite a bit.
+
+05:57.700 --> 06:03.920
+I'm going to go ahead and rotate it 90 degrees and shrink it down some.
+
+06:04.030 --> 06:07.550
+And let me see if I can place it right down here.
+
+06:08.500 --> 06:16.690
+See how this looks I'm wondering if this is going to be small enough for the counter's I think it will
+
+06:16.690 --> 06:17.740
+be.
+
+06:17.800 --> 06:19.990
+Let's go ahead and use this like this.
+
+06:20.060 --> 06:28.680
+I'll press shift and Allt and click and drag and let's start duplicating this around the U-V map here.
+
+06:30.190 --> 06:37.130
+All right I have gone through the same process that we've gone through before just copying and arranging
+
+06:37.220 --> 06:43.610
+the woodgrain over the U.V. map as best as I can but I'm going to need to take this back into blender
+
+06:43.610 --> 06:49.270
+just to see if I've got the woodgrain in the right direction for all of the U.V. islands.
+
+06:49.580 --> 06:55.930
+So I'm going to turn off the movies for the cabinets here and I'm not going to clean it up quite yet.
+
+06:55.940 --> 07:01.190
+I just want to see how I did here and before I export it I'm going to go ahead and save it.
+
+07:01.190 --> 07:05.780
+I'm going to save it as a PSP here and I'll just call it cabinets.
+
+07:05.930 --> 07:08.230
+I'll just call it cabinets here.
+
+07:09.860 --> 07:14.900
+And now I'm going to export it file export Export as
+
+07:18.070 --> 07:25.490
+and export this as a PNB and I'll put it in that kitchen folder as well.
+
+07:25.540 --> 07:33.380
+So I call this cabinets underscore see for color map and let's see how we did over here in Blender.
+
+07:33.380 --> 07:40.530
+I'll go ahead and create a new material for the cabinets here in the material panel I'll just click
+
+07:40.530 --> 07:49.200
+new and let's call this cabinets here in the note editor I will go ahead and bring in an image node.
+
+07:49.250 --> 08:01.050
+I can go to add texture image texture and I'll go ahead and bring in that texture map that we created.
+
+08:01.050 --> 08:06.880
+Here it is and I'll switch to texture viewport shading.
+
+08:06.900 --> 08:10.720
+Now let's tab back into object mode and let's take a look at this.
+
+08:10.740 --> 08:14.620
+Yeah we're going to have issues with the counter and that's OK.
+
+08:14.700 --> 08:21.360
+I'm not worried about that right now I just want to make sure that everything is looking OK and to me
+
+08:22.200 --> 08:24.970
+this part doesn't look very good.
+
+08:25.020 --> 08:27.600
+I feel like these up here aren't looking very good.
+
+08:27.600 --> 08:35.760
+So I've got several areas in which either the woodgrain is going the wrong way or it just isn't looking
+
+08:35.760 --> 08:36.950
+very good.
+
+08:36.960 --> 08:40.560
+So one of those is this right up here.
+
+08:40.600 --> 08:46.470
+So let me go to face mode select that and I can see that that's that area there.
+
+08:46.470 --> 08:51.060
+It looks like that needs to be turned as well as this one up here.
+
+08:51.960 --> 08:53.180
+That doesn't look too bad.
+
+08:53.190 --> 08:55.820
+But this one appears turned in the wrong direction.
+
+08:55.860 --> 09:03.800
+So I just need to go through and figure out on the U-V map which ones are turned in the wrong direction.
+
+09:03.900 --> 09:08.790
+This is turned in the wrong direction here but I don't really care because the stove is going to be
+
+09:08.790 --> 09:09.480
+there.
+
+09:09.660 --> 09:11.890
+So that's fine by me.
+
+09:11.940 --> 09:18.090
+So what I'll do is go through and work on that and just try and edit those to turn the textures for
+
+09:18.090 --> 09:26.250
+these individual U-V islands in the proper direction well I've gone back to photoshop and turned some
+
+09:26.250 --> 09:33.140
+of these woodgrain textures to match the model a little better so let me bring that back in and let's
+
+09:33.150 --> 09:34.740
+see how it looks.
+
+09:36.080 --> 09:40.530
+All right so that looks a little better we've got woodgrain going up and down here.
+
+09:40.820 --> 09:45.420
+We think that looks pretty good so good to go with that for now.
+
+09:46.210 --> 09:52.120
+And now let's take a look at working on those countertops in Photoshop here.
+
+09:52.180 --> 09:54.650
+Go ahead and clean this up.
+
+09:54.730 --> 10:03.550
+So if I select the UVA's here and go come over here to my magic wand tool and select outside of the
+
+10:03.550 --> 10:11.180
+movies I'm going to have to shift click in a couple of areas down here to get these as well.
+
+10:12.050 --> 10:18.590
+Looks like I have all of them now I think I'm going to go to select and modify and contract and contract
+
+10:18.590 --> 10:26.810
+that selection by two pixels and then I'll take all of this woodgrain Photoshop Lares and combine them
+
+10:26.840 --> 10:34.110
+all together with control or command E and now I'll just hit delete and clean that up.
+
+10:34.130 --> 10:41.030
+Now I can come over here to these U-V islands and I'll work on these in the same way.
+
+10:41.330 --> 10:46.450
+So let me hide these here and now we've got our countertops.
+
+10:46.670 --> 10:51.940
+I just need to find a good texture for the countertops and lay these in in the proper places.
+
+10:52.130 --> 10:52.760
+You know what.
+
+10:52.760 --> 10:56.900
+Why don't I use that texture we used earlier.
+
+10:57.220 --> 10:58.690
+See if I can find that.
+
+10:58.910 --> 11:04.310
+I think back in here in the textures folder here.
+
+11:04.310 --> 11:08.900
+Isn't that what we used on the coffee table and wouldn't that be.
+
+11:08.900 --> 11:10.550
+I think that would work out OK.
+
+11:10.760 --> 11:12.640
+Let's give that a try.
+
+11:12.650 --> 11:14.330
+I'll open it up and bring it in.
+
+11:15.600 --> 11:17.300
+And let's check it out.
+
+11:17.670 --> 11:19.260
+Yeah I think this would probably work.
+
+11:19.260 --> 11:21.320
+All right.
+
+11:21.400 --> 11:23.770
+I do plan to put a bit of grunge over it.
+
+11:23.770 --> 11:26.930
+So I think it'll work out.
+
+11:26.980 --> 11:30.170
+All right I put that texture over those islands.
+
+11:30.310 --> 11:36.670
+I can grab that cabinet layer that cabinet texture and drag that up above here.
+
+11:37.150 --> 11:40.820
+Turn it back on and turn off the movies.
+
+11:40.960 --> 11:47.920
+And now the countertop is just showing through the empty places where the wood is so let's go ahead
+
+11:47.920 --> 11:50.260
+and export this and give it a try.
+
+11:51.940 --> 11:56.460
+All right here in Blender I'll just get rid of that and reload that.
+
+11:56.470 --> 12:00.450
+Bring that cabinets underscores C back in and let's take a look.
+
+12:01.720 --> 12:03.250
+Yeah I think that'll work.
+
+12:03.250 --> 12:11.110
+Now I'm going to want a lot more grunge but I think that's going to work just fine.
+
+12:11.110 --> 12:15.070
+So let's go clean that color map up before I add some grunge.
+
+12:15.070 --> 12:17.890
+I'll just go back to Photoshop.
+
+12:17.950 --> 12:19.210
+I've already cleaned this up.
+
+12:19.210 --> 12:21.050
+Let's take all of this.
+
+12:21.070 --> 12:30.720
+All of these countertop layers and combine them down to one call this counter and I'll call these cabinets.
+
+12:31.210 --> 12:38.650
+I'll select the counters you the layer and with the magic wand to go ahead and select around all of
+
+12:38.650 --> 12:44.020
+those me turn off the wood here just to make sure I have all of these selected.
+
+12:44.360 --> 12:46.270
+Yep looks like that's good.
+
+12:46.270 --> 12:47.840
+I'll expand the selection.
+
+12:47.860 --> 12:53.200
+Scuse me can track the selection by two pixels over the counter layer.
+
+12:53.300 --> 12:55.610
+Delete and there we go.
+
+12:55.610 --> 13:07.420
+So now we've got that let's now create a new layer put it behind all of this make it black go to our
+
+13:07.540 --> 13:11.310
+paint bucket tool and let's put black behind there.
+
+13:11.320 --> 13:12.200
+All right.
+
+13:12.580 --> 13:18.500
+Now we think all we need to do is just work on bringing in some grunge just some dirt and nastiness.
+
+13:18.520 --> 13:20.460
+We'll work on that in the next video.

@@ -1,0 +1,571 @@
+WEBVTT
+
+00:00.540 --> 00:07.530
+Well since the last video I've gone ahead and added a few things here I've added a ceiling and I have
+
+00:07.980 --> 00:09.490
+added a texture to it.
+
+00:09.510 --> 00:15.870
+I took the U-V map into Photoshop and layered a couple of different textures on top of each other to
+
+00:15.870 --> 00:19.470
+kind of get this dirty old ceiling kind of a look.
+
+00:19.530 --> 00:27.450
+I've also added a seamless texture to the floor and went ahead and added some texture to the doors.
+
+00:27.450 --> 00:32.370
+Now the doors I went ahead and did like I did the walls here.
+
+00:32.400 --> 00:41.010
+In other words I took two of these a door and a window frame combine them together arrange the U-V maps
+
+00:41.010 --> 00:44.340
+of the U-V islands were all on the same U-V map.
+
+00:44.340 --> 00:52.470
+And then I went ahead and textured that one U-V map to provide textures for both the window frames and
+
+00:52.500 --> 00:53.220
+the door jamb.
+
+00:53.220 --> 01:00.060
+So if we come over here to the U-V editing screen lay out and I will frame these up with the period
+
+01:00.060 --> 01:02.080
+key here.
+
+01:02.340 --> 01:09.120
+If I tab into Edit Mode save for the door frame you can see that here is the U-V map for that.
+
+01:09.240 --> 01:17.310
+And if I tab into the U.V. map for a window frame you can see that that's where the U-V islands are
+
+01:17.310 --> 01:25.530
+so they've been arranged once again into all one U-V map so that now even though these are different
+
+01:25.620 --> 01:34.080
+objects in the scene and in unity they still are only pulling from one that U-V map one texture map.
+
+01:34.080 --> 01:42.300
+So if we come over here to unity and I select one of these guys here I'll zoom into it with the F key.
+
+01:45.620 --> 01:50.780
+And so you can see the window frame texture here.
+
+01:50.810 --> 01:51.810
+There it is here.
+
+01:51.830 --> 01:54.950
+And it go ahead and expand that.
+
+01:55.160 --> 02:03.290
+So you can see that we've got both the window frame and the door jamb U-V maps all being represented
+
+02:03.320 --> 02:05.630
+on one texture map.
+
+02:05.630 --> 02:09.610
+Now I've also worked on the kitchen walls over here.
+
+02:09.680 --> 02:17.960
+This center wall and the walls here in the kitchen there will be kitchen counters and other things going
+
+02:17.960 --> 02:22.930
+on here on along the wall so we won't see a whole lot of the walls over here.
+
+02:23.270 --> 02:32.330
+But I went ahead and did the same thing yet again for these walls and combined the U-V islands all on
+
+02:32.330 --> 02:39.080
+to one U.V. map to make the texturing a little more efficient.
+
+02:39.080 --> 02:39.740
+All right.
+
+02:39.830 --> 02:46.460
+So all of these processes all of these techniques are things that we've already gone over in previous
+
+02:46.550 --> 02:47.340
+videos.
+
+02:47.420 --> 02:50.510
+So I didn't do anything new here per se.
+
+02:50.510 --> 02:56.570
+Now I've still got my HDR image in here for the reflections.
+
+02:56.570 --> 03:01.030
+You can see in there the reflections of that HDR image.
+
+03:01.580 --> 03:09.920
+But one thing I need to do here is turn off anti-aliasing and when using an HDR image currently in unity
+
+03:10.310 --> 03:16.070
+you do need to turn off the anti-aliasing and then re add it as an effect on the camera.
+
+03:16.070 --> 03:17.600
+So let's just take a look at that.
+
+03:17.630 --> 03:18.890
+Real quick.
+
+03:19.050 --> 03:27.980
+I'll come over here to the Edit menu and come over to project settings and quality and overhear under
+
+03:27.990 --> 03:29.000
+anti aliasing.
+
+03:29.000 --> 03:32.480
+I'm going to go ahead and turn this off to disabled.
+
+03:32.480 --> 03:38.040
+Now when I run the game I'm not sure that you'll be able to see this but now we have no anti-aliasing.
+
+03:38.050 --> 03:44.420
+And if you look real close along the edges of the objects you can see a kind of jagged goodness along
+
+03:44.420 --> 03:45.480
+the edge.
+
+03:45.530 --> 03:46.240
+I can see it here.
+
+03:46.240 --> 03:51.490
+I don't know if you'll be able to see it or not but it's certainly visible when you play the game.
+
+03:51.590 --> 03:53.750
+So we don't want that.
+
+03:53.760 --> 04:00.330
+So what we can do is add an anti-aliasing effect on the camera itself.
+
+04:00.480 --> 04:07.890
+But what we need to do is import those effects into the standard assets folder here.
+
+04:07.890 --> 04:14.310
+So to do that I'm going to right click in the assets folder and choose import package and you can't
+
+04:14.310 --> 04:17.000
+really see it here let me come up.
+
+04:17.010 --> 04:18.910
+We bring this up a little higher.
+
+04:18.970 --> 04:28.990
+I'm going to write click here and choose import package and here you can see effects click that it's
+
+04:28.990 --> 04:35.180
+going to think a while and you can see appear here under image effects you've got anti-aliasing here.
+
+04:35.200 --> 04:36.780
+So this is what we want.
+
+04:36.800 --> 04:38.370
+I'll go ahead and click Import
+
+04:41.640 --> 04:48.350
+and now we should have within our standard assets we should have this affects folder.
+
+04:48.630 --> 04:56.870
+And in here under image effects we should have scripts and here's our anti-aliasing script right here.
+
+04:56.880 --> 05:05.070
+So now if we come up to player and select that main camera we can click and drag that right over here
+
+05:05.400 --> 05:06.960
+into the inspector.
+
+05:06.960 --> 05:09.030
+Now there isn't a whole lot we need to do with this.
+
+05:09.030 --> 05:13.670
+It should be ok the way it is currently so I'll just hit play and let's take a look at it.
+
+05:14.650 --> 05:19.420
+And now if we go into these edges they're a little cleaner I don't know if you can see that or not but
+
+05:19.420 --> 05:24.450
+these edges along the coffee table are quite a bit cleaner than they were.
+
+05:24.460 --> 05:31.390
+The next thing I want to do is get the lighting in the room a little bit better a little bit more like
+
+05:31.390 --> 05:33.660
+we want to in the final scene.
+
+05:33.700 --> 05:38.320
+Currently we've got this kind of wash of ambient light in the scene.
+
+05:38.320 --> 05:44.760
+We're not able to distinguish pools of light and dark and the scene is just kind of a wash.
+
+05:44.980 --> 05:51.910
+So to change that I'm going to come over here to the lighting tab right up here and click on that and
+
+05:52.000 --> 05:58.510
+for the ambient intensity it's currently at one it's getting it's ambient intensity from the skybox
+
+05:58.540 --> 06:00.700
+from that HDR image here.
+
+06:00.730 --> 06:06.790
+So I want to just bring that down a bit make it a little bit darker in the room maybe bring that down
+
+06:06.790 --> 06:09.570
+to say let's put it at point two.
+
+06:09.760 --> 06:16.720
+Now we can also bring down the refl. intensity just a little bit and that will bring down the level
+
+06:16.720 --> 06:17.470
+of the scene as well.
+
+06:17.470 --> 06:22.900
+But I want that at least some of that reflection in there so maybe I'll take that down to like point
+
+06:23.020 --> 06:32.650
+eight and now we can see that we've got a little bit more ability to have these pools of light and dark.
+
+06:32.650 --> 06:41.890
+So for the point light here now I can go back to the inspector and maybe increase the intensity just
+
+06:41.890 --> 06:44.210
+a little bit like that.
+
+06:44.290 --> 06:52.300
+Right so we've got a little bit more of a differentiation between light and dark maybe even on this
+
+06:52.510 --> 06:54.220
+table lamp shade.
+
+06:54.250 --> 07:02.020
+I could increase the emission just a bit if I click and drag here I can maybe increase the emission
+
+07:02.020 --> 07:06.430
+just a bit so it looks a little bit more like there's light coming out of that.
+
+07:06.490 --> 07:13.410
+In addition what I can do is set up a couple of spotlights to point up and down out of the lampshade
+
+07:13.420 --> 07:20.220
+to give it the impression that the light is on and illuminating the area around the lamp.
+
+07:20.230 --> 07:22.180
+So let's try that.
+
+07:22.240 --> 07:25.840
+I will come over here to the hierarchy.
+
+07:25.840 --> 07:30.920
+Right click and I'll choose light and spotlight.
+
+07:31.000 --> 07:32.040
+Get this in place.
+
+07:32.050 --> 07:36.950
+I want to get this in place right inside that lamp there.
+
+07:36.970 --> 07:47.540
+Let me switch from shaded to wireframe and over here I'll tumble and select that y axis right there
+
+07:48.170 --> 07:51.890
+and switch from perspective to orthographic.
+
+07:51.890 --> 07:58.750
+And now I can move that light the center of that light right in the center of the lamp right there.
+
+07:58.760 --> 08:07.550
+All right I'll switch back from orthographic to perspective and I'll switch back to shaded.
+
+08:07.560 --> 08:08.910
+Now let's take a look at that.
+
+08:08.930 --> 08:18.530
+OK so I'll move this up into here and I'll expand the circle out a bit with this spot angle I can click
+
+08:18.530 --> 08:21.600
+and drag that out some like that.
+
+08:21.610 --> 08:29.630
+Let's say I can also turn on shadows I'll turn on the hard shadows there so you can kind of get a sense
+
+08:29.630 --> 08:33.160
+of how it's bleeding out there.
+
+08:33.390 --> 08:37.800
+Kind of like this with that more soft edge.
+
+08:37.800 --> 08:38.840
+They're coming now.
+
+08:38.850 --> 08:42.030
+And I like those shadows coming off of there.
+
+08:42.060 --> 08:43.100
+That's nice.
+
+08:44.020 --> 08:45.570
+And let's see what else we could do.
+
+08:45.570 --> 08:49.710
+Let's go ahead and duplicate this and turn it upward.
+
+08:49.740 --> 08:51.850
+This probably doesn't need to be quite so bright.
+
+08:51.870 --> 08:56.090
+Let me before I do that I mean take this down a bit like that.
+
+08:57.120 --> 08:59.100
+And let's also change the color some.
+
+08:59.100 --> 09:07.530
+This is an incandescent interior bulb so it's going to be more orangey so I'll maybe change the color
+
+09:07.530 --> 09:13.230
+just a little bit and a little bit of color can go a long way so you don't need to like crank it way
+
+09:13.230 --> 09:19.670
+over here that looks too much so just a little bit of color on a light goes a long way.
+
+09:19.880 --> 09:22.580
+And then we go to that.
+
+09:22.590 --> 09:27.630
+All right so now I'm going to duplicate this self-selected over here in press control or command D.
+
+09:27.900 --> 09:34.950
+And now I want to flip it over or I'll hit the e key to go to rotate and I'll click and drag around
+
+09:35.790 --> 09:39.940
+that x axis and I'll go ahead and put it.
+
+09:40.260 --> 09:43.950
+Negative 90 every go that turns it up.
+
+09:45.050 --> 09:50.290
+And let's see if we can get this in place down a bit.
+
+09:51.520 --> 09:53.590
+A little bit too much like that.
+
+09:53.590 --> 10:02.250
+Let me pull it up some and then pull the angle make it a little bit bigger spot angle right here and
+
+10:02.400 --> 10:09.550
+out a bit like that bring down some.
+
+10:09.600 --> 10:15.990
+So we get kind of this sense that that's a light source in the room.
+
+10:15.990 --> 10:18.240
+So let me select this one.
+
+10:18.240 --> 10:23.570
+I want to increase the spot angle just a little bit more here and then I want to bring it down.
+
+10:23.580 --> 10:26.570
+So there we go at something like that.
+
+10:26.970 --> 10:36.990
+OK so now let's say this one is what you want to call this we want to call this lamp down.
+
+10:37.170 --> 10:46.140
+And the other one is lamp up and that up there we go and this light here is going to be that bear ball
+
+10:46.200 --> 10:53.430
+once we model that and hang this in the scene it will be a bear bulb light so I'll just call that bear
+
+10:53.760 --> 10:54.620
+bulb.
+
+10:56.020 --> 10:57.160
+Light.
+
+10:57.180 --> 10:58.370
+There we go.
+
+10:58.710 --> 11:04.270
+I'll drag this down here and let's begin grouping these objects together.
+
+11:04.270 --> 11:07.810
+Now just to clean up the hierarchy a bit.
+
+11:07.990 --> 11:14.350
+Now down here in the assets fold or we can right click and create a new folder.
+
+11:14.470 --> 11:21.790
+But up here in the hierarchy there is no folder option here in the hierarchy what we need to do is create
+
+11:21.790 --> 11:28.870
+an empty and an empty as just a location without any geometry is just an empty object.
+
+11:28.990 --> 11:35.560
+So I'm going to create an empty and it automatically puts it over here in the center of my viewport.
+
+11:35.560 --> 11:41.590
+But what I want it to be is in the center of the scene so I'm just going to type 0 0 0 for the x y and
+
+11:41.590 --> 11:49.490
+z over here in the position and I'll change the name of this to the lights.
+
+11:49.490 --> 11:57.040
+Now we go now I can take these lights in the scene and drag them into that empty game object and what
+
+11:57.040 --> 12:01.680
+that does is it pretty much creates a type of folder right.
+
+12:01.690 --> 12:06.450
+That we can use to organize our scene up here.
+
+12:06.460 --> 12:07.530
+I've got a table lamp.
+
+12:07.540 --> 12:12.080
+I've got couch I've got player in table all of these here.
+
+12:12.160 --> 12:14.710
+I could create a group called furniture.
+
+12:14.710 --> 12:15.680
+Why don't I do that.
+
+12:15.700 --> 12:26.780
+I'll create an empty I'll put it in the center of the grid 0 0 0 I'll call this furniture and I'll drag
+
+12:26.780 --> 12:33.440
+the couch coffee table in table table lamp into that group.
+
+12:33.500 --> 12:35.000
+There we go.
+
+12:35.310 --> 12:39.020
+So now we have a group for our furniture.
+
+12:39.660 --> 12:42.840
+We've also got a group here with walls.
+
+12:42.840 --> 12:51.820
+I can also put that floor in that group as well I just call it walls ceiling floor I guess I can do
+
+12:51.820 --> 12:53.020
+that.
+
+12:53.020 --> 12:56.290
+Walls ceiling floor.
+
+12:56.380 --> 12:57.440
+And here we go.
+
+12:57.610 --> 12:59.630
+Clean that up a bit.
+
+12:59.680 --> 13:01.690
+So now we've got the hierarchy cleaned up.
+
+13:01.690 --> 13:06.250
+We have a pretty good clean assets folder down here that's good too.
+
+13:06.250 --> 13:13.540
+One thing I don't like is these big gizmos in my viewport the camera and the lights.
+
+13:13.540 --> 13:16.600
+I want to see them sometimes but not all the time.
+
+13:16.750 --> 13:23.050
+So I can come up here to the gizmos and for the 3-D icons you can turn these off and it will make them
+
+13:23.050 --> 13:29.130
+small or you can drag the slider all the way down and it will just take them all the way out of this
+
+13:29.130 --> 13:29.960
+scene.
+
+13:30.220 --> 13:34.500
+So now you can have a scene without all that clutter.
+
+13:34.870 --> 13:39.700
+Now I do think it may be a little bit too dark I'm going to bring the ambient intensity back up just
+
+13:39.730 --> 13:43.870
+a little bit so we can see what's going on in the room here as we work.
+
+13:43.960 --> 13:46.510
+Put that at point 7:5 as well.
+
+13:46.520 --> 13:47.980
+There we go.
+
+13:47.980 --> 13:48.250
+All right.
+
+13:48.250 --> 13:55.360
+So we've gone a long way to organizing our scene and setting up some of the lighting so we can see how
+
+13:55.360 --> 13:58.030
+things are going to look as we bring them in.
+
+13:58.030 --> 14:01.940
+Another thing we can do is add a color correction effect on our camera.
+
+14:02.080 --> 14:03.510
+See how that helps.
+
+14:03.690 --> 14:04.460
+Let's come over here.
+
+14:04.480 --> 14:15.670
+Back to the camera and I'll go into the standard assets effects image effects and scripts.
+
+14:15.810 --> 14:20.300
+Let's come over here to one of these color corrections let me drag this slider right here so we can
+
+14:20.300 --> 14:22.760
+see the full names.
+
+14:22.760 --> 14:24.160
+We've got curves.
+
+14:24.290 --> 14:27.530
+Look up and ramp Let's try curves.
+
+14:27.530 --> 14:33.450
+I'm just going to select this camera come over here to the inspector.
+
+14:33.520 --> 14:39.820
+So let me drag in this color correction curves here and click and drag right over here into the inspector
+
+14:39.910 --> 14:43.050
+and it doesn't look like a whole lot has happened here.
+
+14:43.060 --> 14:51.670
+But if we hit the play button look at the difference now it really has a lot more saturation to it really
+
+14:51.670 --> 14:52.900
+brings it alive I think.
+
+14:52.900 --> 14:54.280
+Now this may be too much.
+
+14:54.280 --> 15:00.580
+We can always adjust this a bit but as we begin setting up our materials and everything.
+
+15:00.580 --> 15:04.890
+I think this is going to help us get a sense of how it's going to look.
+
+15:05.050 --> 15:12.910
+So I'll hit the play button again to turn that off and we can take the saturation up and down here in
+
+15:12.910 --> 15:15.560
+the color correction component.
+
+15:15.640 --> 15:17.100
+Currently it's at 1.
+
+15:17.200 --> 15:22.180
+So I think that's going to help us as we set up our scene as well to kind of begin to get a sense of
+
+15:22.180 --> 15:24.240
+what the final look is going to be.

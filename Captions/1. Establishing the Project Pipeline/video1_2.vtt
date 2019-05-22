@@ -1,0 +1,622 @@
+WEBVTT
+
+00:00.630 --> 00:02.620
+So what is it we're going to create.
+
+00:02.760 --> 00:08.880
+Well let's go back over to Blendr And what we're going to do is try and create an apartment scene.
+
+00:08.890 --> 00:17.220
+I go over to the Finder window here and I have in here some reference images and what I'd like to do
+
+00:17.220 --> 00:28.650
+is create an apartment scene that's kind of a rundown apartment in a not so great part of town and I've
+
+00:28.650 --> 00:35.640
+found these images out on google images just to give me kind of an idea of a sense of it.
+
+00:35.640 --> 00:43.620
+I don't know that I want it to be this run down but I don't know that I want it to be an art gallery
+
+00:43.620 --> 00:47.400
+per se but I like these windows here.
+
+00:47.580 --> 00:54.020
+I like the lay out of this with kind of the the main door coming in here and the kitchen.
+
+00:54.030 --> 00:59.820
+And then a living area and maybe a door over here and a door over here and it looks like they're windows
+
+00:59.820 --> 01:01.060
+over here.
+
+01:01.110 --> 01:03.490
+I kind of like the layout of this one.
+
+01:04.360 --> 01:12.550
+And then this is just a collection of junk and dirty dishes in the sink and maybe some cracked walls
+
+01:12.550 --> 01:17.040
+and things like this and maybe an old radiator and things like that.
+
+01:17.040 --> 01:24.220
+So I've just gathered these images together to give me a sense of what I'm trying to create.
+
+01:24.640 --> 01:31.060
+And I would really recommend this with any project that you do if you're going for realism then you
+
+01:31.060 --> 01:37.420
+really need reference images whether you find them on the Internet through google images or whatever
+
+01:37.690 --> 01:40.990
+whether you go out and take your own pictures.
+
+01:41.020 --> 01:47.620
+I really feel like you need to surround yourself with the imagery that you're trying to create even
+
+01:47.620 --> 01:51.320
+if you're trying to create a nonrealistic scene.
+
+01:51.340 --> 01:57.700
+Then I would suggest maybe trying to find images from a particular art movement maybe you want to look
+
+01:57.700 --> 02:07.680
+at painters of the Impressionist period or surrealism or maybe you're thinking about the curious Kuro
+
+02:07.740 --> 02:11.260
+lighting of the Dutch Masters.
+
+02:11.260 --> 02:18.940
+Maybe you're thinking of like Caravaggio and Rembrandt or whatever find as many reference images as
+
+02:18.940 --> 02:25.810
+you can so that you're grounding your work in reality even if it's other people's artwork.
+
+02:25.810 --> 02:28.300
+You're still grounding the work in reality.
+
+02:28.300 --> 02:31.400
+Anyway I think that reference images are really important.
+
+02:31.420 --> 02:40.460
+And every artist that you love and admire uses reference images I guarantee.
+
+02:40.510 --> 02:46.780
+Now I'd also like an object in my scene in Blender that gives me a sense of scale of how big a person
+
+02:46.780 --> 02:47.890
+is.
+
+02:47.950 --> 02:53.820
+So I'm going to come back here and a blender and what I'd like to do is just create a cube.
+
+02:53.820 --> 03:03.220
+I'll come over here to the Create tab and I'll click on cube and for this I want this to be six feet
+
+03:03.220 --> 03:03.970
+tall.
+
+03:04.120 --> 03:11.920
+So I'm currently using meters and that's really what I'm going to use mainly but for me I know as I
+
+03:11.920 --> 03:19.900
+said feet and inches so I'm thinking of just kind of an average male being six feet tall that just seems
+
+03:19.900 --> 03:24.870
+like a size that would be a good scale for my scene here.
+
+03:24.940 --> 03:31.660
+So I'm going to come over here to the scene panel and just briefly I'm going to switch it over to Imperial.
+
+03:31.660 --> 03:38.080
+And remember I said that when you change from one measure of unit to another the size of the objects
+
+03:38.260 --> 03:42.850
+doesn't change it's the size of the measurement that changes.
+
+03:42.850 --> 03:46.020
+So these are still the right size.
+
+03:46.030 --> 03:51.880
+Notice here that now it's six and a half feet tall so if I came over here to this field right here and
+
+03:51.880 --> 04:01.710
+just typed six in here and enter now this object is six feet tall so I also can change the action the
+
+04:01.770 --> 04:04.970
+while just change these to one each.
+
+04:04.970 --> 04:05.410
+And there we go.
+
+04:05.410 --> 04:13.540
+So now we've got a reference object that is exactly six feet tall and if I switch back to the metric
+
+04:13.630 --> 04:21.520
+system of measure here you can see that the Z is actually one point eight to nine metres so it's doing
+
+04:21.520 --> 04:25.020
+the conversion for us which is kind of nice.
+
+04:25.030 --> 04:31.690
+So now what I want to do is make sure that this is flat on the ground plane and that the pivot point
+
+04:31.990 --> 04:33.520
+is that the ground plane as well.
+
+04:33.520 --> 04:40.000
+I want to make sure that when I zero it out in the z axis that it's right on the ground.
+
+04:40.230 --> 04:49.060
+So many hit the period key on the numpad do frame this up and let me tab into Edit Mode press control
+
+04:49.060 --> 04:56.620
+tab to bring up the mesh select and I'll choose face and I'll just select that one face.
+
+04:56.620 --> 05:04.120
+Now I want to move the 3D cursor to that so press shift s and move the cursor to the selected right
+
+05:04.120 --> 05:05.230
+there.
+
+05:05.230 --> 05:13.420
+Now if I tab back into object mode I can come over here to the tools panel and set the origin to the
+
+05:13.420 --> 05:15.190
+3D cursor.
+
+05:15.190 --> 05:18.390
+Now the origin of this object is right at the bottom of it.
+
+05:18.400 --> 05:26.880
+So if I take this z axis the location here and zero it out that will pop it right down to the floor.
+
+05:27.370 --> 05:32.860
+Right down to the floor of my object there or my scene.
+
+05:32.970 --> 05:41.210
+So now that we have that let me get this cursor back in the center as well so I'll press shift s and
+
+05:41.210 --> 05:45.090
+put the cursor in the center of the grid.
+
+05:45.090 --> 05:45.490
+All right.
+
+05:45.500 --> 05:51.210
+So there we have our person height and the floor of our scene.
+
+05:51.360 --> 05:59.030
+Now I'm going to take this object this scale object and move it to another layer so I'll just select
+
+05:59.030 --> 06:05.570
+it and press the key and I'll move it to the last layer down here so you can see it right there.
+
+06:06.080 --> 06:11.450
+And I've got the floor over here in the first layer maybe I'll take this and move it down to this layer
+
+06:11.450 --> 06:12.950
+right down here.
+
+06:12.970 --> 06:13.430
+There we go.
+
+06:13.430 --> 06:21.260
+So now as I create new objects I can always come down here and press shift and click that layer and
+
+06:21.260 --> 06:22.880
+bring the floor back.
+
+06:23.150 --> 06:27.970
+Well let's go ahead and begin blocking the walls out for our scene.
+
+06:28.100 --> 06:29.380
+Let me come back here.
+
+06:29.390 --> 06:30.890
+Let me name this guy.
+
+06:30.890 --> 06:32.150
+Better give him a name.
+
+06:32.150 --> 06:37.070
+What do we want to call that I'll just call it six six feet.
+
+06:37.100 --> 06:38.020
+Scale.
+
+06:38.060 --> 06:42.100
+So I know that that's the 6 foot tall scale there.
+
+06:42.340 --> 06:49.910
+And I think I'd like to just begin blocking out the walls so I'll bring back the floor as well.
+
+06:49.910 --> 06:56.630
+I'll create a cube and let's begin moving it over here so I'll just bring it up a bit.
+
+06:58.130 --> 07:01.880
+I'll scale it in the X so press S and X and scale it.
+
+07:01.880 --> 07:13.410
+So it's a little bit thinner and I'll begin scaling these kind of like this and I'll also maybe tab
+
+07:13.410 --> 07:18.030
+into Edit Mode grab this face and start bringing it up a bit like this.
+
+07:18.030 --> 07:24.780
+Now I'll hit the end key so I can kind of see what the dimensions are of this so and the Z axis I've
+
+07:24.780 --> 07:28.360
+got four meters for switch over to Imperial.
+
+07:28.470 --> 07:29.700
+I've got 13 feet.
+
+07:29.700 --> 07:36.400
+So to me I think an 8 or 10 foot ceiling would be wise.
+
+07:36.810 --> 07:38.750
+Let's go with nine actually.
+
+07:38.760 --> 07:47.960
+So let me grab this and move it down a bit and I'll scale it in the Z until we get around 9 feet here.
+
+07:49.110 --> 07:49.880
+Let's try that.
+
+07:49.890 --> 07:52.320
+That may be a little bit tall but let's try it.
+
+07:53.830 --> 07:55.790
+So I'll bring that down.
+
+07:56.170 --> 07:59.190
+So it kind of sits on the ground.
+
+07:59.290 --> 08:01.490
+Once again I'll move this cursor.
+
+08:01.720 --> 08:12.670
+I can tap into edit mode select that bottom face press shift ask move the cursor to the selected and
+
+08:12.670 --> 08:18.400
+then move that pivot point under the Tools tab set the origin to the 3D cursor.
+
+08:18.400 --> 08:21.550
+And then if I drop that down to zero.
+
+08:21.970 --> 08:27.790
+Now it's going to sit right on that ground plane there.
+
+08:27.920 --> 08:28.950
+All right.
+
+08:29.150 --> 08:34.330
+So the apartment reference image that I want to use for this.
+
+08:34.330 --> 08:37.280
+And as I mentioned I kind of like this
+
+08:39.980 --> 08:41.240
+layout.
+
+08:41.240 --> 08:49.970
+So we've got this wall here and then a wall sticking out counters here and I'm thinking there are windows
+
+08:49.970 --> 08:53.460
+over here you can kind of see the light coming in here.
+
+08:53.510 --> 08:57.890
+So I want to try and replicate this layout.
+
+08:58.040 --> 09:02.960
+So if that's going to be my lay out then let's say
+
+09:06.210 --> 09:12.230
+let's say here's that wall that back wall that we were just looking at.
+
+09:12.660 --> 09:14.190
+It's currently 50 feet.
+
+09:14.190 --> 09:16.350
+I don't think that place is that big
+
+09:20.060 --> 09:23.020
+let's bring that Y-axis down press.
+
+09:23.060 --> 09:25.990
+And why reduce that a bit.
+
+09:28.290 --> 09:35.470
+And let's go ahead and take this unduplicated and I'm going to press shift D and enter.
+
+09:35.490 --> 09:41.130
+And then I'm going to move this around and maybe bring it over here for this wall coming over in the
+
+09:41.130 --> 09:45.080
+kitchen where that I think the front door would be.
+
+09:45.120 --> 09:53.460
+So if I press R and Z I can rotate around this axis and if I look over here in the Z-axis under rotation
+
+09:53.460 --> 10:00.000
+I can see I've turned it 78 degrees I'll just type in 90 and bring that over here
+
+10:03.750 --> 10:05.750
+something like this.
+
+10:08.000 --> 10:10.800
+That feels a little too big to me.
+
+10:11.580 --> 10:15.750
+So I feel like this wouldn't be 40 feet long.
+
+10:15.750 --> 10:21.300
+So I'm going to try and bring that in to maybe 30 feet or so.
+
+10:23.150 --> 10:26.600
+And let me Center that cursor again let me bring this wall in.
+
+10:26.600 --> 10:29.180
+So this is going to be the wall where the front door is
+
+10:32.320 --> 10:40.270
+and if I grab this face now and bring it in yeah let's call it something like that.
+
+10:41.640 --> 10:45.820
+So now this one is 30 feet long as well.
+
+10:46.600 --> 10:52.580
+Yes so maybe we're just dealing with a 30 foot square room here.
+
+10:54.080 --> 10:57.650
+Thirty feet by 30 feet.
+
+10:59.650 --> 11:01.960
+So I'm just trying to lay this out now.
+
+11:02.170 --> 11:04.090
+And let me grab this and duplicate it.
+
+11:04.090 --> 11:06.120
+Hit the x key.
+
+11:06.320 --> 11:07.710
+Move that over there.
+
+11:09.160 --> 11:12.360
+And then I'll just grab this.
+
+11:12.450 --> 11:15.480
+Chef de y.
+
+11:15.640 --> 11:18.940
+And then drag that over here so let's take a look at this.
+
+11:18.950 --> 11:26.620
+If this kind of feels right now one thing that we can do here just like we can move around in unity
+
+11:27.430 --> 11:31.410
+with the WASC D keys and the mouse.
+
+11:31.420 --> 11:33.220
+You can also do that here in Blender.
+
+11:33.220 --> 11:42.040
+So if it if I press shift F and then hit the tab key that'll drop me down to the ground and I can move
+
+11:42.040 --> 11:48.430
+around with the mouse and then press the W key and just move around the scene some kind of.
+
+11:48.730 --> 11:51.970
+See here's how tall I am with this guy.
+
+11:51.970 --> 11:57.730
+So I'm about six feet tall or at least maybe almost six feet tall here.
+
+11:59.250 --> 12:05.530
+And so this gives me a sense of the room so I can kind of move around here and say OK if I came in the
+
+12:05.530 --> 12:08.630
+front door I'd walk in here and see the kitchen.
+
+12:08.640 --> 12:09.570
+OK.
+
+12:09.710 --> 12:13.790
+I move in here and see the living area.
+
+12:13.900 --> 12:16.090
+Maybe it would be Windows over here.
+
+12:16.150 --> 12:16.510
+All right.
+
+12:16.540 --> 12:17.740
+This is feeling pretty good.
+
+12:17.740 --> 12:21.910
+So when I hit the escape key and there we go.
+
+12:22.420 --> 12:25.900
+So now I think that's going to work pretty well.
+
+12:25.900 --> 12:29.950
+Let me go back to that reference image and see what I think here.
+
+12:30.130 --> 12:40.190
+If this is 10 feet here and I'm thinking this is 20 feet then maybe yeah then maybe this is about 30
+
+12:40.190 --> 12:42.610
+by 30 all the way around.
+
+12:42.620 --> 12:42.970
+All right.
+
+12:42.990 --> 12:44.870
+Well let's give that a try.
+
+12:44.870 --> 12:48.830
+So I'll call this wall front door wall window
+
+12:51.530 --> 12:56.000
+wall doors and I'll call this wall back.
+
+12:56.000 --> 12:57.110
+Something like that.
+
+12:57.290 --> 12:59.850
+So let's let's name these now.
+
+13:00.260 --> 13:01.770
+This one our call.
+
+13:01.770 --> 13:05.760
+So I said Wall back.
+
+13:05.930 --> 13:11.520
+This one will be while front door this one over here.
+
+13:11.530 --> 13:15.290
+I'll call wall windows because we're going to put a couple of windows in here.
+
+13:18.030 --> 13:29.240
+This one over here will be called Wall doors because we'll have maybe a door to a bedroom and maybe
+
+13:29.240 --> 13:32.520
+a door to a bathroom or something like that.
+
+13:32.540 --> 13:37.070
+So for now I'm going to go ahead and select this one I'm going to hide it away because I want to be
+
+13:37.070 --> 13:41.290
+able to see into this room fairly easily so this is wall windows.
+
+13:41.360 --> 13:47.650
+I'm just going to click on the icon and turn that off so I can see in here a little easier.
+
+13:47.960 --> 13:54.440
+So once again I'll press shift F and then the tab key and that will put me on the ground and I can move
+
+13:54.440 --> 13:59.630
+around with WASC and try and get a sense of how this is going to feel.
+
+14:00.660 --> 14:03.420
+Yeah I think this is pretty good.
+
+14:03.420 --> 14:07.980
+We'll go with this for now and see if we need to alter it as we go.
+
+14:07.980 --> 14:08.390
+All right.
+
+14:08.400 --> 14:16.230
+So we've got a good beginning here we've established a pipeline from Blender to unity we've we've established
+
+14:16.230 --> 14:17.900
+our units of measure.
+
+14:17.940 --> 14:25.140
+And over here I'm going to switch back to metric now we've created a scale object here and we've got
+
+14:25.260 --> 14:30.090
+some basic walls and floor in to begin our scene.
+
+14:30.410 --> 14:34.260
+Now we should do one more thing before we close out of here.
+
+14:34.260 --> 14:41.300
+I'm going to go back to unity and I've begun creating in the assets folder collection of folders to
+
+14:41.330 --> 14:43.850
+organize my project.
+
+14:43.850 --> 14:50.330
+One of the things I want to do is create a new folder here by right clicking choosing create and folder
+
+14:50.750 --> 14:54.000
+and I want to just call this seems.
+
+14:54.180 --> 14:55.260
+Here we go.
+
+14:55.400 --> 15:02.450
+And in this I'm going to put all of my scenes so this scene right here I'm going to just call scene
+
+15:02.480 --> 15:07.670
+test 1 something like that so I'm just going to come up here to the file menu.
+
+15:07.670 --> 15:13.870
+Now you can't see that right now but I'm just going to come up to file and save scene.
+
+15:13.940 --> 15:22.070
+I can also just choose control or command s right in here and that will bring up the saved scene window.
+
+15:22.320 --> 15:33.570
+I'm going to click this and go into scenes and then I'll just call this scene test 0 1.
+
+15:33.770 --> 15:38.410
+So I'm just going to be creating a collection of test scenes as I go.
+
+15:38.840 --> 15:40.330
+So I click save.
+
+15:40.640 --> 15:41.420
+And there we go.
+
+15:41.420 --> 15:44.300
+So there's our scene inside the scenes folder.
+
+15:44.330 --> 15:51.230
+So as we go we're going to do more and more of this organizing and we're also going to do a good deal
+
+15:51.230 --> 15:54.380
+of organizing up here in the hierarchy as well.
+
+15:54.710 --> 16:03.200
+One of the things that's great about unity is it's very open to however you want to do things however
+
+16:03.200 --> 16:04.310
+you want to organize things.
+
+16:04.310 --> 16:08.190
+Which also means that it can get to be a complete mess too.
+
+16:08.360 --> 16:16.340
+So with these larger projects where we're creating a lot of objects within a scene it's really good
+
+16:16.340 --> 16:19.520
+to begin organizing your scene right up front.
+
+16:19.520 --> 16:20.120
+All right.
+
+16:20.240 --> 16:28.150
+So if we go back to Blendr we can see that we've already got a floor a couple of walls.
+
+16:28.160 --> 16:33.770
+We've got our scale object our six feet scale.
+
+16:33.950 --> 16:36.410
+We're ready to go ahead and begin creating our object.
+
+16:36.410 --> 16:43.120
+I think what I'm going to do instead of blocking out doors and walls and kitchen cabinets and things
+
+16:43.130 --> 16:48.800
+right now I think what I want to do is actually create a piece of furniture because I think in my head
+
+16:48.800 --> 16:54.640
+at least I can get a pretty good sense of how big a piece of furniture should be compared to this six
+
+16:54.650 --> 16:57.110
+foot tall scale object.
+
+16:57.110 --> 17:02.510
+So once I get that in there and can move it around and put it up against a wall or move it around here
+
+17:02.870 --> 17:08.260
+I can get a sense as to whether or not the space is correct how it feels.
+
+17:08.270 --> 17:10.700
+So I think in the next video that's what we'll do.

@@ -1,0 +1,526 @@
+WEBVTT
+
+00:01.130 --> 00:08.420
+Another thing I'd like to do is add an area rug in here kind of thrown down and at an angle.
+
+00:08.420 --> 00:12.200
+So let's take a look at how we could use an alpha channel.
+
+00:12.200 --> 00:22.510
+And over here in the unity materials we'll use the cut out rendering mode to create an area rug here.
+
+00:22.510 --> 00:22.740
+All right.
+
+00:22.750 --> 00:26.410
+So let's go back to blender and give that a shot.
+
+00:26.470 --> 00:32.560
+Go ahead and take this television and let's move it over to the second layer so I'll just press and
+
+00:32.560 --> 00:39.040
+click the second layer here and that puts it with all of the other objects here and I'll just begin
+
+00:39.280 --> 00:41.210
+adding to this as I go.
+
+00:41.500 --> 00:52.120
+So in a free layer Let's go ahead and create a polygon plain here and I'll scale it up just a bit.
+
+00:52.120 --> 00:55.800
+So it kind of fits the kind of rug I want to use.
+
+00:55.810 --> 01:03.400
+I'm going to scale it in the wind just a bit and scaled in the acts a little like this something like
+
+01:03.400 --> 01:04.120
+that.
+
+01:04.120 --> 01:10.450
+Now currently this is just one polygon if I hit the tab key and go into edit mode you can see that it's
+
+01:10.450 --> 01:14.140
+just this one polygon and that's all it is.
+
+01:14.230 --> 01:20.290
+When creating game assets of course the idea is to try and do it with as few polygons as possible the
+
+01:20.290 --> 01:24.770
+more polygons in the level the more resources are used.
+
+01:24.880 --> 01:26.840
+And that can slow the game down.
+
+01:26.940 --> 01:35.200
+However for something like this I've found that objects with just one face in unity can cause problems
+
+01:35.200 --> 01:41.800
+with seeing the texture on the objects so sometimes if you just have one polygon you can't see the texture
+
+01:41.830 --> 01:42.660
+in unity.
+
+01:42.670 --> 01:47.350
+So what I'll do is just hit the W key and subdivide it.
+
+01:47.380 --> 01:50.710
+So we have now four polygons and that won't kill us.
+
+01:50.710 --> 01:53.430
+That won't drag the game down or anything.
+
+01:53.590 --> 02:00.730
+So now that we have that I will go ahead and press control a and click scale to apply the transforms
+
+02:00.730 --> 02:01.570
+there.
+
+02:01.610 --> 02:04.780
+Now let's go over to the editing screen.
+
+02:04.800 --> 02:12.050
+Lay out I will tab into Edit Mode hit you and unwrap and there is our U.V. map.
+
+02:12.220 --> 02:19.270
+So now that we have this let's go ahead and export out a U.V. map I'll just export out a map at say
+
+02:19.300 --> 02:29.680
+2048 here and I'll put this in my textures folder and let's go ahead and call this Rugge.
+
+02:29.780 --> 02:33.760
+I'll create a new folder for it as well.
+
+02:34.520 --> 02:38.870
+And let's just call this Rugge underscore Uvas.
+
+02:38.940 --> 02:40.050
+Here we go.
+
+02:40.200 --> 02:43.210
+And now let's go take a look at it in Photoshop.
+
+02:43.250 --> 02:51.200
+I'll get a file and open to open that up in Photoshop find it in my textures folder and here it is.
+
+02:53.330 --> 02:56.510
+So there is the map.
+
+02:56.930 --> 02:59.320
+I'll go ahead and open up a texture.
+
+02:59.330 --> 03:02.630
+I found already here it is.
+
+03:03.080 --> 03:06.800
+So I'm going to use this one here for the rug.
+
+03:06.800 --> 03:08.810
+Now it has an alpha channel on it.
+
+03:08.810 --> 03:10.390
+So here let me show you what I mean.
+
+03:10.400 --> 03:17.070
+I'll open it up and you can see here that we can see through this part of the image.
+
+03:17.090 --> 03:22.840
+I'll go ahead and select it all and copy it and bring it over here and paste it here.
+
+03:22.850 --> 03:24.990
+Now it turns out this is pretty small.
+
+03:25.280 --> 03:27.410
+So this one may not work.
+
+03:27.410 --> 03:32.950
+I'm going to have to scale it up and I don't really like to do that but let's give it a try.
+
+03:32.960 --> 03:41.830
+I'm going to scale this up because the more you scale things up the more you lose resolution in the
+
+03:41.830 --> 03:42.460
+image.
+
+03:42.610 --> 03:44.730
+But let's give it a try.
+
+03:44.740 --> 03:49.330
+So I'm in a place this here over the U-V map over the U-V island.
+
+03:49.420 --> 03:54.640
+I'll drag it down below so we can see it underneath the U-V wires.
+
+03:54.820 --> 04:03.790
+So I'll turn off the movies and I'll export it out as a color map here in the rug folder I'll call it
+
+04:03.790 --> 04:07.090
+Rugge underscore see for a color map.
+
+04:07.090 --> 04:13.110
+Let's go ahead and export that object out to unity and see how it looks in unity.
+
+04:13.120 --> 04:22.200
+So back in Blendr I'll tab back into object mode and I'll create a new material I'll call this rug and
+
+04:22.200 --> 04:28.320
+I'll also change the name of the object and call it Rugge as well so they match.
+
+04:28.320 --> 04:32.790
+So we can keep track of them in unity.
+
+04:33.360 --> 04:35.180
+Let's also deal with the scale.
+
+04:35.180 --> 04:39.760
+Now let me go back to the default view.
+
+04:40.060 --> 04:47.800
+Bring back the layer with all of the furniture in it and let's shrink this down so it will fit into
+
+04:47.800 --> 04:50.810
+the room a little better maybe something like this.
+
+04:51.640 --> 04:52.330
+All right.
+
+04:52.510 --> 04:59.520
+So I'll go ahead and make sure the scale is applied again with control a scale.
+
+04:59.650 --> 05:08.120
+And now let's export it out file export FDX selected object.
+
+05:08.180 --> 05:13.900
+Let's put it in the assets folder and we'll call this Roug and there it goes.
+
+05:15.080 --> 05:20.590
+All right let's go to unity there's our object let's bring in that texture.
+
+05:20.790 --> 05:23.580
+I'll go to a finder and let's bring that in.
+
+05:23.580 --> 05:26.400
+Here it is Roug underscore see.
+
+05:26.390 --> 05:27.520
+I'll bring that in.
+
+05:28.900 --> 05:40.590
+And now if we take the rug object and drag it in here it is it's sitting right on the same plane as
+
+05:40.590 --> 05:48.130
+the floor and therefore we're getting this strange kind of flickering and that's CSY fighting sense.
+
+05:48.180 --> 05:50.710
+They're both on top of each other.
+
+05:50.760 --> 05:55.890
+They're actually fighting each other as to which one is going to be seen on top.
+
+05:55.890 --> 05:59.030
+We don't want that so let's raise this up just a bit.
+
+05:59.550 --> 06:03.480
+And then let's take it and put it over here say like that.
+
+06:03.500 --> 06:05.420
+All right.
+
+06:05.530 --> 06:11.020
+Now in the material for the rug I'll take that to pure white.
+
+06:11.320 --> 06:16.600
+I'll come into the textures folder and drag this into the Al-Bayda.
+
+06:16.990 --> 06:18.870
+And now we can see it there.
+
+06:19.060 --> 06:25.210
+And that looks pretty good except for the areas around the rug.
+
+06:25.270 --> 06:31.130
+What this do is change the rendering mode from opaque to cut out.
+
+06:31.170 --> 06:35.810
+And now that makes the outside of the rug clear.
+
+06:35.880 --> 06:37.670
+So it's just the shape of the rug.
+
+06:38.850 --> 06:39.960
+All right that looks pretty good.
+
+06:39.960 --> 06:45.900
+Let's take that and kind of drag it over here maybe rotate it a bit like this so it just kind of looks
+
+06:45.900 --> 06:48.960
+like it's been haphazardly placed.
+
+06:48.970 --> 06:54.110
+I like to put things kind of at a strange angle because humans do that.
+
+06:54.480 --> 07:01.260
+It's very easy in a computer program like blender or unity to put things on axis so we can you know
+
+07:01.440 --> 07:09.210
+begin to kind of turn things a bit make them a little bit off axis so that they don't seem quite as
+
+07:09.540 --> 07:11.550
+computer made.
+
+07:11.670 --> 07:19.020
+We're giving our objects just a little bit of life here like the place has been lived in and pushed
+
+07:19.020 --> 07:27.240
+around and things aren't quite lined up correctly and that and I kind of like that so we've got our
+
+07:27.300 --> 07:31.050
+rug in here set up.
+
+07:31.350 --> 07:35.310
+But I think it needs a little bit of texture a little bit of depth to it.
+
+07:35.310 --> 07:38.680
+If we run the game let's take a look at how this looks.
+
+07:38.700 --> 07:41.720
+Well I'm upside down.
+
+07:42.150 --> 07:48.030
+If we come over here and take a look at this it looks pretty good but I think we can give it a little
+
+07:48.030 --> 07:52.110
+bit of depth with something like a normal map.
+
+07:52.470 --> 08:00.580
+Let's take a look at how we might do that if we go back into Photoshop we can generate a normal map
+
+08:00.580 --> 08:01.090
+from here.
+
+08:01.090 --> 08:09.400
+So this layer Let's call the color map and if I duplicate this with alt click and drag I can make this
+
+08:09.400 --> 08:11.330
+when say the normal map.
+
+08:11.560 --> 08:20.540
+And with this selected I'll come up here to filter three-D and generate normal map.
+
+08:20.660 --> 08:30.590
+So if I click that it brings up this dialog window and you can see the preview of it here.
+
+08:31.120 --> 08:36.790
+You can invert it invert the height here so if I click that you can see that these things now are pushed
+
+08:36.850 --> 08:38.440
+out.
+
+08:38.440 --> 08:48.010
+I can switch here to view it from object to say cube and we can take a look at it on a flat surface.
+
+08:48.160 --> 08:52.340
+Click here to zoom in yeah something like that.
+
+08:52.340 --> 08:53.480
+That looks pretty good.
+
+08:54.380 --> 08:57.330
+So let's say we go with that click OK.
+
+08:58.360 --> 09:04.260
+And there is our normal map now we didn't get any information behind here.
+
+09:04.480 --> 09:11.590
+What I need to do is really put a black layer behind this like I have for other texture maps so let
+
+09:11.590 --> 09:18.520
+me undo that and I'll create a new black layer behind here.
+
+09:20.110 --> 09:25.810
+With the paint bucket and now I'll take these two layers.
+
+09:25.840 --> 09:26.740
+Copy them.
+
+09:26.740 --> 09:34.480
+Move them up and these two all collapse down with control or command E and we'll call this the normal
+
+09:34.560 --> 09:35.800
+nap.
+
+09:36.070 --> 09:37.470
+And now let's try that again.
+
+09:37.480 --> 09:41.690
+I'll go to filter 3D and generate normal map.
+
+09:41.860 --> 09:42.410
+There we go.
+
+09:42.490 --> 09:44.440
+That's a little better.
+
+09:44.440 --> 09:44.880
+All right.
+
+09:45.010 --> 09:46.640
+So I'll say OK.
+
+09:46.960 --> 09:48.980
+And there is our normal map.
+
+09:49.090 --> 09:55.620
+Now let's export this out as well or go to a file export Export as.
+
+09:56.200 --> 09:57.790
+And let's call this
+
+10:01.280 --> 10:05.200
+Roug underscore in for normal map.
+
+10:05.620 --> 10:06.650
+And there we go.
+
+10:07.070 --> 10:10.360
+And let's go into unity and bring it in there.
+
+10:10.580 --> 10:17.270
+So I'll bring up a Finder window grab that normal map drag it in.
+
+10:18.110 --> 10:27.110
+And now if I select that rug and drag that normal map into the normal map slot of the rug material and
+
+10:27.110 --> 10:31.880
+of course choose fix now to tag it as a normal map.
+
+10:31.880 --> 10:39.050
+Now if we zoom in we should be able to see a little bit more of a texture to it a little bit more depth.
+
+10:39.050 --> 10:41.840
+Let's go ahead and run the game and see what we can see.
+
+10:41.840 --> 10:48.800
+So now if we come over here and take a look at it yeah we can see a little bit more texture to it.
+
+10:48.800 --> 10:54.680
+We can also adjust the intensity of the normal map by clicking and dragging here and increasing this.
+
+10:54.680 --> 10:59.890
+You can see we can really get some crazy texture going on there.
+
+10:59.900 --> 11:01.420
+I don't think we need quite that much.
+
+11:01.420 --> 11:08.950
+We can take it up to say three maybe and give that a try and I'll run the game again.
+
+11:09.150 --> 11:10.260
+And let's take a look.
+
+11:11.360 --> 11:15.730
+Yeah you can see a little bit more depth to it there.
+
+11:15.770 --> 11:17.930
+That's pretty good.
+
+11:18.050 --> 11:26.120
+If we wanted to do that for other textures as well say we wanted a little bit more depth and texture
+
+11:26.120 --> 11:35.240
+to our floor here where we can go back to our Photoshop file of the floor texture and we can generate
+
+11:35.260 --> 11:36.560
+a normal map from that.
+
+11:36.560 --> 11:46.700
+So in here in the walls floor folder I've got that wood floor here that's just that seamless texture
+
+11:46.700 --> 11:47.650
+there.
+
+11:47.700 --> 11:52.390
+So let's go take a look at creating a normal map from this.
+
+11:52.400 --> 11:55.430
+So here in Photoshop I've gone ahead and brought that up.
+
+11:55.550 --> 12:01.410
+I'm going to double click on this layer over here and change it to a layer from a background.
+
+12:01.700 --> 12:06.220
+And now I can take this layer and generate a normal map from this.
+
+12:06.230 --> 12:16.100
+So if I come up here to filter 3D generate normal map you can see it here I'll switch to say a cube.
+
+12:16.390 --> 12:17.700
+And that doesn't look too bad.
+
+12:17.710 --> 12:20.980
+However I think I'd like to invert it.
+
+12:21.010 --> 12:26.380
+I think that the parts or the seams between the board should be pushed in.
+
+12:26.380 --> 12:28.660
+So I'm going to click invert here.
+
+12:29.100 --> 12:29.470
+Yeah.
+
+12:29.470 --> 12:34.440
+So those seams should be pushed in a click OK.
+
+12:34.530 --> 12:38.860
+And there's our normal map and all exported out.
+
+12:39.030 --> 12:45.480
+And now if we select that object in our material we can take that floor normal map drag it into the
+
+12:45.480 --> 12:49.400
+normal slot and Click Fix.
+
+12:49.400 --> 12:52.500
+Now to tag it as a normal map.
+
+12:52.520 --> 13:00.400
+Now if we come down here and take a look at it we can see just a little bit you can see in here we're
+
+13:00.400 --> 13:03.840
+getting a little bit of texture to that a little bit of bump.
+
+13:03.850 --> 13:11.590
+Now it's already tiling itself just like the color map because we have the tiling at 10 here.
+
+13:11.590 --> 13:19.090
+So the normal map is following along with that tiling we can increase the normal map a bit if we want
+
+13:19.420 --> 13:21.490
+maybe a bit too much.
+
+13:21.490 --> 13:25.970
+Well let's bring it down to say to see how that works.
+
+13:26.170 --> 13:33.330
+And even maybe a bit too much as well but let's see let's run the game see how it looks.
+
+13:34.460 --> 13:37.330
+Yeah that may be a bit too much.
+
+13:37.730 --> 13:41.490
+So let's maybe take that back down to one again.
+
+13:41.960 --> 13:45.830
+I'll go ahead and put that at 1 and let's run the game one more time
+
+13:49.500 --> 13:55.050
+yeah so we're getting a little bit of bump there in the floor and that's good.
+
+13:55.070 --> 13:57.630
+That's that's what we want.
+
+13:57.640 --> 14:06.520
+So as we go and continue on with other objects in the scene we can create normal maps in Photoshop based
+
+14:06.520 --> 14:12.100
+off of our color maps and bring them in here to unity and apply them to our materials.

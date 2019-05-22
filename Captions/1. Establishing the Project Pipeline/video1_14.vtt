@@ -1,0 +1,337 @@
+WEBVTT
+
+00:00.610 --> 00:08.020
+All right we have our coffee table here we can come down here and choose viewport shading texture or
+
+00:08.050 --> 00:14.680
+we can just press alt Z and we can see our texture Now I like what's going on up here on the top of
+
+00:14.680 --> 00:21.730
+it that looks sufficiently gross but I feel like the grunge is a little bit too heavy here.
+
+00:21.750 --> 00:25.530
+However I'm not going to change it quite yet.
+
+00:25.630 --> 00:32.050
+We could go into Photoshop and reduce the opacity of the grunge and bring it back in.
+
+00:32.050 --> 00:39.110
+And just like we did before remove the texture out of the texture node and then reopen it.
+
+00:39.520 --> 00:46.060
+But if we export the file directly into unity they will update automatically.
+
+00:46.060 --> 00:47.400
+So let's try that.
+
+00:47.500 --> 00:52.050
+What I'm do is go to Unity first and I'll drag in those textures.
+
+00:52.060 --> 01:01.720
+So let me go to my finder here and let's find those textures that we just created for the coffee table.
+
+01:01.720 --> 01:06.310
+And here they are here's the color map with the underscore see and the color map here.
+
+01:06.340 --> 01:08.380
+Let's drag those into the assets folder.
+
+01:08.380 --> 01:10.500
+Now let's take them straight into the textures.
+
+01:10.510 --> 01:11.860
+Let's do that.
+
+01:12.160 --> 01:12.540
+All right.
+
+01:12.550 --> 01:15.280
+So here they are coffee table top coffee table.
+
+01:15.280 --> 01:21.730
+Would I go back to blender and let's export this out as an FDX.
+
+01:21.730 --> 01:28.250
+Now before we do let's take a look at the size of the object and it's a little big.
+
+01:28.250 --> 01:36.320
+Of course that's OK I'll select that with that pivot point down on the grid on the floor.
+
+01:36.530 --> 01:38.940
+I can now scale this down a bit.
+
+01:39.850 --> 01:45.390
+And let's move it over and see how it fits in front of the couch.
+
+01:45.400 --> 01:47.050
+What do you think of that is it too big.
+
+01:47.050 --> 01:49.900
+I feel like it may be still a little too big here.
+
+01:50.290 --> 01:52.680
+So it's scale it down a bit more.
+
+01:54.390 --> 01:55.490
+Let's take a look at that.
+
+01:56.330 --> 01:57.060
+What do you think.
+
+01:58.280 --> 02:02.640
+I mean the three key the five key and the Z key.
+
+02:02.660 --> 02:06.630
+And let's take a look at it here I feel like it maybe needs to come down a little bit more kind of to
+
+02:06.640 --> 02:11.300
+the edge of the couch cushions something like that.
+
+02:11.800 --> 02:13.490
+Let's try that.
+
+02:13.540 --> 02:21.400
+Hit that Z key again the five key again to get a perspective view and well let's run around and see
+
+02:21.400 --> 02:22.880
+how it feels.
+
+02:22.910 --> 02:27.510
+I'll press shift F and then tab and that'll drop me down to the floor.
+
+02:27.520 --> 02:31.710
+And now I can use the WASC keys and run around.
+
+02:31.720 --> 02:36.720
+Let's see how it feels and think that feels pretty good.
+
+02:36.720 --> 02:39.990
+I think that looks OK.
+
+02:40.320 --> 02:42.660
+All right so I'll hit escape.
+
+02:42.840 --> 02:47.410
+Now we can export this out with RFB x x border.
+
+02:47.550 --> 02:54.910
+And as I mentioned we can of course drag blend files Blendr seen files here like this.
+
+02:54.910 --> 02:59.940
+Apartment 0 6 blend into unity and it'll import just fine.
+
+02:59.940 --> 03:02.270
+It will open up Blendr in the background.
+
+03:02.310 --> 03:09.660
+Use Blender's FDX export or convert it to an FBI X and then pop it in the assets folder and that's fine.
+
+03:09.870 --> 03:16.330
+But that's going to bring everything and we won't be able to split them out unless we move that FDX
+
+03:16.340 --> 03:17.810
+file into the hierarchy.
+
+03:17.820 --> 03:20.550
+Then we can split it out once it's actually in the scene.
+
+03:20.730 --> 03:23.610
+But I'd like to have control over each individual object.
+
+03:23.640 --> 03:29.870
+So now that we've scaled it down to the proper size we can see that our scale over here is point 3 5
+
+03:29.880 --> 03:30.600
+9.
+
+03:30.600 --> 03:37.920
+Let's go ahead and press control a and apply our transforms for the scale and now we've got scale at
+
+03:37.920 --> 03:39.260
+1.
+
+03:39.270 --> 03:46.110
+So now let's go ahead and export this out using our FDX export or we'll go to a file export FDX let's
+
+03:46.110 --> 03:55.920
+be sure and choose selected objects and I am going to choose my Unity project this time instead of taking
+
+03:55.920 --> 03:57.500
+it into that exports folder.
+
+03:57.510 --> 04:05.070
+I'm going to export this directly into the unity project so I'll go into that unity project folder go
+
+04:05.070 --> 04:08.660
+into the assets folder and we'll call this coffee table.
+
+04:08.710 --> 04:13.950
+FDX and I'll export and there we go.
+
+04:13.970 --> 04:21.280
+Now if I go back to unity and look in the assets folder we can see that the coffee table is right here
+
+04:21.980 --> 04:29.200
+and it's put our coffee table materials right in here in the materials folder.
+
+04:29.210 --> 04:35.900
+So even though it's all one object the multiple materials have come through as individual materials
+
+04:35.930 --> 04:37.100
+in unity.
+
+04:37.100 --> 04:37.360
+All right.
+
+04:37.370 --> 04:41.210
+So let's take it and drag it into the hierarchy.
+
+04:41.210 --> 04:44.150
+It's going to drop in right where we left it.
+
+04:44.240 --> 04:48.500
+I'll hit the F key to zoom in and frame it up.
+
+04:48.890 --> 04:57.570
+And now we have our coffee table so let's put our textures on it now we have our materials over here.
+
+04:57.610 --> 05:00.340
+So for the wood here it is.
+
+05:00.420 --> 05:09.290
+I will come into the textures folder that's like our coffee table again and I'll drag the word texture
+
+05:09.290 --> 05:18.110
+mapping to here and take that color and drag it to pure white and now I'll open up that coffee table
+
+05:18.110 --> 05:28.170
+top let's take that to pure white and take that coffee table top texture and drop that in as well.
+
+05:28.680 --> 05:31.350
+So now we've got our textured object.
+
+05:31.380 --> 05:38.160
+But remember I said I'm not real fond of that grunge man being quite that dark.
+
+05:38.160 --> 05:44.880
+So let's go into Photoshop again and let's reduce the opacity of that.
+
+05:44.880 --> 05:45.540
+Here we are.
+
+05:45.540 --> 05:49.000
+Take that grunge map and we've got an opacity of thirty nine.
+
+05:49.010 --> 05:49.880
+I'll take it down.
+
+05:49.890 --> 05:53.840
+I don't know maybe down to 20 something like that.
+
+05:55.240 --> 05:59.110
+So it isn't quite as pronounced now that we've done that.
+
+05:59.110 --> 06:01.180
+Let's go ahead and save it out again.
+
+06:03.550 --> 06:04.590
+And export.
+
+06:04.870 --> 06:12.720
+But this time put it directly in the unity project so instead of putting it here I'll go ahead and code
+
+06:12.720 --> 06:14.000
+of the unity project.
+
+06:14.990 --> 06:22.210
+And of the assets folder and the textures folder and I'll choose that coffee table would underscore
+
+06:22.210 --> 06:27.290
+see and export and replace.
+
+06:27.410 --> 06:34.940
+Now instead of having to go into blender to see how the update looks and cancel out of the texture and
+
+06:34.940 --> 06:36.740
+then reopen the texture.
+
+06:37.010 --> 06:42.450
+If we go back to unity it's just done it for us.
+
+06:42.520 --> 06:48.750
+So now we can see that the grunge on the coffee table isn't quite so pronounced.
+
+06:49.930 --> 06:55.000
+Now to keep things a little more tidy I will come back to the assets folder and just take this coffee
+
+06:55.000 --> 07:00.250
+table object and drag it into the model's folder.
+
+07:00.250 --> 07:09.130
+And here we go and I can hit the play button here and run around and see how our table and dirty couch
+
+07:09.310 --> 07:10.460
+look so far.
+
+07:10.670 --> 07:12.970
+Yeah right.
+
+07:13.330 --> 07:20.920
+So we've gone through now several ways of importing our objects with differing ways of organizing our
+
+07:20.920 --> 07:22.100
+materials.
+
+07:22.210 --> 07:31.120
+We've brought in the couch as two different objects the fabric and the wood legs we've brought in the
+
+07:31.120 --> 07:38.280
+walls as all one object each with multiple materials on the single object.
+
+07:38.470 --> 07:41.440
+But everything all in one U-V map.
+
+07:42.160 --> 07:48.540
+And then we've brought in our coffee table here with everything in one object.
+
+07:48.970 --> 07:58.830
+Multiple materials on that one object but individual optimized U-V maps for each of the materials.
+
+07:58.900 --> 08:03.820
+So you may have heard me say this before and other courses but I think it's worth saying again and it
+
+08:03.820 --> 08:06.130
+took me a while for this to actually sink in.
+
+08:06.130 --> 08:14.630
+So materials are applied to objects and textures are assigned to materials.
+
+08:14.890 --> 08:24.460
+So you can have multiple materials per object but each material is going to accept one texture per texture
+
+08:24.490 --> 08:28.220
+channel like the color channel or albedo.
+
+08:28.690 --> 08:34.960
+My point to all this is to try and get you to think about the differing ways that you can create objects
+
+08:35.260 --> 08:43.570
+assigned materials and assign textures to your game objects because how you set up the materials and
+
+08:43.570 --> 08:51.760
+the textures and the U.V. maps is going to affect the quality and the look of your game objects.
+
+08:51.760 --> 08:57.020
+So we're going to be doing this more We've of course got lots of other assets to create.
+
+08:57.280 --> 09:04.500
+But there's one more way I want to show you how we can organize our objects materials and textures.
+
+09:04.870 --> 09:13.480
+And that is when we take an object from Blender into a program like Quick's or studio or substance painter.
+
+09:13.750 --> 09:19.570
+You can use all of these processes for those texturing applications as well.
+
+09:19.570 --> 09:24.930
+But there's one more that we can use for them and we'll work on that next.
